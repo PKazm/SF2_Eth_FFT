@@ -1,0 +1,22 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,LSRAM 18K,Math (18x18),PLLs and CCCs,Chip Globals,MSS,CAN,HS USB,RCOSC_50MHZ
+CoreAPB3_C0_0/CoreAPB3_C0_0/Primitives,2,0,0,0,0,0,0,0,0,0,0,0,0
+CoreAPB3_C0_0/CoreAPB3_C0_0/u_mux_p_to_b3/Primitives,17,0,0,0,0,0,0,0,0,0,0,0,0
+FFT_APB_Wrapper_0/Alpha_Max_plus_Beta_Min_0/HARD_MULT_ADDSUB_C1_0/HARD_MULT_ADDSUB_C1_0/U0/Primitives,0,0,36,36,0,0,1,0,0,0,0,0,0
+FFT_APB_Wrapper_0/Alpha_Max_plus_Beta_Min_0/Primitives,94,67,0,0,0,0,0,0,0,0,0,0,0
+FFT_APB_Wrapper_0/FFT_Core/DPSRAM_0/DPSRAM_C0_0/Primitives,0,0,36,36,0,1,0,0,0,0,0,0,0
+FFT_APB_Wrapper_0/FFT_Core/DPSRAM_1/DPSRAM_C0_0/Primitives,0,0,36,36,0,1,0,0,0,0,0,0,0
+FFT_APB_Wrapper_0/FFT_Core/FFT_Sample_Loader_0/Primitives,74,26,0,0,0,0,0,0,0,0,0,0,0
+FFT_APB_Wrapper_0/FFT_Core/FFT_Sample_Outputer_0/Primitives,31,20,0,0,0,0,0,0,0,0,0,0,0
+FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/FFT_Butterfly_HW_MATHDSP_0/HARD_MULT_ADDSUB_C0_0/HARD_MULT_ADDSUB_C0_0/U0/Primitives,0,0,36,36,0,0,1,0,0,0,0,0,0
+FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/FFT_Butterfly_HW_MATHDSP_0/HARD_MULT_ADDSUB_C0_1/HARD_MULT_ADDSUB_C0_0/U0/Primitives,0,0,36,36,0,0,1,0,0,0,0,0,0
+FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/FFT_Butterfly_HW_MATHDSP_0/Primitives,131,255,0,0,0,0,0,0,0,0,0,0,0
+FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/Primitives,289,202,0,0,0,0,0,0,0,0,0,0,0
+FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/Twiddle_table_0/Primitives,383,17,0,0,0,0,0,0,0,0,0,0,0
+FFT_APB_Wrapper_0/FFT_Core/Primitives,299,32,0,0,0,0,0,0,0,0,0,0,0
+FFT_APB_Wrapper_0/Primitives,66,87,0,0,0,0,0,0,1,0,0,0,0
+FFT_Accel_system_sb_0/CCC_0/Primitives,0,0,0,0,0,0,0,1,2,0,0,0,0
+FFT_Accel_system_sb_0/CORERESETP_0/Primitives,2,9,0,0,0,0,0,0,1,0,0,0,0
+FFT_Accel_system_sb_0/FABOSC_0/Primitives,0,0,0,0,0,0,0,0,0,0,0,0,1
+FFT_Accel_system_sb_0/FFT_Accel_system_sb_MSS_0/Primitives,0,0,0,0,0,0,0,0,0,1,0,0,0
+Primitives/Primitives,1,0,0,0,34,0,0,0,0,0,0,0,0

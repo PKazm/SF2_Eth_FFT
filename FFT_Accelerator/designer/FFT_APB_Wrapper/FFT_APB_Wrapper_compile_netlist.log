@@ -1,0 +1,36 @@
+E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/synthesis/FFT_APB_Wrapper.vm(19277): WARNING: net 'N_1945' does not have a driver (VDB-1002)
+E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/synthesis/FFT_APB_Wrapper.vm(19278): WARNING: net 'N_1946' does not have a driver (VDB-1002)
+Warning: CMPG4-007: Top level port PADDR[7] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[6] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[5] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[1] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[0] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[15] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[14] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[13] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[12] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[11] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[10] is not connected to any IO pad
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       3 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     3 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    668    0      0      'PCLK_ibuf_RNIFTKA' 
+    0      554    7      'RSTn_ibuf_RNICUT3' 
+    0      69     0      'comp_rstn_RNIL9E' 
+
+Info: Demotion information: 
+      Disconnected 7 data pins from global 'RSTn_ibuf_RNICUT3'. 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

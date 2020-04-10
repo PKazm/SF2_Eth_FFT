@@ -1,0 +1,1207 @@
+KEY LIBERO "12.600"
+KEY CAPTURE "12.600.0.14"
+KEY DEFAULT_IMPORT_LOC "D:\Appsnotes\2010\User_Logic_to_MSS\design_files\User_Logic_MSS_DF_old\APB_master_fabric\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M1000_N"
+KEY VendorTechnology_Package "tq144"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "0"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M1000_N"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "FFT_Accel_system::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+COREAPB3_LIB
+ENDLIST
+LIST LIBRARY_COREAPB3_LIB
+ALIAS=COREAPB3_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586305119"
+SIZE="3259"
+PARENT="<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1586305119"
+SIZE="2013"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\mti\scripts\wave_user.do,do"
+STATE="utd"
+TIME="1572988165"
+SIZE="912"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="4009"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="9540"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="2074"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="12455"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="82848"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="45675"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="12780"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="23829"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd,hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="6172"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd,hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="78851"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd,hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="5757"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd,hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="9523"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+STATE="utd"
+TIME="1572988165"
+SIZE="28895"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296509"
+SIZE="582"
+PARENT="<project>\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd,hdl"
+STATE="utd"
+TIME="1575328583"
+SIZE="75054"
+PARENT="<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd,hdl"
+STATE="utd"
+TIME="1575328583"
+SIZE="9297"
+PARENT="<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\DPSRAM\1.0.101\DPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586404061"
+SIZE="243"
+PARENT="<project>\component\work\DPSRAM_C0\DPSRAM_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\FCCC\2.0.201\FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296509"
+SIZE="241"
+PARENT="<project>\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\HARD_MULT_ADDSUB\1.0.100\HARD_MULT_ADDSUB.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586404240"
+SIZE="253"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.cxf"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296510"
+SIZE="682"
+PARENT="<project>\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd,hdl"
+STATE="utd"
+TIME="1573066799"
+SIZE="2164"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps_pre.vhd,hdl"
+STATE="utd"
+TIME="1573066799"
+SIZE="2108"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296506"
+SIZE="526"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CCC\1.0.100\MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="253"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CC\1.0.100\MSS_CC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="252"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CFGM\1.1.100\MSS_CFGM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="254"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="253"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_DDRB\1.0.200\MSS_DDRB.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="254"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_EDAC\1.0.101\MSS_EDAC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="254"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_ENVM\1.0.101\MSS_ENVM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="254"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_FIC32\1.0.100\MSS_FIC32.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="255"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_GPIO\1.0.100\MSS_GPIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="254"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_INTR\1.0.200\MSS_INTR.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="254"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_MAC\1.0.100\MSS_MAC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="253"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_MMUART\1.0.100\MSS_MMUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="256"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_RESET\1.0.100\MSS_RESET.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="255"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SECURITY\1.0.100\MSS_SECURITY.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="258"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SWITCH\1.0.101\MSS_SWITCH.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296502"
+SIZE="256"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586305119"
+SIZE="10152"
+ENDFILE
+VALUE "<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd,hdl"
+STATE="utd"
+TIME="1586305119"
+SIZE="13269"
+PARENT="<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586405172"
+SIZE="2111"
+ENDFILE
+VALUE "<project>\component\work\DPSRAM_C0\DPSRAM_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586404062"
+SIZE="5867"
+ENDFILE
+VALUE "<project>\component\work\DPSRAM_C0\DPSRAM_C0.vhd,hdl"
+STATE="utd"
+TIME="1586404061"
+SIZE="3891"
+PARENT="<project>\component\work\DPSRAM_C0\DPSRAM_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586404061"
+SIZE="753"
+PARENT="<project>\component\work\DPSRAM_C0\DPSRAM_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd,hdl"
+STATE="utd"
+TIME="1586404061"
+SIZE="7040"
+PARENT="<project>\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FFT_Accel_system\FFT_Accel_system.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586405176"
+SIZE="5287"
+ENDFILE
+VALUE "<project>\component\work\FFT_Accel_system\FFT_Accel_system.vhd,hdl"
+STATE="utd"
+TIME="1586403128"
+SIZE="24083"
+PARENT="<project>\component\work\FFT_Accel_system\FFT_Accel_system.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296509"
+SIZE="725"
+PARENT="<project>\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.cxf"
+ENDFILE
+VALUE "<project>\component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.vhd,hdl"
+STATE="utd"
+TIME="1586296509"
+SIZE="5724"
+PARENT="<project>\component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296510"
+SIZE="486"
+PARENT="<project>\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.cxf"
+ENDFILE
+VALUE "<project>\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd,hdl"
+STATE="utd"
+TIME="1586296510"
+SIZE="1605"
+PARENT="<project>\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296511"
+SIZE="16104"
+ENDFILE
+VALUE "<project>\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.vhd,hdl"
+STATE="utd"
+TIME="1586296510"
+SIZE="31547"
+PARENT="<project>\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586296507"
+SIZE="22804"
+ENDFILE
+VALUE "<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.vhd,hdl"
+STATE="utd"
+TIME="1586296507"
+SIZE="84947"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS_pre.vhd,hdl"
+STATE="utd"
+TIME="1586296506"
+SIZE="73557"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS_syn.vhd,hdl"
+STATE="utd"
+TIME="1586296506"
+SIZE="73490"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586403880"
+SIZE="4477"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd,hdl"
+STATE="utd"
+TIME="1586403880"
+SIZE="3990"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586403879"
+SIZE="538"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd,hdl"
+STATE="utd"
+TIME="1586403879"
+SIZE="11253"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586404240"
+SIZE="5087"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd,hdl"
+STATE="utd"
+TIME="1586404240"
+SIZE="4448"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.cxf,actgen_cxf"
+STATE="utd"
+TIME="1586404240"
+SIZE="538"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.cxf"
+ENDFILE
+VALUE "<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd,hdl"
+STATE="utd"
+TIME="1586404240"
+SIZE="11436"
+PARENT="<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\designer\impl1\FFT_Accel_system.ide_des,ide_des"
+STATE="utd"
+TIME="1586302303"
+SIZE="484"
+ENDFILE
+VALUE "<project>\hdl\Abs_Val_Cmplx.vhd,hdl"
+STATE="utd"
+TIME="1586312940"
+SIZE="7211"
+ENDFILE
+VALUE "<project>\hdl\Alpha_Max_plus_Beta_Min.vhd,hdl"
+STATE="utd"
+TIME="1586312941"
+SIZE="7869"
+ENDFILE
+VALUE "<project>\hdl\FFT.vhd,hdl"
+STATE="utd"
+TIME="1586495741"
+SIZE="30830"
+ENDFILE
+VALUE "<project>\hdl\FFT_APB_Wrapper.vhd,hdl"
+STATE="utd"
+TIME="1586498396"
+SIZE="16182"
+ENDFILE
+VALUE "<project>\hdl\FFT_Butterfly_HW_MATHDSP.vhd,hdl"
+STATE="utd"
+TIME="1586312531"
+SIZE="29314"
+ENDFILE
+VALUE "<project>\hdl\FFT_Package.vhd,hdl"
+STATE="utd"
+TIME="1586421695"
+SIZE="3471"
+ENDFILE
+VALUE "<project>\hdl\FFT_Sample_Loader.vhd,hdl"
+STATE="utd"
+TIME="1586312531"
+SIZE="10184"
+ENDFILE
+VALUE "<project>\hdl\FFT_Sample_Outputer.vhd,hdl"
+STATE="utd"
+TIME="1586312531"
+SIZE="6815"
+ENDFILE
+VALUE "<project>\hdl\FFT_Transformer.vhd,hdl"
+STATE="utd"
+TIME="1586312716"
+SIZE="20862"
+ENDFILE
+VALUE "<project>\hdl\Twiddle_table.vhd,hdl"
+STATE="utd"
+TIME="1586313181"
+SIZE="2495291"
+ENDFILE
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+STATE="utd"
+TIME="1572988165"
+SIZE="1229"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+STATE="utd"
+TIME="1586296506"
+SIZE="500"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+STATE="utd"
+TIME="1572988165"
+SIZE="8016"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+STATE="utd"
+TIME="1574307846"
+SIZE="8450"
+PARENT="<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1586474638"
+SIZE="2469"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1586474633"
+SIZE="1030"
+PARENT="<project>\component\work\FFT_Accel_system\FFT_Accel_system.cxf"
+PARENT="<project>\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.cxf"
+ENDFILE
+VALUE "<project>\simulation\test.bfm,sim"
+STATE="utd"
+TIME="1586296506"
+SIZE="734"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\testbench_presynth_simulation.log,log"
+STATE="utd"
+TIME="1586498433"
+SIZE="68"
+ENDFILE
+VALUE "<project>\simulation\user.bfm,sim"
+STATE="utd"
+TIME="1586295943"
+SIZE="555"
+PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\stimulus\FFT_APB_Wrappe_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1586497471"
+SIZE="62189"
+ENDFILE
+VALUE "<project>\synthesis\AutoConstraint_FFT_APB_Wrapper.sdc,sdc"
+STATE="utd"
+TIME="1586494763"
+SIZE="204"
+ENDFILE
+VALUE "<project>\synthesis\FFT_Accel_system.so,so"
+STATE="utd"
+TIME="1586421752"
+SIZE="258"
+ENDFILE
+VALUE "<project>\synthesis\FFT_Accel_system.vm,syn_vm"
+STATE="utd"
+TIME="1586421751"
+SIZE="599365"
+ENDFILE
+VALUE "<project>\synthesis\FFT_Accel_system_syn.prj,prj"
+STATE="utd"
+TIME="1586421752"
+SIZE="6085"
+ENDFILE
+VALUE "<project>\synthesis\FFT_Accel_system_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1586421751"
+SIZE="1670"
+ENDFILE
+VALUE "<project>\synthesis\FFT_APB_Wrapper.so,so"
+STATE="utd"
+TIME="1586494717"
+SIZE="256"
+ENDFILE
+VALUE "<project>\synthesis\FFT_APB_Wrapper.vm,syn_vm"
+STATE="ood"
+TIME="1586494716"
+SIZE="565428"
+ENDFILE
+VALUE "<project>\synthesis\FFT_APB_Wrapper_syn.prj,prj"
+STATE="utd"
+TIME="1586494718"
+SIZE="3864"
+ENDFILE
+VALUE "<project>\synthesis\FFT_APB_Wrapper_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1586494717"
+SIZE="900"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1586403076"
+SIZE="159"
+ENDFILE
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd,hdl"
+STATE="utd"
+TIME="1586403803"
+SIZE="6056"
+ENDFILE
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_buttons.pdc,io_pdc"
+STATE="utd"
+TIME="1584759611"
+SIZE="226"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_ethernet.pdc,io_pdc"
+STATE="utd"
+TIME="1584993090"
+SIZE="3432"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_J10.pdc,io_pdc"
+STATE="utd"
+TIME="1584765015"
+SIZE="99"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_J11.pdc,io_pdc"
+STATE="utd"
+TIME="1584765036"
+SIZE="99"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_J7_vector.pdc,io_pdc"
+STATE="utd"
+TIME="1585181192"
+SIZE="519"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_J8.pdc,io_pdc"
+STATE="utd"
+TIME="1584764973"
+SIZE="99"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_J9.pdc,io_pdc"
+STATE="utd"
+TIME="1584764984"
+SIZE="99"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_leds.pdc,io_pdc"
+STATE="utd"
+TIME="1584759694"
+SIZE="858"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_usb_uart.pdc,io_pdc"
+STATE="utd"
+TIME="1584829865"
+SIZE="205"
+IS_READONLY="TRUE"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "FFT_Accel_system::work"
+FILE "<project>\component\work\FFT_Accel_system\FFT_Accel_system.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\FFT_Accel_system.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "FFT_Accel_system_sb::work"
+FILE "<project>\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+ENDLIST
+LIST "FFT_Accel_system_sb_MSS::work"
+FILE "<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+ENDLIST
+ENDLIST
+LIST "FFT_APB_Wrapper::work"
+FILE "<project>\hdl\FFT_APB_Wrapper.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\FFT_APB_Wrappe_tb.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\FFT_Accel_system.vm,syn_vm"
+VALUE "<project>\synthesis\FFT_APB_Wrapper.edn,syn_edn"
+VALUE "<project>\synthesis\FFT_APB_Wrapper.vhd,syn_hdl"
+VALUE "<project>\phy_synthesis\FFT_APB_Wrapper_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\FFT_APB_Wrapper_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\FFT_APB_Wrapper_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\FFT_APB_Wrapper_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\FFT_APB_Wrapper_palace.vhd,palace_hdl"
+VALUE "<project>\designer\impl1\FFT_APB_Wrapper.adb,adb"
+VALUE "<project>\designer\impl1\FFT_APB_Wrapper.fdb,fdb"
+VALUE "<project>\designer\impl1\FFT_APB_Wrapper.pdb,pdb"
+VALUE "<project>\designer\impl1\FFT_APB_Wrapper.stp,stp"
+VALUE "<project>\designer\impl1\FFT_APB_Wrapper_fp\FFT_APB_Wrapper.pro,pro"
+VALUE "<project>\synthesis\FFT_Accel_system_sdc.sdc,syn_sdc"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "CoreAPB3::coreapb3_lib"
+FILE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\mti\scripts\wave_user.do,do"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST FFT_APB_Wrapper
+VALUE "<project>\stimulus\FFT_APB_Wrappe_tb.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+LIST FFT_Accel_system
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST CoreAPB3
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\mti\scripts\wave_user.do,do"
+ENDLIST
+LIST FFT_Accel_system_sb
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST FFT_Accel_system_sb_MSS
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=10ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=TRUE
+LibraryPath=C:/Microsemi/Libero_SoC_v12.1/Designer/lib/modelsimpro/precompiled\vlog\SmartFusion2
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="SynplifyProME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSimME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\ModelSim\win32acoem\modelsim.exe"
+PARAM=" -l testbench_presynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\Designer\binfp\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="IdentifyDebugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "FFT_Accel_system::work"
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\FFT_Accel_system.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "FFT_APB_Wrapper::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\FFT_Accel_system.vm,syn_vm"
+VALUE "<project>\synthesis\FFT_APB_Wrapper.edn,syn_edn"
+VALUE "<project>\synthesis\FFT_APB_Wrapper.vhd,syn_hdl"
+VALUE "<project>\phy_synthesis\FFT_APB_Wrapper_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\FFT_APB_Wrapper_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\FFT_APB_Wrapper_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\FFT_APB_Wrapper_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\FFT_APB_Wrapper_palace.vhd,palace_hdl"
+VALUE "<project>\designer\impl1\FFT_APB_Wrapper.adb,adb"
+VALUE "<project>\designer\impl1\FFT_APB_Wrapper.fdb,fdb"
+VALUE "<project>\designer\impl1\FFT_APB_Wrapper.pdb,pdb"
+VALUE "<project>\designer\impl1\FFT_APB_Wrapper.stp,stp"
+VALUE "<project>\designer\impl1\FFT_APB_Wrapper_fp\FFT_APB_Wrapper.pro,pro"
+VALUE "<project>\synthesis\FFT_Accel_system_sdc.sdc,syn_sdc"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Run PROGRAM Action:FFT_Accel_system_PROGRAM.log
+StartPage;StartPage;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "Abs_Val_Cmplx::work","hdl\Abs_Val_Cmplx.vhd","FALSE","FALSE"
+SUBBLOCK "Alpha_Max_plus_Beta_Min::work","hdl\Alpha_Max_plus_Beta_Min.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreAPB3_C0::work","component\work\CoreAPB3_C0\CoreAPB3_C0.vhd","TRUE","FALSE"
+SUBBLOCK "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd","FALSE","FALSE"
+ENDLIST
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+SUBBLOCK "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_Ethernet_MAC_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_MMUART_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "DPSRAM_C0::work","component\work\DPSRAM_C0\DPSRAM_C0.vhd","TRUE","FALSE"
+SUBBLOCK "DPSRAM_C0_DPSRAM_C0_0_DPSRAM::work","component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd","FALSE","FALSE"
+ENDLIST
+LIST "DPSRAM_C0_DPSRAM_C0_0_DPSRAM::work","component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Alpha_Max_plus_Beta_Min::work","hdl\Alpha_Max_plus_Beta_Min.vhd","FALSE","FALSE"
+SUBBLOCK "HARD_MULT_ADDSUB_C1::work","component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd","TRUE","FALSE"
+ENDLIST
+LIST "CoreResetP::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd","FALSE","FALSE"
+SUBBLOCK "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_Butterfly_HW_MATHDSP::work","hdl\FFT_Butterfly_HW_MATHDSP.vhd","FALSE","FALSE"
+SUBBLOCK "HARD_MULT_ADDSUB_C0::work","component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd","TRUE","FALSE"
+ENDLIST
+LIST "FFT_Sample_Outputer::work","hdl\FFT_Sample_Outputer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MSS_010::work","component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS_syn.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Twiddle_table::work","hdl\Twiddle_table.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Alpha_Max_plus_Beta_Min::work","hdl\Alpha_Max_plus_Beta_Min.vhd","FALSE","FALSE"
+SUBBLOCK "HARD_MULT_ADDSUB_C1::work","component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd","TRUE","FALSE"
+ENDLIST
+LIST "FFT::work","hdl\FFT.vhd","FALSE","FALSE"
+SUBBLOCK "DPSRAM_C0::work","component\work\DPSRAM_C0\DPSRAM_C0.vhd","TRUE","FALSE"
+SUBBLOCK "FFT_Sample_Loader::work","hdl\FFT_Sample_Loader.vhd","FALSE","FALSE"
+SUBBLOCK "FFT_Transformer::work","hdl\FFT_Transformer.vhd","FALSE","FALSE"
+SUBBLOCK "FFT_Sample_Outputer::work","hdl\FFT_Sample_Outputer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_Accel_system::work","component\work\FFT_Accel_system\FFT_Accel_system.vhd","TRUE","FALSE"
+SUBBLOCK "CoreAPB3_C0::work","component\work\CoreAPB3_C0\CoreAPB3_C0.vhd","TRUE","FALSE"
+SUBBLOCK "FFT_APB_Wrapper::work","hdl\FFT_APB_Wrapper.vhd","FALSE","FALSE"
+SUBBLOCK "FFT_Accel_system_sb::work","component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.vhd","TRUE","FALSE"
+SUBBLOCK "MSS_to_IO_interpreter::work","E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_Accel_system_sb::work","component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.vhd","TRUE","FALSE"
+SUBBLOCK "FFT_Accel_system_sb_CCC_0_FCCC::work","component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.vhd","FALSE","FALSE"
+SUBBLOCK "FFT_Accel_system_sb_FABOSC_0_OSC::work","component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd","FALSE","FALSE"
+SUBBLOCK "FFT_Accel_system_sb_MSS::work","component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.vhd","TRUE","FALSE"
+SUBBLOCK "CoreResetP::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_Accel_system_sb_CCC_0_FCCC::work","component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_Accel_system_sb_FABOSC_0_OSC::work","component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_Accel_system_sb_MSS::work","component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.vhd","TRUE","FALSE"
+SUBBLOCK "MSS_010::work","component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS_syn.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_APB_Wrapper::work","hdl\FFT_APB_Wrapper.vhd","FALSE","FALSE"
+SUBBLOCK "FFT::work","hdl\FFT.vhd","FALSE","FALSE"
+SUBBLOCK "Alpha_Max_plus_Beta_Min::work","hdl\Alpha_Max_plus_Beta_Min.vhd","FALSE","FALSE"
+SUBBLOCK "Alpha_Max_plus_Beta_Min::work","hdl\Alpha_Max_plus_Beta_Min.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_package::work","hdl\FFT_Package.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_Sample_Loader::work","hdl\FFT_Sample_Loader.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FFT_Transformer::work","hdl\FFT_Transformer.vhd","FALSE","FALSE"
+SUBBLOCK "FFT_Butterfly_HW_MATHDSP::work","hdl\FFT_Butterfly_HW_MATHDSP.vhd","FALSE","FALSE"
+SUBBLOCK "Twiddle_table::work","hdl\Twiddle_table.vhd","FALSE","FALSE"
+ENDLIST
+LIST "HARD_MULT_ADDSUB_C0::work","component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd","TRUE","FALSE"
+SUBBLOCK "HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB::work","component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd","FALSE","FALSE"
+ENDLIST
+LIST "HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB::work","component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd","FALSE","FALSE"
+ENDLIST
+LIST "HARD_MULT_ADDSUB_C1::work","component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd","TRUE","FALSE"
+SUBBLOCK "HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB::work","component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd","FALSE","FALSE"
+ENDLIST
+LIST "HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB::work","component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MSS_to_IO_interpreter::work","E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_Ethernet_MAC_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_MMUART_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "testbench::work","stimulus\FFT_APB_Wrappe_tb.vhd","FALSE","TRUE"
+SUBBLOCK "FFT_APB_Wrapper::work","hdl\FFT_APB_Wrapper.vhd","FALSE","FALSE"
+ENDLIST
+LIST "components::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+SUBBLOCK "COREAPB3_MUXPTOB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd","FALSE","FALSE"
+SUBBLOCK "coreapb3_iaddr_reg::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coreapb3_iaddr_reg::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREAPB3_MUXPTOB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd","FALSE","FALSE"
+ENDLIST
+LIST "bfm_misc::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfM_packAGE::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio_test::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "coreparameters::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apb::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd","FALSE","TRUE"
+SUBBLOCK "BFMA1i1lI::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+SUBBLOCK "bFM_maiN::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apbSLAve::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+SUBBLOCK "BFM_apBSLaveeXT::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apBSLaveeXT::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bFM_maiN::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFMA1i1lI::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+ENDLIST
+LIST "testbench::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd","FALSE","TRUE"
+SUBBLOCK "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+SUBBLOCK "BFM_apb::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd","FALSE","TRUE"
+SUBBLOCK "BFM_apbSLAve::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_buttons.pdc"
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_ethernet.pdc"
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_J7_vector.pdc"
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_J8.pdc"
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_J9.pdc"
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_J10.pdc"
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_J11.pdc"
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_leds.pdc"
+VALUE "E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_usb_uart.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "synthesis\AutoConstraint_FFT_APB_Wrapper.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

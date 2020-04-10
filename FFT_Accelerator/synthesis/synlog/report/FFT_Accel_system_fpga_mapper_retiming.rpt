@@ -1,0 +1,14 @@
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 0 registers retimed to 1
+
+Original and Pipelined registers replaced by retiming :
+		None
+
+New registers created by retiming :
+		FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.bf0_twiddle_cos_realreset[8]
+
+
+		#####   END RETIMING REPORT  #####
+

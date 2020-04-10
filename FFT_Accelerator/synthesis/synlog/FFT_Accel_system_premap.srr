@@ -1,0 +1,197 @@
+# Fri Apr 10 02:09:08 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 2461R, Built Nov 29 2018 09:35:20
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+Reading constraint file: E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\synthesis.fdc
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\FFT_Accel_system_scck.rpt 
+Printing clock  summary report in "E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\FFT_Accel_system_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 109MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 112MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@W: BN132 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance FFT_Accel_system_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance FFT_Accel_system_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@W: MO112 :"e:\github_repos\sf2_mkr_kit_io_constraints\mss_to_io_interpreter.vhd":124:8:124:11|Deleting tristate instance LIGHT_SCL_4 (in view: work.MSS_to_IO_interpreter(architecture_mss_to_io_interpreter)) on net LIGHT_SCL (in view: work.MSS_to_IO_interpreter(architecture_mss_to_io_interpreter)) because its enable is connected to 0.
+@W: MO112 :"e:\github_repos\sf2_mkr_kit_io_constraints\mss_to_io_interpreter.vhd":143:8:143:11|Deleting tristate instance LIGHT_SDA_3 (in view: work.MSS_to_IO_interpreter(architecture_mss_to_io_interpreter)) on net LIGHT_SDA (in view: work.MSS_to_IO_interpreter(architecture_mss_to_io_interpreter)) because its enable is connected to 0.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.sm1_areset_n_clk_base is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\alpha_max_plus_beta_min.vhd":144:8:144:9|Removing sequential instance o_flow_sig (in view: work.Alpha_Max_plus_Beta_Min(architecture_alpha_max_plus_beta_min)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance INIT_DONE_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance sdif0_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance sdif1_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance sdif2_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance sdif3_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance sm0_state[0:6] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CONFIG2_DONE_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Removing sequential instance sdif3_spll_lock_q2 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":908:8:908:9|Removing sequential instance CONFIG1_DONE_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif3_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif2_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif1_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CONFIG2_DONE_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Removing sequential instance sdif3_spll_lock_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":908:8:908:9|Removing sequential instance CONFIG1_DONE_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif0_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance ddr_settled_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif3_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif2_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif1_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif0_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance ddr_settled_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Removing sequential instance release_sdif3_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Removing sequential instance release_sdif2_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1447:8:1447:9|Removing sequential instance release_sdif1_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1423:8:1423:9|Removing sequential instance release_sdif0_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Removing sequential instance ddr_settled (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":770:8:770:9|Removing sequential instance sm0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance sdif3_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance sdif2_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance sdif1_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance sdif0_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":770:8:770:9|Removing sequential instance sm0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance sm0_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance sdif3_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance sdif2_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance sdif1_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance sdif0_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance sm0_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+syn_allowed_resources : blockrams=21  set on top level netlist FFT_Accel_system
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 146MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                     Requested     Requested     Clock        Clock                   Clock
+Level     Clock                                                     Frequency     Period        Type         Group                   Load 
+------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                    100.0 MHz     10.000        system       system_clkgroup         0    
+                                                                                                                                          
+0 -       FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     710  
+                                                                                                                                          
+0 -       FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_2     1    
+                                                                                                                                          
+0 -       FFT_Accel_system|GMII_RX_CLK                              100.0 MHz     10.000        inferred     Inferred_clkgroup_1     1    
+==========================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                          Clock     Source                                            Clock Pin                                                                    Non-clock Pin     Non-clock Pin                               
+Clock                                                     Load      Pin                                               Seq Example                                                                  Seq Example       Comb Example                                
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                    0         -                                                 -                                                                            -                 -                                           
+                                                                                                                                                                                                                                                                 
+FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     710       FFT_Accel_system_sb_0.CCC_0.CCC_INST.GL0(CCC)     FFT_APB_Wrapper_0.FFT_out_r_en.C                                             -                 FFT_Accel_system_sb_0.CCC_0.GL0_INST.I(BUFG)
+                                                                                                                                                                                                                                                                 
+FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock     1         FFT_Accel_system_sb_0.CCC_0.CCC_INST.GL1(CCC)     FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST.GTX_CLKPF     -                 FFT_Accel_system_sb_0.CCC_0.GL1_INST.I(BUFG)
+                                                                                                                                                                                                                                                                 
+FFT_Accel_system|GMII_RX_CLK                              1         GMII_RX_CLK(port)                                 FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST.RX_CLKPF      -                 -                                           
+=================================================================================================================================================================================================================================================================
+
+@W: MT530 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":608:8:608:9|Found inferred clock FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 710 sequential elements including FFT_Accel_system_sb_0.CORERESETP_0.MSS_HPMS_READY_int. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\work\fft_accel_system_sb_mss\fft_accel_system_sb_mss.vhd":778:0:778:13|Found inferred clock FFT_Accel_system|GMII_RX_CLK which controls 1 sequential elements including FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\work\fft_accel_system_sb_mss\fft_accel_system_sb_mss.vhd":778:0:778:13|Found inferred clock FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock which controls 1 sequential elements including FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\FFT_Accel_system.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 146MB)
+
+Encoding state machine load_state[0:3] (in view: work.FFT_Sample_Loader(architecture_fft_sample_loader))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_sample_loader.vhd":195:8:195:9|There are no possible illegal states for state machine load_state[0:3] (in view: work.FFT_Sample_Loader(architecture_fft_sample_loader)); safe FSM implementation is not required.
+Encoding state machine stage_state[0:2] (in view: work.FFT_Transformer(architecture_fft_transformer))
+original code -> new code
+   01 -> 00
+   10 -> 01
+   11 -> 10
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 146MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 146MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 58MB peak: 146MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Apr 10 02:09:09 2020
+
+###########################################################]

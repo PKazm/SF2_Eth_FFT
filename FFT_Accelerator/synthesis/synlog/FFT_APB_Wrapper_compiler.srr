@@ -1,0 +1,329 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+@N:"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":26:7:26:21|Top entity is set to FFT_APB_Wrapper.
+File C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd\math_real.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd changed - recompiling
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":26:7:26:21|Synthesizing work.fft_apb_wrapper.architecture_fft_apb_wrapper.
+@N: CD604 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":189:20:189:33|OTHERS clause is not synthesized.
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 10 of signal APB_regs_7 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 11 of signal APB_regs_7 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 12 of signal APB_regs_7 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 13 of signal APB_regs_7 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 14 of signal APB_regs_7 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 15 of signal APB_regs_7 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 8 of signal APB_regs_6 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 9 of signal APB_regs_6 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 10 of signal APB_regs_6 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 11 of signal APB_regs_6 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 12 of signal APB_regs_6 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 13 of signal APB_regs_6 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 14 of signal APB_regs_6 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 15 of signal APB_regs_6 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 9 of signal APB_regs_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 10 of signal APB_regs_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 11 of signal APB_regs_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 12 of signal APB_regs_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 13 of signal APB_regs_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 14 of signal APB_regs_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 15 of signal APB_regs_5 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 9 of signal APB_regs_4 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 10 of signal APB_regs_4 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 11 of signal APB_regs_4 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 12 of signal APB_regs_4 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 13 of signal APB_regs_4 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 14 of signal APB_regs_4 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 15 of signal APB_regs_4 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 9 of signal APB_regs_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 10 of signal APB_regs_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 11 of signal APB_regs_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 12 of signal APB_regs_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 13 of signal APB_regs_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 14 of signal APB_regs_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 15 of signal APB_regs_3 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 9 of signal APB_regs_2 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 10 of signal APB_regs_2 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 11 of signal APB_regs_2 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 12 of signal APB_regs_2 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 13 of signal APB_regs_2 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 14 of signal APB_regs_2 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 15 of signal APB_regs_2 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 8 of signal APB_regs_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 9 of signal APB_regs_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 10 of signal APB_regs_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 11 of signal APB_regs_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 12 of signal APB_regs_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 13 of signal APB_regs_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 14 of signal APB_regs_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 15 of signal APB_regs_1 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 8 of signal APB_regs_0 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 9 of signal APB_regs_0 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 10 of signal APB_regs_0 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 11 of signal APB_regs_0 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 12 of signal APB_regs_0 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 13 of signal APB_regs_0 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 14 of signal APB_regs_0 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":50:11:50:18|Bit 15 of signal APB_regs_0 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":63:11:63:18|Signal psel_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":64:11:64:21|Signal penable_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":65:11:65:20|Signal pwrite_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":67:11:67:20|Signal pready_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":69:11:69:21|Signal pslverr_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Signal ampbm_0_assoc_adr_in_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":152:11:152:35|Signal ampbm_0_assoc_adr_out_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd":26:7:26:29|Synthesizing work.alpha_max_plus_beta_min.architecture_alpha_max_plus_beta_min.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd":17:7:17:25|Synthesizing work.hard_mult_addsub_c1.rtl.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd":8:7:8:64|Synthesizing work.hard_mult_addsub_c1_hard_mult_addsub_c1_0_hard_mult_addsub.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+Post processing for smartfusion2.vcc.syn_black_box
+Running optimization stage 1 on VCC .......
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+Post processing for smartfusion2.gnd.syn_black_box
+Running optimization stage 1 on GND .......
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":706:10:706:13|Synthesizing smartfusion2.macc.syn_black_box.
+Post processing for smartfusion2.macc.syn_black_box
+Running optimization stage 1 on MACC .......
+Post processing for work.hard_mult_addsub_c1_hard_mult_addsub_c1_0_hard_mult_addsub.def_arch
+Running optimization stage 1 on HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB .......
+Post processing for work.hard_mult_addsub_c1.rtl
+Running optimization stage 1 on HARD_MULT_ADDSUB_C1 .......
+Post processing for work.alpha_max_plus_beta_min.architecture_alpha_max_plus_beta_min
+Running optimization stage 1 on Alpha_Max_plus_Beta_Min .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT.vhd":26:7:26:9|Synthesizing work.fft.architecture_fft.
+@N: CD233 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT.vhd":290:27:290:28|Using sequential encoding for type hot_potato_states.
+@N: CD233 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT.vhd":292:25:292:26|Using sequential encoding for type ram_dist_states.
+@N: CD604 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT.vhd":421:16:421:29|OTHERS clause is not synthesized.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0.vhd":17:7:17:15|Synthesizing work.dpsram_c0.rtl.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd":8:7:8:34|Synthesizing work.dpsram_c0_dpsram_c0_0_dpsram.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
+Post processing for smartfusion2.ram1k18.syn_black_box
+Running optimization stage 1 on RAM1K18 .......
+Post processing for work.dpsram_c0_dpsram_c0_0_dpsram.def_arch
+Running optimization stage 1 on DPSRAM_C0_DPSRAM_C0_0_DPSRAM .......
+Post processing for work.dpsram_c0.rtl
+Running optimization stage 1 on DPSRAM_C0 .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd":26:7:26:21|Synthesizing work.fft_transformer.architecture_fft_transformer.
+@N: CD233 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd":63:22:63:23|Using sequential encoding for type stage_states.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":29:7:29:30|Synthesizing work.fft_butterfly_hw_mathdsp.architecture_fft_butterfly_hw_mathdsp.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd":17:7:17:25|Synthesizing work.hard_mult_addsub_c0.rtl.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd":8:7:8:64|Synthesizing work.hard_mult_addsub_c0_hard_mult_addsub_c0_0_hard_mult_addsub.def_arch.
+Post processing for work.hard_mult_addsub_c0_hard_mult_addsub_c0_0_hard_mult_addsub.def_arch
+Running optimization stage 1 on HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB .......
+Post processing for work.hard_mult_addsub_c0.rtl
+Running optimization stage 1 on HARD_MULT_ADDSUB_C0 .......
+Post processing for work.fft_butterfly_hw_mathdsp.architecture_fft_butterfly_hw_mathdsp
+Running optimization stage 1 on FFT_Butterfly_HW_MATHDSP .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":26:7:26:19|Synthesizing work.twiddle_table.architecture_twiddle_table.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":198:11:198:13|Signal mem is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":200:11:200:21|Signal mem_adr_cnt is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":202:11:202:27|Signal twiddle_ready_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":204:11:204:17|Signal mem_adr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":205:11:205:18|Signal mem_w_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":206:11:206:19|Signal mem_dat_w is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":207:11:207:19|Signal mem_dat_r is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.twiddle_table.architecture_twiddle_table
+Running optimization stage 1 on Twiddle_table .......
+Post processing for work.fft_transformer.architecture_fft_transformer
+Running optimization stage 1 on FFT_Transformer .......
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd":357:8:357:9|Pruning unused register do_calc_ctrl_2. Make sure that there are no unused intermediate registers.
+@A: CL282 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd":426:8:426:9|Feedback mux created for signal sampleB_adr[9:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd":26:7:26:25|Synthesizing work.fft_sample_outputer.architecture_fft_sample_outputer.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd":66:11:66:24|Signal output_en_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd":67:11:67:25|Signal output_adr_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd":68:11:68:26|Signal output_done_sync is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.fft_sample_outputer.architecture_fft_sample_outputer
+Running optimization stage 1 on FFT_Sample_Outputer .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":38:7:38:23|Synthesizing work.fft_sample_loader.architecture_fft_sample_loader.
+@N: CD233 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":77:21:77:22|Using sequential encoding for type load_states.
+@N: CD604 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":244:16:244:29|OTHERS clause is not synthesized.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":82:11:82:25|Signal input_w_en_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":83:11:83:31|Signal input_w_dat_real_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":84:11:84:31|Signal input_w_dat_imag_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":85:11:85:25|Signal input_done_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":112:11:112:24|Signal mem_adr_bitrev is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.fft_sample_loader.architecture_fft_sample_loader
+Running optimization stage 1 on FFT_Sample_Loader .......
+@W: CL190 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Optimizing register bit ram_w_en_sig(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Pruning register bit 1 of ram_w_en_sig(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Post processing for work.fft.architecture_fft
+Running optimization stage 1 on FFT .......
+@A: CL282 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT.vhd":330:8:330:9|Feedback mux created for signal i_comp_ram_ready. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Post processing for work.fft_apb_wrapper.architecture_fft_apb_wrapper
+Running optimization stage 1 on FFT_APB_Wrapper .......
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 0 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 1 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 2 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 3 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 4 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 5 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 6 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 7 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 8 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 9 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":367:4:367:28|Bit 0 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":367:4:367:28|Bit 1 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":367:4:367:28|Bit 2 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":367:4:367:28|Bit 3 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":367:4:367:28|Bit 4 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":367:4:367:28|Bit 5 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":367:4:367:28|Bit 6 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":367:4:367:28|Bit 7 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":367:4:367:28|Bit 8 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":367:4:367:28|Bit 9 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@A: CL282 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":310:12:310:13|Feedback mux created for signal delay_cnt[2:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":310:12:310:13|Feedback mux created for signal smpl_data_stable. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL190 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":166:8:166:9|Optimizing register bit PRDATA_sig(10) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":166:8:166:9|Optimizing register bit PRDATA_sig(11) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":166:8:166:9|Optimizing register bit PRDATA_sig(12) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":166:8:166:9|Optimizing register bit PRDATA_sig(13) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":166:8:166:9|Optimizing register bit PRDATA_sig(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":166:8:166:9|Optimizing register bit PRDATA_sig(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":166:8:166:9|Pruning register bits 15 to 10 of PRDATA_sig(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on FFT_Sample_Loader .......
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Pruning unused register load_state_last(1 downto 0). Make sure that there are no unused intermediate registers.
+@N: CL201 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Trying to extract state machine for register load_state.
+Extracted state machine for register load_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":69:4:69:12|Input ram_dat_r is unused.
+Running optimization stage 2 on FFT_Sample_Outputer .......
+@W: CL246 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd":58:4:58:12|Input port bits 35 to 18 of ram_dat_r(35 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on Twiddle_table .......
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":33:1:33:4|Input PCLK is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":34:1:34:4|Input RSTn is unused.
+Running optimization stage 2 on HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB .......
+Running optimization stage 2 on HARD_MULT_ADDSUB_C0 .......
+Running optimization stage 2 on FFT_Butterfly_HW_MATHDSP .......
+@N: CL135 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":386:16:386:30|Found sequential shift adr_b_pipe with address depth of 4 words and data bit width of 10.
+@N: CL135 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":386:16:386:30|Found sequential shift adr_a_pipe with address depth of 4 words and data bit width of 10.
+@N: CL135 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":386:16:386:30|Found sequential shift do_calc_pipe with address depth of 4 words and data bit width of 1.
+@W: CL260 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":339:16:339:30|Pruning register bit 0 of imag_b_out_sum_slice(10 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":339:16:339:30|Pruning register bit 0 of real_b_out_sum_slice(10 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on FFT_Transformer .......
+@N: CL135 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd":357:8:357:9|Found sequential shift bf0_do_calc with address depth of 3 words and data bit width of 1.
+@N: CL201 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd":294:8:294:9|Trying to extract state machine for register stage_state.
+Extracted state machine for register stage_state
+State machine has 3 reachable states with original encodings of:
+   01
+   10
+   11
+Running optimization stage 2 on RAM1K18 .......
+Running optimization stage 2 on DPSRAM_C0_DPSRAM_C0_0_DPSRAM .......
+Running optimization stage 2 on DPSRAM_C0 .......
+Running optimization stage 2 on FFT .......
+Running optimization stage 2 on MACC .......
+Running optimization stage 2 on GND .......
+Running optimization stage 2 on VCC .......
+Running optimization stage 2 on HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB .......
+Running optimization stage 2 on HARD_MULT_ADDSUB_C1 .......
+Running optimization stage 2 on Alpha_Max_plus_Beta_Min .......
+@N: CL135 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd":128:12:128:13|Found sequential shift adr_pipe with address depth of 5 words and data bit width of 10.
+Running optimization stage 2 on FFT_APB_Wrapper .......
+@W: CL246 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":32:4:32:8|Input port bits 7 to 5 of paddr(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":32:4:32:8|Input port bits 1 to 0 of paddr(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":36:1:36:6|Input port bits 15 to 10 of pwdata(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 147MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 10 00:59:40 2020
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 10 00:59:40 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 10 00:59:40 2020
+
+###########################################################]

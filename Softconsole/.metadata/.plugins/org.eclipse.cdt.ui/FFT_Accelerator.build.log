@@ -1,0 +1,29 @@
+04:40:27 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/FFT_apb.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  17040	   1664	  46832	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+
+04:40:28 Build Finished. 0 errors, 0 warnings. (took 915ms)
+

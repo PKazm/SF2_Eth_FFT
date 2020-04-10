@@ -1,0 +1,36 @@
+E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/synthesis/FFT_Accel_system.vm(19556): WARNING: net 'N_1413' does not have a driver (VDB-1002)
+E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/synthesis/FFT_Accel_system.vm(19557): WARNING: net 'N_1414' does not have a driver (VDB-1002)
+E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/synthesis/FFT_Accel_system.vm(19559): WARNING: net 'N_1415' does not have a driver (VDB-1002)
+E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/synthesis/FFT_Accel_system.vm(19560): WARNING: net 'N_1416' does not have a driver (VDB-1002)
+E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/synthesis/FFT_Accel_system.vm(19561): WARNING: net 'N_1417' does not have a driver (VDB-1002)
+E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/synthesis/FFT_Accel_system.vm(19562): WARNING: net 'N_1418' does not have a driver (VDB-1002)
+E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/synthesis/FFT_Accel_system.vm(25074): WARNING: net 'N_1419' does not have a driver (VDB-1002)
+E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/synthesis/FFT_Accel_system.vm(25075): WARNING: net 'N_1420' does not have a driver (VDB-1002)
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       4 
+      Globals that cannot be demoted:      2 
+      Globals considered for demotion:     2 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    722    0      0      'FFT_Accel_system_sb_0/CCC_0/GL0_INST' 
+    1      0      1      'FFT_Accel_system_sb_0/CCC_0/GL1_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    0      580    9      'FFT_Accel_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIDMB8' 
+    0      69     0      'FFT_APB_Wrapper_0/comp_rstn_RNI4CC6' 
+
+Info: Demotion information: 
+      Disconnected 8 data pins from global 'FFT_Accel_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIDMB8'. 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

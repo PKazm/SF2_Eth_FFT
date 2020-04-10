@@ -1,0 +1,15 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,LSRAM 18K,Math (18x18),Chip Globals
+Alpha_Max_plus_Beta_Min_0/HARD_MULT_ADDSUB_C1_0/HARD_MULT_ADDSUB_C1_0/U0/Primitives,0,0,36,36,0,0,1,0
+Alpha_Max_plus_Beta_Min_0/Primitives,94,67,0,0,0,0,0,0
+FFT_Core/DPSRAM_0/DPSRAM_C0_0/Primitives,0,0,36,36,0,1,0,0
+FFT_Core/DPSRAM_1/DPSRAM_C0_0/Primitives,0,0,36,36,0,1,0,0
+FFT_Core/FFT_Sample_Loader_0/Primitives,96,26,0,0,0,0,0,0
+FFT_Core/FFT_Sample_Outputer_0/Primitives,25,20,0,0,0,0,0,0
+FFT_Core/FFT_Transformer_0/FFT_Butterfly_HW_MATHDSP_0/HARD_MULT_ADDSUB_C0_0/HARD_MULT_ADDSUB_C0_0/U0/Primitives,0,0,36,36,0,0,1,0
+FFT_Core/FFT_Transformer_0/FFT_Butterfly_HW_MATHDSP_0/HARD_MULT_ADDSUB_C0_1/HARD_MULT_ADDSUB_C0_0/U0/Primitives,0,0,36,36,0,0,1,0
+FFT_Core/FFT_Transformer_0/FFT_Butterfly_HW_MATHDSP_0/Primitives,131,255,0,0,0,0,0,0
+FFT_Core/FFT_Transformer_0/Primitives,279,193,0,0,0,0,0,0
+FFT_Core/FFT_Transformer_0/Twiddle_table_0/Primitives,541,17,0,0,0,0,0,0
+FFT_Core/Primitives,308,31,0,0,0,0,0,0
+Primitives/Primitives,11,53,0,0,36,0,0,3

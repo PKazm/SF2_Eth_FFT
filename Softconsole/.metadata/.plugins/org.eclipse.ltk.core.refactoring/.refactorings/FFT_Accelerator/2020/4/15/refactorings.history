@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FFT_Accelerator_C/src/main.cpp&apos; to &apos;main.c&apos;" description="Rename resource &apos;main.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main.cpp" name="main.c" stamp="1586411713724" updateReferences="true"/>
+</session>

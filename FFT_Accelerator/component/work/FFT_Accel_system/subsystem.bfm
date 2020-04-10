@@ -1,0 +1,24 @@
+#===========================================================
+# Created by Microsemi SmartDesign Wed Apr  8 23:32:08 2020
+#
+# Syntax: 
+# ------- 
+#
+# memmap    resource_name base_address;
+#
+# write     width resource_name byte_offset data;
+# read      width resource_name byte_offset;
+# readcheck width resource_name byte_offset data;
+#
+#===========================================================
+
+#-----------------------------------------------------------
+# Memory Map
+# Define name and base address of each resource.
+#-----------------------------------------------------------
+
+memmap FFT_APB_Wrapper_0 0x50000000;
+#-----------------------------------------------------------
+# Include resource scriptlets
+#-----------------------------------------------------------
+

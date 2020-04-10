@@ -1,0 +1,46 @@
+Resource Usage Report for FFT_Accel_system 
+
+Mapping to part: m2s010tq144std
+Cell usage:
+CCC             1 use
+CLKINT          4 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           5 uses
+CFG2           137 uses
+CFG3           383 uses
+CFG4           485 uses
+
+Carry cells:
+ARI1            275 uses - used for arithmetic functions
+ARI1            98 uses - used for Wide-Mux implementation
+Total ARI1      373 uses
+
+
+Sequential Cells: 
+SLE            715 uses
+
+DSP Blocks:    3 of 22 (13%)
+ MACC:         3 Mults
+
+I/O ports: 35
+I/O primitives: 34
+BIBUF          1 use
+INBUF          16 uses
+OUTBUF         17 uses
+
+
+Global Clock Buffers: 4
+
+Total LUTs:    1383
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 72; LUTs = 72;
+MACC     Interface Logic : SLEs = 108; LUTs = 108;
+
+Total number of SLEs after P&R:  715 + 0 + 72 + 108 = 895;
+Total number of LUTs after P&R:  1383 + 0 + 72 + 108 = 1563;
+

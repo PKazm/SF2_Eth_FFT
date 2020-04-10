@@ -1,0 +1,2 @@
+@E: CD297 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":161:15:161:16|Width mismatch, location has width 16, value 17
+

@@ -1,0 +1,22 @@
+
+fsm_encoding {2719581956} sequential
+
+fsm_state_encoding {2719581956} sreset {00}
+
+fsm_state_encoding {2719581956} paused {01}
+
+fsm_state_encoding {2719581956} ready {10}
+
+fsm_state_encoding {2719581956} writing {11}
+
+fsm_registers {2719581956} {load_state[1]}  {load_state[0]} 
+
+fsm_encoding {3029482947} sequential
+
+fsm_state_encoding {3029482947} rundft {00}
+
+fsm_state_encoding {3029482947} dftrunning {01}
+
+fsm_state_encoding {3029482947} fftdone {10}
+
+fsm_registers {3029482947} {stage_state[1]}  {stage_state[0]} 

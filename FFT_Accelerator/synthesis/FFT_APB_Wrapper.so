@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>FFT_APB_Wrapper</design>
+	<target_verilog>E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\FFT_APB_Wrapper.vm</target_verilog>
+</SynplifyOutput>

@@ -1,0 +1,1222 @@
+#Build: Synplify Pro (R) N-2018.03M-SP1-1, Build 209R, Oct 23 2018
+#install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: PHOENIX136DESKY
+
+# Fri Apr 10 02:09:03 2020
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+@N:"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system\FFT_Accel_system.vhd":17:7:17:22|Top entity is set to FFT_Accel_system.
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Package.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd\math_real.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS_syn.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd changed - recompiling
+File E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.vhd changed - recompiling
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system\FFT_Accel_system.vhd changed - recompiling
+VHDL syntax check successful!
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd changed - recompiling
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system\FFT_Accel_system.vhd":17:7:17:22|Synthesizing work.fft_accel_system.rtl.
+@N: CD630 :"E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd":5:7:5:27|Synthesizing work.mss_to_io_interpreter.architecture_mss_to_io_interpreter.
+@N: CD604 :"E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd":129:12:129:25|OTHERS clause is not synthesized.
+@N: CD604 :"E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd":148:12:148:25|OTHERS clause is not synthesized.
+@N: CD604 :"E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd":182:12:182:25|OTHERS clause is not synthesized.
+Post processing for work.mss_to_io_interpreter.architecture_mss_to_io_interpreter
+Running optimization stage 1 on MSS_to_IO_interpreter .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":26:7:26:21|Synthesizing work.fft_apb_wrapper.architecture_fft_apb_wrapper.
+@N: CD604 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":189:20:189:33|OTHERS clause is not synthesized.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":63:11:63:18|Signal psel_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":64:11:64:21|Signal penable_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":65:11:65:20|Signal pwrite_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":67:11:67:20|Signal pready_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":69:11:69:21|Signal pslverr_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Signal ampbm_0_assoc_adr_in_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":152:11:152:35|Signal ampbm_0_assoc_adr_out_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd":26:7:26:29|Synthesizing work.alpha_max_plus_beta_min.architecture_alpha_max_plus_beta_min.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd":17:7:17:25|Synthesizing work.hard_mult_addsub_c1.rtl.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd":8:7:8:64|Synthesizing work.hard_mult_addsub_c1_hard_mult_addsub_c1_0_hard_mult_addsub.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+Post processing for smartfusion2.vcc.syn_black_box
+Running optimization stage 1 on VCC .......
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+Post processing for smartfusion2.gnd.syn_black_box
+Running optimization stage 1 on GND .......
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":706:10:706:13|Synthesizing smartfusion2.macc.syn_black_box.
+Post processing for smartfusion2.macc.syn_black_box
+Running optimization stage 1 on MACC .......
+Post processing for work.hard_mult_addsub_c1_hard_mult_addsub_c1_0_hard_mult_addsub.def_arch
+Running optimization stage 1 on HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB .......
+Post processing for work.hard_mult_addsub_c1.rtl
+Running optimization stage 1 on HARD_MULT_ADDSUB_C1 .......
+Post processing for work.alpha_max_plus_beta_min.architecture_alpha_max_plus_beta_min
+Running optimization stage 1 on Alpha_Max_plus_Beta_Min .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT.vhd":26:7:26:9|Synthesizing work.fft.architecture_fft.
+@N: CD233 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT.vhd":290:27:290:28|Using sequential encoding for type hot_potato_states.
+@N: CD233 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT.vhd":292:25:292:26|Using sequential encoding for type ram_dist_states.
+@N: CD604 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT.vhd":423:16:423:29|OTHERS clause is not synthesized.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0.vhd":17:7:17:15|Synthesizing work.dpsram_c0.rtl.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd":8:7:8:34|Synthesizing work.dpsram_c0_dpsram_c0_0_dpsram.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
+Post processing for smartfusion2.ram1k18.syn_black_box
+Running optimization stage 1 on RAM1K18 .......
+Post processing for work.dpsram_c0_dpsram_c0_0_dpsram.def_arch
+Running optimization stage 1 on DPSRAM_C0_DPSRAM_C0_0_DPSRAM .......
+Post processing for work.dpsram_c0.rtl
+Running optimization stage 1 on DPSRAM_C0 .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd":26:7:26:21|Synthesizing work.fft_transformer.architecture_fft_transformer.
+@N: CD233 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd":63:22:63:23|Using sequential encoding for type stage_states.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":29:7:29:30|Synthesizing work.fft_butterfly_hw_mathdsp.architecture_fft_butterfly_hw_mathdsp.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd":17:7:17:25|Synthesizing work.hard_mult_addsub_c0.rtl.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd":8:7:8:64|Synthesizing work.hard_mult_addsub_c0_hard_mult_addsub_c0_0_hard_mult_addsub.def_arch.
+Post processing for work.hard_mult_addsub_c0_hard_mult_addsub_c0_0_hard_mult_addsub.def_arch
+Running optimization stage 1 on HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB .......
+Post processing for work.hard_mult_addsub_c0.rtl
+Running optimization stage 1 on HARD_MULT_ADDSUB_C0 .......
+Post processing for work.fft_butterfly_hw_mathdsp.architecture_fft_butterfly_hw_mathdsp
+Running optimization stage 1 on FFT_Butterfly_HW_MATHDSP .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":26:7:26:19|Synthesizing work.twiddle_table.architecture_twiddle_table.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":198:11:198:13|Signal mem is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":200:11:200:21|Signal mem_adr_cnt is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":202:11:202:27|Signal twiddle_ready_sig is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":204:11:204:17|Signal mem_adr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":205:11:205:18|Signal mem_w_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":206:11:206:19|Signal mem_dat_w is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":207:11:207:19|Signal mem_dat_r is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.twiddle_table.architecture_twiddle_table
+Running optimization stage 1 on Twiddle_table .......
+Post processing for work.fft_transformer.architecture_fft_transformer
+Running optimization stage 1 on FFT_Transformer .......
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd":357:8:357:9|Pruning unused register do_calc_ctrl_2. Make sure that there are no unused intermediate registers.
+@A: CL282 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd":426:8:426:9|Feedback mux created for signal sampleB_adr[9:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd":26:7:26:25|Synthesizing work.fft_sample_outputer.architecture_fft_sample_outputer.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd":66:11:66:24|Signal output_en_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd":67:11:67:25|Signal output_adr_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd":68:11:68:26|Signal output_done_sync is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.fft_sample_outputer.architecture_fft_sample_outputer
+Running optimization stage 1 on FFT_Sample_Outputer .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":38:7:38:23|Synthesizing work.fft_sample_loader.architecture_fft_sample_loader.
+@N: CD233 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":77:21:77:22|Using sequential encoding for type load_states.
+@N: CD604 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":244:16:244:29|OTHERS clause is not synthesized.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":82:11:82:25|Signal input_w_en_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":83:11:83:31|Signal input_w_dat_real_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":84:11:84:31|Signal input_w_dat_imag_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":85:11:85:25|Signal input_done_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":112:11:112:24|Signal mem_adr_bitrev is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.fft_sample_loader.architecture_fft_sample_loader
+Running optimization stage 1 on FFT_Sample_Loader .......
+@W: CL190 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Optimizing register bit ram_w_en_sig(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Pruning register bit 1 of ram_w_en_sig(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Post processing for work.fft.architecture_fft
+Running optimization stage 1 on FFT .......
+@A: CL282 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT.vhd":330:8:330:9|Feedback mux created for signal i_comp_ram_ready. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Post processing for work.fft_apb_wrapper.architecture_fft_apb_wrapper
+Running optimization stage 1 on FFT_APB_Wrapper .......
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 0 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 1 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 2 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 3 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 4 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 5 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 6 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 7 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 8 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL252 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":147:11:147:34|Bit 9 of signal AMpBM_0_assoc_adr_in_sig is floating -- simulation mismatch possible.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":375:4:375:28|Bit 0 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":375:4:375:28|Bit 1 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":375:4:375:28|Bit 2 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":375:4:375:28|Bit 3 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":375:4:375:28|Bit 4 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":375:4:375:28|Bit 5 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":375:4:375:28|Bit 6 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":375:4:375:28|Bit 7 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":375:4:375:28|Bit 8 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":375:4:375:28|Bit 9 of input assoc_adr_in of instance Alpha_Max_plus_Beta_Min_0 is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@A: CL282 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":314:8:314:9|Feedback mux created for signal delay_cnt[2:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":314:8:314:9|Feedback mux created for signal smpl_data_stable. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.vhd":17:7:17:25|Synthesizing work.fft_accel_system_sb.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":790:10:790:17|Synthesizing smartfusion2.sysreset.syn_black_box.
+Post processing for smartfusion2.sysreset.syn_black_box
+Running optimization stage 1 on SYSRESET .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.vhd":17:7:17:29|Synthesizing work.fft_accel_system_sb_mss.rtl.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
+Post processing for work.mss_010.def_arch
+Running optimization stage 1 on MSS_010 .......
+Post processing for work.fft_accel_system_sb_mss.rtl
+Running optimization stage 1 on FFT_Accel_system_sb_MSS .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd":8:7:8:38|Synthesizing work.fft_accel_system_sb_fabosc_0_osc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+Post processing for smartfusion2.clkint.syn_black_box
+Running optimization stage 1 on CLKINT .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+Post processing for work.rcosc_25_50mhz.def_arch
+Running optimization stage 1 on RCOSC_25_50MHZ .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
+Post processing for work.rcosc_25_50mhz_fab.def_arch
+Running optimization stage 1 on RCOSC_25_50MHZ_FAB .......
+Post processing for work.fft_accel_system_sb_fabosc_0_osc.def_arch
+Running optimization stage 1 on FFT_Accel_system_sb_FABOSC_0_OSC .......
+@W: CL240 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd":16:10:16:19|Signal XTLOSC_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd":15:10:15:19|Signal XTLOSC_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd":14:10:14:23|Signal RCOSC_1MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd":13:10:13:23|Signal RCOSC_1MHZ_CCC is floating; a simulation mismatch is possible.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":477:8:477:25|Signal soft_ext_reset_out in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":478:8:478:21|Signal soft_reset_f2m in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":479:8:479:20|Signal soft_m3_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":480:8:480:37|Signal soft_mddr_ddr_axi_s_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":481:8:481:27|Signal soft_fddr_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":482:8:482:27|Signal soft_sdif0_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":483:8:483:28|Signal soft_sdif0_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":484:8:484:27|Signal soft_sdif1_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":485:8:485:28|Signal soft_sdif1_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":486:8:486:27|Signal soft_sdif2_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":487:8:487:28|Signal soft_sdif2_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":488:8:488:27|Signal soft_sdif3_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":489:8:489:28|Signal soft_sdif3_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":490:8:490:30|Signal soft_sdif0_0_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":491:8:491:30|Signal soft_sdif0_1_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+Post processing for work.coreresetp.rtl
+Running optimization stage 1 on CoreResetP .......
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Pruning unused register count_ddr_2(13 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Pruning unused register count_sdif3_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Pruning unused register count_sdif2_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1447:8:1447:9|Pruning unused register count_sdif1_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1423:8:1423:9|Pruning unused register count_sdif0_2(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_ddr_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_ddr_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Pruning unused register count_sdif3_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Pruning unused register count_sdif2_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Pruning unused register count_sdif1_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Pruning unused register count_sdif0_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Pruning unused register count_ddr_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL177 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sharing sequential element M3_RESET_N_int. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Pruning unused register sm2_state(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.vhd":8:7:8:36|Synthesizing work.fft_accel_system_sb_ccc_0_fccc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":798:10:798:12|Synthesizing smartfusion2.ccc.syn_black_box.
+Post processing for smartfusion2.ccc.syn_black_box
+Running optimization stage 1 on CCC .......
+Post processing for work.fft_accel_system_sb_ccc_0_fccc.def_arch
+Running optimization stage 1 on FFT_Accel_system_sb_CCC_0_FCCC .......
+Post processing for work.fft_accel_system_sb.rtl
+Running optimization stage 1 on FFT_Accel_system_sb .......
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd":20:7:20:17|Synthesizing work.coreapb3_c0.rtl.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
+@N: CD604 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
+@W: CD434 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":1438:29:1438:38|Signal infill_upr in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":616:7:616:15|Signal ia_prdata is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
+Post processing for coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
+Running optimization stage 1 on COREAPB3_MUXPTOB3 .......
+Post processing for coreapb3_lib.coreapb3.coreapb3_arch
+Running optimization stage 1 on CoreAPB3 .......
+Post processing for work.coreapb3_c0.rtl
+Running optimization stage 1 on CoreAPB3_C0 .......
+Post processing for work.fft_accel_system.rtl
+Running optimization stage 1 on FFT_Accel_system .......
+Running optimization stage 2 on COREAPB3_MUXPTOB3 .......
+Running optimization stage 2 on CoreAPB3 .......
+@W: CL246 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":78:0:78:4|Input port bits 31 to 12 of paddr(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":109:0:109:7|Input PRDATAS2 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":110:0:110:7|Input PRDATAS3 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":111:0:111:7|Input PRDATAS4 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":112:0:112:7|Input PRDATAS5 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":113:0:113:7|Input PRDATAS6 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":114:0:114:7|Input PRDATAS7 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":115:0:115:7|Input PRDATAS8 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":116:0:116:7|Input PRDATAS9 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":117:0:117:8|Input PRDATAS10 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":118:0:118:8|Input PRDATAS11 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":119:0:119:8|Input PRDATAS12 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":120:0:120:8|Input PRDATAS13 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":121:0:121:8|Input PRDATAS14 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":122:0:122:8|Input PRDATAS15 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":126:0:126:7|Input PREADYS2 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":127:0:127:7|Input PREADYS3 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":128:0:128:7|Input PREADYS4 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":129:0:129:7|Input PREADYS5 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":130:0:130:7|Input PREADYS6 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":131:0:131:7|Input PREADYS7 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":132:0:132:7|Input PREADYS8 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":133:0:133:7|Input PREADYS9 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":134:0:134:8|Input PREADYS10 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":135:0:135:8|Input PREADYS11 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":136:0:136:8|Input PREADYS12 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":137:0:137:8|Input PREADYS13 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":138:0:138:8|Input PREADYS14 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":139:0:139:8|Input PREADYS15 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":143:0:143:8|Input PSLVERRS2 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":144:0:144:8|Input PSLVERRS3 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":145:0:145:8|Input PSLVERRS4 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":146:0:146:8|Input PSLVERRS5 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":147:0:147:8|Input PSLVERRS6 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":148:0:148:8|Input PSLVERRS7 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":149:0:149:8|Input PSLVERRS8 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":150:0:150:8|Input PSLVERRS9 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":151:0:151:9|Input PSLVERRS10 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":152:0:152:9|Input PSLVERRS11 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":153:0:153:9|Input PSLVERRS12 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":154:0:154:9|Input PSLVERRS13 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":155:0:155:9|Input PSLVERRS14 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":156:0:156:9|Input PSLVERRS15 is unused.
+Running optimization stage 2 on CoreAPB3_C0 .......
+Running optimization stage 2 on CCC .......
+Running optimization stage 2 on FFT_Accel_system_sb_CCC_0_FCCC .......
+Running optimization stage 2 on CoreResetP .......
+@W: CL177 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state.
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state.
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state.
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state.
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state.
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":96:4:96:12|Input CLK_LTSSM is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":123:4:123:12|Input FPLL_LOCK is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":126:4:126:18|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":135:4:135:18|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":139:4:139:18|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":143:4:143:18|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":157:4:157:13|Input SDIF0_PSEL is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":158:4:158:15|Input SDIF0_PWRITE is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":159:4:159:15|Input SDIF0_PRDATA is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":160:4:160:13|Input SDIF1_PSEL is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":161:4:161:15|Input SDIF1_PWRITE is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":162:4:162:15|Input SDIF1_PRDATA is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":163:4:163:13|Input SDIF2_PSEL is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":164:4:164:15|Input SDIF2_PWRITE is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":165:4:165:15|Input SDIF2_PRDATA is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":166:4:166:13|Input SDIF3_PSEL is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":167:4:167:15|Input SDIF3_PWRITE is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":168:4:168:15|Input SDIF3_PRDATA is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":174:4:174:21|Input SOFT_EXT_RESET_OUT is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":175:4:175:17|Input SOFT_RESET_F2M is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":176:4:176:16|Input SOFT_M3_RESET is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":177:4:177:33|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":178:4:178:23|Input SOFT_FDDR_CORE_RESET is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":179:4:179:23|Input SOFT_SDIF0_PHY_RESET is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":180:4:180:24|Input SOFT_SDIF0_CORE_RESET is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":181:4:181:23|Input SOFT_SDIF1_PHY_RESET is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":182:4:182:24|Input SOFT_SDIF1_CORE_RESET is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":183:4:183:23|Input SOFT_SDIF2_PHY_RESET is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":184:4:184:24|Input SOFT_SDIF2_CORE_RESET is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":185:4:185:23|Input SOFT_SDIF3_PHY_RESET is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":186:4:186:24|Input SOFT_SDIF3_CORE_RESET is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":190:4:190:26|Input SOFT_SDIF0_0_CORE_RESET is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":191:4:191:26|Input SOFT_SDIF0_1_CORE_RESET is unused.
+Running optimization stage 2 on RCOSC_25_50MHZ_FAB .......
+Running optimization stage 2 on RCOSC_25_50MHZ .......
+Running optimization stage 2 on CLKINT .......
+Running optimization stage 2 on FFT_Accel_system_sb_FABOSC_0_OSC .......
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd":10:10:10:12|Input XTL is unused.
+Running optimization stage 2 on MSS_010 .......
+Running optimization stage 2 on FFT_Accel_system_sb_MSS .......
+Running optimization stage 2 on SYSRESET .......
+Running optimization stage 2 on FFT_Accel_system_sb .......
+Running optimization stage 2 on FFT_Sample_Loader .......
+@W: CL169 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Pruning unused register load_state_last(1 downto 0). Make sure that there are no unused intermediate registers.
+@N: CL201 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Trying to extract state machine for register load_state.
+Extracted state machine for register load_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":69:4:69:12|Input ram_dat_r is unused.
+Running optimization stage 2 on FFT_Sample_Outputer .......
+@W: CL246 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd":58:4:58:12|Input port bits 35 to 18 of ram_dat_r(35 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on Twiddle_table .......
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":33:1:33:4|Input PCLK is unused.
+@N: CL159 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd":34:1:34:4|Input RSTn is unused.
+Running optimization stage 2 on HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB .......
+Running optimization stage 2 on HARD_MULT_ADDSUB_C0 .......
+Running optimization stage 2 on FFT_Butterfly_HW_MATHDSP .......
+@N: CL135 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":386:16:386:30|Found sequential shift adr_b_pipe with address depth of 4 words and data bit width of 10.
+@N: CL135 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":386:16:386:30|Found sequential shift adr_a_pipe with address depth of 4 words and data bit width of 10.
+@N: CL135 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":386:16:386:30|Found sequential shift do_calc_pipe with address depth of 4 words and data bit width of 1.
+@W: CL260 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":339:16:339:30|Pruning register bit 0 of imag_b_out_sum_slice(10 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":339:16:339:30|Pruning register bit 0 of real_b_out_sum_slice(10 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on FFT_Transformer .......
+@N: CL135 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd":357:8:357:9|Found sequential shift bf0_do_calc with address depth of 3 words and data bit width of 1.
+@N: CL201 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd":294:8:294:9|Trying to extract state machine for register stage_state.
+Extracted state machine for register stage_state
+State machine has 3 reachable states with original encodings of:
+   01
+   10
+   11
+Running optimization stage 2 on RAM1K18 .......
+Running optimization stage 2 on DPSRAM_C0_DPSRAM_C0_0_DPSRAM .......
+Running optimization stage 2 on DPSRAM_C0 .......
+Running optimization stage 2 on FFT .......
+Running optimization stage 2 on MACC .......
+Running optimization stage 2 on GND .......
+Running optimization stage 2 on VCC .......
+Running optimization stage 2 on HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB .......
+Running optimization stage 2 on HARD_MULT_ADDSUB_C1 .......
+Running optimization stage 2 on Alpha_Max_plus_Beta_Min .......
+@N: CL135 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd":128:12:128:13|Found sequential shift adr_pipe with address depth of 5 words and data bit width of 10.
+Running optimization stage 2 on FFT_APB_Wrapper .......
+@W: CL246 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":32:4:32:8|Input port bits 7 to 5 of paddr(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":32:4:32:8|Input port bits 1 to 0 of paddr(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on MSS_to_IO_interpreter .......
+Running optimization stage 2 on FFT_Accel_system .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 185MB peak: 194MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 10 02:09:06 2020
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 10 02:09:06 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Fri Apr 10 02:09:06 2020
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Database state : E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\synwork\|synthesis
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+File E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\synwork\FFT_Accel_system_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 10 02:09:07 2020
+
+###########################################################]
+Premap Report
+
+# Fri Apr 10 02:09:08 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 2461R, Built Nov 29 2018 09:35:20
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+Reading constraint file: E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\synthesis.fdc
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\FFT_Accel_system_scck.rpt 
+Printing clock  summary report in "E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\FFT_Accel_system_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 109MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 112MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@W: BN132 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance FFT_Accel_system_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance FFT_Accel_system_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@W: MO112 :"e:\github_repos\sf2_mkr_kit_io_constraints\mss_to_io_interpreter.vhd":124:8:124:11|Deleting tristate instance LIGHT_SCL_4 (in view: work.MSS_to_IO_interpreter(architecture_mss_to_io_interpreter)) on net LIGHT_SCL (in view: work.MSS_to_IO_interpreter(architecture_mss_to_io_interpreter)) because its enable is connected to 0.
+@W: MO112 :"e:\github_repos\sf2_mkr_kit_io_constraints\mss_to_io_interpreter.vhd":143:8:143:11|Deleting tristate instance LIGHT_SDA_3 (in view: work.MSS_to_IO_interpreter(architecture_mss_to_io_interpreter)) on net LIGHT_SDA (in view: work.MSS_to_IO_interpreter(architecture_mss_to_io_interpreter)) because its enable is connected to 0.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.sm1_areset_n_clk_base is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sequential instance FFT_Accel_system_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\alpha_max_plus_beta_min.vhd":144:8:144:9|Removing sequential instance o_flow_sig (in view: work.Alpha_Max_plus_Beta_Min(architecture_alpha_max_plus_beta_min)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance INIT_DONE_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance sdif0_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance sdif1_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance sdif2_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance sdif3_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance sm0_state[0:6] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CONFIG2_DONE_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Removing sequential instance sdif3_spll_lock_q2 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":908:8:908:9|Removing sequential instance CONFIG1_DONE_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif3_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif2_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif1_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":922:8:922:9|Removing sequential instance CONFIG2_DONE_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Removing sequential instance sdif3_spll_lock_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":908:8:908:9|Removing sequential instance CONFIG1_DONE_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif0_core_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance ddr_settled_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif3_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif2_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif1_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance release_sdif0_core_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1544:8:1544:9|Removing sequential instance ddr_settled_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Removing sequential instance release_sdif3_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Removing sequential instance release_sdif2_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1447:8:1447:9|Removing sequential instance release_sdif1_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1423:8:1423:9|Removing sequential instance release_sdif0_core (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Removing sequential instance ddr_settled (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":770:8:770:9|Removing sequential instance sm0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance sdif3_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance sdif2_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance sdif1_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance sdif0_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":770:8:770:9|Removing sequential instance sm0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance sm0_areset_n_rcosc (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance sdif3_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance sdif2_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance sdif1_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance sdif0_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance sm0_areset_n_rcosc_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+syn_allowed_resources : blockrams=21  set on top level netlist FFT_Accel_system
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 146MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                     Requested     Requested     Clock        Clock                   Clock
+Level     Clock                                                     Frequency     Period        Type         Group                   Load 
+------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                    100.0 MHz     10.000        system       system_clkgroup         0    
+                                                                                                                                          
+0 -       FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     710  
+                                                                                                                                          
+0 -       FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_2     1    
+                                                                                                                                          
+0 -       FFT_Accel_system|GMII_RX_CLK                              100.0 MHz     10.000        inferred     Inferred_clkgroup_1     1    
+==========================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                          Clock     Source                                            Clock Pin                                                                    Non-clock Pin     Non-clock Pin                               
+Clock                                                     Load      Pin                                               Seq Example                                                                  Seq Example       Comb Example                                
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                    0         -                                                 -                                                                            -                 -                                           
+                                                                                                                                                                                                                                                                 
+FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     710       FFT_Accel_system_sb_0.CCC_0.CCC_INST.GL0(CCC)     FFT_APB_Wrapper_0.FFT_out_r_en.C                                             -                 FFT_Accel_system_sb_0.CCC_0.GL0_INST.I(BUFG)
+                                                                                                                                                                                                                                                                 
+FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock     1         FFT_Accel_system_sb_0.CCC_0.CCC_INST.GL1(CCC)     FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST.GTX_CLKPF     -                 FFT_Accel_system_sb_0.CCC_0.GL1_INST.I(BUFG)
+                                                                                                                                                                                                                                                                 
+FFT_Accel_system|GMII_RX_CLK                              1         GMII_RX_CLK(port)                                 FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST.RX_CLKPF      -                 -                                           
+=================================================================================================================================================================================================================================================================
+
+@W: MT530 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":608:8:608:9|Found inferred clock FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 710 sequential elements including FFT_Accel_system_sb_0.CORERESETP_0.MSS_HPMS_READY_int. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\work\fft_accel_system_sb_mss\fft_accel_system_sb_mss.vhd":778:0:778:13|Found inferred clock FFT_Accel_system|GMII_RX_CLK which controls 1 sequential elements including FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\work\fft_accel_system_sb_mss\fft_accel_system_sb_mss.vhd":778:0:778:13|Found inferred clock FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock which controls 1 sequential elements including FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\FFT_Accel_system.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 146MB)
+
+Encoding state machine load_state[0:3] (in view: work.FFT_Sample_Loader(architecture_fft_sample_loader))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_sample_loader.vhd":195:8:195:9|There are no possible illegal states for state machine load_state[0:3] (in view: work.FFT_Sample_Loader(architecture_fft_sample_loader)); safe FSM implementation is not required.
+Encoding state machine stage_state[0:2] (in view: work.FFT_Transformer(architecture_fft_transformer))
+original code -> new code
+   01 -> 00
+   10 -> 01
+   11 -> 10
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 146MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 146MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 58MB peak: 146MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Apr 10 02:09:09 2020
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Apr 10 02:09:09 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version mapact, Build 2461R, Built Nov 29 2018 09:35:20
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: FA239 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[1:0] (in view: work.FFT_Accel_system(rtl)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[1:0] (in view: work.FFT_Accel_system(rtl)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|Found ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[1:0] (in view: work.FFT_Accel_system(rtl)) with 16 words by 2 bits.
+@W: BN132 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft.vhd":349:20:349:21|Removing user instance FFT_APB_Wrapper_0.FFT_Core.p_ram_hot_potato.o_comp_ram_stable_3 because it is equivalent to instance FFT_APB_Wrapper_0.FFT_Core.p_ram_hot_potato.i_comp_ram_stable_5. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft.vhd":330:8:330:9|Removing sequential instance FFT_APB_Wrapper_0.FFT_Core.o_comp_ram_stable because it is equivalent to instance FFT_APB_Wrapper_0.FFT_Core.i_comp_ram_stable. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX1172 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":357:8:357:9|User-specified initial value defined for instance FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.dft_cnt[8:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":357:8:357:9|User-specified initial value defined for instance FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.bfly_cnt[8:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":294:8:294:9|User-specified initial value defined for instance FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.stage_cnt[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_apb_wrapper.vhd":314:8:314:9|User-specified initial value defined for instance FFT_APB_Wrapper_0.delay_cnt[2:0] is being ignored due to limitations in architecture. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 144MB)
+
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\alpha_max_plus_beta_min.vhd":144:8:144:9|Removing sequential instance Alpha_Max_plus_Beta_Min_0.result[8] (in view: work.FFT_APB_Wrapper(architecture_fft_apb_wrapper)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine load_state[0:3] (in view: work.FFT_Sample_Loader(architecture_fft_sample_loader))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_sample_loader.vhd":195:8:195:9|There are no possible illegal states for state machine load_state[0:3] (in view: work.FFT_Sample_Loader(architecture_fft_sample_loader)); safe FSM implementation is not required.
+@N: MO231 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_sample_loader.vhd":195:8:195:9|Found counter in view:work.FFT_Sample_Loader(architecture_fft_sample_loader) instance ram_adr_start_sig[9:0] 
+@N: MO231 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_sample_loader.vhd":195:8:195:9|Found counter in view:work.FFT_Sample_Loader(architecture_fft_sample_loader) instance mem_adr[9:0] 
+Encoding state machine stage_state[0:2] (in view: work.FFT_Transformer(architecture_fft_transformer))
+original code -> new code
+   01 -> 00
+   10 -> 01
+   11 -> 10
+@N: MO231 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":357:8:357:9|Found counter in view:work.FFT_Transformer(architecture_fft_transformer) instance dft_cnt[8:0] 
+@N: MO231 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":357:8:357:9|Found counter in view:work.FFT_Transformer(architecture_fft_transformer) instance bfly_cnt[8:0] 
+@W: MO160 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":469:8:469:9|Register bit bf0_twiddle_sin_imag[8] (in view view:work.FFT_Transformer(architecture_fft_transformer)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MF179 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":392:19:392:38|Found 9 by 9 bit equality operator ('==') p_sub_DFT_BFly_manager\.un26_ram_ready_sig (in view: work.FFT_Transformer(architecture_fft_transformer))
+@N: MF179 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":396:23:396:40|Found 9 by 9 bit equality operator ('==') p_sub_DFT_BFly_manager\.un29_ram_ready_sig (in view: work.FFT_Transformer(architecture_fft_transformer))
+@W: BN132 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":294:8:294:9|Removing instance FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.stage_0_cur because it is equivalent to instance FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.dft_max[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 146MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 148MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 148MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 148MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 148MB peak: 149MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 148MB peak: 149MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 148MB peak: 149MB)
+
+@N: MO106 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\twiddle_table.vhd":215:37:215:46|Found ROM FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.Twiddle_table_0.sin_twid_1_0[16:0] (in view: work.FFT_Accel_system(rtl)) with 512 words by 17 bits.
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 150MB peak: 155MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 165MB peak: 168MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:04s		     0.54ns		1594 /       715
+   2		0h:00m:04s		     0.54ns		1457 /       715
+   3		0h:00m:05s		     0.88ns		1457 /       715
+   4		0h:00m:05s		     0.88ns		1457 /       715
+@N: MF322 |Retiming summary: 0 registers retimed to 1 
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 0 registers retimed to 1
+
+Original and Pipelined registers replaced by retiming :
+		None
+
+New registers created by retiming :
+		FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.bf0_twiddle_cos_realreset[8]
+
+
+		#####   END RETIMING REPORT  #####
+
+@N: FP130 |Promoting Net ETH_NRESET_c on CLKINT  I_548 
+@N: FP130 |Promoting Net FFT_APB_Wrapper_0.comp_rstn on CLKINT  I_549 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 167MB peak: 168MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 168MB peak: 168MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 723 clock pin(s) of sequential element(s)
+0 instances converted, 723 sequential instances remain driven by gated/generated clocks
+
+=================================================== Non-Gated/Non-Generated Clocks ===================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                                               
+--------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0003       GMII_RX_CLK         port                   1          FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST
+======================================================================================================================================
+=========================================================================================================================== Gated/Generated Clocks ===========================================================================================================================
+Clock Tree ID     Driving Element                          Drive Element Type     Fanout     Sample Instance                                                    Explanation                                                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FFT_Accel_system_sb_0.CCC_0.CCC_INST     CCC                    722        FFT_Accel_system_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base       Illegal instance on clock path. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       FFT_Accel_system_sb_0.CCC_0.CCC_INST     CCC                    1          FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_010                                                   
+==============================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 136MB peak: 169MB)
+
+Writing Analyst data base E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\synwork\FFT_Accel_system_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 166MB peak: 169MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 163MB peak: 169MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 164MB peak: 169MB)
+
+@W: MT246 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\work\fft_accel_system_sb\ccc_0\fft_accel_system_sb_ccc_0_fccc.vhd":110:4:110:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net FFT_Accel_system_sb_0.CCC_0.GL0_net.
+@W: MT420 |Found inferred clock FFT_Accel_system|GMII_RX_CLK with period 10.00ns. Please declare a user-defined clock on port GMII_RX_CLK.
+@W: MT420 |Found inferred clock FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net FFT_Accel_system_sb_0.CCC_0.GL1_net.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Apr 10 02:09:17 2020
+#
+
+
+Top view:               FFT_Accel_system
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.438
+
+                                                          Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                            Frequency     Frequency     Period        Period        Slack     Type         Group              
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     116.8 MHz     10.000        8.562         1.438     inferred     Inferred_clkgroup_0
+FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_2
+FFT_Accel_system|GMII_RX_CLK                              100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+System                                                    100.0 MHz     895.2 MHz     10.000        1.117         8.883     system       system_clkgroup    
+============================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                               Ending                                                 |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                 System                                                 |  10.000      8.883  |  No paths    -      |  No paths    -      |  No paths    -    
+FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      1.439  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                   Starting                                                                                                                                       Arrival          
+Instance                                                           Reference                                                 Type        Pin                Net                                                   Time        Slack
+                                                                   Clock                                                                                                                                                           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[8]      FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PADDR[8]      3.945       1.438
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[10]     FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PADDR[10]     3.949       1.535
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[11]     FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PADDR[11]     3.596       1.678
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_SEL          FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PSELx         3.488       1.722
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[9]      FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PADDR[9]      3.735       1.824
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_WRITE        CoreAPB3_C0_0_APBmslave0_PWRITE                       3.682       2.601
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[4]      CoreAPB3_C0_0_APBmslave0_PADDR[4]                     3.560       2.665
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[2]      CoreAPB3_C0_0_APBmslave0_PADDR[2]                     3.576       2.813
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[3]      CoreAPB3_C0_0_APBmslave0_PADDR[3]                     3.576       2.834
+FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.twiddle_index[2]      FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  twiddle_index[2]                                      0.108       2.885
+===================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                   Starting                                                                                                                                 Required          
+Instance                                                           Reference                                                 Type        Pin             Net                                                Time         Slack
+                                                                   Clock                                                                                                                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_READY     FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PREADY     8.486        1.438
+FFT_APB_Wrapper_0.delay_cnt[0]                                     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         D               delay_cnt_0[0]                                     9.745        2.058
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[0]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[1]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[2]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[3]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[4]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[5]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[6]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[7]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+==============================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            1.514
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.486
+
+    - Propagation time:                      7.048
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.439
+
+    Number of logic level(s):                2
+    Starting point:                          FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[8]
+    Ending point:                            FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_READY
+    The start point is clocked by            FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+    The end   point is clocked by            FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+
+Instance / Net                                                                 Pin               Pin               Arrival     No. of    
+Name                                                               Type        Name              Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     MSS_010     F_HM0_ADDR[8]     Out     3.945     3.945       -         
+FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PADDR[8]                   Net         -                 -       0.248     -           1         
+CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_0_a2[0]                     CFG4        D                 In      -         4.194       -         
+CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_0_a2[0]                     CFG4        Y                 Out     0.326     4.520       -         
+iPSELS_raw_0_a2[0]                                                 Net         -                 -       1.188     -           37        
+CoreAPB3_C0_0.CoreAPB3_C0_0.u_mux_p_to_b3.PREADY_0                 CFG3        C                 In      -         5.707       -         
+CoreAPB3_C0_0.CoreAPB3_C0_0.u_mux_p_to_b3.PREADY_0                 CFG3        Y                 Out     0.223     5.930       -         
+FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PREADY                     Net         -                 -       1.117     -           1         
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     MSS_010     F_HM0_READY       In      -         7.048       -         
+=========================================================================================================================================
+Total path delay (propagation time + setup) of 8.561 is 6.008(70.2%) logic and 2.553(29.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                    Starting                                                                                           Arrival          
+Instance                                            Reference     Type               Pin        Net                                                    Time        Slack
+                                                    Clock                                                                                                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_0.FABOSC_0.I_RCOSC_25_50MHZ     System        RCOSC_25_50MHZ     CLKOUT     FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     0.000       8.883
+========================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                         Starting                                                                                         Required          
+Instance                                 Reference     Type     Pin                Net                                                    Time         Slack
+                                         Clock                                                                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_0.CCC_0.CCC_INST     System        CCC      RCOSC_25_50MHZ     FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     10.000       8.883
+============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      1.117
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 8.883
+
+    Number of logic level(s):                0
+    Starting point:                          FFT_Accel_system_sb_0.FABOSC_0.I_RCOSC_25_50MHZ / CLKOUT
+    Ending point:                            FFT_Accel_system_sb_0.CCC_0.CCC_INST / RCOSC_25_50MHZ
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                            Pin                Pin               Arrival     No. of    
+Name                                                   Type               Name               Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_0.FABOSC_0.I_RCOSC_25_50MHZ        RCOSC_25_50MHZ     CLKOUT             Out     0.000     0.000       -         
+FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     Net                -                  -       1.117     -           1         
+FFT_Accel_system_sb_0.CCC_0.CCC_INST                   CCC                RCOSC_25_50MHZ     In      -         1.117       -         
+=====================================================================================================================================
+Total path delay (propagation time + setup) of 1.117 is 0.000(0.0%) logic and 1.117(100.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 164MB peak: 169MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 164MB peak: 169MB)
+
+---------------------------------------
+Resource Usage Report for FFT_Accel_system 
+
+Mapping to part: m2s010tq144std
+Cell usage:
+CCC             1 use
+CLKINT          4 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           5 uses
+CFG2           137 uses
+CFG3           383 uses
+CFG4           485 uses
+
+Carry cells:
+ARI1            275 uses - used for arithmetic functions
+ARI1            98 uses - used for Wide-Mux implementation
+Total ARI1      373 uses
+
+
+Sequential Cells: 
+SLE            715 uses
+
+DSP Blocks:    3 of 22 (13%)
+ MACC:         3 Mults
+
+I/O ports: 35
+I/O primitives: 34
+BIBUF          1 use
+INBUF          16 uses
+OUTBUF         17 uses
+
+
+Global Clock Buffers: 4
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 2 of 21 (9%)
+
+Total LUTs:    1383
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 72; LUTs = 72;
+MACC     Interface Logic : SLEs = 108; LUTs = 108;
+
+Total number of SLEs after P&R:  715 + 0 + 72 + 108 = 895;
+Total number of LUTs after P&R:  1383 + 0 + 72 + 108 = 1563;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 35MB peak: 169MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:07s cputime
+# Fri Apr 10 02:09:18 2020
+
+###########################################################]

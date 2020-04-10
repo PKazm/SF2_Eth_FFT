@@ -1,0 +1,469 @@
+# Fri Apr 10 02:09:09 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version mapact, Build 2461R, Built Nov 29 2018 09:35:20
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: FA239 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[1:0] (in view: work.FFT_Accel_system(rtl)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[1:0] (in view: work.FFT_Accel_system(rtl)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|Found ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[1:0] (in view: work.FFT_Accel_system(rtl)) with 16 words by 2 bits.
+@W: BN132 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft.vhd":349:20:349:21|Removing user instance FFT_APB_Wrapper_0.FFT_Core.p_ram_hot_potato.o_comp_ram_stable_3 because it is equivalent to instance FFT_APB_Wrapper_0.FFT_Core.p_ram_hot_potato.i_comp_ram_stable_5. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft.vhd":330:8:330:9|Removing sequential instance FFT_APB_Wrapper_0.FFT_Core.o_comp_ram_stable because it is equivalent to instance FFT_APB_Wrapper_0.FFT_Core.i_comp_ram_stable. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX1172 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":357:8:357:9|User-specified initial value defined for instance FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.dft_cnt[8:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":357:8:357:9|User-specified initial value defined for instance FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.bfly_cnt[8:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":294:8:294:9|User-specified initial value defined for instance FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.stage_cnt[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_apb_wrapper.vhd":314:8:314:9|User-specified initial value defined for instance FFT_APB_Wrapper_0.delay_cnt[2:0] is being ignored due to limitations in architecture. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 144MB)
+
+@N: BN362 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\alpha_max_plus_beta_min.vhd":144:8:144:9|Removing sequential instance Alpha_Max_plus_Beta_Min_0.result[8] (in view: work.FFT_APB_Wrapper(architecture_fft_apb_wrapper)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine load_state[0:3] (in view: work.FFT_Sample_Loader(architecture_fft_sample_loader))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_sample_loader.vhd":195:8:195:9|There are no possible illegal states for state machine load_state[0:3] (in view: work.FFT_Sample_Loader(architecture_fft_sample_loader)); safe FSM implementation is not required.
+@N: MO231 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_sample_loader.vhd":195:8:195:9|Found counter in view:work.FFT_Sample_Loader(architecture_fft_sample_loader) instance ram_adr_start_sig[9:0] 
+@N: MO231 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_sample_loader.vhd":195:8:195:9|Found counter in view:work.FFT_Sample_Loader(architecture_fft_sample_loader) instance mem_adr[9:0] 
+Encoding state machine stage_state[0:2] (in view: work.FFT_Transformer(architecture_fft_transformer))
+original code -> new code
+   01 -> 00
+   10 -> 01
+   11 -> 10
+@N: MO231 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":357:8:357:9|Found counter in view:work.FFT_Transformer(architecture_fft_transformer) instance dft_cnt[8:0] 
+@N: MO231 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":357:8:357:9|Found counter in view:work.FFT_Transformer(architecture_fft_transformer) instance bfly_cnt[8:0] 
+@W: MO160 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":469:8:469:9|Register bit bf0_twiddle_sin_imag[8] (in view view:work.FFT_Transformer(architecture_fft_transformer)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MF179 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":392:19:392:38|Found 9 by 9 bit equality operator ('==') p_sub_DFT_BFly_manager\.un26_ram_ready_sig (in view: work.FFT_Transformer(architecture_fft_transformer))
+@N: MF179 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":396:23:396:40|Found 9 by 9 bit equality operator ('==') p_sub_DFT_BFly_manager\.un29_ram_ready_sig (in view: work.FFT_Transformer(architecture_fft_transformer))
+@W: BN132 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_transformer.vhd":294:8:294:9|Removing instance FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.stage_0_cur because it is equivalent to instance FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.dft_max[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 144MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 146MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 148MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 148MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 148MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 148MB peak: 149MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 148MB peak: 149MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 148MB peak: 149MB)
+
+@N: MO106 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\twiddle_table.vhd":215:37:215:46|Found ROM FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.Twiddle_table_0.sin_twid_1_0[16:0] (in view: work.FFT_Accel_system(rtl)) with 512 words by 17 bits.
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 150MB peak: 155MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 165MB peak: 168MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:04s		     0.54ns		1594 /       715
+   2		0h:00m:04s		     0.54ns		1457 /       715
+   3		0h:00m:05s		     0.88ns		1457 /       715
+   4		0h:00m:05s		     0.88ns		1457 /       715
+@N: MF322 |Retiming summary: 0 registers retimed to 1 
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 0 registers retimed to 1
+
+Original and Pipelined registers replaced by retiming :
+		None
+
+New registers created by retiming :
+		FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.bf0_twiddle_cos_realreset[8]
+
+
+		#####   END RETIMING REPORT  #####
+
+@N: FP130 |Promoting Net ETH_NRESET_c on CLKINT  I_548 
+@N: FP130 |Promoting Net FFT_APB_Wrapper_0.comp_rstn on CLKINT  I_549 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 167MB peak: 168MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 168MB peak: 168MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 723 clock pin(s) of sequential element(s)
+0 instances converted, 723 sequential instances remain driven by gated/generated clocks
+
+=================================================== Non-Gated/Non-Generated Clocks ===================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                                               
+--------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0003       GMII_RX_CLK         port                   1          FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST
+======================================================================================================================================
+=========================================================================================================================== Gated/Generated Clocks ===========================================================================================================================
+Clock Tree ID     Driving Element                          Drive Element Type     Fanout     Sample Instance                                                    Explanation                                                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FFT_Accel_system_sb_0.CCC_0.CCC_INST     CCC                    722        FFT_Accel_system_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base       Illegal instance on clock path. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       FFT_Accel_system_sb_0.CCC_0.CCC_INST     CCC                    1          FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_010                                                   
+==============================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 136MB peak: 169MB)
+
+Writing Analyst data base E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\synwork\FFT_Accel_system_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 166MB peak: 169MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 163MB peak: 169MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 164MB peak: 169MB)
+
+@W: MT246 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\component\work\fft_accel_system_sb\ccc_0\fft_accel_system_sb_ccc_0_fccc.vhd":110:4:110:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net FFT_Accel_system_sb_0.CCC_0.GL0_net.
+@W: MT420 |Found inferred clock FFT_Accel_system|GMII_RX_CLK with period 10.00ns. Please declare a user-defined clock on port GMII_RX_CLK.
+@W: MT420 |Found inferred clock FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net FFT_Accel_system_sb_0.CCC_0.GL1_net.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Apr 10 02:09:17 2020
+#
+
+
+Top view:               FFT_Accel_system
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.438
+
+                                                          Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                            Frequency     Frequency     Period        Period        Slack     Type         Group              
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     116.8 MHz     10.000        8.562         1.438     inferred     Inferred_clkgroup_0
+FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_2
+FFT_Accel_system|GMII_RX_CLK                              100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+System                                                    100.0 MHz     895.2 MHz     10.000        1.117         8.883     system       system_clkgroup    
+============================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                               Ending                                                 |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                 System                                                 |  10.000      8.883  |  No paths    -      |  No paths    -      |  No paths    -    
+FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      1.439  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                   Starting                                                                                                                                       Arrival          
+Instance                                                           Reference                                                 Type        Pin                Net                                                   Time        Slack
+                                                                   Clock                                                                                                                                                           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[8]      FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PADDR[8]      3.945       1.438
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[10]     FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PADDR[10]     3.949       1.535
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[11]     FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PADDR[11]     3.596       1.678
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_SEL          FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PSELx         3.488       1.722
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[9]      FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PADDR[9]      3.735       1.824
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_WRITE        CoreAPB3_C0_0_APBmslave0_PWRITE                       3.682       2.601
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[4]      CoreAPB3_C0_0_APBmslave0_PADDR[4]                     3.560       2.665
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[2]      CoreAPB3_C0_0_APBmslave0_PADDR[2]                     3.576       2.813
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[3]      CoreAPB3_C0_0_APBmslave0_PADDR[3]                     3.576       2.834
+FFT_APB_Wrapper_0.FFT_Core.FFT_Transformer_0.twiddle_index[2]      FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  twiddle_index[2]                                      0.108       2.885
+===================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                   Starting                                                                                                                                 Required          
+Instance                                                           Reference                                                 Type        Pin             Net                                                Time         Slack
+                                                                   Clock                                                                                                                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_READY     FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PREADY     8.486        1.438
+FFT_APB_Wrapper_0.delay_cnt[0]                                     FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         D               delay_cnt_0[0]                                     9.745        2.058
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[0]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[1]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[2]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[3]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[4]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[5]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[6]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+FFT_APB_Wrapper_0.p_FFT_CTRL_ADDR\.APB_regs_2[7]                   FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN              un14_psel                                          9.662        2.081
+==============================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            1.514
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.486
+
+    - Propagation time:                      7.048
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.439
+
+    Number of logic level(s):                2
+    Starting point:                          FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[8]
+    Ending point:                            FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST / F_HM0_READY
+    The start point is clocked by            FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+    The end   point is clocked by            FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+
+Instance / Net                                                                 Pin               Pin               Arrival     No. of    
+Name                                                               Type        Name              Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     MSS_010     F_HM0_ADDR[8]     Out     3.945     3.945       -         
+FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PADDR[8]                   Net         -                 -       0.248     -           1         
+CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_0_a2[0]                     CFG4        D                 In      -         4.194       -         
+CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_0_a2[0]                     CFG4        Y                 Out     0.326     4.520       -         
+iPSELS_raw_0_a2[0]                                                 Net         -                 -       1.188     -           37        
+CoreAPB3_C0_0.CoreAPB3_C0_0.u_mux_p_to_b3.PREADY_0                 CFG3        C                 In      -         5.707       -         
+CoreAPB3_C0_0.CoreAPB3_C0_0.u_mux_p_to_b3.PREADY_0                 CFG3        Y                 Out     0.223     5.930       -         
+FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PREADY                     Net         -                 -       1.117     -           1         
+FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     MSS_010     F_HM0_READY       In      -         7.048       -         
+=========================================================================================================================================
+Total path delay (propagation time + setup) of 8.561 is 6.008(70.2%) logic and 2.553(29.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                    Starting                                                                                           Arrival          
+Instance                                            Reference     Type               Pin        Net                                                    Time        Slack
+                                                    Clock                                                                                                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_0.FABOSC_0.I_RCOSC_25_50MHZ     System        RCOSC_25_50MHZ     CLKOUT     FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     0.000       8.883
+========================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                         Starting                                                                                         Required          
+Instance                                 Reference     Type     Pin                Net                                                    Time         Slack
+                                         Clock                                                                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_0.CCC_0.CCC_INST     System        CCC      RCOSC_25_50MHZ     FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     10.000       8.883
+============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      1.117
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 8.883
+
+    Number of logic level(s):                0
+    Starting point:                          FFT_Accel_system_sb_0.FABOSC_0.I_RCOSC_25_50MHZ / CLKOUT
+    Ending point:                            FFT_Accel_system_sb_0.CCC_0.CCC_INST / RCOSC_25_50MHZ
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                            Pin                Pin               Arrival     No. of    
+Name                                                   Type               Name               Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------
+FFT_Accel_system_sb_0.FABOSC_0.I_RCOSC_25_50MHZ        RCOSC_25_50MHZ     CLKOUT             Out     0.000     0.000       -         
+FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     Net                -                  -       1.117     -           1         
+FFT_Accel_system_sb_0.CCC_0.CCC_INST                   CCC                RCOSC_25_50MHZ     In      -         1.117       -         
+=====================================================================================================================================
+Total path delay (propagation time + setup) of 1.117 is 0.000(0.0%) logic and 1.117(100.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 164MB peak: 169MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 164MB peak: 169MB)
+
+---------------------------------------
+Resource Usage Report for FFT_Accel_system 
+
+Mapping to part: m2s010tq144std
+Cell usage:
+CCC             1 use
+CLKINT          4 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           5 uses
+CFG2           137 uses
+CFG3           383 uses
+CFG4           485 uses
+
+Carry cells:
+ARI1            275 uses - used for arithmetic functions
+ARI1            98 uses - used for Wide-Mux implementation
+Total ARI1      373 uses
+
+
+Sequential Cells: 
+SLE            715 uses
+
+DSP Blocks:    3 of 22 (13%)
+ MACC:         3 Mults
+
+I/O ports: 35
+I/O primitives: 34
+BIBUF          1 use
+INBUF          16 uses
+OUTBUF         17 uses
+
+
+Global Clock Buffers: 4
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 2 of 21 (9%)
+
+Total LUTs:    1383
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 72; LUTs = 72;
+MACC     Interface Logic : SLEs = 108; LUTs = 108;
+
+Total number of SLEs after P&R:  715 + 0 + 72 + 108 = 895;
+Total number of LUTs after P&R:  1383 + 0 + 72 + 108 = 1563;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 35MB peak: 169MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:07s cputime
+# Fri Apr 10 02:09:18 2020
+
+###########################################################]

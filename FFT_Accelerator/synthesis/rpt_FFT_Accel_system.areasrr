@@ -1,0 +1,563 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			M2S010TQ144STD (Microsemi)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   FFT_Accel_system   ########
+================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      715                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FFT_Accel_system:	715 (32.49 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           1010               100 %                
+ARI1          373                100 %                
+BLACK BOX     4                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block FFT_Accel_system:	1387 (63.02 % Utilization)
+
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     3                  100 %                
+=================================================
+Total DSP in the block FFT_Accel_system:	3 (0.14 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     2                  100 %                
+====================================================
+Total MEMORY ELEMENTS in the block FFT_Accel_system:	2 (0.09 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     4                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block FFT_Accel_system:	4 (0.18 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       34                 100 %                
+=================================================
+Total IO PADS in the block FFT_Accel_system:	34 (1.54 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   CoreAPB3_C0   ########
+Instance path:   FFT_Accel_system.CoreAPB3_C0                    
+=================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      19                 1.88 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FFT_Accel_system.CoreAPB3_C0:	19 (0.86 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   CoreAPB3   ########
+Instance path:   CoreAPB3_C0.CoreAPB3                         
+==============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      19                 1.88 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CoreAPB3_C0.CoreAPB3:	19 (0.86 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   COREAPB3_MUXPTOB3   ########
+Instance path:   CoreAPB3.COREAPB3_MUXPTOB3                            
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      17                 1.68 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CoreAPB3.COREAPB3_MUXPTOB3:	17 (0.77 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   FFT_APB_Wrapper   ########
+Instance path:   FFT_Accel_system.FFT_APB_Wrapper                    
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      706                98.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FFT_Accel_system.FFT_APB_Wrapper:	706 (32.08 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      989                97.9 %               
+ARI1     373                100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block FFT_Accel_system.FFT_APB_Wrapper:	1362 (61.88 % Utilization)
+
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     3                  100 %                
+=================================================
+Total DSP in the block FFT_Accel_system.FFT_APB_Wrapper:	3 (0.14 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     2                  100 %                
+====================================================
+Total MEMORY ELEMENTS in the block FFT_Accel_system.FFT_APB_Wrapper:	2 (0.09 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  25 %                 
+===================================================
+Total GLOBAL BUFFERS in the block FFT_Accel_system.FFT_APB_Wrapper:	1 (0.05 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   Alpha_Max_plus_Beta_Min   ########
+Instance path:   FFT_APB_Wrapper.Alpha_Max_plus_Beta_Min                     
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      67                 9.37 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FFT_APB_Wrapper.Alpha_Max_plus_Beta_Min:	67 (3.04 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      40                 3.96 %               
+ARI1     52                 13.9 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FFT_APB_Wrapper.Alpha_Max_plus_Beta_Min:	92 (4.18 % Utilization)
+
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     1                  33.3 %               
+=================================================
+Total DSP in the block FFT_APB_Wrapper.Alpha_Max_plus_Beta_Min:	1 (0.05 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   HARD_MULT_ADDSUB_C1   ########
+Instance path:   Alpha_Max_plus_Beta_Min.HARD_MULT_ADDSUB_C1             
+=========================================================================
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     1                  33.3 %               
+=================================================
+Total DSP in the block Alpha_Max_plus_Beta_Min.HARD_MULT_ADDSUB_C1:	1 (0.05 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB   ########
+Instance path:   HARD_MULT_ADDSUB_C1.HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB                 
+================================================================================================================
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     1                  33.3 %               
+=================================================
+Total DSP in the block HARD_MULT_ADDSUB_C1.HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB:	1 (0.05 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   FFT   ########
+Instance path:   FFT_APB_Wrapper.FFT                     
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      552                77.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FFT_APB_Wrapper.FFT:	552 (25.08 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      883                87.4 %               
+ARI1     321                86.1 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FFT_APB_Wrapper.FFT:	1204 (54.70 % Utilization)
+
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     2                  66.7 %               
+=================================================
+Total DSP in the block FFT_APB_Wrapper.FFT:	2 (0.09 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     2                  100 %                
+====================================================
+Total MEMORY ELEMENTS in the block FFT_APB_Wrapper.FFT:	2 (0.09 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   DPSRAM_C0   ########
+Instance path:   FFT.DPSRAM_C0                                 
+===============================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     1                  50 %                 
+====================================================
+Total MEMORY ELEMENTS in the block FFT.DPSRAM_C0:	1 (0.05 % Utilization)
+
+----------------------------------------------------------------------------------
+########   Utilization report for  cell:   DPSRAM_C0_DPSRAM_C0_0_DPSRAM   ########
+Instance path:   DPSRAM_C0.DPSRAM_C0_DPSRAM_C0_0_DPSRAM                           
+==================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     1                  50 %                 
+====================================================
+Total MEMORY ELEMENTS in the block DPSRAM_C0.DPSRAM_C0_DPSRAM_C0_0_DPSRAM:	1 (0.05 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   DPSRAM_C0_0   ########
+Instance path:   FFT.DPSRAM_C0_0                                 
+=================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     1                  50 %                 
+====================================================
+Total MEMORY ELEMENTS in the block FFT.DPSRAM_C0_0:	1 (0.05 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   DPSRAM_C0_DPSRAM_C0_0_DPSRAM_0   ########
+Instance path:   DPSRAM_C0_0.DPSRAM_C0_DPSRAM_C0_0_DPSRAM_0                         
+====================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     1                  50 %                 
+====================================================
+Total MEMORY ELEMENTS in the block DPSRAM_C0_0.DPSRAM_C0_DPSRAM_C0_0_DPSRAM_0:	1 (0.05 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   FFT_Sample_Loader   ########
+Instance path:   FFT.FFT_Sample_Loader                                 
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      26                 3.64 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FFT.FFT_Sample_Loader:	26 (1.18 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      52                 5.15 %               
+ARI1     22                 5.9 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block FFT.FFT_Sample_Loader:	74 (3.36 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   FFT_Sample_Outputer   ########
+Instance path:   FFT.FFT_Sample_Outputer                                 
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      20                 2.8 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FFT.FFT_Sample_Outputer:	20 (0.91 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      31                 3.07 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FFT.FFT_Sample_Outputer:	31 (1.41 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   FFT_Transformer   ########
+Instance path:   FFT.FFT_Transformer                                 
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      474                66.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FFT.FFT_Transformer:	474 (21.54 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      540                53.5 %               
+ARI1     259                69.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FFT.FFT_Transformer:	799 (36.30 % Utilization)
+
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     2                  66.7 %               
+=================================================
+Total DSP in the block FFT.FFT_Transformer:	2 (0.09 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   FFT_Butterfly_HW_MATHDSP   ########
+Instance path:   FFT_Transformer.FFT_Butterfly_HW_MATHDSP                     
+==============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      255                35.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FFT_Transformer.FFT_Butterfly_HW_MATHDSP:	255 (11.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      3                  0.2970 %             
+ARI1     124                33.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FFT_Transformer.FFT_Butterfly_HW_MATHDSP:	127 (5.77 % Utilization)
+
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     2                  66.7 %               
+=================================================
+Total DSP in the block FFT_Transformer.FFT_Butterfly_HW_MATHDSP:	2 (0.09 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   HARD_MULT_ADDSUB_C0_0   ########
+Instance path:   FFT_Butterfly_HW_MATHDSP.HARD_MULT_ADDSUB_C0_0            
+===========================================================================
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     1                  33.3 %               
+=================================================
+Total DSP in the block FFT_Butterfly_HW_MATHDSP.HARD_MULT_ADDSUB_C0_0:	1 (0.05 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB_1   ########
+Instance path:   HARD_MULT_ADDSUB_C0_0.HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB_1               
+==================================================================================================================
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     1                  33.3 %               
+=================================================
+Total DSP in the block HARD_MULT_ADDSUB_C0_0.HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB_1:	1 (0.05 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   HARD_MULT_ADDSUB_C0_1   ########
+Instance path:   FFT_Butterfly_HW_MATHDSP.HARD_MULT_ADDSUB_C0_1            
+===========================================================================
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     1                  33.3 %               
+=================================================
+Total DSP in the block FFT_Butterfly_HW_MATHDSP.HARD_MULT_ADDSUB_C0_1:	1 (0.05 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB_0   ########
+Instance path:   HARD_MULT_ADDSUB_C0_1.HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB_0               
+==================================================================================================================
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     1                  33.3 %               
+=================================================
+Total DSP in the block HARD_MULT_ADDSUB_C0_1.HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB_0:	1 (0.05 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   Twiddle_table   ########
+Instance path:   FFT_Transformer.Twiddle_table                     
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      17                 2.38 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FFT_Transformer.Twiddle_table:	17 (0.77 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      325                32.2 %               
+ARI1     58                 15.5 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FFT_Transformer.Twiddle_table:	383 (17.40 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   FFT_Accel_system_sb   ########
+Instance path:   FFT_Accel_system.FFT_Accel_system_sb                    
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  1.26 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FFT_Accel_system.FFT_Accel_system_sb:	9 (0.41 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           2                  0.1980 %             
+BLACK BOX     4                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block FFT_Accel_system.FFT_Accel_system_sb:	6 (0.27 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     3                  75 %                 
+===================================================
+Total GLOBAL BUFFERS in the block FFT_Accel_system.FFT_Accel_system_sb:	3 (0.14 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP   ########
+Instance path:   FFT_Accel_system_sb.CoreResetP                 
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  1.26 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FFT_Accel_system_sb.CoreResetP:	9 (0.41 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  0.1980 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block FFT_Accel_system_sb.CoreResetP:	2 (0.09 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  25 %                 
+===================================================
+Total GLOBAL BUFFERS in the block FFT_Accel_system_sb.CoreResetP:	1 (0.05 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FFT_Accel_system_sb_CCC_0_FCCC   ########
+Instance path:   FFT_Accel_system_sb.FFT_Accel_system_sb_CCC_0_FCCC                 
+====================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  25 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block FFT_Accel_system_sb.FFT_Accel_system_sb_CCC_0_FCCC:	1 (0.05 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block FFT_Accel_system_sb.FFT_Accel_system_sb_CCC_0_FCCC:	2 (0.09 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FFT_Accel_system_sb_FABOSC_0_OSC   ########
+Instance path:   FFT_Accel_system_sb.FFT_Accel_system_sb_FABOSC_0_OSC                 
+======================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  25 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block FFT_Accel_system_sb.FFT_Accel_system_sb_FABOSC_0_OSC:	1 (0.05 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   FFT_Accel_system_sb_MSS   ########
+Instance path:   FFT_Accel_system_sb.FFT_Accel_system_sb_MSS                 
+=============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  25 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block FFT_Accel_system_sb.FFT_Accel_system_sb_MSS:	1 (0.05 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,15 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+
+Date      :  Tue Apr  7 20:18:39 2020
+Project   :  E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator
+Component :  CoreAPB3_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd
+    E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd
+    E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd
+    E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd
+    E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/CoreAPB3_C0/CoreAPB3_C0.vhd
+

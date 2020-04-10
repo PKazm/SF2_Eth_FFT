@@ -1,0 +1,8 @@
+DESIGN=FFT_Accel_system
+DESDIR=E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system
+TARGET_DIR=E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=tq144
+SPEED=STD
+PDC_FILE=E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_ethernet.pdc,,E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_usb_uart.pdc,,
