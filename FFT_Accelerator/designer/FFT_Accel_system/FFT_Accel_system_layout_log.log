@@ -8,17 +8,19 @@ High-effort              : OFF
 Repair min-delay         : OFF
 Incremental              : OFF
 
+INFO: Reading User PDC file E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_buttons.pdc. 0 error(s) and 0 warning(s)
 INFO: Reading User PDC file E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_ethernet.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_leds.pdc. 0 error(s) and 0 warning(s)
 INFO: Reading User PDC file E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_usb_uart.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 34 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 44 fixed I/O macros, 0 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 12.600.0 
-Design: FFT_Accel_system                Started: Fri Apr 10 02:09:28 2020
+Design: FFT_Accel_system                Started: Mon Apr 13 23:36:06 2020
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -29,38 +31,38 @@ End of placement.
 Placer Runtime Summary   :
 Clustering (1 pass)      : 0 seconds
 Placement                : 0 seconds
-Improvement              : 1 seconds
+Improvement              : 2 seconds
 
 Placer completed successfully.
 
 Design: FFT_Accel_system                
-Finished: Fri Apr 10 02:09:34 2020
-Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 119.6 Mbytes
+Finished: Mon Apr 13 23:36:13 2020
+Total CPU Time:     00:00:07            Total Elapsed Time: 00:00:07
+Total Memory Usage: 119.5 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_systemStarted: Fri Apr 10 02:09:37 2020
+Design: E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_systemStarted: Mon Apr 13 23:36:16 2020
 
 
 Router completed successfully.
 
-Design: E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system
-Finished: Fri Apr 10 02:09:43 2020
+Design: E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system
+Finished: Mon Apr 13 23:36:22 2020
 Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 429.4 Mbytes
+Total Memory Usage: 429.3 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_systemStarted: Fri Apr 10 02:09:45 2020
+Design: E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_systemStarted: Mon Apr 13 23:36:24 2020
 
 
 Router completed successfully.
 
-Design: E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system
-Finished: Fri Apr 10 02:09:51 2020
+Design: E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system
+Finished: Mon Apr 13 23:36:30 2020
 Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
 Total Memory Usage: 429.5 Mbytes
                         o - o - o - o - o - o
@@ -69,9 +71,9 @@ Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 1569 | 12084 | 12.98      |
-| DFF           | 895  | 12084 | 7.41       |
+| 4LUT          | 1574 | 12084 | 13.03      |
+| DFF           | 897  | 12084 | 7.42       |
 | I/O Register  | 0    | 252   | 0.00       |
-| Logic Element | 1731 | 12084 | 14.32      |
+| Logic Element | 1729 | 12084 | 14.31      |
 +---------------+------+-------+------------+
 

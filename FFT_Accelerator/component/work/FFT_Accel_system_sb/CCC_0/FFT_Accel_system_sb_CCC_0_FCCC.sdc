@@ -1,6 +1,6 @@
 set_component FFT_Accel_system_sb_CCC_0_FCCC
 # Microsemi Corp.
-# Date: 2020-Apr-07 17:55:09
+# Date: 2020-Apr-13 18:14:53
 #
 
 create_clock -period 20 [ get_pins { CCC_INST/RCOSC_25_50MHZ } ]

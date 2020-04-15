@@ -1,4 +1,4 @@
-04:40:27 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+00:56:15 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
 make all 
 Building file: ../src/main.c
 Invoking: GNU ARM Cross C Compiler
@@ -21,9 +21,9 @@ Finished building: FFT_Accelerator.lst
 Invoking: GNU ARM Cross Print Size
 arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
    text	   data	    bss	    dec	    hex	filename
-  17040	   1664	  46832	  65536	  10000	FFT_Accelerator.elf
+  18240	   1696	  45600	  65536	  10000	FFT_Accelerator.elf
 Finished building: FFT_Accelerator.siz
  
 
-04:40:28 Build Finished. 0 errors, 0 warnings. (took 915ms)
+00:56:16 Build Finished. 0 errors, 0 warnings. (took 1s.195ms)
 

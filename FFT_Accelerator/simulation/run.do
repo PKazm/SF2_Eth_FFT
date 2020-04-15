@@ -1,5 +1,5 @@
 quietly set ACTELLIBNAME SmartFusion2
-quietly set PROJECT_DIR "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator"
+quietly set PROJECT_DIR "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator"
 
 if {[file exists presynth/_info]} {
    echo "INFO: Simulation library presynth already exists"

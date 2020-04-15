@@ -82,7 +82,7 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\FFT_Accel_system.vm"}
+    -value {"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\FFT_Accel_system.vm"}
 set_compile_info \
     -category {"Options"} \
     -name {"Enable Single Event Transient mitigation"} \
@@ -96,7 +96,7 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system} \
+    -desdir {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system} \
     -design FFT_Accel_system \
     -fam SmartFusion2 \
     -die PA4M1000_N \

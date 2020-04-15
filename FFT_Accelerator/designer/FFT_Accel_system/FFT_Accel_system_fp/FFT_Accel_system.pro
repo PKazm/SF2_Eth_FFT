@@ -1,6 +1,6 @@
 <project name="FFT_Accel_system" version="1.1">
     <ProjectDirectory>
-        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system_fp
+        E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,7 +9,7 @@
         M2S010
     </LiberoTargetDevice>
     <LogFile>
-        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system_fp\FFT_Accel_system.log
+        E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system_fp\FFT_Accel_system.log
     </LogFile>
     <SerializationOption>
         Skip

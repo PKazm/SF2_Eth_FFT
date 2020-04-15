@@ -36,9 +36,9 @@ port (
 	PWDATA  : in std_logic_vector(15 downto 0);
 	PREADY  : out std_logic;
 	PRDATA  : out std_logic_vector(15 downto 0);
-	PSLVERR : out std_logic
+	PSLVERR : out std_logic;
 
-	--INT : out std_logic;
+	INT : out std_logic
     -- APB connections
 );
 end FFT_APB_Wrapper;
@@ -67,6 +67,7 @@ architecture architecture_FFT_APB_Wrapper of FFT_APB_Wrapper is
     signal PREADY_sig   : std_logic;
     signal PRDATA_sig   : std_logic_vector(15 downto 0);
     signal PSLVERR_sig  : std_logic;
+    signal INT_sig      : std_logic;
     
     signal smpl_read : std_logic;
     signal smpl_data_stable : std_logic;
@@ -115,6 +116,7 @@ architecture architecture_FFT_APB_Wrapper of FFT_APB_Wrapper is
     signal FFT_out_dat_real     : std_logic_vector(SAMPLE_WIDTH_INT - 1 downto 0);
     signal FFT_out_dat_imag     : std_logic_vector(SAMPLE_WIDTH_INT - 1 downto 0);
     signal FFT_out_data_ready   : std_logic;
+    signal FFT_out_data_ready_last   : std_logic;
     signal FFT_out_valid        : std_logic;
 
 
@@ -210,7 +212,7 @@ begin
             APB_regs(FFT_CTRL_ADDR) <= X"0000";
         elsif(rising_edge(PCLK)) then
             if(PSEL = '1' and PENABLE = '1' and PWRITE = '1' and PADDR_sig = FFT_CTRL_ADDR) then
-                -- 0bXXXX & FFT_r_done & FFT_w_done & FFT_w_en
+                -- 0bXXX..X & FFT_int_clr & FFT_r_done & FFT_w_done & FFT_w_en
                 APB_regs(FFT_CTRL_ADDR) <= PWDATA_sig;
             else
                 -- write enable only needs to be high for 1 cycle
@@ -226,6 +228,10 @@ begin
                 if(FFT_out_data_ready = '0') then
                     APB_regs(FFT_CTRL_ADDR)(2) <= '0';
                 end if;
+
+                -- FFT_int_clr only needs to be high for 1 cycle
+                -- automatically deassert
+                APB_regs(FFT_CTRL_ADDR)(3) <= '0';
             end if;
         end if;
     end process;
@@ -236,25 +242,29 @@ begin
 
     --=========================================================================
 
-    --p_FFT_STAT_ADDR : process(PCLK, RSTn)
-    --begin
-    --    if(RSTn = '0') then
-    --        APB_regs(FFT_STAT_ADDR) <= "00000000";
-    --    elsif(rising_edge(PCLK)) then
-    --        if(PSEL = '1' and PENABLE = '1' and PWRITE = '1' and PADDR_sig = FFT_STAT_ADDR) then
-    --            --APB_regs(FFT_STAT_ADDR)(7 downto 0) <= PWDATA_sig(7 downto 0);
-    --        else
-    --            null;
-    --        end if;
-    --    end if;
-    --end process;
+    p_FFT_STAT_ADDR : process(PCLK, RSTn)
+    begin
+        if(RSTn = '0') then
+            INT_sig <= '0';
+            FFT_out_data_ready_last <= '0';
+        elsif(rising_edge(PCLK)) then
+            FFT_out_data_ready_last <= FFT_out_data_ready;
+            if(FFT_out_data_ready_last = '0' and FFT_out_data_ready = '1') then
+                INT_sig <= '1';
+            elsif(APB_regs(FFT_CTRL_ADDR)(3) = '1') then
+                INT_sig <= '0';
+            end if;
+        end if;
+    end process;
+
+    INT <= INT_sig;
 
     APB_regs(FFT_STAT_ADDR)(0) <= FFT_in_w_ready;
     APB_regs(FFT_STAT_ADDR)(1) <= FFT_in_full;
     APB_regs(FFT_STAT_ADDR)(2) <= FFT_out_data_ready;
     APB_regs(FFT_STAT_ADDR)(3) <= FFT_out_valid;
     APB_regs(FFT_STAT_ADDR)(4) <= AMpBM_0_out_valid_sig;
-    APB_regs(FFT_STAT_ADDR)(5) <= '0';
+    APB_regs(FFT_STAT_ADDR)(5) <= INT_sig;
     APB_regs(FFT_STAT_ADDR)(6) <= '0';
     APB_regs(FFT_STAT_ADDR)(7) <= '0';
     APB_regs(FFT_STAT_ADDR)(8) <= '0';

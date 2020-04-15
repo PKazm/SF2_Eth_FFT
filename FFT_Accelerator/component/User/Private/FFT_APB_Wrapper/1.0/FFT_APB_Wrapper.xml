@@ -80,6 +80,10 @@
         <spirit:name>PSLVERR</spirit:name>
         <spirit:direction>out</spirit:direction>
       </spirit:signal>
+      <spirit:signal>
+        <spirit:name>INT</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
     </spirit:signals>
     <spirit:hwParameters>
     </spirit:hwParameters>

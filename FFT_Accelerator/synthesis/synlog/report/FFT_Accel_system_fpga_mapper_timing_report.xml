@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\synlog\FFT_Accel_system_fpga_mapper.srr</data>
+<data>E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synlog\FFT_Accel_system_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -17,8 +17,8 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>116.8 MHz</data>
-<data>1.438</data>
+<data>116.6 MHz</data>
+<data>1.421</data>
 </row>
 <row>
 <data>FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock</data>

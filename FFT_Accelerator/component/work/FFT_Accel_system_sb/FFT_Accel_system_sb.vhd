@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Tue Apr  7 17:55:10 2020
+-- Created by SmartDesign Mon Apr 13 18:14:54 2020
 -- Version: v12.1 12.600.0.14
 ----------------------------------------------------------------------
 
@@ -23,6 +23,14 @@ entity FFT_Accel_system_sb is
         FIC_0_APB_M_PRDATA  : in  std_logic_vector(31 downto 0);
         FIC_0_APB_M_PREADY  : in  std_logic;
         FIC_0_APB_M_PSLVERR : in  std_logic;
+        GPIO_10_F2M         : in  std_logic;
+        GPIO_11_F2M         : in  std_logic;
+        GPIO_12_F2M         : in  std_logic;
+        GPIO_13_F2M         : in  std_logic;
+        GPIO_14_F2M         : in  std_logic;
+        GPIO_15_F2M         : in  std_logic;
+        GPIO_8_F2M          : in  std_logic;
+        GPIO_9_F2M          : in  std_logic;
         MAC_GMII_COL        : in  std_logic;
         MAC_GMII_CRS        : in  std_logic;
         MAC_GMII_GTX_CLK    : in  std_logic;
@@ -207,6 +215,14 @@ component FFT_Accel_system_sb_MSS
         FIC_2_APB_M_PRDATA     : in  std_logic_vector(31 downto 0);
         FIC_2_APB_M_PREADY     : in  std_logic;
         FIC_2_APB_M_PSLVERR    : in  std_logic;
+        GPIO_10_F2M            : in  std_logic;
+        GPIO_11_F2M            : in  std_logic;
+        GPIO_12_F2M            : in  std_logic;
+        GPIO_13_F2M            : in  std_logic;
+        GPIO_14_F2M            : in  std_logic;
+        GPIO_15_F2M            : in  std_logic;
+        GPIO_8_F2M             : in  std_logic;
+        GPIO_9_F2M             : in  std_logic;
         MAC_GMII_COL           : in  std_logic;
         MAC_GMII_CRS           : in  std_logic;
         MAC_GMII_GTX_CLK       : in  std_logic;
@@ -267,7 +283,6 @@ end component;
 ----------------------------------------------------------------------
 signal CORERESETP_0_RESET_N_F2M                           : std_logic;
 signal FAB_CCC_GL1_net_0                                  : std_logic;
-signal FAB_CCC_LOCK_net_0                                 : std_logic;
 signal FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC : std_logic;
 signal FABOSC_0_RCOSC_25_50MHZ_O2F                        : std_logic;
 signal FFT_Accel_system_sb_MSS_TMP_0_FIC_2_APB_M_PRESET_N : std_logic;
@@ -278,6 +293,7 @@ signal FIC_0_APB_MASTER_3_PSELx                           : std_logic;
 signal FIC_0_APB_MASTER_3_PWDATA                          : std_logic_vector(31 downto 0);
 signal FIC_0_APB_MASTER_3_PWRITE                          : std_logic;
 signal FIC_0_CLK_net_0                                    : std_logic;
+signal FIC_0_LOCK_net_0                                   : std_logic;
 signal GPIO_0_M2F_net_0                                   : std_logic;
 signal GPIO_1_M2F_net_0                                   : std_logic;
 signal GPIO_2_M2F_net_0                                   : std_logic;
@@ -299,9 +315,9 @@ signal POWER_ON_RESET_N_net_0                             : std_logic;
 signal POWER_ON_RESET_N_net_1                             : std_logic;
 signal INIT_DONE_net_1                                    : std_logic;
 signal FIC_0_CLK_net_1                                    : std_logic;
-signal FAB_CCC_LOCK_net_1                                 : std_logic;
+signal FIC_0_LOCK_net_1                                   : std_logic;
 signal FAB_CCC_GL1_net_1                                  : std_logic;
-signal FAB_CCC_LOCK_net_2                                 : std_logic;
+signal FIC_0_LOCK_net_2                                   : std_logic;
 signal MSS_READY_net_1                                    : std_logic;
 signal FIC_0_APB_MASTER_3_PADDR_net_0                     : std_logic_vector(31 downto 0);
 signal FIC_0_APB_MASTER_3_PSELx_net_0                     : std_logic;
@@ -358,12 +374,12 @@ begin
  INIT_DONE                        <= INIT_DONE_net_1;
  FIC_0_CLK_net_1                  <= FIC_0_CLK_net_0;
  FIC_0_CLK                        <= FIC_0_CLK_net_1;
- FAB_CCC_LOCK_net_1               <= FAB_CCC_LOCK_net_0;
- FIC_0_LOCK                       <= FAB_CCC_LOCK_net_1;
+ FIC_0_LOCK_net_1                 <= FIC_0_LOCK_net_0;
+ FIC_0_LOCK                       <= FIC_0_LOCK_net_1;
  FAB_CCC_GL1_net_1                <= FAB_CCC_GL1_net_0;
  FAB_CCC_GL1                      <= FAB_CCC_GL1_net_1;
- FAB_CCC_LOCK_net_2               <= FAB_CCC_LOCK_net_0;
- FAB_CCC_LOCK                     <= FAB_CCC_LOCK_net_2;
+ FIC_0_LOCK_net_2                 <= FIC_0_LOCK_net_0;
+ FAB_CCC_LOCK                     <= FIC_0_LOCK_net_2;
  MSS_READY_net_1                  <= MSS_READY_net_0;
  MSS_READY                        <= MSS_READY_net_1;
  FIC_0_APB_MASTER_3_PADDR_net_0   <= FIC_0_APB_MASTER_3_PADDR;
@@ -417,7 +433,7 @@ CCC_0 : FFT_Accel_system_sb_CCC_0_FCCC
         -- Outputs
         GL0            => FIC_0_CLK_net_0,
         GL1            => FAB_CCC_GL1_net_0,
-        LOCK           => FAB_CCC_LOCK_net_0 
+        LOCK           => FIC_0_LOCK_net_0 
         );
 -- CORERESETP_0   -   Actel:DirectCore:CoreResetP:7.1.100
 CORERESETP_0 : CoreResetP
@@ -534,8 +550,16 @@ FFT_Accel_system_sb_MSS_0 : FFT_Accel_system_sb_MSS
         -- Inputs
         MCCC_CLK_BASE          => FIC_0_CLK_net_0,
         MMUART_0_RXD_F2M       => MMUART_0_RXD_F2M,
-        MCCC_CLK_BASE_PLL_LOCK => FAB_CCC_LOCK_net_0,
+        MCCC_CLK_BASE_PLL_LOCK => FIC_0_LOCK_net_0,
         MSS_RESET_N_F2M        => CORERESETP_0_RESET_N_F2M,
+        GPIO_8_F2M             => GPIO_8_F2M,
+        GPIO_9_F2M             => GPIO_9_F2M,
+        GPIO_10_F2M            => GPIO_10_F2M,
+        GPIO_11_F2M            => GPIO_11_F2M,
+        GPIO_12_F2M            => GPIO_12_F2M,
+        GPIO_13_F2M            => GPIO_13_F2M,
+        GPIO_14_F2M            => GPIO_14_F2M,
+        GPIO_15_F2M            => GPIO_15_F2M,
         MAC_GMII_RX_ER         => MAC_GMII_RX_ER,
         MAC_GMII_RX_DV         => MAC_GMII_RX_DV,
         MAC_GMII_CRS           => MAC_GMII_CRS,

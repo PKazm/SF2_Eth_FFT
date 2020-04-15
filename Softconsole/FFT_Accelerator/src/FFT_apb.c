@@ -65,6 +65,16 @@ void fft_read_done(fft_instance_t * fft_inst)
     HW_set_8bit_reg(fft_inst->address + FFT_CTRL_ADDR, ctrl_val);
 }
 
+void fft_int_clr(fft_instance_t * fft_inst)
+{
+    uint8_t ctrl_val;
+
+    ctrl_val = HW_get_8bit_reg(fft_inst->address + FFT_CTRL_ADDR);
+
+    ctrl_val |= CTRL_INT_CLR;
+    HW_set_8bit_reg(fft_inst->address + FFT_CTRL_ADDR, ctrl_val);
+}
+
 void fft_set_output_smpl
 (
     fft_instance_t * fft_inst,

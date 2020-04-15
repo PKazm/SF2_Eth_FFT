@@ -4,6 +4,8 @@ src/main.o: ../src/main.c ../src/../firmware/drivers/mss_uart/mss_uart.h \
  c:\microsemi\softconsole_v6.2\cmsis\v4.5\include\core_cmInstr.h \
  c:\microsemi\softconsole_v6.2\cmsis\v4.5\include\cmsis_gcc.h \
  c:\microsemi\softconsole_v6.2\cmsis\v4.5\include\core_cmFunc.h \
+ ../src/../firmware/drivers/mss_gpio/mss_gpio.h \
+ ../src/../firmware/drivers/mss_gpio/../../CMSIS/m2sxxx.h \
  ../src/../firmware/drivers/mss_ethernet_mac/mss_ethernet_mac_types.h \
  ../src/../firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.h \
  ../src/../firmware/drivers/mss_ethernet_mac/mss_ethernet_mac_types.h \
@@ -23,6 +25,10 @@ c:\microsemi\softconsole_v6.2\cmsis\v4.5\include\core_cmInstr.h:
 c:\microsemi\softconsole_v6.2\cmsis\v4.5\include\cmsis_gcc.h:
 
 c:\microsemi\softconsole_v6.2\cmsis\v4.5\include\core_cmFunc.h:
+
+../src/../firmware/drivers/mss_gpio/mss_gpio.h:
+
+../src/../firmware/drivers/mss_gpio/../../CMSIS/m2sxxx.h:
 
 ../src/../firmware/drivers/mss_ethernet_mac/mss_ethernet_mac_types.h:
 

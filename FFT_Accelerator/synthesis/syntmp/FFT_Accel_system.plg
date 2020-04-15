@@ -1,9 +1,9 @@
-@P:  Worst Slack : 1.438
-@P:  FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 116.8 MHz
+@P:  Worst Slack : 1.421
+@P:  FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 116.6 MHz
 @P:  FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 8.562
+@P:  FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 8.579
 @P:  FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
-@P:  FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 1.438
+@P:  FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 1.421
 @P:  FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Frequency : NA
 @P:  FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock - Requested Frequency : 100.0 MHz
 @P:  FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Period : NA
@@ -20,8 +20,8 @@
 @P:  System - Requested Period : 10.000
 @P:  System - Slack : 8.883
 @P: FFT_Accel_system Part : m2s010tq144std
-@P: FFT_Accel_system Register bits  : 715 
+@P: FFT_Accel_system Register bits  : 717 
 @P: FFT_Accel_system DSP Blocks  : 3
-@P: FFT_Accel_system I/O primitives : 34
+@P: FFT_Accel_system I/O primitives : 44
 @P: FFT_Accel_system RAM1K18 :  2
 @P:  CPU Time : 0h:00m:07s

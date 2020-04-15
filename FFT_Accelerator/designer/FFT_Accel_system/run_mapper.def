@@ -1,5 +1,5 @@
 DESIGN=FFT_Accel_system
-DESDIR=E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system
+DESDIR=E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system
 FAM=SmartFusion2
 DIE=PA4M1000_N
 PACKAGE=tq144

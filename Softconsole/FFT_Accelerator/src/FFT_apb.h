@@ -28,12 +28,14 @@
 #define CTRL_WRITE_EN           BIT0
 #define CTRL_LOAD_DONE          BIT1
 #define CTRL_READ_DONE          BIT2
+#define CTRL_INT_CLR            BIT3
 
 #define STAT_W_READY            BIT0
 #define STAT_W_FULL             BIT1
 #define STAT_R_READY            BIT2
 #define STAT_R_VALID            BIT3
 #define STAT_ABS_VALID          BIT4
+#define STAT_INT_ACTIVE         BIT5
 
 
 typedef struct fft_instance
@@ -72,6 +74,11 @@ void fft_load_done
 );
 
 void fft_read_done
+(
+    fft_instance_t * fft_inst
+);
+
+void fft_int_clr
 (
     fft_instance_t * fft_inst
 );

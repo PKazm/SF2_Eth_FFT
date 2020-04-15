@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Tue Apr  7 17:55:06 2020
+-- Created by SmartDesign Mon Apr 13 18:14:51 2020
 -- Version: v12.1 12.600.0.14
 ----------------------------------------------------------------------
 
@@ -24,6 +24,14 @@ entity FFT_Accel_system_sb_MSS is
         FIC_2_APB_M_PRDATA     : in  std_logic_vector(31 downto 0);
         FIC_2_APB_M_PREADY     : in  std_logic;
         FIC_2_APB_M_PSLVERR    : in  std_logic;
+        GPIO_10_F2M            : in  std_logic;
+        GPIO_11_F2M            : in  std_logic;
+        GPIO_12_F2M            : in  std_logic;
+        GPIO_13_F2M            : in  std_logic;
+        GPIO_14_F2M            : in  std_logic;
+        GPIO_15_F2M            : in  std_logic;
+        GPIO_8_F2M             : in  std_logic;
+        GPIO_9_F2M             : in  std_logic;
         MAC_GMII_COL           : in  std_logic;
         MAC_GMII_CRS           : in  std_logic;
         MAC_GMII_GTX_CLK       : in  std_logic;
@@ -831,13 +839,13 @@ MSS_ADLIB_INST : MSS_010
         I2C1_SDA_F2H_SCP                        => VCC_net, -- tied to '1' from definition
         MDIF                                    => MAC_GMII_MDI,
         MGPIO0A_F2H_GPIN                        => VCC_net, -- tied to '1' from definition
-        MGPIO10A_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
-        MGPIO11A_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
+        MGPIO10A_F2H_GPIN                       => GPIO_10_F2M,
+        MGPIO11A_F2H_GPIN                       => GPIO_11_F2M,
         MGPIO11B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
-        MGPIO12A_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
-        MGPIO13A_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
-        MGPIO14A_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
-        MGPIO15A_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
+        MGPIO12A_F2H_GPIN                       => GPIO_12_F2M,
+        MGPIO13A_F2H_GPIN                       => GPIO_13_F2M,
+        MGPIO14A_F2H_GPIN                       => GPIO_14_F2M,
+        MGPIO15A_F2H_GPIN                       => GPIO_15_F2M,
         MGPIO16A_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
         MGPIO17B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
         MGPIO18B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
@@ -860,8 +868,8 @@ MSS_ADLIB_INST : MSS_010
         MGPIO5A_F2H_GPIN                        => VCC_net, -- tied to '1' from definition
         MGPIO6A_F2H_GPIN                        => VCC_net, -- tied to '1' from definition
         MGPIO7A_F2H_GPIN                        => VCC_net, -- tied to '1' from definition
-        MGPIO8A_F2H_GPIN                        => VCC_net, -- tied to '1' from definition
-        MGPIO9A_F2H_GPIN                        => VCC_net, -- tied to '1' from definition
+        MGPIO8A_F2H_GPIN                        => GPIO_8_F2M,
+        MGPIO9A_F2H_GPIN                        => GPIO_9_F2M,
         MMUART0_CTS_F2H_SCP                     => VCC_net, -- tied to '1' from definition
         MMUART0_DCD_F2H_SCP                     => VCC_net, -- tied to '1' from definition
         MMUART0_DSR_F2H_SCP                     => VCC_net, -- tied to '1' from definition

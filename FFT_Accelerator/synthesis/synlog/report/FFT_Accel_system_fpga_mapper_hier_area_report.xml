@@ -18,15 +18,15 @@ The file contains the information about resource utilization per module to be di
 </column_headers>
 <module>
 <data>FFT_Accel_system</data>
-<data>715</data>
-<data>1010</data>
+<data>717</data>
+<data>1015</data>
 <data>373</data>
 <data>0</data>
 <data>3</data>
 <data>2</data>
 <data>0</data>
 <data>4</data>
-<data>34</data>
+<data>44</data>
 <module>
 <data>CoreAPB3_C0</data>
 <data>0</data>
@@ -65,8 +65,8 @@ The file contains the information about resource utilization per module to be di
 </module>
 <module>
 <data>FFT_APB_Wrapper</data>
-<data>706</data>
-<data>989</data>
+<data>708</data>
+<data>993</data>
 <data>373</data>
 <data>0</data>
 <data>3</data>
@@ -113,7 +113,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>FFT</data>
 <data>552</data>
-<data>883</data>
+<data>949</data>
 <data>321</data>
 <data>0</data>
 <data>2</data>
@@ -172,7 +172,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>FFT_Sample_Loader</data>
 <data>26</data>
-<data>52</data>
+<data>33</data>
 <data>22</data>
 <data>0</data>
 <data>0</data>
@@ -184,7 +184,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>FFT_Sample_Outputer</data>
 <data>20</data>
-<data>31</data>
+<data>26</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -196,7 +196,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>FFT_Transformer</data>
 <data>474</data>
-<data>540</data>
+<data>542</data>
 <data>259</data>
 <data>0</data>
 <data>2</data>
@@ -282,7 +282,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>FFT_Accel_system_sb</data>
 <data>9</data>
-<data>2</data>
+<data>3</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -329,7 +329,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>FFT_Accel_system_sb_MSS</data>
 <data>0</data>
-<data>0</data>
+<data>1</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>

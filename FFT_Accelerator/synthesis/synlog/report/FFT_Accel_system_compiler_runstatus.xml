@@ -6,7 +6,7 @@ The file contains the job information from compiler to be displayed as part of t
 
 <job_run_status name="compiler"> 
   <report_link name="Detailed report">
-    <data>E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\synlog\FFT_Accel_system_compiler.srr</data>
+    <data>E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synlog\FFT_Accel_system_compiler.srr</data>
     <title>Synopsys HDL Compiler</title>
   </report_link> 
   <job_status>
@@ -14,16 +14,16 @@ The file contains the job information from compiler to be displayed as part of t
   </job_status>
 <job_info> 
 			<info name="Notes">
-  <data>144</data>
-  <report_link name="more"><data>E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\synlog\report\FFT_Accel_system_compiler_notes.txt</data></report_link>
+  <data>145</data>
+  <report_link name="more"><data>E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synlog\report\FFT_Accel_system_compiler_notes.txt</data></report_link>
   </info>
 			<info name="Warnings">
   <data>108</data>
-  <report_link name="more"><data>E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\synlog\report\FFT_Accel_system_compiler_warnings.txt</data></report_link>
+  <report_link name="more"><data>E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synlog\report\FFT_Accel_system_compiler_warnings.txt</data></report_link>
   </info>
 			<info name="Errors">
   <data>0</data>
-  <report_link name="more"><data>E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\synlog\report\FFT_Accel_system_compiler_errors.txt</data></report_link>
+  <report_link name="more"><data>E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synlog\report\FFT_Accel_system_compiler_errors.txt</data></report_link>
   </info>
 			<info name="CPU Time">
   <data>-</data>
@@ -35,7 +35,7 @@ The file contains the job information from compiler to be displayed as part of t
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-  <data type="timestamp">1586498946</data>
+  <data type="timestamp">1586835345</data>
   </info>
 			</job_info>
 </job_run_status>

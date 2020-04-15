@@ -1,20 +1,20 @@
 Software Version: 12.600.0.14
-Opened 'E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system_fp\FFT_Accel_system.pro'
+Opened 'E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system_fp\FFT_Accel_system.pro'
 The 'open_project' command succeeded.
-PDB file 'E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system.pdb' has been loaded successfully.
+PDB file 'E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system.pdb' has been loaded successfully.
 DESIGN : FFT_Accel_system;  CHECKSUM : 0000;  PDB_VERSION : 1.9
-Load Programming Data(s) Finished : Fri Apr 10 02:10:31 2020 (Elapsed time 00:00:01)
+Load Programming Data(s) Finished : Mon Apr 13 23:37:33 2020 (Elapsed time 00:00:00)
 The 'load_programming_data' command succeeded.
-File/Folder 'E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system.ppd' will be overwritten.
-Successfully exported PPD file for currently secured device: 'E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system.ppd'; file programs Fabric.
-Fabric component bitstream digest: cc305fc145632c52db08f97a1ea3654989cd58d4de5286fe5da8631111e1473b
-Finished: Fri Apr 10 02:10:39 2020 (Elapsed time 00:00:08)
+File/Folder 'E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system.ppd'; file programs Fabric.
+Fabric component bitstream digest: f53bece8676e723464a4b9cbcf2db3fbd7d87371db37d0df754f7310c59bdb96
+Finished: Mon Apr 13 23:37:41 2020 (Elapsed time 00:00:08)
 
 The 'export_single_ppd' command succeeded.
 The 'set_programming_file' command succeeded.
 Project saved.
 The 'save_project' command succeeded.
 Project closed.
-Exported log file E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system_fp\FFT_Accel_system.log.
+Exported log file E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system_fp\FFT_Accel_system.log.
 The 'close_project' command succeeded.
 The Execute Script command succeeded.

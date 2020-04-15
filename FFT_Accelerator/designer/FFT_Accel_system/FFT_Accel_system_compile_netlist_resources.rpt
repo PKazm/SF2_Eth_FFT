@@ -1,6 +1,6 @@
 Resource Report
 Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
-Date: Fri Apr 10 02:09:24 2020
+Date: Mon Apr 13 23:36:02 2020
 
 Device Selection
 +--------------------------------+----------------+
@@ -20,11 +20,11 @@ Device Selection
 +--------------------------------+----------------+
 
 Source Files
-+---------+-----------------------------------------------------------------------------------+
-| Topcell | FFT_Accel_system                                                                  |
-| Format  | Verilog                                                                           |
-| Source  | E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\synthesis\FFT_Accel_system.vm |
-+---------+-----------------------------------------------------------------------------------+
++---------+---------------------------------------------------------------------------+
+| Topcell | FFT_Accel_system                                                          |
+| Format  | Verilog                                                                   |
+| Source  | E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\FFT_Accel_system.vm |
++---------+---------------------------------------------------------------------------+
 
 Options
 +----------------------------------------------------+-------+
@@ -37,11 +37,11 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 1569 | 12084 | 12.98      |
-| DFF                       | 895  | 12084 | 7.41       |
+| 4LUT                      | 1574 | 12084 | 13.03      |
+| DFF                       | 897  | 12084 | 7.42       |
 | I/O Register              | 0    | 252   | 0.00       |
-| User I/O                  | 34   | 84    | 40.48      |
-| -- Single-ended I/O       | 34   | 84    | 40.48      |
+| User I/O                  | 44   | 84    | 52.38      |
+| -- Single-ended I/O       | 44   | 84    | 52.38      |
 | -- Differential I/O Pairs | 0    | 37    | 0.00       |
 | RAM64x18                  | 0    | 22    | 0.00       |
 | RAM1K18                   | 2    | 21    | 9.52       |
@@ -58,11 +58,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 1389 | 715 |
+| Fabric Logic             | 1394 | 717 |
 | RAM64x18 Interface Logic | 0    | 0   |
 | RAM1K18 Interface Logic  | 72   | 72  |
 | MACC Interface Logic     | 108  | 108 |
-| Total Used               | 1569 | 895 |
+| Total Used               | 1574 | 897 |
 +--------------------------+------+-----+
 
 MSS Resource Usage
@@ -111,8 +111,8 @@ I/O Function
 +-------------------------------+--------------+-------------+-----------------+
 | Type                          | w/o register | w/ register | w/ DDR register |
 +-------------------------------+--------------+-------------+-----------------+
-| Input I/O                     | 16           | 0           | 0               |
-| Output I/O                    | 17           | 0           | 0               |
+| Input I/O                     | 18           | 0           | 0               |
+| Output I/O                    | 25           | 0           | 0               |
 | Bidirectional I/O             | 1            | 0           | 0               |
 | Differential Input I/O Pairs  | 0            | 0           | 0               |
 | Differential Output I/O Pairs | 0            | 0           | 0               |
@@ -122,7 +122,7 @@ I/O Technology
 +--------------+--------+------+-------+--------+---------------+
 | I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
 +--------------+--------+------+-------+--------+---------------+
-| LVCMOS25     |  2.50v |  N/A |  16   |  17    |  1            |
+| LVCMOS25     |  2.50v |  N/A |  18   |  25    |  1            |
 +--------------+--------+------+-------+--------+---------------+
 
 I/O Placement
@@ -131,17 +131,17 @@ I/O Placement
 +----------+-------+------------+
 | Locked   |  0    | 0.00%      |
 | Placed   |  0    | 0.00%      |
-| UnPlaced |  34   | 100.00%    |
+| UnPlaced |  44   | 100.00%    |
 +----------+-------+------------+
 
 Nets assigned to chip global resources
 +--------+---------+-------------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                          |
 +--------+---------+-------------------------------------------------------------------------------+
-| 722    | INT_NET | Net   : FFT_Accel_system_sb_0_FIC_0_CLK                                       |
+| 724    | INT_NET | Net   : FFT_Accel_system_sb_0_FIC_0_CLK                                       |
 |        |         | Driver: FFT_Accel_system_sb_0/CCC_0/GL0_INST/U0_RGB1                          |
 |        |         | Source: NETLIST                                                               |
-| 581    | INT_NET | Net   : ETH_NRESET_c                                                          |
+| 583    | INT_NET | Net   : ETH_NRESET_c                                                          |
 |        |         | Driver: FFT_Accel_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIDMB8/U0_RGB1 |
 |        |         | Source: NETLIST                                                               |
 | 69     | INT_NET | Net   : FFT_APB_Wrapper_0/comp_rstn_Z                                         |
@@ -168,13 +168,13 @@ High fanout nets
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]    |
 | 98     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]    |
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]    |
-| 96     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_returned_i                |
+| 93     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_returned_i                |
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/ram_dest            |
 | 87     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNICAI5_0_Z |
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNICAI5_0   |
 | 77     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]    |
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]    |
-| 75     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_stable_Z                  |
+| 74     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_stable_Z                  |
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_stable                    |
 | 71     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]    |
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]    |
@@ -194,13 +194,13 @@ High fanout nets (through buffer trees)
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]    |
 | 98     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]    |
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]    |
-| 96     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_returned_i                |
+| 93     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_returned_i                |
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/ram_dest            |
 | 87     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNICAI5_0_Z |
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNICAI5_0   |
 | 77     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]    |
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]    |
-| 75     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_stable_Z                  |
+| 74     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_stable_Z                  |
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_stable                    |
 | 71     | INT_NET | Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]    |
 |        |         | Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]    |

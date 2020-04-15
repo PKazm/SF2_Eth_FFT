@@ -16,42 +16,16 @@ Synopsys HDL compiler and linker, Version comp2018q2p1, Build 223R, Built Oct 23
 
 Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-29       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56)
+20       E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd (2020-04-08 23:43:23, 2020-04-13 23:33:18)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 14
+Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
-36       work.alpha_max_plus_beta_min.architecture_alpha_max_plus_beta_min may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (may instantiate this module)
-58       work.dpsram_c0.rtl may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (may instantiate this module)
-60       work.dpsram_c0_dpsram_c0_0_dpsram.def_arch may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (may instantiate this module)
-40       work.fft.architecture_fft may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (may instantiate this module)
-42       work.fft_apb_wrapper.architecture_fft_apb_wrapper may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (architecture and entity definition)
-44       work.fft_butterfly_hw_mathdsp.architecture_fft_butterfly_hw_mathdsp may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (may instantiate this module)
-46       work.fft_sample_loader.architecture_fft_sample_loader may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (may instantiate this module)
-48       work.fft_sample_outputer.architecture_fft_sample_outputer may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (may instantiate this module)
-50       work.fft_transformer.architecture_fft_transformer may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (may instantiate this module)
-54       work.hard_mult_addsub_c0.rtl may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (may instantiate this module)
-56       work.hard_mult_addsub_c0_hard_mult_addsub_c0_0_hard_mult_addsub.def_arch may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (may instantiate this module)
-62       work.hard_mult_addsub_c1.rtl may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (may instantiate this module)
-64       work.hard_mult_addsub_c1_hard_mult_addsub_c1_0_hard_mult_addsub.def_arch may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (may instantiate this module)
-52       work.twiddle_table.architecture_twiddle_table may have changed because the following files changed:
-                        E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-09 23:36:31, 2020-04-10 01:59:56) <-- (may instantiate this module)
+16       work.mss_to_io_interpreter.architecture_mss_to_io_interpreter may have changed because the following files changed:
+                        E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd (2020-04-08 23:43:23, 2020-04-13 23:33:18) <-- (architecture and entity definition)
 
 *******************************************************************
-Unmodified files: 41
+Unmodified files: 42
 FID:  path (timestamp)
 0        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd (2018-12-21 01:52:13)
 1        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\arith.vhd (2018-12-21 01:52:16)
@@ -65,38 +39,39 @@ FID:  path (timestamp)
 21       C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd\math_real.vhd (2018-12-21 01:52:16)
 9        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd\snps_haps_pkg.vhd (2018-12-21 01:52:16)
 10       C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd\umr_capim.vhd (2018-12-21 01:52:16)
-22       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd (2019-11-05 16:09:25)
-23       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd (2019-11-05 16:09:25)
-24       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd (2019-11-05 16:09:25)
-25       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd (2019-11-05 16:09:25)
-11       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd (2019-12-02 18:16:23)
-12       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd (2019-12-02 18:16:23)
-13       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd (2019-11-06 13:59:59)
-26       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd (2020-04-07 20:18:39)
-38       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0.vhd (2020-04-08 23:47:41)
-39       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd (2020-04-08 23:47:41)
-14       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system\FFT_Accel_system.vhd (2020-04-08 23:32:08)
-15       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.vhd (2020-04-07 17:55:09)
-16       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd (2020-04-07 17:55:10)
-17       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.vhd (2020-04-07 17:55:10)
-18       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.vhd (2020-04-07 17:55:07)
-19       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS_syn.vhd (2020-04-07 17:55:06)
-36       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd (2020-04-08 23:44:40)
-37       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd (2020-04-08 23:44:39)
-40       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd (2020-04-08 23:50:40)
-41       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd (2020-04-08 23:50:40)
-27       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd (2020-04-07 22:29:01)
-28       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT.vhd (2020-04-10 01:15:41)
-30       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd (2020-04-07 22:22:11)
-31       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Package.vhd (2020-04-09 04:41:35)
-32       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd (2020-04-07 22:22:11)
-33       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd (2020-04-07 22:22:11)
-34       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\FFT_Transformer.vhd (2020-04-07 22:25:16)
-35       E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\hdl\Twiddle_table.vhd (2020-04-07 22:33:01)
-20       E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd (2020-04-08 23:43:23)
+42       C:\Users\Phoenix136\Dropbox\FPGA\My_Stuff\Standalone Files\LED_inverter_dimmer.vhd (2020-03-21 19:12:18)
+43       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd (2019-11-05 16:09:25)
+44       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd (2019-11-05 16:09:25)
+45       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd (2019-11-05 16:09:25)
+46       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd (2019-11-05 16:09:25)
+47       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd (2019-12-02 18:16:23)
+48       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd (2019-12-02 18:16:23)
+49       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd (2019-11-06 13:59:59)
+50       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd (2020-04-07 20:18:39)
+51       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0.vhd (2020-04-08 23:47:41)
+52       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd (2020-04-08 23:47:41)
+53       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system\FFT_Accel_system.vhd (2020-04-13 18:16:16)
+54       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.vhd (2020-04-13 18:14:53)
+55       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd (2020-04-13 18:14:54)
+56       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.vhd (2020-04-13 18:14:54)
+57       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.vhd (2020-04-13 18:14:51)
+58       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS_syn.vhd (2020-04-13 18:14:50)
+59       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd (2020-04-08 23:44:40)
+60       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd (2020-04-08 23:44:39)
+61       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd (2020-04-08 23:50:40)
+62       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd (2020-04-08 23:50:40)
+63       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd (2020-04-07 22:29:01)
+64       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT.vhd (2020-04-10 01:15:41)
+65       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd (2020-04-13 01:07:24)
+66       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd (2020-04-07 22:22:11)
+67       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Package.vhd (2020-04-09 04:41:35)
+68       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd (2020-04-07 22:22:11)
+69       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd (2020-04-07 22:22:11)
+70       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Transformer.vhd (2020-04-07 22:25:16)
+71       E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\Twiddle_table.vhd (2020-04-07 22:33:01)
 
 *******************************************************************
-Unchanged modules: 38
+Unchanged modules: 66
 MID:  lib.cell.view
 30       coreapb3_lib.coreapb3.coreapb3_arch
 31       coreapb3_lib.coreapb3.vhdl
@@ -104,12 +79,20 @@ MID:  lib.cell.view
 33       coreapb3_lib.coreapb3_iaddr_reg.vhdl
 34       coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
 35       coreapb3_lib.coreapb3_muxptob3.vhdl
+36       work.alpha_max_plus_beta_min.architecture_alpha_max_plus_beta_min
+37       work.alpha_max_plus_beta_min.vhdl
 38       work.coreapb3_c0.rtl
 39       work.coreapb3_c0.vhdl
 0        work.coreresetp.rtl
 1        work.coreresetp.vhdl
 2        work.coreresetp_pcie_hotreset.rtl
 3        work.coreresetp_pcie_hotreset.vhdl
+58       work.dpsram_c0.rtl
+59       work.dpsram_c0.vhdl
+60       work.dpsram_c0_dpsram_c0_0_dpsram.def_arch
+61       work.dpsram_c0_dpsram_c0_0_dpsram.vhdl
+40       work.fft.architecture_fft
+41       work.fft.vhdl
 4        work.fft_accel_system.rtl
 5        work.fft_accel_system.vhdl
 6        work.fft_accel_system_sb.rtl
@@ -120,10 +103,28 @@ MID:  lib.cell.view
 11       work.fft_accel_system_sb_fabosc_0_osc.vhdl
 12       work.fft_accel_system_sb_mss.rtl
 13       work.fft_accel_system_sb_mss.vhdl
+42       work.fft_apb_wrapper.architecture_fft_apb_wrapper
+43       work.fft_apb_wrapper.vhdl
+44       work.fft_butterfly_hw_mathdsp.architecture_fft_butterfly_hw_mathdsp
+45       work.fft_butterfly_hw_mathdsp.vhdl
+46       work.fft_sample_loader.architecture_fft_sample_loader
+47       work.fft_sample_loader.vhdl
+48       work.fft_sample_outputer.architecture_fft_sample_outputer
+49       work.fft_sample_outputer.vhdl
+50       work.fft_transformer.architecture_fft_transformer
+51       work.fft_transformer.vhdl
+54       work.hard_mult_addsub_c0.rtl
+55       work.hard_mult_addsub_c0.vhdl
+56       work.hard_mult_addsub_c0_hard_mult_addsub_c0_0_hard_mult_addsub.def_arch
+57       work.hard_mult_addsub_c0_hard_mult_addsub_c0_0_hard_mult_addsub.vhdl
+62       work.hard_mult_addsub_c1.rtl
+63       work.hard_mult_addsub_c1.vhdl
+64       work.hard_mult_addsub_c1_hard_mult_addsub_c1_0_hard_mult_addsub.def_arch
+65       work.hard_mult_addsub_c1_hard_mult_addsub_c1_0_hard_mult_addsub.vhdl
+66       work.led_inverter_dimmer.architecture_led_inverter_dimmer
+67       work.led_inverter_dimmer.vhdl
 14       work.mss_010.def_arch
 15       work.mss_010.vhdl
-16       work.mss_to_io_interpreter.architecture_mss_to_io_interpreter
-17       work.mss_to_io_interpreter.vhdl
 18       work.rcosc_1mhz.def_arch
 19       work.rcosc_1mhz.vhdl
 20       work.rcosc_1mhz_fab.def_arch
@@ -132,6 +133,8 @@ MID:  lib.cell.view
 23       work.rcosc_25_50mhz.vhdl
 24       work.rcosc_25_50mhz_fab.def_arch
 25       work.rcosc_25_50mhz_fab.vhdl
+52       work.twiddle_table.architecture_twiddle_table
+53       work.twiddle_table.vhdl
 26       work.xtlosc.def_arch
 27       work.xtlosc.vhdl
 28       work.xtlosc_fab.def_arch
