@@ -3,7 +3,7 @@
 <doc>
 <title>Configuration Report for MSS, SERDES(s), Fabric DDR and Fabric CCC(s)</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)</text>
-<text>Date: Mon Apr 13 23:37:12 2020
+<text>Date: Tue Apr 21 06:30:03 2020
 </text>
 <section><name>FFT_Accel_system_sb_0/CCC_0/CCC_INST/INST_CCC_IP</name></section>
 <table>
@@ -95,7 +95,7 @@
  <cell>FCCC_NGMUX0_CR0</cell>
  <cell>SELGL[4:0]</cell>
  <cell>INIT[86:82]</cell>
- <cell>5&apos;h9</cell>
+ <cell>5&apos;h18</cell>
 </row>
 <row>
  <cell>FCCC_NGMUX0_CR1</cell>
@@ -131,7 +131,7 @@
  <cell>FCCC_NGMUX3_CR0</cell>
  <cell>SELGL[34:30]</cell>
  <cell>INIT[116:112]</cell>
- <cell>5&apos;h18</cell>
+ <cell>5&apos;h9</cell>
 </row>
 <row>
  <cell>FCCC_NGMUX3_CR1</cell>
@@ -1082,7 +1082,7 @@
  <cell>FAB_IF</cell>
  <cell>FAB0_AHB_MODE</cell>
  <cell>INIT[408:408]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[46]</cell>
  <cell>1</cell>
 </row>

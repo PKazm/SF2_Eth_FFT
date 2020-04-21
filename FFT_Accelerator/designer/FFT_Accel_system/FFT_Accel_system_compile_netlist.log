@@ -1,26 +1,27 @@
+E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/synthesis/FFT_Accel_system.vm(21839): WARNING: net 'N_1606' does not have a driver (VDB-1002)
+E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/synthesis/FFT_Accel_system.vm(27579): WARNING: net 'N_1610' does not have a driver (VDB-1002)
 
 ===============================================================================.
 
 Info: Global design data: 
-      Total globals:                       4 
+      Total globals:                       3 
       Globals that cannot be demoted:      2 
-      Globals considered for demotion:     2 
+      Globals considered for demotion:     1 
 
 
 Info: List of globals that cannot be demoted: 
     CLK    ASYN   DATA   Instance Name 
     ---    ----   ----   ------------- 
-    724    0      0      'FFT_Accel_system_sb_0/CCC_0/GL0_INST' 
+    801    0      0      'FFT_Accel_system_sb_0/CCC_0/GL0_INST' 
     1      0      1      'FFT_Accel_system_sb_0/CCC_0/GL1_INST' 
 
 Info: List of globals considered for demotion: 
     CLK    ASYN   DATA   Instance Name 
     ---    ----   ----   ------------- 
-    0      582    9      'FFT_Accel_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIDMB8' 
-    0      69     0      'FFT_APB_Wrapper_0/comp_rstn_RNI4CC6' 
+    0      733    3      'FFT_Accel_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIDMB8' 
 
 Info: Demotion information: 
-      Disconnected 8 data pins from global 'FFT_Accel_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIDMB8'. 
+      Disconnected 2 data pins from global 'FFT_Accel_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIDMB8'. 
 Info: CMPG4-302: Added 0 row global instances.
 Info: CMPG4-303: Deleted 0 global instances.
 

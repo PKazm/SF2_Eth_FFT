@@ -7,8 +7,8 @@
 
 Clock optimization not enabled
 1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
-2 gated/generated clock tree(s) driving 725 clock pin(s) of sequential element(s)
-0 instances converted, 725 sequential instances remain driven by gated/generated clocks
+2 gated/generated clock tree(s) driving 802 clock pin(s) of sequential element(s)
+0 instances converted, 802 sequential instances remain driven by gated/generated clocks
 
 =================================================== Non-Gated/Non-Generated Clocks ===================================================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                                               
@@ -18,7 +18,7 @@ Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample I
 =========================================================================================================================== Gated/Generated Clocks ===========================================================================================================================
 Clock Tree ID     Driving Element                          Drive Element Type     Fanout     Sample Instance                                                    Explanation                                                                                                   
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       FFT_Accel_system_sb_0.CCC_0.CCC_INST     CCC                    724        FFT_Accel_system_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base       Illegal instance on clock path. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0001       FFT_Accel_system_sb_0.CCC_0.CCC_INST     CCC                    801        FFT_Accel_system_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base       Illegal instance on clock path. See the Gated Clocks description in the user guide for conversion requirements
 @K:CKID0002       FFT_Accel_system_sb_0.CCC_0.CCC_INST     CCC                    1          FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_010                                                   
 ==============================================================================================================================================================================================================================================================================
 

@@ -200,6 +200,8 @@ begin
             ram_adr_start_sig <= (others => '0');
             input_w_ready_sig <= '0';
             ram_w_en_sig <= (others => '0');
+            ram_dat_w_sig <= (others => (others => '0'));
+            ram_done_sig <= '0';
         elsif(rising_edge(PCLK)) then
             case load_state is
                 when sreset =>
@@ -211,15 +213,21 @@ begin
                     ram_adr_start_sig <= (others => '0');
                     input_w_ready_sig <= '0';
                     ram_w_en_sig <= (others => '0');
+                    ram_dat_w_sig <= (others => (others => '0'));
+                    ram_done_sig <= '0';
                 when paused =>
                     if((ram_stable_sig = '1') and (ram_ready_sig = '1')) then
                         load_state <= ready;
                     end if;
                     input_w_ready_sig <= '0';
                     ram_w_en_sig(0) <= '0';
+                    ram_dat_w_sig(0) <= (others => '0');
                 when ready =>
                     if(input_w_en_last = '0' and input_w_en_sig = '1') then
                         load_state <= writing;
+                        ram_dat_w_sig(0) <= input_w_dat_imag_sig & input_w_dat_real_sig;
+                    else
+                        ram_dat_w_sig(0) <= (others => '0');
                     end if;
 
                     input_w_ready_sig <= '1';
@@ -237,6 +245,8 @@ begin
                             data_in_full <= '1';
                         end if;
                     end if;
+
+                    ram_done_sig <= input_done_sig;
                 when writing =>
                     load_state <= ready;
                     input_w_ready_sig <= '0';
@@ -258,10 +268,9 @@ begin
 
     ram_adr_sig(0) <= std_logic_vector(mem_adr);--std_logic_vector(in_mem_adr_bitrev);
     ram_adr_sig(1) <= (others => '0');
-    ram_dat_w_sig(0) <= input_w_dat_imag_sig & input_w_dat_real_sig when load_state /= sreset and load_state /= paused else (others => '0');
-    ram_dat_w_sig(1) <= (others => '0');
+    --ram_dat_w_sig(0) <= input_w_dat_imag_sig & input_w_dat_real_sig when load_state /= sreset and load_state /= paused else (others => '0');
+    --ram_dat_w_sig(1) <= (others => '0');
     ram_valid_sig <= data_in_full;
-    ram_done_sig <= input_done_sig;
     input_full_sig <= data_in_full;
     -- architecture body
 end architecture_FFT_Sample_Loader;

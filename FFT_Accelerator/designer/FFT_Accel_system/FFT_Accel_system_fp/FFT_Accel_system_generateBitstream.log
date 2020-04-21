@@ -3,12 +3,12 @@ Opened 'E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FF
 The 'open_project' command succeeded.
 PDB file 'E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system.pdb' has been loaded successfully.
 DESIGN : FFT_Accel_system;  CHECKSUM : 0000;  PDB_VERSION : 1.9
-Load Programming Data(s) Finished : Mon Apr 13 23:37:33 2020 (Elapsed time 00:00:00)
+Load Programming Data(s) Finished : Tue Apr 21 06:30:27 2020 (Elapsed time 00:00:01)
 The 'load_programming_data' command succeeded.
 File/Folder 'E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system.ppd' will be overwritten.
 Successfully exported PPD file for currently secured device: 'E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system.ppd'; file programs Fabric.
-Fabric component bitstream digest: f53bece8676e723464a4b9cbcf2db3fbd7d87371db37d0df754f7310c59bdb96
-Finished: Mon Apr 13 23:37:41 2020 (Elapsed time 00:00:08)
+Fabric component bitstream digest: f189d283f22ce14ec5267fb3d1aa1af33214c5c6c57102c1c29315510bdaf37a
+Finished: Tue Apr 21 06:30:34 2020 (Elapsed time 00:00:07)
 
 The 'export_single_ppd' command succeeded.
 The 'set_programming_file' command succeeded.

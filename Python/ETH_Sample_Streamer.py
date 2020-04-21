@@ -76,7 +76,7 @@ def send_UDP(data_to_send, port):
     # cmd prompt > arp -a
     # hard coded into main.c
 
-    UDP_IP = "100.100.100.200"
+    UDP_IP = "100.100.100.255"
     UDP_PORT = port
     MESSAGE = bytes(data_to_send)
 
@@ -128,7 +128,7 @@ def get_sin_data(N_exp, data_width, cycles):
     for i in range(0, data_cnt):
         sample2 = sample2_amp*math.sin(2*math.pi*smpl2_per*(i/data_cnt))
         sample3 = sample3_amp*math.sin(2*math.pi*smpl3_per*(i/data_cnt))
-        sample1 = (carrier_amp - sample2_amp - sample3_amp - noise_multi)*math.sin(2*math.pi*carrier_per*i/data_cnt)
+        sample1 = (carrier_amp - sample2_amp - sample3_amp - noise_multi)*math.sin(1+2*math.pi*carrier_per*i/data_cnt)
 
         signal_val = (sample1+sample2+sample3+noise[i])/carrier_amp
         #print(signal_val)
@@ -145,10 +145,6 @@ def get_sin_data(N_exp, data_width, cycles):
     log_file.write('=========================================\n')
     return sin_samples
 
-
-def startUDPserver():
-    server = socketserver.UDPServer(('', 0xDA7A), MyUDPHandler)
-    server.serve_forever()
 
 
 

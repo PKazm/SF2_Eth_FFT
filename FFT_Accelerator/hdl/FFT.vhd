@@ -292,10 +292,10 @@ architecture architecture_FFT of FFT is
     type ram_dist_states is(ram_to_io, ram_to_tf);
     signal ram_dist_state : ram_dist_states;
     --signal ram_blocks : ram_block_mem;
-    signal i_comp_ram_index : natural range 0 to SAMPLE_BLOCKS -1 + 1;      -- +1 so 3rc value is a "storage" id
-    signal tf_comp_ram_index_0 : natural range 0 to SAMPLE_BLOCKS -1 + 1;   -- +1 so 3rc value is a "storage" id
-    signal tf_comp_ram_index_1 : natural range 0 to SAMPLE_BLOCKS -1 + 1;   -- +1 so 3rc value is a "storage" id
-    signal o_comp_ram_index : natural range 0 to SAMPLE_BLOCKS -1 + 1;      -- +1 so 3rc value is a "storage" id
+    signal i_comp_ram_index : natural range 0 to SAMPLE_BLOCKS -1 + 1;      -- +1 so 3rd value is a "storage" id
+    signal tf_comp_ram_index_0 : natural range 0 to SAMPLE_BLOCKS -1 + 1;   -- +1 so 3rd value is a "storage" id
+    signal tf_comp_ram_index_1 : natural range 0 to SAMPLE_BLOCKS -1 + 1;   -- +1 so 3rd value is a "storage" id
+    signal o_comp_ram_index : natural range 0 to SAMPLE_BLOCKS -1 + 1;      -- +1 so 3rd value is a "storage" id
     signal ram_valid : std_logic_vector(SAMPLE_BLOCKS - 1 + 1 downto 0);
     signal ram_adr_start : std_logic_vector(SAMPLE_CNT_EXP - 1 downto 0);
 

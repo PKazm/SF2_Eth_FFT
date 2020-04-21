@@ -13,7 +13,7 @@ Hostname: PHOENIX136DESKY
 
 Implementation : synthesis
 
-# Written on Mon Apr 13 23:35:47 2020
+# Written on Tue Apr 21 06:29:08 2020
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\synthesis.fdc"
@@ -35,7 +35,7 @@ Level     Clock                                                     Frequency   
 ------------------------------------------------------------------------------------------------------------------------------------------
 0 -       System                                                    100.0 MHz     10.000        system       system_clkgroup         0    
                                                                                                                                           
-0 -       FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     712  
+0 -       FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     822  
                                                                                                                                           
 0 -       FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_2     1    
                                                                                                                                           
@@ -51,7 +51,7 @@ Clock                                                     Load      Pin         
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 System                                                    0         -                                                 -                                                                            -                 -                                           
                                                                                                                                                                                                                                                                  
-FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     712       FFT_Accel_system_sb_0.CCC_0.CCC_INST.GL0(CCC)     FFT_APB_Wrapper_0.FFT_out_data_ready_last.C                                  -                 FFT_Accel_system_sb_0.CCC_0.GL0_INST.I(BUFG)
+FFT_Accel_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     822       FFT_Accel_system_sb_0.CCC_0.CCC_INST.GL0(CCC)     FFT_AHB_Wrapper_0.FFT_out_data_ready_last.C                                  -                 FFT_Accel_system_sb_0.CCC_0.GL0_INST.I(BUFG)
                                                                                                                                                                                                                                                                  
 FFT_Accel_system_sb_CCC_0_FCCC|GL1_net_inferred_clock     1         FFT_Accel_system_sb_0.CCC_0.CCC_INST.GL1(CCC)     FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST.GTX_CLKPF     -                 FFT_Accel_system_sb_0.CCC_0.GL1_INST.I(BUFG)
                                                                                                                                                                                                                                                                  

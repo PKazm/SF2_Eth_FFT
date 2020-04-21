@@ -1,7 +1,7 @@
 C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.FFT_Accel_system  -multisrs  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synwork\FFT_Accel_system_comp.srs  -osyn  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synwork\FFT_Accel_system_mult.srs  -log  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synlog\FFT_Accel_system_multi_srs_gen.srr 
 relcom:C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\syn_nfilter.exe -link -top work.FFT_Accel_system -multisrs ..\synwork\FFT_Accel_system_comp.srs -osyn ..\synwork\FFT_Accel_system_mult.srs -log ..\synlog\FFT_Accel_system_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:..\synwork\FFT_Accel_system_comp.srs|io:i|time:1586835345|size:129766|exec:0|csum:5555E22BC39D243E0E12A100C568C3A1
-file:..\synwork\FFT_Accel_system_mult.srs|io:o|time:1586835346|size:9027|exec:0|csum:
-file:..\synlog\FFT_Accel_system_multi_srs_gen.srr|io:o|time:1586835346|size:1170|exec:0|csum:
+rc:0 success:1 runtime:1
+file:..\synwork\FFT_Accel_system_comp.srs|io:i|time:1587464946|size:181202|exec:0|csum:9CCB6E5652006309090BE148EB0E38E3
+file:..\synwork\FFT_Accel_system_mult.srs|io:o|time:1587464947|size:10116|exec:0|csum:
+file:..\synlog\FFT_Accel_system_multi_srs_gen.srr|io:o|time:1587464947|size:1170|exec:0|csum:
 file:C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1545375129|size:8731136|exec:1|csum:FDA9CE3068B3473AD3F7DDB573109F00

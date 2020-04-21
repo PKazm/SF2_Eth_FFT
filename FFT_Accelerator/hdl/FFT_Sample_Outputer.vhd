@@ -151,6 +151,7 @@ begin
     --=========================================================================
 
     gen_out_no_buffer : if(g_buffer_output = 0) generate
+        -- don't use this, output_en_sig needs to be delayed by 1 cycle. might as well buffer the output instead 
         output_real <= ram_dat_r_sig(0)(8 downto 0) when output_en_sig = '1' else (others => '0');
         output_imag <= ram_dat_r_sig(0)(17 downto 9) when output_en_sig = '1' else (others => '0');
 

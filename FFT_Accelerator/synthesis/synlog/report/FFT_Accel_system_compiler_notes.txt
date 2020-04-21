@@ -8,8 +8,10 @@
 @N: CD604 :"E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd":148:12:148:25|OTHERS clause is not synthesized.
 @N: CD604 :"E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd":182:12:182:25|OTHERS clause is not synthesized.
 @N: CD630 :"C:\Users\Phoenix136\Dropbox\FPGA\My_Stuff\Standalone Files\LED_inverter_dimmer.vhd":24:7:24:25|Synthesizing work.led_inverter_dimmer.architecture_led_inverter_dimmer.
-@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":26:7:26:21|Synthesizing work.fft_apb_wrapper.architecture_fft_apb_wrapper.
-@N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd":191:20:191:33|OTHERS clause is not synthesized.
+@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_AHB_Wrapper.vhd":27:7:27:21|Synthesizing work.fft_ahb_wrapper.architecture_fft_ahb_wrapper.
+@N: CD233 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_AHB_Wrapper.vhd":69:20:69:21|Using sequential encoding for type ahb_states.
+@N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_AHB_Wrapper.vhd":270:16:270:29|OTHERS clause is not synthesized.
+@N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_AHB_Wrapper.vhd":362:20:362:33|OTHERS clause is not synthesized.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd":26:7:26:29|Synthesizing work.alpha_max_plus_beta_min.architecture_alpha_max_plus_beta_min.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd":17:7:17:25|Synthesizing work.hard_mult_addsub_c1.rtl.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd":8:7:8:64|Synthesizing work.hard_mult_addsub_c1_hard_mult_addsub_c1_0_hard_mult_addsub.def_arch.
@@ -32,7 +34,7 @@
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd":26:7:26:25|Synthesizing work.fft_sample_outputer.architecture_fft_sample_outputer.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":38:7:38:23|Synthesizing work.fft_sample_loader.architecture_fft_sample_loader.
 @N: CD233 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":77:21:77:22|Using sequential encoding for type load_states.
-@N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":244:16:244:29|OTHERS clause is not synthesized.
+@N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":254:16:254:29|OTHERS clause is not synthesized.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.vhd":17:7:17:25|Synthesizing work.fft_accel_system_sb.rtl.
 @N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":790:10:790:17|Synthesizing smartfusion2.sysreset.syn_black_box.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.vhd":17:7:17:29|Synthesizing work.fft_accel_system_sb_mss.rtl.
@@ -44,103 +46,133 @@
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.vhd":8:7:8:36|Synthesizing work.fft_accel_system_sb_ccc_0_fccc.def_arch.
 @N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":798:10:798:12|Synthesizing smartfusion2.ccc.syn_black_box.
-@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd":20:7:20:17|Synthesizing work.coreapb3_c0.rtl.
-@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
-@N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
-@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":109:0:109:7|Input PRDATAS2 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":110:0:110:7|Input PRDATAS3 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":111:0:111:7|Input PRDATAS4 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":112:0:112:7|Input PRDATAS5 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":113:0:113:7|Input PRDATAS6 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":114:0:114:7|Input PRDATAS7 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":115:0:115:7|Input PRDATAS8 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":116:0:116:7|Input PRDATAS9 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":117:0:117:8|Input PRDATAS10 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":118:0:118:8|Input PRDATAS11 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":119:0:119:8|Input PRDATAS12 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":120:0:120:8|Input PRDATAS13 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":121:0:121:8|Input PRDATAS14 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":122:0:122:8|Input PRDATAS15 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":126:0:126:7|Input PREADYS2 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":127:0:127:7|Input PREADYS3 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":128:0:128:7|Input PREADYS4 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":129:0:129:7|Input PREADYS5 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":130:0:130:7|Input PREADYS6 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":131:0:131:7|Input PREADYS7 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":132:0:132:7|Input PREADYS8 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":133:0:133:7|Input PREADYS9 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":134:0:134:8|Input PREADYS10 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":135:0:135:8|Input PREADYS11 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":136:0:136:8|Input PREADYS12 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":137:0:137:8|Input PREADYS13 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":138:0:138:8|Input PREADYS14 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":139:0:139:8|Input PREADYS15 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":143:0:143:8|Input PSLVERRS2 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":144:0:144:8|Input PSLVERRS3 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":145:0:145:8|Input PSLVERRS4 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":146:0:146:8|Input PSLVERRS5 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":147:0:147:8|Input PSLVERRS6 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":148:0:148:8|Input PSLVERRS7 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":149:0:149:8|Input PSLVERRS8 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":150:0:150:8|Input PSLVERRS9 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":151:0:151:9|Input PSLVERRS10 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":152:0:152:9|Input PSLVERRS11 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":153:0:153:9|Input PSLVERRS12 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":154:0:154:9|Input PSLVERRS13 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":155:0:155:9|Input PSLVERRS14 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":156:0:156:9|Input PSLVERRS15 is unused.
+@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAHBLite_C0\CoreAHBLite_C0.vhd":20:7:20:20|Synthesizing work.coreahblite_c0.rtl.
+@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\core\coreahblite.vhd":27:7:27:49|Synthesizing coreahblite_lib.coreahblite_c0_coreahblite_c0_0_coreahblite.coreahblite_arch.
+@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":25:7:25:28|Synthesizing coreahblite_lib.coreahblite_matrix4x16.coreahblite_matrix4x16_arch.
+@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_slavestage.vhd":24:7:24:28|Synthesizing coreahblite_lib.coreahblite_slavestage.trans.
+@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_slavearbiter.vhd":22:7:22:30|Synthesizing coreahblite_lib.coreahblite_slavearbiter.coreahblite_slavearbiter_arch.
+@N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_slavearbiter.vhd":391:12:391:25|OTHERS clause is not synthesized.
+@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":24:7:24:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch.
+@N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":650:12:650:25|OTHERS clause is not synthesized.
+@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_defaultslavesm.vhd":22:7:22:32|Synthesizing coreahblite_lib.coreahblite_defaultslavesm.coreahblite_defaultslavesm_arch.
+@N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_defaultslavesm.vhd":63:12:63:25|OTHERS clause is not synthesized.
+@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_addrdec.vhd":50:7:50:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch.
+@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":24:7:24:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch.
+@N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":650:12:650:25|OTHERS clause is not synthesized.
+@N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_addrdec.vhd":50:7:50:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":59:8:59:16|Input HRDATA_S1 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":60:8:60:19|Input HREADYOUT_S1 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":61:8:61:16|Input HRDATA_S2 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":62:8:62:19|Input HREADYOUT_S2 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":63:8:63:16|Input HRDATA_S3 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":64:8:64:19|Input HREADYOUT_S3 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":65:8:65:16|Input HRDATA_S4 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":66:8:66:19|Input HREADYOUT_S4 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":67:8:67:16|Input HRDATA_S5 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":68:8:68:19|Input HREADYOUT_S5 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":69:8:69:16|Input HRDATA_S6 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":70:8:70:19|Input HREADYOUT_S6 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":71:8:71:16|Input HRDATA_S7 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":72:8:72:19|Input HREADYOUT_S7 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":73:8:73:16|Input HRDATA_S8 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":74:8:74:19|Input HREADYOUT_S8 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":75:8:75:16|Input HRDATA_S9 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":76:8:76:19|Input HREADYOUT_S9 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":77:8:77:17|Input HRDATA_S10 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":78:8:78:20|Input HREADYOUT_S10 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":79:8:79:17|Input HRDATA_S11 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":80:8:80:20|Input HREADYOUT_S11 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":81:8:81:17|Input HRDATA_S12 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":82:8:82:20|Input HREADYOUT_S12 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":83:8:83:17|Input HRDATA_S13 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":84:8:84:20|Input HREADYOUT_S13 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":85:8:85:17|Input HRDATA_S14 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":86:8:86:20|Input HREADYOUT_S14 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":87:8:87:17|Input HRDATA_S15 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":88:8:88:20|Input HREADYOUT_S15 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":89:8:89:17|Input HRDATA_S16 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":90:8:90:20|Input HREADYOUT_S16 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":46:8:46:17|Input SDATAREADY is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":47:8:47:13|Input SHRESP is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":57:8:57:16|Input HRDATA_S0 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":58:8:58:19|Input HREADYOUT_S0 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":59:8:59:16|Input HRDATA_S1 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":60:8:60:19|Input HREADYOUT_S1 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":61:8:61:16|Input HRDATA_S2 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":62:8:62:19|Input HREADYOUT_S2 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":63:8:63:16|Input HRDATA_S3 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":64:8:64:19|Input HREADYOUT_S3 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":65:8:65:16|Input HRDATA_S4 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":66:8:66:19|Input HREADYOUT_S4 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":67:8:67:16|Input HRDATA_S5 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":68:8:68:19|Input HREADYOUT_S5 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":69:8:69:16|Input HRDATA_S6 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":70:8:70:19|Input HREADYOUT_S6 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":71:8:71:16|Input HRDATA_S7 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":72:8:72:19|Input HREADYOUT_S7 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":73:8:73:16|Input HRDATA_S8 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":74:8:74:19|Input HREADYOUT_S8 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":75:8:75:16|Input HRDATA_S9 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":76:8:76:19|Input HREADYOUT_S9 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":77:8:77:17|Input HRDATA_S10 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":78:8:78:20|Input HREADYOUT_S10 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":79:8:79:17|Input HRDATA_S11 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":80:8:80:20|Input HREADYOUT_S11 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":81:8:81:17|Input HRDATA_S12 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":82:8:82:20|Input HREADYOUT_S12 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":83:8:83:17|Input HRDATA_S13 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":84:8:84:20|Input HREADYOUT_S13 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":85:8:85:17|Input HRDATA_S14 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":86:8:86:20|Input HREADYOUT_S14 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":87:8:87:17|Input HRDATA_S15 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":88:8:88:20|Input HREADYOUT_S15 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":89:8:89:17|Input HRDATA_S16 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":90:8:90:20|Input HREADYOUT_S16 is unused.
+@N: CL201 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Trying to extract state machine for register arbRegSMCurrentState.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_slavestage.vhd":42:8:42:26|Input MPREVDATASLAVEREADY is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":56:8:56:16|Input HWDATA_M1 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":66:8:66:16|Input HWDATA_M2 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":76:8:76:16|Input HWDATA_M3 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":92:8:92:16|Input HRDATA_S1 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":93:8:93:19|Input HREADYOUT_S1 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":94:8:94:15|Input HRESP_S1 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":104:8:104:16|Input HRDATA_S2 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":105:8:105:19|Input HREADYOUT_S2 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":106:8:106:15|Input HRESP_S2 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":116:8:116:16|Input HRDATA_S3 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":117:8:117:19|Input HREADYOUT_S3 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":118:8:118:15|Input HRESP_S3 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":128:8:128:16|Input HRDATA_S4 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":129:8:129:19|Input HREADYOUT_S4 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":130:8:130:15|Input HRESP_S4 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":140:8:140:16|Input HRDATA_S5 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":141:8:141:19|Input HREADYOUT_S5 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":142:8:142:15|Input HRESP_S5 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":152:8:152:16|Input HRDATA_S6 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":153:8:153:19|Input HREADYOUT_S6 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":154:8:154:15|Input HRESP_S6 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":164:8:164:16|Input HRDATA_S7 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":165:8:165:19|Input HREADYOUT_S7 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":166:8:166:15|Input HRESP_S7 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":176:8:176:16|Input HRDATA_S8 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":177:8:177:19|Input HREADYOUT_S8 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":178:8:178:15|Input HRESP_S8 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":188:8:188:16|Input HRDATA_S9 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":189:8:189:19|Input HREADYOUT_S9 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":190:8:190:15|Input HRESP_S9 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":200:8:200:17|Input HRDATA_S10 is unused.
 @N: CL201 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state.
 @N: CL201 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state.
 @N: CL201 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state.
 @N: CL201 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state.
 @N: CL201 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":96:4:96:12|Input CLK_LTSSM is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":123:4:123:12|Input FPLL_LOCK is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":126:4:126:18|Input SDIF0_SPLL_LOCK is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":135:4:135:18|Input SDIF1_SPLL_LOCK is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":139:4:139:18|Input SDIF2_SPLL_LOCK is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":143:4:143:18|Input SDIF3_SPLL_LOCK is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":157:4:157:13|Input SDIF0_PSEL is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":158:4:158:15|Input SDIF0_PWRITE is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":159:4:159:15|Input SDIF0_PRDATA is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":160:4:160:13|Input SDIF1_PSEL is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":161:4:161:15|Input SDIF1_PWRITE is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":162:4:162:15|Input SDIF1_PRDATA is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":163:4:163:13|Input SDIF2_PSEL is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":164:4:164:15|Input SDIF2_PWRITE is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":165:4:165:15|Input SDIF2_PRDATA is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":166:4:166:13|Input SDIF3_PSEL is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":167:4:167:15|Input SDIF3_PWRITE is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":168:4:168:15|Input SDIF3_PRDATA is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":174:4:174:21|Input SOFT_EXT_RESET_OUT is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":175:4:175:17|Input SOFT_RESET_F2M is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":176:4:176:16|Input SOFT_M3_RESET is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":177:4:177:33|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":178:4:178:23|Input SOFT_FDDR_CORE_RESET is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":179:4:179:23|Input SOFT_SDIF0_PHY_RESET is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":180:4:180:24|Input SOFT_SDIF0_CORE_RESET is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":181:4:181:23|Input SOFT_SDIF1_PHY_RESET is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":182:4:182:24|Input SOFT_SDIF1_CORE_RESET is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":183:4:183:23|Input SOFT_SDIF2_PHY_RESET is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":184:4:184:24|Input SOFT_SDIF2_CORE_RESET is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":185:4:185:23|Input SOFT_SDIF3_PHY_RESET is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":186:4:186:24|Input SOFT_SDIF3_CORE_RESET is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":190:4:190:26|Input SOFT_SDIF0_0_CORE_RESET is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":191:4:191:26|Input SOFT_SDIF0_1_CORE_RESET is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd":10:10:10:12|Input XTL is unused.
 @N: CL201 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Trying to extract state machine for register load_state.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":69:4:69:12|Input ram_dat_r is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\Twiddle_table.vhd":33:1:33:4|Input PCLK is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\Twiddle_table.vhd":34:1:34:4|Input RSTn is unused.
 @N: CL135 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":386:16:386:30|Found sequential shift adr_b_pipe with address depth of 4 words and data bit width of 10.
 @N: CL135 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":386:16:386:30|Found sequential shift adr_a_pipe with address depth of 4 words and data bit width of 10.
 @N: CL135 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":386:16:386:30|Found sequential shift do_calc_pipe with address depth of 4 words and data bit width of 1.
 @N: CL135 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Transformer.vhd":357:8:357:9|Found sequential shift bf0_do_calc with address depth of 3 words and data bit width of 1.
 @N: CL201 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Transformer.vhd":294:8:294:9|Trying to extract state machine for register stage_state.
 @N: CL135 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd":128:12:128:13|Found sequential shift adr_pipe with address depth of 5 words and data bit width of 10.
+@N: CL201 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_AHB_Wrapper.vhd":196:8:196:9|Trying to extract state machine for register ahb_state.
 @N|Running in 64-bit mode
 

@@ -1,24 +1,30 @@
 set_family {SmartFusion2}
-read_vhdl -mode vhdl_2008 -lib COREAPB3_LIB {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd}
-read_vhdl -mode vhdl_2008 -lib COREAPB3_LIB {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd}
-read_vhdl -mode vhdl_2008 -lib COREAPB3_LIB {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd}
-read_vhdl -mode vhdl_2008 -lib COREAPB3_LIB {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd}
-read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLITE_LIB {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_slavearbiter.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLITE_LIB {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_slavestage.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLITE_LIB {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_defaultslavesm.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLITE_LIB {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_addrdec.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLITE_LIB {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLITE_LIB {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLITE_LIB {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_pkg.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLITE_LIB {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\core\coreahblite.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLITE_LIB {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\core\components.vhd}
+read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAHBLite_C0\CoreAHBLite_C0.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Package.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd}
+read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\Twiddle_table.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Transformer.vhd}
-read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd}
-read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_APB_Wrapper.vhd}
+read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\AHB_Package.vhd}
+read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_AHB_Wrapper.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd}
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.vhd}

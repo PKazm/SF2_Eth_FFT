@@ -3103,7 +3103,7 @@
 </header>
 <row>
  <cell>AMBA_INTERFACE_TYPE</cell>
- <cell>APB3</cell>
+ <cell>AHBLITE</cell>
 </row>
 <row>
  <cell>NUM_OF_INTERRUPTS</cell>

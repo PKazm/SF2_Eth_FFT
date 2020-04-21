@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Mon Apr 13 18:16:16 2020
+-- Created by SmartDesign Tue Apr 21 02:43:04 2020
 -- Version: v12.1 12.600.0.14
 ----------------------------------------------------------------------
 
@@ -51,32 +51,39 @@ architecture RTL of FFT_Accel_system is
 ----------------------------------------------------------------------
 -- Component declarations
 ----------------------------------------------------------------------
--- CoreAPB3_C0
-component CoreAPB3_C0
+-- CoreAHBLite_C0
+component CoreAHBLite_C0
     -- Port list
     port(
         -- Inputs
-        PADDR     : in  std_logic_vector(31 downto 0);
-        PENABLE   : in  std_logic;
-        PRDATAS0  : in  std_logic_vector(31 downto 0);
-        PRDATAS1  : in  std_logic_vector(31 downto 0);
-        PREADYS0  : in  std_logic;
-        PREADYS1  : in  std_logic;
-        PSEL      : in  std_logic;
-        PSLVERRS0 : in  std_logic;
-        PSLVERRS1 : in  std_logic;
-        PWDATA    : in  std_logic_vector(31 downto 0);
-        PWRITE    : in  std_logic;
+        HADDR_M0     : in  std_logic_vector(31 downto 0);
+        HBURST_M0    : in  std_logic_vector(2 downto 0);
+        HCLK         : in  std_logic;
+        HMASTLOCK_M0 : in  std_logic;
+        HPROT_M0     : in  std_logic_vector(3 downto 0);
+        HRDATA_S0    : in  std_logic_vector(31 downto 0);
+        HREADYOUT_S0 : in  std_logic;
+        HRESETN      : in  std_logic;
+        HRESP_S0     : in  std_logic_vector(1 downto 0);
+        HSIZE_M0     : in  std_logic_vector(2 downto 0);
+        HTRANS_M0    : in  std_logic_vector(1 downto 0);
+        HWDATA_M0    : in  std_logic_vector(31 downto 0);
+        HWRITE_M0    : in  std_logic;
+        REMAP_M0     : in  std_logic;
         -- Outputs
-        PADDRS    : out std_logic_vector(31 downto 0);
-        PENABLES  : out std_logic;
-        PRDATA    : out std_logic_vector(31 downto 0);
-        PREADY    : out std_logic;
-        PSELS0    : out std_logic;
-        PSELS1    : out std_logic;
-        PSLVERR   : out std_logic;
-        PWDATAS   : out std_logic_vector(31 downto 0);
-        PWRITES   : out std_logic
+        HADDR_S0     : out std_logic_vector(31 downto 0);
+        HBURST_S0    : out std_logic_vector(2 downto 0);
+        HMASTLOCK_S0 : out std_logic;
+        HPROT_S0     : out std_logic_vector(3 downto 0);
+        HRDATA_M0    : out std_logic_vector(31 downto 0);
+        HREADY_M0    : out std_logic;
+        HREADY_S0    : out std_logic;
+        HRESP_M0     : out std_logic_vector(1 downto 0);
+        HSEL_S0      : out std_logic;
+        HSIZE_S0     : out std_logic_vector(2 downto 0);
+        HTRANS_S0    : out std_logic_vector(1 downto 0);
+        HWDATA_S0    : out std_logic_vector(31 downto 0);
+        HWRITE_S0    : out std_logic
         );
 end component;
 -- FFT_Accel_system_sb
@@ -84,62 +91,62 @@ component FFT_Accel_system_sb
     -- Port list
     port(
         -- Inputs
-        DEVRST_N            : in  std_logic;
-        FAB_RESET_N         : in  std_logic;
-        FIC_0_APB_M_PRDATA  : in  std_logic_vector(31 downto 0);
-        FIC_0_APB_M_PREADY  : in  std_logic;
-        FIC_0_APB_M_PSLVERR : in  std_logic;
-        GPIO_10_F2M         : in  std_logic;
-        GPIO_11_F2M         : in  std_logic;
-        GPIO_12_F2M         : in  std_logic;
-        GPIO_13_F2M         : in  std_logic;
-        GPIO_14_F2M         : in  std_logic;
-        GPIO_15_F2M         : in  std_logic;
-        GPIO_8_F2M          : in  std_logic;
-        GPIO_9_F2M          : in  std_logic;
-        MAC_GMII_COL        : in  std_logic;
-        MAC_GMII_CRS        : in  std_logic;
-        MAC_GMII_GTX_CLK    : in  std_logic;
-        MAC_GMII_MDI        : in  std_logic;
-        MAC_GMII_RXD        : in  std_logic_vector(7 downto 0);
-        MAC_GMII_RX_CLK     : in  std_logic;
-        MAC_GMII_RX_DV      : in  std_logic;
-        MAC_GMII_RX_ER      : in  std_logic;
-        MAC_GMII_TX_CLK     : in  std_logic;
-        MMUART_0_RXD_F2M    : in  std_logic;
-        MSS_INT_F2M         : in  std_logic_vector(15 downto 0);
+        DEVRST_N           : in  std_logic;
+        FAB_RESET_N        : in  std_logic;
+        FIC_0_AHB_M_HRDATA : in  std_logic_vector(31 downto 0);
+        FIC_0_AHB_M_HREADY : in  std_logic;
+        FIC_0_AHB_M_HRESP  : in  std_logic;
+        GPIO_10_F2M        : in  std_logic;
+        GPIO_11_F2M        : in  std_logic;
+        GPIO_12_F2M        : in  std_logic;
+        GPIO_13_F2M        : in  std_logic;
+        GPIO_14_F2M        : in  std_logic;
+        GPIO_15_F2M        : in  std_logic;
+        GPIO_8_F2M         : in  std_logic;
+        GPIO_9_F2M         : in  std_logic;
+        MAC_GMII_COL       : in  std_logic;
+        MAC_GMII_CRS       : in  std_logic;
+        MAC_GMII_GTX_CLK   : in  std_logic;
+        MAC_GMII_MDI       : in  std_logic;
+        MAC_GMII_RXD       : in  std_logic_vector(7 downto 0);
+        MAC_GMII_RX_CLK    : in  std_logic;
+        MAC_GMII_RX_DV     : in  std_logic;
+        MAC_GMII_RX_ER     : in  std_logic;
+        MAC_GMII_TX_CLK    : in  std_logic;
+        MMUART_0_RXD_F2M   : in  std_logic;
+        MSS_INT_F2M        : in  std_logic_vector(15 downto 0);
         -- Outputs
-        FAB_CCC_GL1         : out std_logic;
-        FAB_CCC_LOCK        : out std_logic;
-        FIC_0_APB_M_PADDR   : out std_logic_vector(31 downto 0);
-        FIC_0_APB_M_PENABLE : out std_logic;
-        FIC_0_APB_M_PSEL    : out std_logic;
-        FIC_0_APB_M_PWDATA  : out std_logic_vector(31 downto 0);
-        FIC_0_APB_M_PWRITE  : out std_logic;
-        FIC_0_CLK           : out std_logic;
-        FIC_0_LOCK          : out std_logic;
-        GPIO_0_M2F          : out std_logic;
-        GPIO_1_M2F          : out std_logic;
-        GPIO_2_M2F          : out std_logic;
-        GPIO_3_M2F          : out std_logic;
-        GPIO_4_M2F          : out std_logic;
-        GPIO_5_M2F          : out std_logic;
-        GPIO_6_M2F          : out std_logic;
-        GPIO_7_M2F          : out std_logic;
-        INIT_DONE           : out std_logic;
-        MAC_GMII_MDC        : out std_logic;
-        MAC_GMII_MDO        : out std_logic;
-        MAC_GMII_MDO_EN     : out std_logic;
-        MAC_GMII_TXD        : out std_logic_vector(7 downto 0);
-        MAC_GMII_TX_EN      : out std_logic;
-        MAC_GMII_TX_ER      : out std_logic;
-        MMUART_0_TXD_M2F    : out std_logic;
-        MSS_READY           : out std_logic;
-        POWER_ON_RESET_N    : out std_logic
+        FAB_CCC_GL1        : out std_logic;
+        FAB_CCC_LOCK       : out std_logic;
+        FIC_0_AHB_M_HADDR  : out std_logic_vector(31 downto 0);
+        FIC_0_AHB_M_HSIZE  : out std_logic_vector(1 downto 0);
+        FIC_0_AHB_M_HTRANS : out std_logic_vector(1 downto 0);
+        FIC_0_AHB_M_HWDATA : out std_logic_vector(31 downto 0);
+        FIC_0_AHB_M_HWRITE : out std_logic;
+        FIC_0_CLK          : out std_logic;
+        FIC_0_LOCK         : out std_logic;
+        GPIO_0_M2F         : out std_logic;
+        GPIO_1_M2F         : out std_logic;
+        GPIO_2_M2F         : out std_logic;
+        GPIO_3_M2F         : out std_logic;
+        GPIO_4_M2F         : out std_logic;
+        GPIO_5_M2F         : out std_logic;
+        GPIO_6_M2F         : out std_logic;
+        GPIO_7_M2F         : out std_logic;
+        INIT_DONE          : out std_logic;
+        MAC_GMII_MDC       : out std_logic;
+        MAC_GMII_MDO       : out std_logic;
+        MAC_GMII_MDO_EN    : out std_logic;
+        MAC_GMII_TXD       : out std_logic_vector(7 downto 0);
+        MAC_GMII_TX_EN     : out std_logic;
+        MAC_GMII_TX_ER     : out std_logic;
+        MMUART_0_TXD_M2F   : out std_logic;
+        MSS_READY          : out std_logic;
+        POWER_ON_RESET_N   : out std_logic
         );
 end component;
--- FFT_APB_Wrapper
--- using entity instantiation for component FFT_APB_Wrapper
+-- FFT_AHB_Wrapper
+-- using entity instantiation for component FFT_AHB_Wrapper
 -- LED_inverter_dimmer
 component LED_inverter_dimmer
     -- Port list
@@ -218,95 +225,109 @@ end component;
 ----------------------------------------------------------------------
 -- Signal declarations
 ----------------------------------------------------------------------
-signal Board_Buttons_slice_0                           : std_logic_vector(0 to 0);
-signal Board_Buttons_slice_1                           : std_logic_vector(1 to 1);
-signal Board_LEDs_net_0                                : std_logic_vector(7 downto 0);
-signal CoreAPB3_C0_0_APBmslave0_PENABLE                : std_logic;
-signal CoreAPB3_C0_0_APBmslave0_PREADY                 : std_logic;
-signal CoreAPB3_C0_0_APBmslave0_PSELx                  : std_logic;
-signal CoreAPB3_C0_0_APBmslave0_PSLVERR                : std_logic;
-signal CoreAPB3_C0_0_APBmslave0_PWRITE                 : std_logic;
-signal ETH_NRESET_net_0                                : std_logic;
-signal FFT_Accel_system_sb_0_FAB_CCC_GL1               : std_logic;
-signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PADDR   : std_logic_vector(31 downto 0);
-signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PENABLE : std_logic;
-signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PRDATA  : std_logic_vector(31 downto 0);
-signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PREADY  : std_logic;
-signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PSELx   : std_logic;
-signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PSLVERR : std_logic;
-signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PWDATA  : std_logic_vector(31 downto 0);
-signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PWRITE  : std_logic;
-signal FFT_Accel_system_sb_0_FIC_0_CLK                 : std_logic;
-signal FFT_Accel_system_sb_0_MAC_GMII_MDC              : std_logic;
-signal FFT_Accel_system_sb_0_MAC_GMII_MDO              : std_logic;
-signal FFT_Accel_system_sb_0_MAC_GMII_MDO_EN           : std_logic;
-signal FFT_Accel_system_sb_0_MAC_GMII_TX_EN            : std_logic;
-signal FFT_Accel_system_sb_0_MAC_GMII_TX_ER            : std_logic;
-signal FFT_Accel_system_sb_0_MAC_GMII_TXD              : std_logic_vector(7 downto 0);
-signal FFT_Accel_system_sb_0_MMUART_0_TXD_M2F          : std_logic;
-signal FFT_Accel_system_sb_0_MSS_READY                 : std_logic;
-signal FFT_APB_Wrapper_0_INT                           : std_logic;
-signal GMII_GTX_CLK_net_0                              : std_logic;
-signal GMII_MDC_net_0                                  : std_logic;
-signal GMII_TX_EN_net_0                                : std_logic;
-signal GMII_TX_ER_net_0                                : std_logic;
-signal GMII_TXD_net_0                                  : std_logic_vector(7 downto 0);
-signal MSS_to_IO_interpreter_0_MAC_GMII_COL            : std_logic;
-signal MSS_to_IO_interpreter_0_MAC_GMII_CRS            : std_logic;
-signal MSS_to_IO_interpreter_0_MAC_GMII_GTX_CLK        : std_logic;
-signal MSS_to_IO_interpreter_0_MAC_GMII_MDI            : std_logic;
-signal MSS_to_IO_interpreter_0_MAC_GMII_RX_CLK         : std_logic;
-signal MSS_to_IO_interpreter_0_MAC_GMII_RX_DV          : std_logic;
-signal MSS_to_IO_interpreter_0_MAC_GMII_RX_ER          : std_logic;
-signal MSS_to_IO_interpreter_0_MAC_GMII_RXD            : std_logic_vector(7 downto 0);
-signal MSS_to_IO_interpreter_0_MAC_GMII_TX_CLK         : std_logic;
-signal MSS_to_IO_interpreter_0_MDINT_MSS_INT_F2M       : std_logic;
-signal MSS_to_IO_interpreter_0_MMUART_RXD_F2M          : std_logic;
-signal REFCLK_SEL_net_0                                : std_logic_vector(1 downto 0);
-signal USB_UART_RXD_net_0                              : std_logic;
-signal GMII_TX_ER_net_1                                : std_logic;
-signal GMII_TX_EN_net_1                                : std_logic;
-signal ETH_NRESET_net_1                                : std_logic;
-signal GMII_MDC_net_1                                  : std_logic;
-signal GMII_GTX_CLK_net_1                              : std_logic;
-signal USB_UART_RXD_net_1                              : std_logic;
-signal GMII_TXD_net_1                                  : std_logic_vector(7 downto 0);
-signal REFCLK_SEL_net_1                                : std_logic_vector(1 downto 0);
-signal Board_LEDs_net_1                                : std_logic_vector(7 downto 0);
-signal MSS_INT_F2M_net_0                               : std_logic_vector(15 downto 0);
-signal LED_toggles_net_0                               : std_logic_vector(7 downto 0);
+signal Board_Buttons_slice_0                            : std_logic_vector(0 to 0);
+signal Board_Buttons_slice_1                            : std_logic_vector(1 to 1);
+signal Board_LEDs_net_0                                 : std_logic_vector(7 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HBURST               : std_logic_vector(2 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HMASTLOCK            : std_logic;
+signal CoreAHBLite_C0_0_AHBmslave0_HPROT                : std_logic_vector(3 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HREADY               : std_logic;
+signal CoreAHBLite_C0_0_AHBmslave0_HREADYOUT            : std_logic;
+signal CoreAHBLite_C0_0_AHBmslave0_HRESP                : std_logic_vector(1 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HSELx                : std_logic;
+signal CoreAHBLite_C0_0_AHBmslave0_HSIZE                : std_logic_vector(2 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HTRANS               : std_logic_vector(1 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HWRITE               : std_logic;
+signal ETH_NRESET_net_0                                 : std_logic;
+signal FFT_Accel_system_sb_0_FAB_CCC_GL1                : std_logic;
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HADDR  : std_logic_vector(31 downto 0);
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRDATA : std_logic_vector(31 downto 0);
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HREADY : std_logic;
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HTRANS : std_logic_vector(1 downto 0);
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HWDATA : std_logic_vector(31 downto 0);
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HWRITE : std_logic;
+signal FFT_Accel_system_sb_0_FIC_0_CLK                  : std_logic;
+signal FFT_Accel_system_sb_0_MAC_GMII_MDC               : std_logic;
+signal FFT_Accel_system_sb_0_MAC_GMII_MDO               : std_logic;
+signal FFT_Accel_system_sb_0_MAC_GMII_MDO_EN            : std_logic;
+signal FFT_Accel_system_sb_0_MAC_GMII_TX_EN             : std_logic;
+signal FFT_Accel_system_sb_0_MAC_GMII_TX_ER             : std_logic;
+signal FFT_Accel_system_sb_0_MAC_GMII_TXD               : std_logic_vector(7 downto 0);
+signal FFT_Accel_system_sb_0_MMUART_0_TXD_M2F           : std_logic;
+signal FFT_Accel_system_sb_0_MSS_READY                  : std_logic;
+signal FFT_AHB_Wrapper_0_INT                            : std_logic;
+signal GMII_GTX_CLK_net_0                               : std_logic;
+signal GMII_MDC_net_0                                   : std_logic;
+signal GMII_TX_EN_net_0                                 : std_logic;
+signal GMII_TX_ER_net_0                                 : std_logic;
+signal GMII_TXD_net_0                                   : std_logic_vector(7 downto 0);
+signal MSS_to_IO_interpreter_0_MAC_GMII_COL             : std_logic;
+signal MSS_to_IO_interpreter_0_MAC_GMII_CRS             : std_logic;
+signal MSS_to_IO_interpreter_0_MAC_GMII_GTX_CLK         : std_logic;
+signal MSS_to_IO_interpreter_0_MAC_GMII_MDI             : std_logic;
+signal MSS_to_IO_interpreter_0_MAC_GMII_RX_CLK          : std_logic;
+signal MSS_to_IO_interpreter_0_MAC_GMII_RX_DV           : std_logic;
+signal MSS_to_IO_interpreter_0_MAC_GMII_RX_ER           : std_logic;
+signal MSS_to_IO_interpreter_0_MAC_GMII_RXD             : std_logic_vector(7 downto 0);
+signal MSS_to_IO_interpreter_0_MAC_GMII_TX_CLK          : std_logic;
+signal MSS_to_IO_interpreter_0_MDINT_MSS_INT_F2M        : std_logic;
+signal MSS_to_IO_interpreter_0_MMUART_RXD_F2M           : std_logic;
+signal REFCLK_SEL_net_0                                 : std_logic_vector(1 downto 0);
+signal USB_UART_RXD_net_0                               : std_logic;
+signal GMII_TX_ER_net_1                                 : std_logic;
+signal GMII_TX_EN_net_1                                 : std_logic;
+signal ETH_NRESET_net_1                                 : std_logic;
+signal GMII_MDC_net_1                                   : std_logic;
+signal GMII_GTX_CLK_net_1                               : std_logic;
+signal USB_UART_RXD_net_1                               : std_logic;
+signal GMII_TXD_net_1                                   : std_logic_vector(7 downto 0);
+signal REFCLK_SEL_net_1                                 : std_logic_vector(1 downto 0);
+signal Board_LEDs_net_1                                 : std_logic_vector(7 downto 0);
+signal MSS_INT_F2M_net_0                                : std_logic_vector(15 downto 0);
+signal LED_toggles_net_0                                : std_logic_vector(7 downto 0);
 ----------------------------------------------------------------------
 -- TiedOff Signals
 ----------------------------------------------------------------------
-signal VCC_net                                         : std_logic;
-signal MSS_INT_F2M_const_net_0                         : std_logic_vector(15 downto 2);
-signal GND_net                                         : std_logic;
-signal PRDATAS1_const_net_0                            : std_logic_vector(31 downto 0);
+signal GND_net                                          : std_logic;
+signal VCC_net                                          : std_logic;
+signal MSS_INT_F2M_const_net_0                          : std_logic_vector(15 downto 2);
+signal HBURST_M0_const_net_0                            : std_logic_vector(2 downto 0);
+signal HPROT_M0_const_net_0                             : std_logic_vector(3 downto 0);
 ----------------------------------------------------------------------
 -- Bus Interface Nets Declarations - Unequal Pin Widths
 ----------------------------------------------------------------------
-signal CoreAPB3_C0_0_APBmslave0_PADDR_0_7to0           : std_logic_vector(7 downto 0);
-signal CoreAPB3_C0_0_APBmslave0_PADDR_0                : std_logic_vector(7 downto 0);
-signal CoreAPB3_C0_0_APBmslave0_PADDR                  : std_logic_vector(31 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HADDR_0_7to0         : std_logic_vector(7 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HADDR_0              : std_logic_vector(7 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HADDR                : std_logic_vector(31 downto 0);
 
-signal CoreAPB3_C0_0_APBmslave0_PRDATA                 : std_logic_vector(15 downto 0);
-signal CoreAPB3_C0_0_APBmslave0_PRDATA_0_31to16        : std_logic_vector(31 downto 16);
-signal CoreAPB3_C0_0_APBmslave0_PRDATA_0_15to0         : std_logic_vector(15 downto 0);
-signal CoreAPB3_C0_0_APBmslave0_PRDATA_0               : std_logic_vector(31 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HRDATA               : std_logic_vector(15 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HRDATA_0_31to16      : std_logic_vector(31 downto 16);
+signal CoreAHBLite_C0_0_AHBmslave0_HRDATA_0_15to0       : std_logic_vector(15 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HRDATA_0             : std_logic_vector(31 downto 0);
 
-signal CoreAPB3_C0_0_APBmslave0_PWDATA_0_15to0         : std_logic_vector(15 downto 0);
-signal CoreAPB3_C0_0_APBmslave0_PWDATA_0               : std_logic_vector(15 downto 0);
-signal CoreAPB3_C0_0_APBmslave0_PWDATA                 : std_logic_vector(31 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HWDATA_0_15to0       : std_logic_vector(15 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HWDATA_0             : std_logic_vector(15 downto 0);
+signal CoreAHBLite_C0_0_AHBmslave0_HWDATA               : std_logic_vector(31 downto 0);
+
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP_0_0to0: std_logic_vector(0 to 0);
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP_0: std_logic;
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP  : std_logic_vector(1 downto 0);
+
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE  : std_logic_vector(1 downto 0);
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE_0_2to2: std_logic_vector(2 to 2);
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE_0_1to0: std_logic_vector(1 downto 0);
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE_0: std_logic_vector(2 downto 0);
 
 
 begin
 ----------------------------------------------------------------------
 -- Constant assignments
 ----------------------------------------------------------------------
+ GND_net                 <= '0';
  VCC_net                 <= '1';
  MSS_INT_F2M_const_net_0 <= B"00000000000000";
- GND_net                 <= '0';
- PRDATAS1_const_net_0    <= B"00000000000000000000000000000000";
+ HBURST_M0_const_net_0   <= B"000";
+ HPROT_M0_const_net_0    <= B"0000";
 ----------------------------------------------------------------------
 -- Top level output port assignments
 ----------------------------------------------------------------------
@@ -336,123 +357,142 @@ begin
 ----------------------------------------------------------------------
 -- Concatenation assignments
 ----------------------------------------------------------------------
- MSS_INT_F2M_net_0 <= ( B"00000000000000" & FFT_APB_Wrapper_0_INT & MSS_to_IO_interpreter_0_MDINT_MSS_INT_F2M );
- LED_toggles_net_0 <= ( '0' & '0' & '0' & '0' & '0' & '0' & FFT_APB_Wrapper_0_INT & MSS_to_IO_interpreter_0_MDINT_MSS_INT_F2M );
+ MSS_INT_F2M_net_0 <= ( B"00000000000000" & FFT_AHB_Wrapper_0_INT & MSS_to_IO_interpreter_0_MDINT_MSS_INT_F2M );
+ LED_toggles_net_0 <= ( '0' & '0' & '0' & '0' & '0' & '0' & FFT_AHB_Wrapper_0_INT & MSS_to_IO_interpreter_0_MDINT_MSS_INT_F2M );
 ----------------------------------------------------------------------
 -- Bus Interface Nets Assignments - Unequal Pin Widths
 ----------------------------------------------------------------------
- CoreAPB3_C0_0_APBmslave0_PADDR_0_7to0(7 downto 0) <= CoreAPB3_C0_0_APBmslave0_PADDR(7 downto 0);
- CoreAPB3_C0_0_APBmslave0_PADDR_0 <= ( CoreAPB3_C0_0_APBmslave0_PADDR_0_7to0(7 downto 0) );
+ CoreAHBLite_C0_0_AHBmslave0_HADDR_0_7to0(7 downto 0) <= CoreAHBLite_C0_0_AHBmslave0_HADDR(7 downto 0);
+ CoreAHBLite_C0_0_AHBmslave0_HADDR_0 <= ( CoreAHBLite_C0_0_AHBmslave0_HADDR_0_7to0(7 downto 0) );
 
- CoreAPB3_C0_0_APBmslave0_PRDATA_0_31to16(31 downto 16) <= B"0000000000000000";
- CoreAPB3_C0_0_APBmslave0_PRDATA_0_15to0(15 downto 0) <= CoreAPB3_C0_0_APBmslave0_PRDATA(15 downto 0);
- CoreAPB3_C0_0_APBmslave0_PRDATA_0 <= ( CoreAPB3_C0_0_APBmslave0_PRDATA_0_31to16(31 downto 16) & CoreAPB3_C0_0_APBmslave0_PRDATA_0_15to0(15 downto 0) );
+ CoreAHBLite_C0_0_AHBmslave0_HRDATA_0_31to16(31 downto 16) <= B"0000000000000000";
+ CoreAHBLite_C0_0_AHBmslave0_HRDATA_0_15to0(15 downto 0) <= CoreAHBLite_C0_0_AHBmslave0_HRDATA(15 downto 0);
+ CoreAHBLite_C0_0_AHBmslave0_HRDATA_0 <= ( CoreAHBLite_C0_0_AHBmslave0_HRDATA_0_31to16(31 downto 16) & CoreAHBLite_C0_0_AHBmslave0_HRDATA_0_15to0(15 downto 0) );
 
- CoreAPB3_C0_0_APBmslave0_PWDATA_0_15to0(15 downto 0) <= CoreAPB3_C0_0_APBmslave0_PWDATA(15 downto 0);
- CoreAPB3_C0_0_APBmslave0_PWDATA_0 <= ( CoreAPB3_C0_0_APBmslave0_PWDATA_0_15to0(15 downto 0) );
+ CoreAHBLite_C0_0_AHBmslave0_HWDATA_0_15to0(15 downto 0) <= CoreAHBLite_C0_0_AHBmslave0_HWDATA(15 downto 0);
+ CoreAHBLite_C0_0_AHBmslave0_HWDATA_0 <= ( CoreAHBLite_C0_0_AHBmslave0_HWDATA_0_15to0(15 downto 0) );
+
+ FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP_0_0to0(0) <= FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP(0);
+ FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP_0 <= ( FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP_0_0to0(0) );
+
+ FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE_0_2to2(2) <= '0';
+ FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE_0_1to0(1 downto 0) <= FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE(1 downto 0);
+ FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE_0 <= ( FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE_0_2to2(2) & FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE_0_1to0(1 downto 0) );
 
 ----------------------------------------------------------------------
 -- Component instances
 ----------------------------------------------------------------------
--- CoreAPB3_C0_0
-CoreAPB3_C0_0 : CoreAPB3_C0
+-- CoreAHBLite_C0_0
+CoreAHBLite_C0_0 : CoreAHBLite_C0
     port map( 
         -- Inputs
-        PSEL      => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PSELx,
-        PENABLE   => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PENABLE,
-        PWRITE    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PWRITE,
-        PREADYS0  => CoreAPB3_C0_0_APBmslave0_PREADY,
-        PSLVERRS0 => CoreAPB3_C0_0_APBmslave0_PSLVERR,
-        PREADYS1  => VCC_net, -- tied to '1' from definition
-        PSLVERRS1 => GND_net, -- tied to '0' from definition
-        PADDR     => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PADDR,
-        PWDATA    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PWDATA,
-        PRDATAS0  => CoreAPB3_C0_0_APBmslave0_PRDATA_0,
-        PRDATAS1  => PRDATAS1_const_net_0, -- tied to X"0" from definition
+        HCLK         => FFT_Accel_system_sb_0_FIC_0_CLK,
+        HRESETN      => FFT_Accel_system_sb_0_MSS_READY,
+        REMAP_M0     => GND_net,
+        HWRITE_M0    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HWRITE,
+        HMASTLOCK_M0 => GND_net, -- tied to '0' from definition
+        HREADYOUT_S0 => CoreAHBLite_C0_0_AHBmslave0_HREADYOUT,
+        HADDR_M0     => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HADDR,
+        HTRANS_M0    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HTRANS,
+        HSIZE_M0     => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE_0,
+        HBURST_M0    => HBURST_M0_const_net_0, -- tied to X"0" from definition
+        HPROT_M0     => HPROT_M0_const_net_0, -- tied to X"0" from definition
+        HWDATA_M0    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HWDATA,
+        HRDATA_S0    => CoreAHBLite_C0_0_AHBmslave0_HRDATA_0,
+        HRESP_S0     => CoreAHBLite_C0_0_AHBmslave0_HRESP,
         -- Outputs
-        PREADY    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PREADY,
-        PSLVERR   => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PSLVERR,
-        PSELS0    => CoreAPB3_C0_0_APBmslave0_PSELx,
-        PENABLES  => CoreAPB3_C0_0_APBmslave0_PENABLE,
-        PWRITES   => CoreAPB3_C0_0_APBmslave0_PWRITE,
-        PSELS1    => OPEN,
-        PRDATA    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PRDATA,
-        PADDRS    => CoreAPB3_C0_0_APBmslave0_PADDR,
-        PWDATAS   => CoreAPB3_C0_0_APBmslave0_PWDATA 
+        HREADY_M0    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HREADY,
+        HWRITE_S0    => CoreAHBLite_C0_0_AHBmslave0_HWRITE,
+        HSEL_S0      => CoreAHBLite_C0_0_AHBmslave0_HSELx,
+        HREADY_S0    => CoreAHBLite_C0_0_AHBmslave0_HREADY,
+        HMASTLOCK_S0 => CoreAHBLite_C0_0_AHBmslave0_HMASTLOCK,
+        HRDATA_M0    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRDATA,
+        HRESP_M0     => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP,
+        HADDR_S0     => CoreAHBLite_C0_0_AHBmslave0_HADDR,
+        HTRANS_S0    => CoreAHBLite_C0_0_AHBmslave0_HTRANS,
+        HSIZE_S0     => CoreAHBLite_C0_0_AHBmslave0_HSIZE,
+        HWDATA_S0    => CoreAHBLite_C0_0_AHBmslave0_HWDATA,
+        HBURST_S0    => CoreAHBLite_C0_0_AHBmslave0_HBURST,
+        HPROT_S0     => CoreAHBLite_C0_0_AHBmslave0_HPROT 
         );
 -- FFT_Accel_system_sb_0
 FFT_Accel_system_sb_0 : FFT_Accel_system_sb
     port map( 
         -- Inputs
-        FAB_RESET_N         => VCC_net,
-        DEVRST_N            => DEVRST_N,
-        MSS_INT_F2M         => MSS_INT_F2M_net_0,
-        FIC_0_APB_M_PRDATA  => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PRDATA,
-        FIC_0_APB_M_PREADY  => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PREADY,
-        FIC_0_APB_M_PSLVERR => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PSLVERR,
-        MMUART_0_RXD_F2M    => MSS_to_IO_interpreter_0_MMUART_RXD_F2M,
-        GPIO_8_F2M          => Board_Buttons_slice_0(0),
-        GPIO_9_F2M          => Board_Buttons_slice_1(1),
-        GPIO_10_F2M         => GND_net,
-        GPIO_11_F2M         => GND_net,
-        GPIO_12_F2M         => GND_net,
-        GPIO_13_F2M         => GND_net,
-        GPIO_14_F2M         => GND_net,
-        GPIO_15_F2M         => GND_net,
-        MAC_GMII_RX_ER      => MSS_to_IO_interpreter_0_MAC_GMII_RX_ER,
-        MAC_GMII_RX_DV      => MSS_to_IO_interpreter_0_MAC_GMII_RX_DV,
-        MAC_GMII_CRS        => MSS_to_IO_interpreter_0_MAC_GMII_CRS,
-        MAC_GMII_COL        => MSS_to_IO_interpreter_0_MAC_GMII_COL,
-        MAC_GMII_RX_CLK     => MSS_to_IO_interpreter_0_MAC_GMII_RX_CLK,
-        MAC_GMII_TX_CLK     => MSS_to_IO_interpreter_0_MAC_GMII_TX_CLK,
-        MAC_GMII_GTX_CLK    => MSS_to_IO_interpreter_0_MAC_GMII_GTX_CLK,
-        MAC_GMII_MDI        => MSS_to_IO_interpreter_0_MAC_GMII_MDI,
-        MAC_GMII_RXD        => MSS_to_IO_interpreter_0_MAC_GMII_RXD,
+        FAB_RESET_N        => VCC_net,
+        DEVRST_N           => DEVRST_N,
+        FIC_0_AHB_M_HREADY => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HREADY,
+        FIC_0_AHB_M_HRESP  => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP_0,
+        MMUART_0_RXD_F2M   => MSS_to_IO_interpreter_0_MMUART_RXD_F2M,
+        GPIO_8_F2M         => Board_Buttons_slice_0(0),
+        GPIO_9_F2M         => Board_Buttons_slice_1(1),
+        GPIO_10_F2M        => GND_net,
+        GPIO_11_F2M        => GND_net,
+        GPIO_12_F2M        => GND_net,
+        GPIO_13_F2M        => GND_net,
+        GPIO_14_F2M        => GND_net,
+        GPIO_15_F2M        => GND_net,
+        MAC_GMII_RX_ER     => MSS_to_IO_interpreter_0_MAC_GMII_RX_ER,
+        MAC_GMII_RX_DV     => MSS_to_IO_interpreter_0_MAC_GMII_RX_DV,
+        MAC_GMII_CRS       => MSS_to_IO_interpreter_0_MAC_GMII_CRS,
+        MAC_GMII_COL       => MSS_to_IO_interpreter_0_MAC_GMII_COL,
+        MAC_GMII_RX_CLK    => MSS_to_IO_interpreter_0_MAC_GMII_RX_CLK,
+        MAC_GMII_TX_CLK    => MSS_to_IO_interpreter_0_MAC_GMII_TX_CLK,
+        MAC_GMII_GTX_CLK   => MSS_to_IO_interpreter_0_MAC_GMII_GTX_CLK,
+        MAC_GMII_MDI       => MSS_to_IO_interpreter_0_MAC_GMII_MDI,
+        MSS_INT_F2M        => MSS_INT_F2M_net_0,
+        FIC_0_AHB_M_HRDATA => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRDATA,
+        MAC_GMII_RXD       => MSS_to_IO_interpreter_0_MAC_GMII_RXD,
         -- Outputs
-        POWER_ON_RESET_N    => OPEN,
-        INIT_DONE           => OPEN,
-        FIC_0_CLK           => FFT_Accel_system_sb_0_FIC_0_CLK,
-        FIC_0_LOCK          => OPEN,
-        FAB_CCC_GL1         => FFT_Accel_system_sb_0_FAB_CCC_GL1,
-        FAB_CCC_LOCK        => OPEN,
-        MSS_READY           => FFT_Accel_system_sb_0_MSS_READY,
-        FIC_0_APB_M_PADDR   => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PADDR,
-        FIC_0_APB_M_PSEL    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PSELx,
-        FIC_0_APB_M_PENABLE => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PENABLE,
-        FIC_0_APB_M_PWRITE  => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PWRITE,
-        FIC_0_APB_M_PWDATA  => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_PWDATA,
-        MMUART_0_TXD_M2F    => FFT_Accel_system_sb_0_MMUART_0_TXD_M2F,
-        GPIO_0_M2F          => OPEN,
-        GPIO_1_M2F          => OPEN,
-        GPIO_2_M2F          => OPEN,
-        GPIO_3_M2F          => OPEN,
-        GPIO_4_M2F          => OPEN,
-        GPIO_5_M2F          => OPEN,
-        GPIO_6_M2F          => OPEN,
-        GPIO_7_M2F          => OPEN,
-        MAC_GMII_TX_EN      => FFT_Accel_system_sb_0_MAC_GMII_TX_EN,
-        MAC_GMII_TX_ER      => FFT_Accel_system_sb_0_MAC_GMII_TX_ER,
-        MAC_GMII_MDC        => FFT_Accel_system_sb_0_MAC_GMII_MDC,
-        MAC_GMII_MDO_EN     => FFT_Accel_system_sb_0_MAC_GMII_MDO_EN,
-        MAC_GMII_MDO        => FFT_Accel_system_sb_0_MAC_GMII_MDO,
-        MAC_GMII_TXD        => FFT_Accel_system_sb_0_MAC_GMII_TXD 
+        POWER_ON_RESET_N   => OPEN,
+        INIT_DONE          => OPEN,
+        FIC_0_CLK          => FFT_Accel_system_sb_0_FIC_0_CLK,
+        FIC_0_LOCK         => OPEN,
+        FAB_CCC_GL1        => FFT_Accel_system_sb_0_FAB_CCC_GL1,
+        FAB_CCC_LOCK       => OPEN,
+        MSS_READY          => FFT_Accel_system_sb_0_MSS_READY,
+        FIC_0_AHB_M_HWRITE => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HWRITE,
+        MMUART_0_TXD_M2F   => FFT_Accel_system_sb_0_MMUART_0_TXD_M2F,
+        GPIO_0_M2F         => OPEN,
+        GPIO_1_M2F         => OPEN,
+        GPIO_2_M2F         => OPEN,
+        GPIO_3_M2F         => OPEN,
+        GPIO_4_M2F         => OPEN,
+        GPIO_5_M2F         => OPEN,
+        GPIO_6_M2F         => OPEN,
+        GPIO_7_M2F         => OPEN,
+        MAC_GMII_TX_EN     => FFT_Accel_system_sb_0_MAC_GMII_TX_EN,
+        MAC_GMII_TX_ER     => FFT_Accel_system_sb_0_MAC_GMII_TX_ER,
+        MAC_GMII_MDC       => FFT_Accel_system_sb_0_MAC_GMII_MDC,
+        MAC_GMII_MDO_EN    => FFT_Accel_system_sb_0_MAC_GMII_MDO_EN,
+        MAC_GMII_MDO       => FFT_Accel_system_sb_0_MAC_GMII_MDO,
+        FIC_0_AHB_M_HADDR  => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HADDR,
+        FIC_0_AHB_M_HTRANS => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HTRANS,
+        FIC_0_AHB_M_HSIZE  => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE,
+        FIC_0_AHB_M_HWDATA => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HWDATA,
+        MAC_GMII_TXD       => FFT_Accel_system_sb_0_MAC_GMII_TXD 
         );
--- FFT_APB_Wrapper_0
-FFT_APB_Wrapper_0 : entity work.FFT_APB_Wrapper
+-- FFT_AHB_Wrapper_0
+FFT_AHB_Wrapper_0 : entity work.FFT_AHB_Wrapper
     port map( 
         -- Inputs
-        PCLK    => FFT_Accel_system_sb_0_FIC_0_CLK,
-        RSTn    => FFT_Accel_system_sb_0_MSS_READY,
-        PSEL    => CoreAPB3_C0_0_APBmslave0_PSELx,
-        PENABLE => CoreAPB3_C0_0_APBmslave0_PENABLE,
-        PWRITE  => CoreAPB3_C0_0_APBmslave0_PWRITE,
-        PADDR   => CoreAPB3_C0_0_APBmslave0_PADDR_0,
-        PWDATA  => CoreAPB3_C0_0_APBmslave0_PWDATA_0,
+        CLK       => FFT_Accel_system_sb_0_FIC_0_CLK,
+        RSTn      => FFT_Accel_system_sb_0_MSS_READY,
+        HWRITE    => CoreAHBLite_C0_0_AHBmslave0_HWRITE,
+        HSEL      => CoreAHBLite_C0_0_AHBmslave0_HSELx,
+        HMASTLOCK => CoreAHBLite_C0_0_AHBmslave0_HMASTLOCK,
+        HREADYIN  => CoreAHBLite_C0_0_AHBmslave0_HREADY,
+        HADDR     => CoreAHBLite_C0_0_AHBmslave0_HADDR_0,
+        HWDATA    => CoreAHBLite_C0_0_AHBmslave0_HWDATA_0,
+        HSIZE     => CoreAHBLite_C0_0_AHBmslave0_HSIZE,
+        HTRANS    => CoreAHBLite_C0_0_AHBmslave0_HTRANS,
+        HBURST    => CoreAHBLite_C0_0_AHBmslave0_HBURST,
+        HPROT     => CoreAHBLite_C0_0_AHBmslave0_HPROT,
         -- Outputs
-        PREADY  => CoreAPB3_C0_0_APBmslave0_PREADY,
-        PSLVERR => CoreAPB3_C0_0_APBmslave0_PSLVERR,
-        INT     => FFT_APB_Wrapper_0_INT,
-        PRDATA  => CoreAPB3_C0_0_APBmslave0_PRDATA 
+        HREADYOUT => CoreAHBLite_C0_0_AHBmslave0_HREADYOUT,
+        INT       => FFT_AHB_Wrapper_0_INT,
+        HRDATA    => CoreAHBLite_C0_0_AHBmslave0_HRDATA,
+        HRESP     => CoreAHBLite_C0_0_AHBmslave0_HRESP 
         );
 -- LED_inverter_dimmer_0
 LED_inverter_dimmer_0 : LED_inverter_dimmer

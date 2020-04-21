@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)</text>
-<text>Date: Mon Apr 13 23:36:02 2020
+<text>Date: Tue Apr 21 06:29:26 2020
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -106,15 +106,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>1574</cell>
+ <cell>1661</cell>
  <cell>12084</cell>
- <cell>13.03</cell>
+ <cell>13.75</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>897</cell>
+ <cell>974</cell>
  <cell>12084</cell>
- <cell>7.42</cell>
+ <cell>8.06</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -160,9 +160,9 @@
 </row>
 <row>
  <cell>Chip Globals</cell>
- <cell>4</cell>
+ <cell>3</cell>
  <cell>8</cell>
- <cell>50.00</cell>
+ <cell>37.50</cell>
 </row>
 <row>
  <cell>CCC</cell>
@@ -204,8 +204,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>1394</cell>
- <cell>717</cell>
+ <cell>1481</cell>
+ <cell>794</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -224,8 +224,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>1574</cell>
- <cell>897</cell>
+ <cell>1661</cell>
+ <cell>974</cell>
 </row>
 </table>
 <section><name>MSS Resource Usage</name></section>
@@ -313,7 +313,7 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>44</cell>
+ <cell>38</cell>
 </row>
 <row>
  <cell>5</cell>
@@ -345,7 +345,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>71</cell>
+ <cell>65</cell>
 </row>
 </table>
 <section><name>Detailed MACC Resource Usage</name></section>
@@ -454,7 +454,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>724</cell>
+ <cell>801</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FFT_Accel_system_sb_0_FIC_0_CLK</cell>
 </row>
@@ -469,7 +469,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>583</cell>
+ <cell>734</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ETH_NRESET_c</cell>
 </row>
@@ -477,21 +477,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: FFT_Accel_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIDMB8/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>69</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/comp_rstn_Z</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/comp_rstn_RNI4CC6/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -530,104 +515,104 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>165</cell>
+ <cell>166</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[4]</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[4]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[4]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[4]</cell>
 </row>
 <row>
- <cell>119</cell>
+ <cell>118</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]</cell>
 </row>
 <row>
- <cell>98</cell>
+ <cell>96</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]</cell>
 </row>
 <row>
  <cell>93</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_returned_i</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_returned_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/ram_dest</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/ram_dest</cell>
 </row>
 <row>
  <cell>87</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNICAI5_0_Z</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNIS1TG_0_Z</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNICAI5_0</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNIS1TG_0</cell>
 </row>
 <row>
- <cell>77</cell>
+ <cell>78</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]</cell>
 </row>
 <row>
  <cell>74</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_stable_Z</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_stable_Z</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_stable</cell>
-</row>
-<row>
- <cell>71</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_stable</cell>
 </row>
 <row>
  <cell>71</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[3]</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[3]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]</cell>
 </row>
 <row>
- <cell>69</cell>
+ <cell>71</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_1_assoc[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_1_assoc[1]</cell>
+</row>
+<row>
+ <cell>71</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -638,104 +623,104 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>165</cell>
+ <cell>166</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[4]</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[4]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[4]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[4]</cell>
 </row>
 <row>
- <cell>119</cell>
+ <cell>118</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]</cell>
 </row>
 <row>
- <cell>98</cell>
+ <cell>96</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]</cell>
 </row>
 <row>
  <cell>93</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_returned_i</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_returned_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/ram_dest</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/ram_dest</cell>
 </row>
 <row>
  <cell>87</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNICAI5_0_Z</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNIS1TG_0_Z</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNICAI5_0</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNIS1TG_0</cell>
 </row>
 <row>
- <cell>77</cell>
+ <cell>78</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]</cell>
 </row>
 <row>
  <cell>74</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_stable_Z</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_stable_Z</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/tf_comp_ram_stable</cell>
-</row>
-<row>
- <cell>71</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_stable</cell>
 </row>
 <row>
  <cell>71</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[3]</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[3]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]</cell>
 </row>
 <row>
- <cell>69</cell>
+ <cell>71</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FFT_APB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_1_assoc[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FFT_APB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]</cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_1_assoc[1]</cell>
+</row>
+<row>
+ <cell>71</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]</cell>
 </row>
 </table>
 </doc>

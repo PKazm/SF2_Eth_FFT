@@ -1,6 +1,6 @@
 Configuration Report for MSS, SERDES(s), Fabric DDR and Fabric CCC(s)
 Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
-Date: Mon Apr 13 23:37:12 2020
+Date: Tue Apr 21 06:30:03 2020
 
 FFT_Accel_system_sb_0/CCC_0/CCC_INST/INST_CCC_IP
 +-------------------+--------------------+---------------+-------+
@@ -19,13 +19,13 @@ FFT_Accel_system_sb_0/CCC_0/CCC_INST/INST_CCC_IP
 | FCCC_GPMUX1_CR    | SEL_GPMUX1[4:0]    | INIT[71:67]   | 5'h7  |
 | FCCC_GPMUX2_CR    | SEL_GPMUX2[4:0]    | INIT[76:72]   | 5'h18 |
 | FCCC_GPMUX3_CR    | SEL_GPMUX3[4:0]    | INIT[81:77]   | 5'h18 |
-| FCCC_NGMUX0_CR0   | SELGL[4:0]         | INIT[86:82]   | 5'h9  |
+| FCCC_NGMUX0_CR0   | SELGL[4:0]         | INIT[86:82]   | 5'h18 |
 | FCCC_NGMUX0_CR1   | SELGL[9:5]         | INIT[91:87]   | 5'h18 |
 | FCCC_NGMUX1_CR0   | SELGL[14:10]       | INIT[96:92]   | 5'h18 |
 | FCCC_NGMUX1_CR1   | SELGL[19:15]       | INIT[101:97]  | 5'h18 |
 | FCCC_NGMUX2_CR0   | SELGL[24:20]       | INIT[106:102] | 5'h8  |
 | FCCC_NGMUX2_CR1   | SELGL[29:25]       | INIT[111:107] | 5'h18 |
-| FCCC_NGMUX3_CR0   | SELGL[34:30]       | INIT[116:112] | 5'h18 |
+| FCCC_NGMUX3_CR0   | SELGL[34:30]       | INIT[116:112] | 5'h9  |
 | FCCC_NGMUX3_CR1   | SELGL[39:35]       | INIT[121:117] | 5'h18 |
 | FCCC_GPD0_SYNC_CR | RESET_GENEN[0]     | INIT[122:122] | 1'h1  |
 | FCCC_GPD1_SYNC_CR | RESET_GENEN[1]     | INIT[123:123] | 1'h1  |
@@ -160,7 +160,7 @@ FFT_Accel_system_sb_0/FFT_Accel_system_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_010_IP
 | M3_CONFIG               | M3_MPU_DISABLE              | INIT[405:405]   | 1'h0         | INIT[45]  | 1             |
 | FAB_IF                  | FAB0_AHB_BYPASS             | INIT[406:406]   | 1'h0         | INIT[46]  | 1             |
 | FAB_IF                  | FAB1_AHB_BYPASS             | INIT[407:407]   | 1'h0         | INIT[46]  | 1             |
-| FAB_IF                  | FAB0_AHB_MODE               | INIT[408:408]   | 1'h0         | INIT[46]  | 1             |
+| FAB_IF                  | FAB0_AHB_MODE               | INIT[408:408]   | 1'h1         | INIT[46]  | 1             |
 | FAB_IF                  | FAB1_AHB_MODE               | INIT[409:409]   | 1'h0         | INIT[46]  | 1             |
 | FAB_IF                  | SW_FIC_REG_SEL              | INIT[415:410]   | 6'h3C        | INIT[46]  | 1             |
 | LOOPBACK_CTRL           | MSS_MMUARTLOOPBACK          | INIT[416:416]   | 1'h0         | INIT[47]  | 1             |

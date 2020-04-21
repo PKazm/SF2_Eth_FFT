@@ -17,11 +17,11 @@ Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 223R, Built Oct 23
 @N|Running in 64-bit mode
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synwork\FFT_Accel_system_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 84MB peak: 85MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Apr 13 23:35:46 2020
+# Tue Apr 21 06:29:07 2020
 
 ###########################################################]

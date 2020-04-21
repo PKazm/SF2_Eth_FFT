@@ -1,16 +1,16 @@
 C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\m_generic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis   -part M2S010  -package TQ144  -grade STD    -continue_on_error -maxfan 10000 -infer_seqShift -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -microsemi_enhanced_flow 1 -RWCheckOnRam 0 -summaryfile E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synlog\report\FFT_Accel_system_fpga_mapper.xml -merge_inferred_clocks 0  -top_level_module  work.FFT_Accel_system  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -ovm  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\FFT_Accel_system.vm   -freq 100.000   -tcl  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\synthesis.fdc  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synwork\FFT_Accel_system_prem.srd  -sap  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\FFT_Accel_system.sap  -otap  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\FFT_Accel_system.tap  -omap  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\FFT_Accel_system.map  -devicelib  C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v  -sap  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\FFT_Accel_system.sap  -ologparam  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\syntmp\FFT_Accel_system.plg  -osyn  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\FFT_Accel_system.srm  -prjdir  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\  -prjname  FFT_Accel_system_syn  -log  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synlog\FFT_Accel_system_fpga_mapper.srr  -sn  2018.03  -jobname  "fpga_mapper" 
 relcom:C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\m_generic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part M2S010 -package TQ144 -grade STD -continue_on_error -maxfan 10000 -infer_seqShift -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -microsemi_enhanced_flow 1 -RWCheckOnRam 0 -summaryfile ..\synlog\report\FFT_Accel_system_fpga_mapper.xml -merge_inferred_clocks 0 -top_level_module work.FFT_Accel_system -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -ovm ..\FFT_Accel_system.vm -freq 100.000 -tcl ..\..\designer\FFT_Accel_system\synthesis.fdc ..\synwork\FFT_Accel_system_prem.srd -sap ..\FFT_Accel_system.sap -otap ..\FFT_Accel_system.tap -omap ..\FFT_Accel_system.map -devicelib C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v -sap ..\FFT_Accel_system.sap -ologparam FFT_Accel_system.plg -osyn ..\FFT_Accel_system.srm -prjdir ..\ -prjname FFT_Accel_system_syn -log ..\synlog\FFT_Accel_system_fpga_mapper.srr -sn 2018.03 -jobname "fpga_mapper"
-rc:1 success:1 runtime:9
-file:..\scratchproject.prs|io:o|time:1586750463|size:5994|exec:0|csum:
-file:..\FFT_Accel_system.vm|io:o|time:1586835356|size:640807|exec:0|csum:
-file:..\..\designer\FFT_Accel_system\synthesis.fdc|io:i|time:1586835340|size:54|exec:0|csum:C90AF6797E9A0653F7ABE76B47AE01C5
-file:..\synwork\FFT_Accel_system_prem.srd|io:i|time:1586835347|size:187421|exec:0|csum:90432932E64EDCC388ECF29FE560292F
-file:..\FFT_Accel_system.sap|io:o|time:1586835348|size:4656|exec:0|csum:
+rc:1 success:1 runtime:10
+file:..\scratchproject.prs|io:o|time:1587464942|size:6980|exec:0|csum:
+file:..\FFT_Accel_system.vm|io:o|time:1587464958|size:719857|exec:0|csum:
+file:..\..\designer\FFT_Accel_system\synthesis.fdc|io:i|time:1587464940|size:54|exec:0|csum:32DE04597EA57615C3E1E9C0549D1A7F
+file:..\synwork\FFT_Accel_system_prem.srd|io:i|time:1587464949|size:261514|exec:0|csum:600AA887DF51079A25D143FC44CE06B5
+file:..\FFT_Accel_system.sap|io:o|time:1587464949|size:5195|exec:0|csum:
 file:..\FFT_Accel_system.tap|io:o|time:0|size:-1|exec:0|csum:
-file:..\FFT_Accel_system.map|io:o|time:1586835357|size:28|exec:0|csum:
+file:..\FFT_Accel_system.map|io:o|time:1587464959|size:28|exec:0|csum:
 file:C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v|io:i|time:1545375133|size:16417|exec:0|csum:6A584D9435DB98E6C5383F587B4BA27F
-file:..\FFT_Accel_system.sap|io:o|time:1586835348|size:4656|exec:0|csum:
-file:FFT_Accel_system.plg|io:o|time:1586835357|size:1627|exec:0|csum:
-file:..\FFT_Accel_system.srm|io:o|time:1586835355|size:11777|exec:0|csum:
-file:..\synlog\FFT_Accel_system_fpga_mapper.srr|io:o|time:1586835357|size:34889|exec:0|csum:
+file:..\FFT_Accel_system.sap|io:o|time:1587464949|size:5195|exec:0|csum:
+file:FFT_Accel_system.plg|io:o|time:1587464959|size:1629|exec:0|csum:
+file:..\FFT_Accel_system.srm|io:o|time:1587464958|size:13474|exec:0|csum:
+file:..\synlog\FFT_Accel_system_fpga_mapper.srr|io:o|time:1587464959|size:74427|exec:0|csum:
 file:C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin64\m_generic.exe|io:i|time:1545375129|size:35620864|exec:1|csum:AFC1D03A121E8E2C0389EDEDDE1E630A

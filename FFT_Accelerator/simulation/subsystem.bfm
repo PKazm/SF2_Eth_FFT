@@ -1,5 +1,5 @@
 #===========================================================
-# Created by Microsemi SmartDesign Mon Apr 13 18:16:16 2020
+# Created by Microsemi SmartDesign Sat Apr 18 02:13:41 2020
 #
 # Syntax: 
 # ------- 
@@ -17,8 +17,16 @@
 # Define name and base address of each resource.
 #-----------------------------------------------------------
 
-memmap FFT_APB_Wrapper_0 0x50000000;
+memmap FFT_AHB_Wrapper_0 0x50000000;
 #-----------------------------------------------------------
 # Include resource scriptlets
 #-----------------------------------------------------------
 
+
+#-----------------------------------------------------------
+# Peripheral Initialization
+#-----------------------------------------------------------
+
+procedure subsystem_init;
+# No peripheral initialization required
+return

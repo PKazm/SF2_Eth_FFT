@@ -25,7 +25,7 @@ package FFT_package is
 
     constant SYNC_SAMPLE_LOAD : natural := 0;
     constant SYNC_SAMPLE_OUTPUT : natural := 0;
-    constant BUFF_SAMPLE_OUTPUT : natural := 1;
+    constant BUFF_SAMPLE_OUTPUT : natural := 0;
     constant TWIDDLE_USE_BRAM : natural := 0;
 
     constant SAMPLE_WIDTH_EXT : natural := 8;
