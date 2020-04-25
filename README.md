@@ -75,3 +75,5 @@ Is this hardware implemented FFT faster than performing the FFT on my desktop in
 The major bottleneck is moving the data into and out of the device. For example almost 2/5 of the roundtrip time is spent reading the samples from the ethernet MAC into the FFT SRAM. The roundtrip time is also affected by the link speed of the ethernet connection, something like 30% less time when operating at 1gbps instead of 100mbps.
 
 I have no hard numbers for any of these performance comparisons, only annecdotes from quick test in the middle of getting this whole chain of connections working.
+
+At the end of everything though, its pretty neat.
