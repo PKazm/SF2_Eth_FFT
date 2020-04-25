@@ -54,7 +54,7 @@ The Python tests proved the FFT produced good results, but I wanted to be able t
 
 The GNU Radio Flow:
 
-![GNU Radio Flow](GNU_Radio/SF2_FFT_COnnection.grc.png)
+![GNU Radio Flow](GNU_Radio/SF2_FFT_Connection.grc.png)
 
 More details about the flow are in [the GNU_Radio folder README](https://github.com/PKazm/SF2_Eth_FFT/tree/master/GNU_Radio).
 
