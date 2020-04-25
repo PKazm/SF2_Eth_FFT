@@ -1,0 +1,28 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+
+Date      :  Tue Apr 21 15:28:02 2020
+Project   :  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator
+Component :  COREMACFILTER_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREMACFILTER/2.0.207/rtl/vlog/core/msgmii_cnvrxi_fltr.v
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREMACFILTER/2.0.207/rtl/vlog/core/msgmii_cnvrxo_fltr.v
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREMACFILTER/2.0.207/rtl/vlog/core/pecrc.v
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREMACFILTER/2.0.207/rtl/vlog/core/perex_pcs_fltr.v
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREMACFILTER/2.0.207/rtl/vlog/core/perex_pma_fltr.v
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREMACFILTER/2.0.207/rtl/vlog/core/perfn_top_fltr.v
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREMACFILTER/2.0.207/rtl/vlog/core/r10b8b.v
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREMACFILTER/2.0.207/rtl/vlog/core/si_sal_fltr.v
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREMACFILTER/2.0.207/rtl/vlog/core/sib_sync_2flp.v
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREMACFILTER/2.0.207/rtl/vlog/core/sib_sync_pulse.v
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREMACFILTER/2.0.207/rtl/vlog/core/tsm_sysreg_fltr.v
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREMACFILTER_C0/COREMACFILTER_C0.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREMACFILTER_C0/COREMACFILTER_C0_0/coreparameters.v
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREMACFILTER_C0/COREMACFILTER_C0_0/rtl/vlog/core/CoreMACFilter.v
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREMACFILTER_C0/COREMACFILTER_C0_0/rtl/vlog/core/frame_fltr_top1_GMII.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREMACFILTER/2.0.207/constraints/CoreMACFilter_synplicity.sdc
+

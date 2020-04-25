@@ -262,13 +262,13 @@
                             <td>
                                 <b>Location: </b>
                             </td>
-                            <td>E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/FFT_Accel_system</td>
+                            <td>E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/FFT_Accel_system</td>
                         </tr>
                         <tr>
                             <td>
                                 <b>State (Time): </b>
                             </td>
-                            <td>GENERATED ( Thu Apr  9 00:06:16 2020 )</td>
+                            <td>GENERATED ( Tue Apr 21 15:48:56 2020 )</td>
                         </tr>
                     </table>
                 </div>
@@ -426,10 +426,19 @@
                             <tr>
                                 <th cellspace="0" colspan="1">
                                     <b>
-                                        <a class="toplinks" href="#FFT_APB_Wrapper_0_ Register">FFT_APB_Wrapper_0</a>
+                                        <a class="toplinks" href="#FFT_AHB_Wrapper_0_ Register">FFT_AHB_Wrapper_0</a>
                                     </b>
                                 </th>
-                                <td align="center">0x50000000 - 0x500000FF<br/>0x30000000 - 0x300000FF<br/>
+                                <td align="center">0x50000000 - 0x50000FFF<br/>0x30000000 - 0x30000FFF<br/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>
+                                        <a class="toplinks" href="#COREMACFILTER_C0_0_ Register">COREMACFILTER_C0_0</a>
+                                    </b>
+                                </th>
+                                <td align="center">0x50001000 - 0x500010FF<br/>0x30001000 - 0x300010FF<br/>
                                 </td>
                             </tr>
                             <tr>
@@ -504,6 +513,14 @@
                                     </b>
                                 </th>
                                 <td align="center">0x40004000 - 0x40004FFF</td>
+                            </tr>
+                            <tr>
+                                <th cellspace="0" colspan="1">
+                                    <b>
+                                        <a class="toplinks" href="#PDMA_ Register">PDMA</a>
+                                    </b>
+                                </th>
+                                <td align="center">0x40003000 - 0x40003FFF</td>
                             </tr>
                             <tr>
                                 <th cellspace="0" colspan="1">
@@ -658,8 +675,23 @@
                         <hr/>
                         <div class="content">
                             <h3>
-                                <a name="FFT_APB_Wrapper_0_ Register">FFT_APB_Wrapper_0 :  Memory Map [
-                    <br/>0x50000000 - 0x500000FF<br/>0x30000000 - 0x300000FF ]
+                                <a name="FFT_AHB_Wrapper_0_ Register">FFT_AHB_Wrapper_0 :  Memory Map [
+                    <br/>0x50000000 - 0x50000FFF<br/>0x30000000 - 0x30000FFF ]
+                    </a>
+                            </h3>
+                        </div>
+                        <div class="mmrange">
+                            <i>range: </i>0x00001000</div>
+                        <a class="toplinks" href="#CM3 Memory Map">
+            back to CM3 Memory Map
+        </a>
+                        <br/>
+                        <br/>
+                        <hr/>
+                        <div class="content">
+                            <h3>
+                                <a name="COREMACFILTER_C0_0_ Register">COREMACFILTER_C0_0 :  Memory Map [
+                    <br/>0x50001000 - 0x500010FF<br/>0x30001000 - 0x300010FF ]
                     </a>
                             </h3>
                         </div>
@@ -6714,6 +6746,21 @@
                             <h3>
                                 <a name="TIMER_ Register">TIMER :  Memory Map [
                     0x40004000 - 0x40004FFF ]
+                    </a>
+                            </h3>
+                        </div>
+                        <div class="mmrange">
+                            <i>range: </i>0x1000</div>
+                        <a class="toplinks" href="#CM3 Memory Map">
+            back to CM3 Memory Map
+        </a>
+                        <br/>
+                        <br/>
+                        <hr/>
+                        <div class="content">
+                            <h3>
+                                <a name="PDMA_ Register">PDMA :  Memory Map [
+                    0x40003000 - 0x40003FFF ]
                     </a>
                             </h3>
                         </div>

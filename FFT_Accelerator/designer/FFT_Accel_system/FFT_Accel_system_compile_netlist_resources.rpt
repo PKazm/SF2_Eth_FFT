@@ -1,6 +1,6 @@
 Resource Report
-Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
-Date: Tue Apr 21 06:29:26 2020
+Microsemi Corporation - Microsemi Libero Software Release v12.4 (Version 12.900.0.16)
+Date: Thu Apr 23 03:42:14 2020
 
 Device Selection
 +--------------------------------+----------------+
@@ -37,8 +37,8 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 1661 | 12084 | 13.75      |
-| DFF                       | 974  | 12084 | 8.06       |
+| 4LUT                      | 1662 | 12084 | 13.75      |
+| DFF                       | 948  | 12084 | 7.85       |
 | I/O Register              | 0    | 252   | 0.00       |
 | User I/O                  | 44   | 84    | 52.38      |
 | -- Single-ended I/O       | 44   | 84    | 52.38      |
@@ -58,11 +58,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 1481 | 794 |
+| Fabric Logic             | 1482 | 768 |
 | RAM64x18 Interface Logic | 0    | 0   |
 | RAM1K18 Interface Logic  | 72   | 72  |
 | MACC Interface Logic     | 108  | 108 |
-| Total Used               | 1661 | 974 |
+| Total Used               | 1662 | 948 |
 +--------------------------+------+-----+
 
 MSS Resource Usage
@@ -89,15 +89,16 @@ MSS Resource Usage
 Detailed Carry Chains Resource Usage
 +--------+------+
 | Length | Used |
-| 2      | 38   |
+| 2      | 41   |
 | 5      | 2    |
 | 9      | 5    |
-| 10     | 7    |
+| 10     | 5    |
 | 11     | 6    |
 | 12     | 4    |
 | 16     | 1    |
 | 18     | 2    |
-| Total  | 65   |
+| 19     | 1    |
+| Total  | 67   |
 +--------+------+
 
 Detailed MACC Resource Usage
@@ -135,19 +136,19 @@ I/O Placement
 +----------+-------+------------+
 
 Nets assigned to chip global resources
-+--------+---------+-------------------------------------------------------------------------------+
-| Fanout | Type    | Name                                                                          |
-+--------+---------+-------------------------------------------------------------------------------+
-| 801    | INT_NET | Net   : FFT_Accel_system_sb_0_FIC_0_CLK                                       |
-|        |         | Driver: FFT_Accel_system_sb_0/CCC_0/GL0_INST/U0_RGB1                          |
-|        |         | Source: NETLIST                                                               |
-| 734    | INT_NET | Net   : ETH_NRESET_c                                                          |
-|        |         | Driver: FFT_Accel_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIDMB8/U0_RGB1 |
-|        |         | Source: NETLIST                                                               |
-| 2      | INT_NET | Net   : GMII_GTX_CLK_c                                                        |
-|        |         | Driver: FFT_Accel_system_sb_0/CCC_0/GL1_INST/U0_RGB1                          |
-|        |         | Source: NETLIST                                                               |
-+--------+---------+-------------------------------------------------------------------------------+
++--------+---------+-----------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                              |
++--------+---------+-----------------------------------------------------------------------------------+
+| 775    | INT_NET | Net   : FFT_Accel_system_sb_0_FIC_0_CLK                                           |
+|        |         | Driver: FFT_Accel_system_sb_0/CCC_0/GL0_INST/U0_RGB1                              |
+|        |         | Source: NETLIST                                                                   |
+| 749    | INT_NET | Net   : MSS_HPMS_READY_int_arst                                                   |
+|        |         | Driver: FFT_Accel_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNIJTLD/U0_RGB1 |
+|        |         | Source: NETLIST                                                                   |
+| 2      | INT_NET | Net   : GMII_GTX_CLK_c                                                            |
+|        |         | Driver: FFT_Accel_system_sb_0/CCC_0/GL1_INST/U0_RGB1                              |
+|        |         | Source: NETLIST                                                                   |
++--------+---------+-----------------------------------------------------------------------------------+
 
 Nets assigned to row global resources
 +--------+------+------+
@@ -159,51 +160,51 @@ High fanout nets
 +--------+---------+--------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                     |
 +--------+---------+--------------------------------------------------------------------------+
-| 166    | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[4]    |
+| 161    | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index_Z[4]  |
 |        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[4]    |
-| 118    | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]    |
+| 124    | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index_Z[0]  |
 |        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]    |
-| 96     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]    |
+| 106    | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index_Z[1]  |
 |        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]    |
-| 93     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_returned_i                |
-|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/ram_dest            |
-| 87     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNIS1TG_0_Z |
-|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNIS1TG_0   |
-| 78     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]    |
-|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]    |
-| 74     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_stable_Z                  |
+| 97     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_stable_Z                  |
 |        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_stable                    |
-| 71     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]                     |
-|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]                     |
-| 71     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_1_assoc[1]                     |
-|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_1_assoc[1]                     |
-| 71     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]    |
+| 95     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNIS1TG_0_Z |
+|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNIS1TG_0   |
+| 94     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_returned_i                |
+|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/ram_dest            |
+| 92     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index_Z[3]  |
+|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[3]    |
+| 91     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index_Z[2]  |
+|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]    |
+| 72     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index_Z[5]  |
 |        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]    |
+| 69     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_0_assoc_Z[1]                   |
+|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]                     |
 +--------+---------+--------------------------------------------------------------------------+
 
 High fanout nets (through buffer trees)
 +--------+---------+--------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                     |
 +--------+---------+--------------------------------------------------------------------------+
-| 166    | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[4]    |
+| 161    | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index_Z[4]  |
 |        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[4]    |
-| 118    | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]    |
+| 124    | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index_Z[0]  |
 |        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[0]    |
-| 96     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]    |
+| 106    | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index_Z[1]  |
 |        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[1]    |
-| 93     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_returned_i                |
-|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/ram_dest            |
-| 87     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNIS1TG_0_Z |
-|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNIS1TG_0   |
-| 78     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]    |
-|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]    |
-| 74     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_stable_Z                  |
+| 97     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_stable_Z                  |
 |        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_stable                    |
-| 71     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]                     |
-|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]                     |
-| 71     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_1_assoc[1]                     |
-|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_1_assoc[1]                     |
-| 71     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]    |
+| 95     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNIS1TG_0_Z |
+|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/dft_run_RNIS1TG_0   |
+| 94     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/tf_comp_ram_returned_i                |
+|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/ram_dest            |
+| 92     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index_Z[3]  |
+|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[3]    |
+| 91     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index_Z[2]  |
+|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[2]    |
+| 72     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index_Z[5]  |
 |        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/FFT_Transformer_0/twiddle_index[5]    |
+| 69     | INT_NET | Net   : FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_0_assoc_Z[1]                   |
+|        |         | Driver: FFT_AHB_Wrapper_0/FFT_Core/DPSRAM_0_assoc[1]                     |
 +--------+---------+--------------------------------------------------------------------------+
 

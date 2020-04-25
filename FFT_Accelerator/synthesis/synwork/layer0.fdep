@@ -1,27 +1,27 @@
 #defaultlanguage:vhdl
 #OPTIONS:"|-layerid|0|-orig_srs|E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\synthesis\\synwork\\FFT_Accel_system_comp.srs|-top|work.FFT_Accel_system|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
-#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\bin64\\c_vhdl.exe":1545375128
-#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\location.map":1545375136
-#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\std.vhd":1545375136
-#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1545375136
-#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1545375136
-#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1545375136
-#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1545375136
-#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1545375136
-#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1545375136
-#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1545375136
-#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\bin64\\c_vhdl.exe":1582898378
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vhd2008\\location.map":1582898386
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vhd2008\\std.vhd":1582898386
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1582898386
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1582898386
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1582898386
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1582898386
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1582898386
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1582898386
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1582898386
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1582898386
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_slavearbiter.vhd":1587074870
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_defaultslavesm.vhd":1587074870
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_addrdec.vhd":1587074870
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_pkg.vhd":1587074870
-#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\CoreAHBLite_C0\\CoreAHBLite_C0_0\\rtl\\vhdl\\core\\components.vhd":1587190408
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\CoreAHBLite_C0\\CoreAHBLite_C0_0\\rtl\\vhdl\\core\\components.vhd":1587498295
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\DPSRAM_C0\\DPSRAM_C0_0\\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd":1586404061
-#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\generic\\smartfusion2.vhd":1545375133
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\generic\\smartfusion2.vhd":1582898385
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\hdl\\FFT_Package.vhd":1587464317
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\HARD_MULT_ADDSUB_C0\\HARD_MULT_ADDSUB_C0_0\\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd":1586403879
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\hdl\\Twiddle_table.vhd":1586313181
-#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd\\math_real.vhd":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vhd\\math_real.vhd":1582898386
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\HARD_MULT_ADDSUB_C1\\HARD_MULT_ADDSUB_C1_0\\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd":1586404240
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\hdl\\AHB_Package.vhd":1587189404
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\FFT_Accel_system_sb\\CCC_0\\FFT_Accel_system_sb_CCC_0_FCCC.vhd":1587190155
@@ -33,8 +33,8 @@
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_slavestage.vhd":1587074870
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_masterstage.vhd":1587074870
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_matrix4x16.vhd":1587074870
-#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\CoreAHBLite_C0\\CoreAHBLite_C0_0\\rtl\\vhdl\\core\\coreahblite.vhd":1587190408
-#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\CoreAHBLite_C0\\CoreAHBLite_C0.vhd":1587190408
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\CoreAHBLite_C0\\CoreAHBLite_C0_0\\rtl\\vhdl\\core\\coreahblite.vhd":1587498295
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\CoreAHBLite_C0\\CoreAHBLite_C0.vhd":1587498295
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\DPSRAM_C0\\DPSRAM_C0.vhd":1586404061
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\hdl\\FFT_Sample_Loader.vhd":1587197608
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\hdl\\FFT_Sample_Outputer.vhd":1587462327
@@ -44,12 +44,12 @@
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\hdl\\FFT.vhd":1587196569
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\HARD_MULT_ADDSUB_C1\\HARD_MULT_ADDSUB_C1.vhd":1586404240
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\hdl\\Alpha_Max_plus_Beta_Min.vhd":1587246824
-#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\hdl\\FFT_AHB_Wrapper.vhd":1587464313
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\hdl\\FFT_AHB_Wrapper.vhd":1587627104
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\FFT_Accel_system_sb\\FABOSC_0\\FFT_Accel_system_sb_FABOSC_0_OSC.vhd":1587190156
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\FFT_Accel_system_sb_MSS\\FFT_Accel_system_sb_MSS.vhd":1587190152
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vhdl\\core\\coreresetp.vhd":1575328583
 #CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\FFT_Accel_system_sb\\FFT_Accel_system_sb.vhd":1587190156
-#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\FFT_Accel_system\\FFT_Accel_system.vhd":1587451384
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\FFT_Accel_system\\FFT_Accel_system.vhd":1587502563
 0 "E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_slavearbiter.vhd" vhdl
 1 "E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_slavestage.vhd" vhdl
 2 "E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_defaultslavesm.vhd" vhdl

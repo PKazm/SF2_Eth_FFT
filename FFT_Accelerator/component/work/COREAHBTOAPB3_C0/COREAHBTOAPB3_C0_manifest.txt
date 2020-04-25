@@ -1,0 +1,17 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+
+Date      :  Tue Apr 21 15:28:26 2020
+Project   :  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator
+Component :  COREAHBTOAPB3_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vhdl/core/ahbtoapb3_pkg.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vhdl/core/components.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vhdl/core/coreahbtoapb3.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vhdl/core/coreahbtoapb3_ahbtoapbsm.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vhdl/core/coreahbtoapb3_apbaddrdata.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vhdl/core/coreahbtoapb3_penablescheduler.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREAHBTOAPB3_C0/COREAHBTOAPB3_C0.vhd
+

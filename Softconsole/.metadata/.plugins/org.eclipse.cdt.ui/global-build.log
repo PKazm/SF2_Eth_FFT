@@ -5380,3 +5380,1092 @@ arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
   18240	   1696	  45600	  65536	  10000	FFT_Accelerator.elf
 Finished building: FFT_Accelerator.siz
  
+16:49:29 **** Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/MAC_Filter.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/MAC_Filter.d" -MT"src/MAC_Filter.o" -c -o "src/MAC_Filter.o" "../src/MAC_Filter.c"
+In file included from ../src/MAC_Filter.c:3:
+../src/../firmware/hal/hal.h:12:10: fatal error: cpu_types.h: No such file or directory
+ #include "cpu_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/MAC_Filter.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:51:27 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/FFT_apb.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -ICortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/FFT_apb.d" -MT"src/FFT_apb.o" -c -o "src/FFT_apb.o" "../src/FFT_apb.c"
+In file included from ../src/FFT_apb.c:3:
+../src/../firmware/hal/hal.h:12:10: fatal error: cpu_types.h: No such file or directory
+ #include "cpu_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/FFT_apb.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:51:59 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/FFT_apb.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/FFT_apb.d" -MT"src/FFT_apb.o" -c -o "src/FFT_apb.o" "../src/FFT_apb.c"
+Finished building: ../src/FFT_apb.c
+ 
+Building file: ../src/MAC_Filter.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/MAC_Filter.d" -MT"src/MAC_Filter.o" -c -o "src/MAC_Filter.o" "../src/MAC_Filter.c"
+Finished building: ../src/MAC_Filter.c
+ 
+Building file: ../src/VSC8541_01_phy.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/VSC8541_01_phy.d" -MT"src/VSC8541_01_phy.o" -c -o "src/VSC8541_01_phy.o" "../src/VSC8541_01_phy.c"
+Finished building: ../src/VSC8541_01_phy.c
+ 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'init_periph':
+../src/main.c:194:21: error: 'FFT_APB_WRAPPER_0' undeclared (first use in this function); did you mean 'FFT_AHB_WRAPPER_0'?
+  fft_init(&fft_fab, FFT_APB_WRAPPER_0);
+                     ^~~~~~~~~~~~~~~~~
+                     FFT_AHB_WRAPPER_0
+../src/main.c:194:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'load_fft_samples':
+../src/main.c:507:13: warning: assignment to 'uint8_t' {aka 'unsigned char'} from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+   smpls_sec = smpl_pkt_1;
+             ^
+../src/main.c:511:13: warning: assignment to 'uint8_t' {aka 'unsigned char'} from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+   smpls_sec = smpl_pkt_0;
+             ^
+../src/main.c:520:21: error: subscripted value is neither array nor pointer nor vector
+   sample = smpls_sec[i];
+                     ^
+../src/main.c:521:38: error: subscripted value is neither array nor pointer nor vector
+   sample = (sample << 8) | (smpls_sec[i+1] & 0xff);
+                                      ^
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:52:25 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'load_fft_samples':
+../src/main.c:507:13: warning: assignment to 'uint8_t' {aka 'unsigned char'} from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+   smpls_sec = smpl_pkt_1;
+             ^
+../src/main.c:511:13: warning: assignment to 'uint8_t' {aka 'unsigned char'} from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+   smpls_sec = smpl_pkt_0;
+             ^
+../src/main.c:520:21: error: subscripted value is neither array nor pointer nor vector
+   sample = smpls_sec[i];
+                     ^
+../src/main.c:521:38: error: subscripted value is neither array nor pointer nor vector
+   sample = (sample << 8) | (smpls_sec[i+1] & 0xff);
+                                      ^
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:52:55 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'load_fft_samples':
+../src/main.c:506:15: warning: assignment to 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint8_t **' {aka 'unsigned char **'} [-Wincompatible-pointer-types]
+   smpls_first = &smpl_pkt_0;
+               ^
+../src/main.c:507:13: warning: assignment to 'uint8_t' {aka 'unsigned char'} from 'uint8_t **' {aka 'unsigned char **'} makes integer from pointer without a cast [-Wint-conversion]
+   smpls_sec = &smpl_pkt_1;
+             ^
+../src/main.c:511:13: warning: assignment to 'uint8_t' {aka 'unsigned char'} from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+   smpls_sec = smpl_pkt_0;
+             ^
+../src/main.c:520:21: error: subscripted value is neither array nor pointer nor vector
+   sample = smpls_sec[i];
+                     ^
+../src/main.c:521:38: error: subscripted value is neither array nor pointer nor vector
+   sample = (sample << 8) | (smpls_sec[i+1] & 0xff);
+                                      ^
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:54:40 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../firmware/hal/CortexM3/cortex_nvic.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"firmware/hal/CortexM3/cortex_nvic.d" -MT"firmware/hal/CortexM3/cortex_nvic.o" -c -o "firmware/hal/CortexM3/cortex_nvic.o" "../firmware/hal/CortexM3/cortex_nvic.c"
+Finished building: ../firmware/hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../firmware/drivers_config/sys_config/sys_config.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"firmware/drivers_config/sys_config/sys_config.d" -MT"firmware/drivers_config/sys_config/sys_config.o" -c -o "firmware/drivers_config/sys_config/sys_config.o" "../firmware/drivers_config/sys_config/sys_config.c"
+Finished building: ../firmware/drivers_config/sys_config/sys_config.c
+ 
+Building file: ../firmware/drivers/mss_uart/mss_uart.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_uart/mss_uart.d" -MT"firmware/drivers/mss_uart/mss_uart.o" -c -o "firmware/drivers/mss_uart/mss_uart.o" "../firmware/drivers/mss_uart/mss_uart.c"
+Finished building: ../firmware/drivers/mss_uart/mss_uart.c
+ 
+Building file: ../firmware/drivers/mss_sys_services/mss_comblk.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_sys_services/mss_comblk.d" -MT"firmware/drivers/mss_sys_services/mss_comblk.o" -c -o "firmware/drivers/mss_sys_services/mss_comblk.o" "../firmware/drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../firmware/drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../firmware/drivers/mss_sys_services/mss_sys_services.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_sys_services/mss_sys_services.d" -MT"firmware/drivers/mss_sys_services/mss_sys_services.o" -c -o "firmware/drivers/mss_sys_services/mss_sys_services.o" "../firmware/drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../firmware/drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../firmware/drivers/mss_nvm/mss_nvm.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_nvm/mss_nvm.d" -MT"firmware/drivers/mss_nvm/mss_nvm.o" -c -o "firmware/drivers/mss_nvm/mss_nvm.o" "../firmware/drivers/mss_nvm/mss_nvm.c"
+Finished building: ../firmware/drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../firmware/drivers/mss_hpdma/mss_hpdma.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_hpdma/mss_hpdma.d" -MT"firmware/drivers/mss_hpdma/mss_hpdma.o" -c -o "firmware/drivers/mss_hpdma/mss_hpdma.o" "../firmware/drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../firmware/drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../firmware/drivers/mss_gpio/mss_gpio.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_gpio/mss_gpio.d" -MT"firmware/drivers/mss_gpio/mss_gpio.o" -c -o "firmware/drivers/mss_gpio/mss_gpio.o" "../firmware/drivers/mss_gpio/mss_gpio.c"
+Finished building: ../firmware/drivers/mss_gpio/mss_gpio.c
+ 
+Building file: ../firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.d" -MT"firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o" -c -o "firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o" "../firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.c"
+Finished building: ../firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.c
+ 
+Building file: ../firmware/CMSIS/startup_gcc/newlib_stubs.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"firmware/CMSIS/startup_gcc/newlib_stubs.d" -MT"firmware/CMSIS/startup_gcc/newlib_stubs.o" -c -o "firmware/CMSIS/startup_gcc/newlib_stubs.o" "../firmware/CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../firmware/CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../firmware/CMSIS/system_m2sxxx.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"firmware/CMSIS/system_m2sxxx.d" -MT"firmware/CMSIS/system_m2sxxx.o" -c -o "firmware/CMSIS/system_m2sxxx.o" "../firmware/CMSIS/system_m2sxxx.c"
+Finished building: ../firmware/CMSIS/system_m2sxxx.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18224	   1696	  45616	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+17:26:22 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18224	   1696	  45616	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+17:32:10 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18336	   1696	  45504	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+17:33:32 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18224	   1696	  45616	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+19:38:32 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18224	   1696	  45616	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+19:45:44 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18224	   1696	  45616	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+19:45:57 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18224	   1696	  45616	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+19:53:58 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18224	   1696	  45616	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+20:18:57 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18272	   1696	  45568	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+20:20:11 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18288	   1696	  45552	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:12:33 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/ARP_protocol.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/ARP_protocol.d" -MT"src/ARP_protocol.o" -c -o "src/ARP_protocol.o" "../src/ARP_protocol.c"
+In file included from ../src/ARP_protocol.c:2:
+../src/../firmware/CMSIS/system_m2sxxx.h:18:8: error: unknown type name 'uint32_t'
+ extern uint32_t SystemCoreClock;    /*!< System Clock Frequency (Core Clock) */
+        ^~~~~~~~
+../src/../firmware/CMSIS/system_m2sxxx.h:21:8: error: unknown type name 'uint32_t'
+ extern uint32_t g_FrequencyPCLK0;   /*!< Clock frequency of APB bus 0. */
+        ^~~~~~~~
+../src/../firmware/CMSIS/system_m2sxxx.h:22:8: error: unknown type name 'uint32_t'
+ extern uint32_t g_FrequencyPCLK1;   /*!< Clock frequency of APB bus 1. */
+        ^~~~~~~~
+../src/../firmware/CMSIS/system_m2sxxx.h:23:8: error: unknown type name 'uint32_t'
+ extern uint32_t g_FrequencyPCLK2;   /*!< Clock frequency of APB bus 2. */
+        ^~~~~~~~
+../src/../firmware/CMSIS/system_m2sxxx.h:24:8: error: unknown type name 'uint32_t'
+ extern uint32_t g_FrequencyFIC0;    /*!< Clock frequecny of FPGA fabric interface controller 1. */
+        ^~~~~~~~
+../src/../firmware/CMSIS/system_m2sxxx.h:25:8: error: unknown type name 'uint32_t'
+ extern uint32_t g_FrequencyFIC1;    /*!< Clock frequecny of FPGA fabric inteface controller 2. */
+        ^~~~~~~~
+../src/../firmware/CMSIS/system_m2sxxx.h:26:8: error: unknown type name 'uint32_t'
+ extern uint32_t g_FrequencyFIC64;   /*!< Clock frequecny of 64-bit FPGA fabric interface controller. */
+        ^~~~~~~~
+make: *** [src/subdir.mk:32: src/ARP_protocol.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:13:15 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/ARP_protocol.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/ARP_protocol.d" -MT"src/ARP_protocol.o" -c -o "src/ARP_protocol.o" "../src/ARP_protocol.c"
+Finished building: ../src/ARP_protocol.c
+ 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'init_periph':
+../src/main.c:221:32: warning: passing argument 2 of 'ARP_init' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  ARP_init(mac_config.mac_addr, my_ip);
+                                ^~~~~
+In file included from ../src/main.c:20:
+../src/ARP_protocol.h:22:15: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'const uint8_t *' {aka 'const unsigned char *'}
+     uint8_t * my_ip
+     ~~~~~~~~~~^~~~~
+../src/main.c: In function 'eth_arp_announce':
+../src/main.c:594:34: error: expected ';' before 'MSS_MAC_send_pkt'
+  tx_buffer = ARP_get_gratuitous()
+                                  ^
+                                  ;
+  MSS_MAC_send_pkt(tx_buffer, sizeof(tx_buffer), (void *)&g_mac_tx_buffer_used);
+  ~~~~~~~~~~~~~~~~                 
+make: *** [src/subdir.mk:32: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:13:59 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'init_periph':
+../src/main.c:221:32: warning: passing argument 2 of 'ARP_init' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  ARP_init(mac_config.mac_addr, my_ip);
+                                ^~~~~
+In file included from ../src/main.c:20:
+../src/ARP_protocol.h:22:15: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'const uint8_t *' {aka 'const unsigned char *'}
+     uint8_t * my_ip
+     ~~~~~~~~~~^~~~~
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18672	   1696	  45168	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:18:58 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'init_periph':
+../src/main.c:217:32: warning: passing argument 2 of 'ARP_init' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  ARP_init(mac_config.mac_addr, my_ip);
+                                ^~~~~
+In file included from ../src/main.c:20:
+../src/ARP_protocol.h:22:15: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'const uint8_t *' {aka 'const unsigned char *'}
+     uint8_t * my_ip
+     ~~~~~~~~~~^~~~~
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18672	   1696	  45168	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:21:05 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/ARP_protocol.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/ARP_protocol.d" -MT"src/ARP_protocol.o" -c -o "src/ARP_protocol.o" "../src/ARP_protocol.c"
+Finished building: ../src/ARP_protocol.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18672	   1696	  45168	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:27:46 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/ARP_protocol.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/ARP_protocol.d" -MT"src/ARP_protocol.o" -c -o "src/ARP_protocol.o" "../src/ARP_protocol.c"
+Finished building: ../src/ARP_protocol.c
+ 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'init_periph':
+../src/main.c:217:32: warning: passing argument 2 of 'ARP_init' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  ARP_init(mac_config.mac_addr, my_ip);
+                                ^~~~~
+In file included from ../src/main.c:20:
+../src/ARP_protocol.h:22:15: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'const uint8_t *' {aka 'const unsigned char *'}
+     uint8_t * my_ip
+     ~~~~~~~~~~^~~~~
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18672	   1696	  45168	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:29:21 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/ARP_protocol.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/ARP_protocol.d" -MT"src/ARP_protocol.o" -c -o "src/ARP_protocol.o" "../src/ARP_protocol.c"
+Finished building: ../src/ARP_protocol.c
+ 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18672	   1696	  45168	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:30:39 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18688	   1696	  45152	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:32:07 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18688	   1696	  45152	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:33:39 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/ARP_protocol.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/ARP_protocol.d" -MT"src/ARP_protocol.o" -c -o "src/ARP_protocol.o" "../src/ARP_protocol.c"
+Finished building: ../src/ARP_protocol.c
+ 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18688	   1696	  45152	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:36:22 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18688	   1696	  45152	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:37:01 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'eth_arp_announce':
+../src/main.c:593:19: error: 'arp_buffer' undeclared (first use in this function); did you mean 'tx_buffer'?
+  MSS_MAC_send_pkt(arp_buffer, buf_len, (void *)&g_mac_tx_buffer_used);
+                   ^~~~~~~~~~
+                   tx_buffer
+../src/main.c:593:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:32: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:37:37 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/ARP_protocol.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/ARP_protocol.d" -MT"src/ARP_protocol.o" -c -o "src/ARP_protocol.o" "../src/ARP_protocol.c"
+Finished building: ../src/ARP_protocol.c
+ 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18688	   1696	  45152	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:41:33 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/ARP_protocol.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/ARP_protocol.d" -MT"src/ARP_protocol.o" -c -o "src/ARP_protocol.o" "../src/ARP_protocol.c"
+../src/ARP_protocol.c:9:16: error: static declaration of 'arp_buffer' follows non-static declaration
+ static uint8_t arp_buffer[ARP_BUF_LEN] = \
+                ^~~~~~~~~~
+In file included from ../src/ARP_protocol.c:3:
+../src/ARP_protocol.h:21:16: note: previous declaration of 'arp_buffer' was here
+ extern uint8_t arp_buffer[ARP_BUF_LEN];
+                ^~~~~~~~~~
+make: *** [src/subdir.mk:32: src/ARP_protocol.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:41:43 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/ARP_protocol.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/ARP_protocol.d" -MT"src/ARP_protocol.o" -c -o "src/ARP_protocol.o" "../src/ARP_protocol.c"
+Finished building: ../src/ARP_protocol.c
+ 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18688	   1696	  45152	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:44:25 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/ARP_protocol.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/ARP_protocol.d" -MT"src/ARP_protocol.o" -c -o "src/ARP_protocol.o" "../src/ARP_protocol.c"
+Finished building: ../src/ARP_protocol.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18736	   1696	  45104	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:48:20 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/ARP_protocol.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/ARP_protocol.d" -MT"src/ARP_protocol.o" -c -o "src/ARP_protocol.o" "../src/ARP_protocol.c"
+Finished building: ../src/ARP_protocol.c
+ 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18768	   1696	  45072	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+23:55:40 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/ARP_protocol.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/ARP_protocol.d" -MT"src/ARP_protocol.o" -c -o "src/ARP_protocol.o" "../src/ARP_protocol.c"
+Finished building: ../src/ARP_protocol.c
+ 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'eth_arp_response':
+../src/main.c:619:29: error: 'tx_buffer' undeclared (first use in this function); did you mean 'test_buffer'?
+  buf_len = ARP_get_response(tx_buffer);
+                             ^~~~~~~~~
+                             test_buffer
+../src/main.c:619:29: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:619:12: error: too few arguments to function 'ARP_get_response'
+  buf_len = ARP_get_response(tx_buffer);
+            ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:20:
+../src/ARP_protocol.h:38:5: note: declared here
+ int ARP_get_response
+     ^~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:56:09 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:153:4: warning: implicit declaration of function 'eth_arp_response'; did you mean 'eth_arp_announce'? [-Wimplicit-function-declaration]
+    eth_arp_response();
+    ^~~~~~~~~~~~~~~~
+    eth_arp_announce
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+c:/microsemi/softconsole_v6.2/arm-none-eabi-gcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
+E:\Github_Repos\SF2_Eth_FFT\Softconsole\FFT_Accelerator\Debug/../src/main.c:153: undefined reference to `eth_arp_response'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:58: FFT_Accelerator.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:57:20 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  19072	   1696	  44768	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+00:00:56 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  19072	   1696	  44768	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+00:13:59 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  19120	   1696	  44720	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+00:20:14 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  19120	   1696	  44720	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+00:21:46 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  19120	   1696	  44720	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+01:03:22 **** Incremental Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  19120	   1696	  44720	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 
+18:31:08 **** Build of configuration Debug for project FFT_Accelerator ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../firmware/hal/CortexM3/GNU/ -std=gnu11 -specs=cmsis.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FFT_Accelerator.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../firmware/CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"FFT_Accelerator.map" --specs=nano.specs -o "FFT_Accelerator.elf"  ./src/ARP_protocol.o ./src/FFT_apb.o ./src/MAC_Filter.o ./src/VSC8541_01_phy.o ./src/main.o  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/drivers/mss_ethernet_mac/mss_ethernet_mac.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o   
+Finished building target: FFT_Accelerator.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "FFT_Accelerator.elf"  "FFT_Accelerator.hex"
+Finished building: FFT_Accelerator.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "FFT_Accelerator.elf" > "FFT_Accelerator.lst"
+Finished building: FFT_Accelerator.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "FFT_Accelerator.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18992	   1696	  44848	  65536	  10000	FFT_Accelerator.elf
+Finished building: FFT_Accelerator.siz
+ 

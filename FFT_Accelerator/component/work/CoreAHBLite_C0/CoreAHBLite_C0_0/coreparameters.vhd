@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by Microsemi SmartDesign Sat Apr 18 02:13:28 2020
+-- Created by Microsemi SmartDesign Tue Apr 21 15:44:55 2020
 -- Parameters for CoreAHBLite
 ----------------------------------------------------------------------
 
@@ -13,7 +13,7 @@ package coreparameters is
     constant FAMILY : integer := 19;
     constant HADDR_SHG_CFG : integer := 1;
     constant M0_AHBSLOT0ENABLE : integer := 1;
-    constant M0_AHBSLOT1ENABLE : integer := 0;
+    constant M0_AHBSLOT1ENABLE : integer := 1;
     constant M0_AHBSLOT2ENABLE : integer := 0;
     constant M0_AHBSLOT3ENABLE : integer := 0;
     constant M0_AHBSLOT4ENABLE : integer := 0;
@@ -84,7 +84,7 @@ package coreparameters is
     constant MASTER1_INTERFACE : integer := 1;
     constant MASTER2_INTERFACE : integer := 1;
     constant MASTER3_INTERFACE : integer := 1;
-    constant MEMSPACE : integer := 6;
+    constant MEMSPACE : integer := 5;
     constant SC_0 : integer := 0;
     constant SC_1 : integer := 0;
     constant SC_2 : integer := 0;

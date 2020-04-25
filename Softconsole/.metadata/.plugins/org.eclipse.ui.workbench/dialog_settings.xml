@@ -10,6 +10,7 @@
 		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="true"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\firmware"/>
 			<item value="E:\Github_Repos\SF2_FFT_Accelerator\FFT_Accelerator\firmware"/>
 		</list>
 	</section>

@@ -1,5 +1,5 @@
-KEY LIBERO "12.600"
-KEY CAPTURE "12.600.0.14"
+KEY LIBERO "12.900"
+KEY CAPTURE "12.900.0.16"
 KEY DEFAULT_IMPORT_LOC "D:\Appsnotes\2010\User_Logic_to_MSS\design_files\User_Logic_MSS_DF_old\APB_master_fabric\hdl"
 KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
@@ -33,6 +33,9 @@ KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
 KEY ProjectLocation "E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator"
 KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VHDL"
 KEY Vendor "Actel"
@@ -45,6 +48,7 @@ LIST LIBRARIES
 COREAPB3_LIB
 COREAHBLITE_LIB
 COREAHBLSRAM_LIB
+COREAHBTOAPB3_LIB
 ENDLIST
 LIST LIBRARY_COREAPB3_LIB
 ALIAS=COREAPB3_LIB
@@ -61,10 +65,15 @@ ALIAS=COREAHBLSRAM_LIB
 COMPILE_OPTION=COMPILE
 CUSTOMPATH=false
 ENDLIST
+LIST LIBRARY_COREAHBTOAPB3_LIB
+ALIAS=COREAHBTOAPB3_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\5.4.102\CoreAHBLite.cxf,actgen_cxf"
 STATE="utd"
-TIME="1587190408"
+TIME="1587498295"
 SIZE="4352"
 PARENT="<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0.cxf"
 ENDFILE
@@ -194,45 +203,155 @@ LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\5.4.102\CoreAHBLite.cxf"
 IS_READONLY="TRUE"
 ENDFILE
-VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\COREAHBLSRAM.cxf,actgen_cxf"
-STATE="utd"
-TIME="1587255125"
-SIZE="1281"
-PARENT="<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0.cxf"
-ENDFILE
-VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\core\coreahblsram_pkg.vhd,hdl"
-STATE="utd"
-TIME="1587255125"
-SIZE="429"
-LIBRARY="COREAHBLSRAM_LIB"
-PARENT="<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\COREAHBLSRAM.cxf"
-IS_READONLY="TRUE"
-ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\test\user\XHDL_misc.vhd,tb_hdl"
 STATE="utd"
 TIME="1587255125"
 SIZE="3586"
-PARENT="<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\COREAHBLSRAM.cxf"
-PARENT="<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\test\user\XHDL_std_logic.vhd,tb_hdl"
 STATE="utd"
 TIME="1587255125"
 SIZE="14493"
-PARENT="<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\COREAHBLSRAM.cxf"
-PARENT="<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1587497305"
+SIZE="3349"
+PARENT="<project>\component\work\COREAHBTOAPB3_C0\COREAHBTOAPB3_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="553"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_ahbl.vhd,tb_hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="8290"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="2076"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="12455"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="82848"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="45675"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="12780"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="23829"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\ahbtoapb3_pkg.vhd,hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="417"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\components.vhd,hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="2025"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3.vhd,hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="8823"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3_ahbtoapbsm.vhd,hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="12668"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd,hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="5229"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3_penablescheduler.vhd,hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="4814"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+STATE="utd"
+TIME="1587497305"
+SIZE="14140"
+LIBRARY="COREAHBTOAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1586305119"
+TIME="1587498329"
 SIZE="3259"
 PARENT="<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
 STATE="utd"
-TIME="1586305119"
+TIME="1587498329"
 SIZE="2013"
 LIBRARY="COREAPB3_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
@@ -349,6 +468,101 @@ LIBRARY="COREAPB3_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
 MODULE_UNDER_TEST="testbench"
 SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\constraints\CoreMACFilter_synplicity.sdc,sdc"
+STATE="utd"
+TIME="1587497281"
+SIZE="274"
+PARENT="<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\COREMACFILTER.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\COREMACFILTER.cxf,actgen_cxf"
+STATE="utd"
+TIME="1587497282"
+SIZE="1964"
+PARENT="<project>\component\work\COREMACFILTER_C0\COREMACFILTER_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\msgmii_cnvrxi_fltr.v,hdl"
+STATE="utd"
+TIME="1587497281"
+SIZE="14455"
+PARENT="<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\COREMACFILTER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\msgmii_cnvrxo_fltr.v,hdl"
+STATE="utd"
+TIME="1587497281"
+SIZE="6339"
+PARENT="<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\COREMACFILTER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\pecrc.v,hdl"
+STATE="utd"
+TIME="1587497281"
+SIZE="6377"
+PARENT="<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\COREMACFILTER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perex_pcs_fltr.v,hdl"
+STATE="utd"
+TIME="1587497281"
+SIZE="47416"
+PARENT="<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\COREMACFILTER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perex_pma_fltr.v,hdl"
+STATE="utd"
+TIME="1587497281"
+SIZE="11763"
+PARENT="<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\COREMACFILTER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v,hdl"
+STATE="utd"
+TIME="1587497281"
+SIZE="57625"
+PARENT="<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\COREMACFILTER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\r10b8b.v,hdl"
+STATE="utd"
+TIME="1587497281"
+SIZE="27262"
+PARENT="<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\COREMACFILTER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\sib_sync_2flp.v,hdl"
+STATE="utd"
+TIME="1587497281"
+SIZE="4361"
+PARENT="<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\COREMACFILTER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\sib_sync_pulse.v,hdl"
+STATE="utd"
+TIME="1587497281"
+SIZE="4109"
+PARENT="<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\COREMACFILTER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\si_sal_fltr.v,hdl"
+STATE="utd"
+TIME="1587497281"
+SIZE="5798"
+PARENT="<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\COREMACFILTER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\tsm_sysreg_fltr.v,hdl"
+STATE="utd"
+TIME="1587497281"
+SIZE="8189"
+PARENT="<project>\component\Actel\DirectCore\COREMACFILTER\2.0.207\COREMACFILTER.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf,actgen_cxf"
@@ -524,25 +738,25 @@ PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS
 ENDFILE
 VALUE "<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0.cxf,actgen_cxf"
 STATE="utd"
-TIME="1587190409"
-SIZE="16303"
+TIME="1587498296"
+SIZE="20173"
 ENDFILE
 VALUE "<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0.vhd,hdl"
 STATE="utd"
-TIME="1587190408"
-SIZE="47884"
+TIME="1587498295"
+SIZE="50940"
 PARENT="<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite.cxf,actgen_cxf"
 STATE="utd"
-TIME="1587190408"
+TIME="1587498295"
 SIZE="2645"
 PARENT="<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0.cxf"
 ENDFILE
 VALUE "<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\coreparameters.vhd,tb_hdl"
 STATE="utd"
-TIME="1587190408"
+TIME="1587498295"
 SIZE="5437"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite.cxf"
@@ -550,7 +764,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\core\components.vhd,hdl"
 STATE="utd"
-TIME="1587190408"
+TIME="1587498295"
 SIZE="18889"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite.cxf"
@@ -558,7 +772,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\core\coreahblite.vhd,hdl"
 STATE="utd"
-TIME="1587190408"
+TIME="1587498295"
 SIZE="69949"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite.cxf"
@@ -566,7 +780,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
 STATE="utd"
-TIME="1587190408"
+TIME="1587498295"
 SIZE="68384"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite.cxf"
@@ -574,90 +788,67 @@ MODULE_UNDER_TEST="testbench"
 SIMULATION_TIME="-all"
 IS_READONLY="TRUE"
 ENDFILE
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0.cxf,actgen_cxf"
+VALUE "<project>\component\work\COREAHBTOAPB3_C0\COREAHBTOAPB3_C0.cxf,actgen_cxf"
 STATE="utd"
-TIME="1587255126"
-SIZE="5598"
+TIME="1587497306"
+SIZE="6900"
 ENDFILE
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0.vhd,hdl"
+VALUE "<project>\component\work\COREAHBTOAPB3_C0\COREAHBTOAPB3_C0.vhd,hdl"
 STATE="utd"
-TIME="1587255125"
-SIZE="5386"
-PARENT="<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM.cxf,actgen_cxf"
-STATE="utd"
-TIME="1587255125"
-SIZE="2156"
-PARENT="<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0.cxf"
-ENDFILE
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\coreparameters.vhd,tb_hdl"
-STATE="utd"
-TIME="1587255125"
-SIZE="803"
-PARENT="<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\AHBLSramIf.vhd,hdl"
-STATE="utd"
-TIME="1587255125"
-SIZE="15762"
-LIBRARY="COREAHBLSRAM_LIB"
-PARENT="<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\CoreAHBLSRAM.vhd,hdl"
-STATE="utd"
-TIME="1587255125"
-SIZE="9667"
-LIBRARY="COREAHBLSRAM_LIB"
-PARENT="<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\lsram_2048to139264x8.vhd,hdl"
-STATE="utd"
-TIME="1587255125"
-SIZE="1486713"
-LIBRARY="COREAHBLSRAM_LIB"
-PARENT="<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\SramCtrlIf.vhd,hdl"
-STATE="utd"
-TIME="1587255125"
-SIZE="17371"
-LIBRARY="COREAHBLSRAM_LIB"
-PARENT="<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\usram_128to9216x8.vhd,hdl"
-STATE="utd"
-TIME="1587255125"
-SIZE="73237"
-LIBRARY="COREAHBLSRAM_LIB"
-PARENT="<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM.cxf"
-IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
-STATE="utd"
-TIME="1587255125"
-SIZE="27548"
-PARENT="<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM.cxf"
-MODULE_UNDER_TEST="testbench"
-SIMULATION_TIME="-all"
+TIME="1587497305"
+SIZE="5390"
+PARENT="<project>\component\work\COREAHBTOAPB3_C0\COREAHBTOAPB3_C0.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf,actgen_cxf"
 STATE="utd"
-TIME="1586305119"
-SIZE="10152"
+TIME="1587498330"
+SIZE="8456"
 ENDFILE
 VALUE "<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd,hdl"
 STATE="utd"
-TIME="1586305119"
-SIZE="13269"
+TIME="1587498329"
+SIZE="13120"
 PARENT="<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREMACFILTER_C0\COREMACFILTER_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1587497282"
+SIZE="5257"
+ENDFILE
+VALUE "<project>\component\work\COREMACFILTER_C0\COREMACFILTER_C0.vhd,hdl"
+STATE="utd"
+TIME="1587497282"
+SIZE="5782"
+PARENT="<project>\component\work\COREMACFILTER_C0\COREMACFILTER_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\COREMACFILTER_C0_COREMACFILTER_C0_0_COREMACFILTER.cxf,actgen_cxf"
+STATE="utd"
+TIME="1587497282"
+SIZE="826"
+PARENT="<project>\component\work\COREMACFILTER_C0\COREMACFILTER_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\coreparameters.v,hdl"
+STATE="utd"
+TIME="1587497282"
+SIZE="294"
+PARENT="<project>\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\COREMACFILTER_C0_COREMACFILTER_C0_0_COREMACFILTER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\CoreMACFilter.v,hdl"
+STATE="utd"
+TIME="1587497282"
+SIZE="1913"
+PARENT="<project>\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\COREMACFILTER_C0_COREMACFILTER_C0_0_COREMACFILTER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v,hdl"
+STATE="utd"
+TIME="1587497282"
+SIZE="10190"
+PARENT="<project>\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\COREMACFILTER_C0_COREMACFILTER_C0_0_COREMACFILTER.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
@@ -692,13 +883,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\FFT_Accel_system\FFT_Accel_system.cxf,actgen_cxf"
 STATE="utd"
-TIME="1587451385"
+TIME="1587502564"
 SIZE="5841"
 ENDFILE
 VALUE "<project>\component\work\FFT_Accel_system\FFT_Accel_system.vhd,hdl"
 STATE="utd"
-TIME="1587451384"
-SIZE="29683"
+TIME="1587502563"
+SIZE="31164"
 PARENT="<project>\component\work\FFT_Accel_system\FFT_Accel_system.cxf"
 IS_READONLY="TRUE"
 ENDFILE
@@ -826,6 +1017,11 @@ SIZE="11436"
 PARENT="<project>\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.cxf"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\constraint\FFT_Accel_system_derived_constraints.sdc,sdc"
+STATE="utd"
+TIME="1587627617"
+SIZE="3161"
+ENDFILE
 VALUE "<project>\designer\impl1\CoreAHBLite_C0.ide_des,ide_des"
 STATE="utd"
 TIME="1587193717"
@@ -868,7 +1064,7 @@ SIZE="30830"
 ENDFILE
 VALUE "<project>\hdl\FFT_AHB_Wrapper.vhd,hdl"
 STATE="utd"
-TIME="1587464313"
+TIME="1587627104"
 SIZE="25877"
 ENDFILE
 VALUE "<project>\hdl\FFT_APB_Wrapper.vhd,hdl"
@@ -908,8 +1104,9 @@ SIZE="2495291"
 ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
 STATE="utd"
-TIME="1587074870"
-SIZE="1462"
+TIME="1572988165"
+SIZE="1229"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
 PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\5.4.102\CoreAHBLite.cxf"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
 ENDFILE
@@ -955,6 +1152,12 @@ TIME="1572988165"
 SIZE="8016"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
 ENDFILE
+VALUE "<project>\simulation\master.bfm,sim"
+STATE="utd"
+TIME="1587497305"
+SIZE="2823"
+PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\COREAHBTOAPB3.cxf"
+ENDFILE
 VALUE "<project>\simulation\peripheral_init.bfm,sim"
 STATE="utd"
 TIME="1574307846"
@@ -963,12 +1166,12 @@ PARENT="<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1587250117"
-SIZE="2849"
+TIME="1587623196"
+SIZE="6168"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1587250117"
+TIME="1587623195"
 SIZE="1030"
 PARENT="<project>\component\work\FFT_Accel_system\FFT_Accel_system.cxf"
 PARENT="<project>\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.cxf"
@@ -978,11 +1181,6 @@ STATE="utd"
 TIME="1587190152"
 SIZE="734"
 PARENT="<project>\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.cxf"
-ENDFILE
-VALUE "<project>\simulation\testbench_presynth_simulation.log,log"
-STATE="utd"
-TIME="1587464323"
-SIZE="332008"
 ENDFILE
 VALUE "<project>\simulation\user.bfm,sim"
 STATE="utd"
@@ -1007,22 +1205,22 @@ SIZE="204"
 ENDFILE
 VALUE "<project>\synthesis\FFT_Accel_system.so,so"
 STATE="utd"
-TIME="1587201403"
+TIME="1587601870"
 SIZE="250"
 ENDFILE
 VALUE "<project>\synthesis\FFT_Accel_system.vm,syn_vm"
 STATE="utd"
-TIME="1587201402"
-SIZE="705679"
+TIME="1587601870"
+SIZE="725350"
 ENDFILE
 VALUE "<project>\synthesis\FFT_Accel_system_syn.prj,prj"
 STATE="utd"
-TIME="1587201403"
-SIZE="6934"
+TIME="1587601792"
+SIZE="6473"
 ENDFILE
 VALUE "<project>\synthesis\FFT_Accel_system_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1587201402"
+TIME="1587601870"
 SIZE="1670"
 ENDFILE
 VALUE "<project>\synthesis\FFT_APB_Wrapper.so,so"
@@ -1126,7 +1324,6 @@ ENDLIST
 LIST ProjectState5.1
 LIST Impl1
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>\synthesis\FFT_Accel_system.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -1155,6 +1352,24 @@ LIST "FFT_Accel_system::work"
 FILE "<project>\component\work\FFT_Accel_system\FFT_Accel_system.vhd,hdl"
 LIST Other_Association
 VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>\constraint\FFT_Accel_system_derived_constraints.sdc,sdc"
+ENDLIST
+LIST TimingConstraints
+VALUE "<project>\constraint\FFT_Accel_system_derived_constraints.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\FFT_Accel_system.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
 ENDLIST
 ENDLIST
 LIST "FFT_Accel_system_sb::work"
@@ -1222,19 +1437,20 @@ VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\amba_bf
 VALUE "<project>\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
 ENDLIST
 ENDLIST
-LIST "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM::coreahblsram_lib"
-FILE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\CoreAHBLSRAM.vhd,hdl"
+LIST "COREAHBTOAPB3::coreahbtoapb3_lib"
+FILE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3.vhd,hdl"
 LIST Other_Association
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\coreparameters.vhd,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\test\user\XHDL_misc.vhd,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\test\user\XHDL_std_logic.vhd,tb_hdl"
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
-ENDLIST
-LIST AssociatedStimulus
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\coreparameters.vhd,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\test\user\XHDL_misc.vhd,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\test\user\XHDL_std_logic.vhd,tb_hdl"
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\master.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_ahbl.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -1244,12 +1460,6 @@ VALUE "<project>\stimulus\FFT_AHB_Wrapper_tb.vhd,tb_hdl"
 ENDLIST
 LIST FFT_AHB_Wrapper
 VALUE "<project>\stimulus\FFT_AHB_Wrapper_tb.vhd,tb_hdl"
-ENDLIST
-LIST COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\coreparameters.vhd,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\test\user\XHDL_misc.vhd,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\test\user\XHDL_std_logic.vhd,tb_hdl"
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
 ENDLIST
 ENDLIST
 LIST Other_Association
@@ -1291,11 +1501,18 @@ VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\b
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\mti\scripts\wave_user.do,do"
 ENDLIST
-LIST COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\coreparameters.vhd,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\test\user\XHDL_misc.vhd,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\test\user\XHDL_std_logic.vhd,tb_hdl"
-VALUE "<project>\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+LIST COREAHBTOAPB3
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\master.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_ahbl.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
 ENDLIST
 ENDLIST
 LIST SimulationOptions
@@ -1325,7 +1542,7 @@ PrecisionBase=ps
 ENDLIST
 LIST ModelSimLibPath
 UseCustomPath=TRUE
-LibraryPath=C:/Microsemi/Libero_SoC_v12.1/Designer/lib/modelsimpro/precompiled\vlog\SmartFusion2
+LibraryPath=C:/Microsemi/Libero_SoC_v12.4/Designer/lib/modelsimpro/precompiled\vlog\SmartFusion2
 ENDLIST
 LIST GlobalFlowOptions
 GenerateHDLAfterSynthesis=FALSE
@@ -1364,26 +1581,17 @@ EndProfile
 NAME="SynplifyProME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
-LOCATION="C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+LOCATION="C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
 NAME="ModelSimME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
-LOCATION="C:\Microsemi\Libero_SoC_v12.1\ModelSim\win32acoem\modelsim.exe"
+LOCATION="C:\Microsemi\Libero_SoC_v12.4\ModelSim\win32acoem\modelsim.exe"
 PARAM=" -l testbench_presynth_simulation.log "
-BATCH=0
-LICENSE=""
-IS32BIT="1"
-EndProfile
-NAME="FPExpress"
-FUNCTION="Program"
-TOOL="FlashPro"
-LOCATION="C:\Microsemi\Libero_SoC_v12.1\Designer\binfp\FPExpress.exe"
-PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -1391,7 +1599,7 @@ EndProfile
 NAME="IdentifyDebugger"
 FUNCTION="IdentifyDebugger"
 TOOL="Identify Debugger"
-LOCATION="C:\Microsemi\Libero_SoC_v12.1\Identify\bin\identify_debugger.exe"
+LOCATION="C:\Microsemi\Libero_SoC_v12.4\Identify\bin\identify_debugger.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -1402,7 +1610,6 @@ LIST ProjectState5.1
 LIST "CoreAHBLite_C0::work"
 LIST Impl1
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>\synthesis\FFT_Accel_system.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -1423,6 +1630,18 @@ VALUE "<project>\designer\impl1\CoreAHBLite_C0.pdb,pdb"
 VALUE "<project>\designer\impl1\CoreAHBLite_C0.stp,stp"
 VALUE "<project>\designer\impl1\CoreAHBLite_C0_fp\CoreAHBLite_C0.pro,pro"
 VALUE "<project>\synthesis\FFT_Accel_system_sdc.sdc,syn_sdc"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "FFT_Accel_system::work"
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\FFT_Accel_system.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
 ENDUsed_File_List
 ENDLIST
 ENDLIST
@@ -1452,10 +1671,11 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Run PROGRAM Action:FFT_Accel_system_PROGRAM.log
-StartPage;StartPage;0
+ReportsCurrentItem;Verify Power:FFT_Accel_system_power_report.xml
 SmartDesign;FFT_Accel_system;0
-ACTIVEVIEW;Reports
+Constraint Manager;Constraint Manager;0
+StartPage;StartPage;0
+ACTIVEVIEW;FFT_Accel_system
 ENDLIST
 LIST ModuleSubBlockList
 LIST "Abs_Val_Cmplx::work","hdl\Abs_Val_Cmplx.vhd","FALSE","FALSE"
@@ -1466,11 +1686,42 @@ ENDLIST
 LIST "CoreAHBLite_C0::work","component\work\CoreAHBLite_C0\CoreAHBLite_C0.vhd","TRUE","FALSE"
 SUBBLOCK "CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite::coreahblite_lib","component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\core\coreahblite.vhd","FALSE","FALSE"
 ENDLIST
-LIST "COREAHBLSRAM_C0::work","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0.vhd","TRUE","FALSE"
-SUBBLOCK "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM::coreahblsram_lib","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\CoreAHBLSRAM.vhd","FALSE","FALSE"
+LIST "COREAHBTOAPB3_C0::work","component\work\COREAHBTOAPB3_C0\COREAHBTOAPB3_C0.vhd","TRUE","FALSE"
+SUBBLOCK "COREAHBTOAPB3::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3.vhd","FALSE","FALSE"
 ENDLIST
 LIST "CoreAPB3_C0::work","component\work\CoreAPB3_C0\CoreAPB3_C0.vhd","TRUE","FALSE"
 SUBBLOCK "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREMACFILTER_C0::work","component\work\COREMACFILTER_C0\COREMACFILTER_C0.vhd","TRUE","FALSE"
+SUBBLOCK "COREMACFILTER_C0_COREMACFILTER_C0_0_COREMACFILTER::work","component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\CoreMACFilter.v","FALSE","FALSE"
+ENDLIST
+LIST "COREMACFILTER_C0_COREMACFILTER_C0_0_COREMACFILTER::work","component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\CoreMACFilter.v","FALSE","FALSE"
+SUBBLOCK "COREMACFILTER_C0_COREMACFILTER_C0_0_frame_fltr_top1::work","component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreMACFilter_msgmii_cnvrxi_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\msgmii_cnvrxi_fltr.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreMACFilter_msgmii_cnvrxo_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\msgmii_cnvrxo_fltr.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreMACFilter_pecrc::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\pecrc.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreMACFilter_perex_pcs_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perex_pcs_fltr.v","FALSE","FALSE"
+SUBBLOCK "CoreMACFilter_r10b8b::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\r10b8b.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreMACFilter_perex_pma_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perex_pma_fltr.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreMACFilter_perfn_top_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v","FALSE","FALSE"
+SUBBLOCK "CoreMACFilter_pecrc::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\pecrc.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreMACFilter_r10b8b::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\r10b8b.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreMACFilter_si_sal_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\si_sal_fltr.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreMACFilter_sib_sync_2flp::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\sib_sync_2flp.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreMACFilter_sib_sync_pulse::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\sib_sync_pulse.v","FALSE","FALSE"
+SUBBLOCK "CoreMACFilter_sib_sync_2flp::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\sib_sync_2flp.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreMACFilter_tsm_sysreg_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\tsm_sysreg_fltr.v","FALSE","FALSE"
 ENDLIST
 LIST "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd","FALSE","FALSE"
 ENDLIST
@@ -1491,6 +1742,16 @@ LIST "DPSRAM_C0_DPSRAM_C0_0_DPSRAM::work","component\work\DPSRAM_C0\DPSRAM_C0_0\
 ENDLIST
 LIST "Alpha_Max_plus_Beta_Min::work","hdl\Alpha_Max_plus_Beta_Min.vhd","FALSE","FALSE"
 SUBBLOCK "HARD_MULT_ADDSUB_C1::work","component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd","TRUE","FALSE"
+ENDLIST
+LIST "COREMACFILTER_C0_COREMACFILTER_C0_0_frame_fltr_top1::work","component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v","FALSE","FALSE"
+SUBBLOCK "CoreMACFilter_msgmii_cnvrxi_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\msgmii_cnvrxi_fltr.v","FALSE","FALSE"
+SUBBLOCK "CoreMACFilter_msgmii_cnvrxo_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\msgmii_cnvrxo_fltr.v","FALSE","FALSE"
+SUBBLOCK "CoreMACFilter_perex_pcs_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perex_pcs_fltr.v","FALSE","FALSE"
+SUBBLOCK "CoreMACFilter_perex_pma_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perex_pma_fltr.v","FALSE","FALSE"
+SUBBLOCK "CoreMACFilter_perfn_top_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v","FALSE","FALSE"
+SUBBLOCK "CoreMACFilter_si_sal_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\si_sal_fltr.v","FALSE","FALSE"
+SUBBLOCK "CoreMACFilter_sib_sync_pulse::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\sib_sync_pulse.v","FALSE","FALSE"
+SUBBLOCK "CoreMACFilter_tsm_sysreg_fltr::work","component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\tsm_sysreg_fltr.v","FALSE","FALSE"
 ENDLIST
 LIST "CoreResetP::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd","FALSE","FALSE"
 SUBBLOCK "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd","FALSE","FALSE"
@@ -1594,19 +1855,10 @@ LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","
 ENDLIST
 LIST "XTLOSC_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
 ENDLIST
-LIST "coreparameters::work","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\coreparameters.vhd","FALSE","TRUE"
-ENDLIST
 LIST "testbench::work","stimulus\FFT_AHB_Wrapper_tb.vhd","FALSE","TRUE"
 ENDLIST
 LIST "testbench::work","stimulus\FFT_APB_Wrappe_tb.vhd","FALSE","TRUE"
 SUBBLOCK "FFT_APB_Wrapper::work","hdl\FFT_APB_Wrapper.vhd","FALSE","FALSE"
-ENDLIST
-LIST "testbench::work","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\test\user\testbench.vhd","FALSE","TRUE"
-SUBBLOCK "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM::coreahblsram_lib","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\CoreAHBLSRAM.vhd","FALSE","FALSE"
-ENDLIST
-LIST "xhdl_misc::work","component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\test\user\XHDL_misc.vhd","FALSE","TRUE"
-ENDLIST
-LIST "xhdl_std_logic::work","component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\test\user\XHDL_std_logic.vhd","FALSE","TRUE"
 ENDLIST
 LIST "components::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd","FALSE","FALSE"
 ENDLIST
@@ -1722,21 +1974,45 @@ SUBBLOCK "bfm_AHbl::coreahblite_lib","component\Actel\DirectCore\CoreAHBLite\5.4
 SUBBLOCK "bfm_AHbl::coreahblite_lib","component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\amba_bfm\bfm_ahbl.vhd","FALSE","TRUE"
 SUBBLOCK "bfm_AHbl::coreahblite_lib","component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\amba_bfm\bfm_ahbl.vhd","FALSE","TRUE"
 ENDLIST
-LIST "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf::coreahblsram_lib","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\AHBLSramIf.vhd","FALSE","FALSE"
+LIST "ahbtoapb3_pkg::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\ahbtoapb3_pkg.vhd","FALSE","FALSE"
 ENDLIST
-LIST "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM::coreahblsram_lib","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\CoreAHBLSRAM.vhd","FALSE","FALSE"
-SUBBLOCK "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf::coreahblsram_lib","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\AHBLSramIf.vhd","FALSE","FALSE"
-SUBBLOCK "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_SramCtrlIf::coreahblsram_lib","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\SramCtrlIf.vhd","FALSE","FALSE"
+LIST "components::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\components.vhd","FALSE","FALSE"
 ENDLIST
-LIST "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_lsram_2048to139264x8::coreahblsram_lib","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\lsram_2048to139264x8.vhd","FALSE","FALSE"
+LIST "COREAHBTOAPB3::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3.vhd","FALSE","FALSE"
+SUBBLOCK "CoreAHBtoAPB3_AhbToApbSM::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3_ahbtoapbsm.vhd","FALSE","FALSE"
+SUBBLOCK "CoreAHBtoAPB3_ApbAddrData::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd","FALSE","FALSE"
+SUBBLOCK "CoreAHBtoAPB3_PenableScheduler::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3_penablescheduler.vhd","FALSE","FALSE"
 ENDLIST
-LIST "coreahblsram_pkg::coreahblsram_lib","component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\core\coreahblsram_pkg.vhd","FALSE","FALSE"
+LIST "CoreAHBtoAPB3_AhbToApbSM::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3_ahbtoapbsm.vhd","FALSE","FALSE"
 ENDLIST
-LIST "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_SramCtrlIf::coreahblsram_lib","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\SramCtrlIf.vhd","FALSE","FALSE"
-SUBBLOCK "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_lsram_2048to139264x8::coreahblsram_lib","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\lsram_2048to139264x8.vhd","FALSE","FALSE"
-SUBBLOCK "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_usram_128to9216x8::coreahblsram_lib","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\usram_128to9216x8.vhd","FALSE","FALSE"
+LIST "CoreAHBtoAPB3_ApbAddrData::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd","FALSE","FALSE"
 ENDLIST
-LIST "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_usram_128to9216x8::coreahblsram_lib","component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\usram_128to9216x8.vhd","FALSE","FALSE"
+LIST "CoreAHBtoAPB3_PenableScheduler::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3_penablescheduler.vhd","FALSE","FALSE"
+ENDLIST
+LIST "bfm_misc::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\misc.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfM_packAGE::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio_test::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "coreparameters::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\coreparameters.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_AHbl::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_ahbl.vhd","FALSE","TRUE"
+SUBBLOCK "bFM_maiN::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apbSLAve::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+SUBBLOCK "BFM_apBSLaveeXT::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apBSLaveeXT::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bFM_maiN::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "testbench::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\test\user\testbench.vhd","FALSE","TRUE"
+SUBBLOCK "COREAHBTOAPB3::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3.vhd","FALSE","FALSE"
+SUBBLOCK "BFM_apbSLAve::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+SUBBLOCK "bfm_AHbl::coreahbtoapb3_lib","component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\amba_bfm\bfm_ahbl.vhd","FALSE","TRUE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
@@ -1755,7 +2031,9 @@ ENDLIST
 LIST FPTabList
 ENDLIST
 LIST TimingTabList
+VALUE "constraint\FFT_Accel_system_derived_constraints.sdc"
 VALUE "synthesis\AutoConstraint_FFT_APB_Wrapper.sdc"
+VALUE "component\Actel\DirectCore\COREMACFILTER\2.0.207\constraints\CoreMACFilter_synplicity.sdc"
 ENDLIST
 LIST FDCTabList
 ENDLIST

@@ -76,7 +76,7 @@ def send_UDP(data_to_send, port):
     # cmd prompt > arp -a
     # hard coded into main.c
 
-    UDP_IP = "100.100.100.255"
+    UDP_IP = "100.100.100.200"
     UDP_PORT = port
     MESSAGE = bytes(data_to_send)
 

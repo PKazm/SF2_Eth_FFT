@@ -9,7 +9,7 @@
 #ifndef HAL_H_
 #define HAL_H_
 
-#include "../../firmware/hal/CortexM3/GNU/cpu_types.h"
+#include "cpu_types.h"
 #include "hw_reg_access.h"
 
 /***************************************************************************//**

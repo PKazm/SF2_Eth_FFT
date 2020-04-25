@@ -1,5 +1,5 @@
 #--  Synopsys, Inc.
-#--  Version N-2018.03M-SP1-1
+#--  Version P-2019.03M-SP1-1
 #--  Project file E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\scratchproject.prs
 
 #project files
@@ -47,10 +47,15 @@ add_file -fpga_constraint "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/designer/
 #implementation: "synthesis"
 impl -add E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis -type fpga
 
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
 #device options
 set_option -technology SmartFusion2
 set_option -part M2S010
-set_option -package TQ144
+set_option -package VF400
 set_option -speed_grade STD
 set_option -part_companion ""
 
@@ -60,6 +65,7 @@ set_option -top_module "work.FFT_Accel_system"
 
 # hdl_compiler_options
 set_option -distributed_compile 0
+set_option -hdl_strict_syntax 0
 
 # mapper_without_write_options
 set_option -frequency 100.000
@@ -87,7 +93,10 @@ set_option -report_path 4000
 set_option -update_models_cp 0
 set_option -preserve_registers 0
 set_option -disable_ramindex 0
+set_option -rep_clkint_driver 1
 set_option -microsemi_enhanced_flow 1
+set_option -ternary_adder_decomp 66
+set_option -pack_uram_addr_reg 1
 
 # NFilter
 set_option -no_sequential_opt 0

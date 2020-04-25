@@ -1,35 +1,42 @@
 #add_file options
-add_file -lib COREAPB3_LIB -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd"
-add_file -lib COREAPB3_LIB -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd"
-add_file -lib COREAPB3_LIB -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd"
-add_file -lib COREAPB3_LIB -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/CoreAPB3_C0/CoreAPB3_C0.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/DPSRAM_C0/DPSRAM_C0_0/DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/DPSRAM_C0/DPSRAM_C0.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/HARD_MULT_ADDSUB_C0/HARD_MULT_ADDSUB_C0_0/HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/HARD_MULT_ADDSUB_C0/HARD_MULT_ADDSUB_C0.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/hdl/FFT_Package.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/hdl/FFT_Butterfly_HW_MATHDSP.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/hdl/Twiddle_table.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/hdl/FFT_Transformer.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/hdl/FFT_Sample_Loader.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/hdl/FFT_Sample_Outputer.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/hdl/FFT.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/HARD_MULT_ADDSUB_C1/HARD_MULT_ADDSUB_C1_0/HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/HARD_MULT_ADDSUB_C1/HARD_MULT_ADDSUB_C1.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/hdl/Alpha_Max_plus_Beta_Min.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/hdl/FFT_APB_Wrapper.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/FFT_Accel_system_sb/CCC_0/FFT_Accel_system_sb_CCC_0_FCCC.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/FFT_Accel_system_sb/FABOSC_0/FFT_Accel_system_sb_FABOSC_0_OSC.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/FFT_Accel_system_sb_MSS/FFT_Accel_system_sb_MSS_syn.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/FFT_Accel_system_sb_MSS/FFT_Accel_system_sb_MSS.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/FFT_Accel_system_sb/FFT_Accel_system_sb.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_slavearbiter.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_slavestage.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_defaultslavesm.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_addrdec.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_masterstage.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_matrix4x16.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_pkg.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/CoreAHBLite_C0/CoreAHBLite_C0_0/rtl/vhdl/core/coreahblite.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/CoreAHBLite_C0/CoreAHBLite_C0_0/rtl/vhdl/core/components.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/CoreAHBLite_C0/CoreAHBLite_C0.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/DPSRAM_C0/DPSRAM_C0_0/DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/DPSRAM_C0/DPSRAM_C0.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/hdl/FFT_Package.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/hdl/FFT_Sample_Loader.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/hdl/FFT_Sample_Outputer.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/HARD_MULT_ADDSUB_C0/HARD_MULT_ADDSUB_C0_0/HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/HARD_MULT_ADDSUB_C0/HARD_MULT_ADDSUB_C0.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/hdl/FFT_Butterfly_HW_MATHDSP.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/hdl/Twiddle_table.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/hdl/FFT_Transformer.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/hdl/FFT.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/HARD_MULT_ADDSUB_C1/HARD_MULT_ADDSUB_C1_0/HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/HARD_MULT_ADDSUB_C1/HARD_MULT_ADDSUB_C1.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/hdl/Alpha_Max_plus_Beta_Min.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/hdl/AHB_Package.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/hdl/FFT_AHB_Wrapper.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/FFT_Accel_system_sb/CCC_0/FFT_Accel_system_sb_CCC_0_FCCC.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/FFT_Accel_system_sb/FABOSC_0/FFT_Accel_system_sb_FABOSC_0_OSC.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/FFT_Accel_system_sb_MSS/FFT_Accel_system_sb_MSS_syn.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/FFT_Accel_system_sb_MSS/FFT_Accel_system_sb_MSS.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/FFT_Accel_system_sb/FFT_Accel_system_sb.vhd"
+add_file -vhdl "C:/Users/Phoenix136/Dropbox/FPGA/My_Stuff/Standalone Files/LED_inverter_dimmer.vhd"
 add_file -vhdl "E:/Github_Repos/SF2_MKR_KIT_IO_Constraints/MSS_to_IO_Interpreter.vhd"
-add_file -vhdl "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/FFT_Accel_system/FFT_Accel_system.vhd"
-add_file -fpga_constraint "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/designer/FFT_Accel_system/synthesis.fdc"
+add_file -vhdl "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/FFT_Accel_system/FFT_Accel_system.vhd"
+add_file -fpga_constraint "E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/designer/FFT_Accel_system/synthesis.fdc"
 
 
 
@@ -39,22 +46,28 @@ add_file -fpga_constraint "E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/d
 #implementation: "synthesis"
 impl -add synthesis -type fpga
 
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
 set_option -vhdl2008 1
 
 #device options
 set_option -technology SmartFusion2
 set_option -part M2S010
-set_option -package TQ144
 set_option -speed_grade STD
 #compilation/mapping options
 set_option -use_fsm_explorer 0
 
 # hdl_compiler_options
 set_option -distributed_compile 0
+set_option -hdl_strict_syntax 0
 
 # mapper_without_write_options
 set_option -frequency 100.000
 set_option -srs_instrumentation 1
+
 
 set_option -top_module work.FFT_Accel_system
 
@@ -79,7 +92,10 @@ set_option -report_path 4000
 set_option -update_models_cp 0
 set_option -preserve_registers 0
 set_option -disable_ramindex 0
+set_option -rep_clkint_driver 1
 set_option -microsemi_enhanced_flow 1
+set_option -ternary_adder_decomp 66
+set_option -pack_uram_addr_reg 1
 # NFilter
 set_option -no_sequential_opt 0
 

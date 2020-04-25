@@ -1,0 +1,79 @@
+#OPTIONS:"|-mixedhdl|-modhint|E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\synthesis\\synwork\\_verilog_hintfile|-top|work.COREMACFILTER_C0_COREMACFILTER_C0_0_COREMACFILTER|-mpparams|E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\synthesis\\synwork\\FFT_Accel_system_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\bin64\\c_ver.exe":1545375128
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\synthesis\\synwork\\_verilog_hintfile":1587498353
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1545375133
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1545375136
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\COREMACFILTER\\2.0.207\\rtl\\vlog\\core\\msgmii_cnvrxi_fltr.v":1587497281
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\COREMACFILTER\\2.0.207\\rtl\\vlog\\core\\msgmii_cnvrxo_fltr.v":1587497281
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\COREMACFILTER\\2.0.207\\rtl\\vlog\\core\\r10b8b.v":1587497281
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\COREMACFILTER\\2.0.207\\rtl\\vlog\\core\\perex_pcs_fltr.v":1587497281
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\COREMACFILTER\\2.0.207\\rtl\\vlog\\core\\perex_pma_fltr.v":1587497281
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\COREMACFILTER\\2.0.207\\rtl\\vlog\\core\\pecrc.v":1587497281
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\COREMACFILTER\\2.0.207\\rtl\\vlog\\core\\perfn_top_fltr.v":1587497281
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\COREMACFILTER\\2.0.207\\rtl\\vlog\\core\\si_sal_fltr.v":1587497281
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\COREMACFILTER\\2.0.207\\rtl\\vlog\\core\\sib_sync_2flp.v":1587497281
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\COREMACFILTER\\2.0.207\\rtl\\vlog\\core\\sib_sync_pulse.v":1587497281
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\Actel\\DirectCore\\COREMACFILTER\\2.0.207\\rtl\\vlog\\core\\tsm_sysreg_fltr.v":1587497281
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\COREMACFILTER_C0\\COREMACFILTER_C0_0\\rtl\\vlog\\core\\frame_fltr_top1_GMII.v":1587497282
+#CUR:"E:\\Github_Repos\\SF2_Eth_FFT\\FFT_Accelerator\\component\\work\\COREMACFILTER_C0\\COREMACFILTER_C0_0\\rtl\\vlog\\core\\CoreMACFilter.v":1587497282
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\msgmii_cnvrxi_fltr.v" verilog
+1			"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\msgmii_cnvrxo_fltr.v" verilog
+2			"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\r10b8b.v" verilog
+3			"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perex_pcs_fltr.v" verilog
+4			"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perex_pma_fltr.v" verilog
+5			"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\pecrc.v" verilog
+6			"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v" verilog
+7			"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\si_sal_fltr.v" verilog
+8			"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\sib_sync_2flp.v" verilog
+9			"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\sib_sync_pulse.v" verilog
+10			"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\tsm_sysreg_fltr.v" verilog
+11			"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v" verilog
+12			"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\CoreMACFilter.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 2
+4 -1
+5 -1
+6 5
+7 -1
+8 -1
+9 8
+10 -1
+11 9 6 10 7 4 3 0 1
+12 11
+#Dependency Lists(Users Of)
+0 11
+1 11
+2 3
+3 11
+4 11
+5 6
+6 11
+7 11
+8 9
+9 11
+10 11
+11 12
+12 -1
+#Design Unit to File Association
+module work CoreMACFilter_msgmii_cnvrxi_fltr 0
+module work CoreMACFilter_msgmii_cnvrxo_fltr 1
+module work CoreMACFilter_r10b8b 2
+module work CoreMACFilter_perex_pcs_fltr 3
+module work CoreMACFilter_perex_pma_fltr 4
+module work CoreMACFilter_pecrc 5
+module work CoreMACFilter_perfn_top_fltr 6
+module work CoreMACFilter_si_sal_fltr 7
+module work CoreMACFilter_sib_sync_2flp 8
+module work CoreMACFilter_sib_sync_pulse 9
+module work CoreMACFilter_tsm_sysreg_fltr 10
+module work COREMACFILTER_C0_COREMACFILTER_C0_0_frame_fltr_top1 11
+module work COREMACFILTER_C0_COREMACFILTER_C0_0_COREMACFILTER 12
+#Unbound instances to file Association.

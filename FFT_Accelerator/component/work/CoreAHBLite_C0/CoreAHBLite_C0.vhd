@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Sat Apr 18 02:13:28 2020
+-- Created by SmartDesign Tue Apr 21 15:44:55 2020
 -- Version: v12.1 12.600.0.14
 ----------------------------------------------------------------------
 
@@ -27,9 +27,12 @@ entity CoreAHBLite_C0 is
         HMASTLOCK_M0 : in  std_logic;
         HPROT_M0     : in  std_logic_vector(3 downto 0);
         HRDATA_S0    : in  std_logic_vector(31 downto 0);
+        HRDATA_S1    : in  std_logic_vector(31 downto 0);
         HREADYOUT_S0 : in  std_logic;
+        HREADYOUT_S1 : in  std_logic;
         HRESETN      : in  std_logic;
         HRESP_S0     : in  std_logic_vector(1 downto 0);
+        HRESP_S1     : in  std_logic_vector(1 downto 0);
         HSIZE_M0     : in  std_logic_vector(2 downto 0);
         HTRANS_M0    : in  std_logic_vector(1 downto 0);
         HWDATA_M0    : in  std_logic_vector(31 downto 0);
@@ -37,18 +40,28 @@ entity CoreAHBLite_C0 is
         REMAP_M0     : in  std_logic;
         -- Outputs
         HADDR_S0     : out std_logic_vector(31 downto 0);
+        HADDR_S1     : out std_logic_vector(31 downto 0);
         HBURST_S0    : out std_logic_vector(2 downto 0);
+        HBURST_S1    : out std_logic_vector(2 downto 0);
         HMASTLOCK_S0 : out std_logic;
+        HMASTLOCK_S1 : out std_logic;
         HPROT_S0     : out std_logic_vector(3 downto 0);
+        HPROT_S1     : out std_logic_vector(3 downto 0);
         HRDATA_M0    : out std_logic_vector(31 downto 0);
         HREADY_M0    : out std_logic;
         HREADY_S0    : out std_logic;
+        HREADY_S1    : out std_logic;
         HRESP_M0     : out std_logic_vector(1 downto 0);
         HSEL_S0      : out std_logic;
+        HSEL_S1      : out std_logic;
         HSIZE_S0     : out std_logic_vector(2 downto 0);
+        HSIZE_S1     : out std_logic_vector(2 downto 0);
         HTRANS_S0    : out std_logic_vector(1 downto 0);
+        HTRANS_S1    : out std_logic_vector(1 downto 0);
         HWDATA_S0    : out std_logic_vector(31 downto 0);
-        HWRITE_S0    : out std_logic
+        HWDATA_S1    : out std_logic_vector(31 downto 0);
+        HWRITE_S0    : out std_logic;
+        HWRITE_S1    : out std_logic
         );
 end CoreAHBLite_C0;
 ----------------------------------------------------------------------
@@ -64,7 +77,7 @@ component CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite
         FAMILY             : integer := 19 ;
         HADDR_SHG_CFG      : integer := 1 ;
         M0_AHBSLOT0ENABLE  : integer := 1 ;
-        M0_AHBSLOT1ENABLE  : integer := 0 ;
+        M0_AHBSLOT1ENABLE  : integer := 1 ;
         M0_AHBSLOT2ENABLE  : integer := 0 ;
         M0_AHBSLOT3ENABLE  : integer := 0 ;
         M0_AHBSLOT4ENABLE  : integer := 0 ;
@@ -135,7 +148,7 @@ component CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite
         MASTER1_INTERFACE  : integer := 1 ;
         MASTER2_INTERFACE  : integer := 1 ;
         MASTER3_INTERFACE  : integer := 1 ;
-        MEMSPACE           : integer := 6 ;
+        MEMSPACE           : integer := 5 ;
         SC_0               : integer := 0 ;
         SC_1               : integer := 0 ;
         SC_2               : integer := 0 ;
@@ -447,87 +460,105 @@ end component;
 ----------------------------------------------------------------------
 -- Signal declarations
 ----------------------------------------------------------------------
-signal AHBmmaster0_HRDATA         : std_logic_vector(31 downto 0);
-signal AHBmmaster0_HREADY         : std_logic;
-signal AHBmmaster0_HRESP          : std_logic_vector(1 downto 0);
-signal AHBmslave0_HADDR           : std_logic_vector(31 downto 0);
-signal AHBmslave0_HBURST          : std_logic_vector(2 downto 0);
-signal AHBmslave0_HMASTLOCK       : std_logic;
-signal AHBmslave0_HPROT           : std_logic_vector(3 downto 0);
-signal AHBmslave0_HREADY          : std_logic;
-signal AHBmslave0_HSELx           : std_logic;
-signal AHBmslave0_HSIZE           : std_logic_vector(2 downto 0);
-signal AHBmslave0_HTRANS          : std_logic_vector(1 downto 0);
-signal AHBmslave0_HWDATA          : std_logic_vector(31 downto 0);
-signal AHBmslave0_HWRITE          : std_logic;
-signal AHBmmaster0_HREADY_net_0   : std_logic;
-signal AHBmslave0_HWRITE_net_0    : std_logic;
-signal AHBmslave0_HSELx_net_0     : std_logic;
-signal AHBmslave0_HREADY_net_0    : std_logic;
-signal AHBmslave0_HMASTLOCK_net_0 : std_logic;
-signal AHBmmaster0_HRDATA_net_0   : std_logic_vector(31 downto 0);
-signal AHBmmaster0_HRESP_net_0    : std_logic_vector(1 downto 0);
-signal AHBmslave0_HADDR_net_0     : std_logic_vector(31 downto 0);
-signal AHBmslave0_HTRANS_net_0    : std_logic_vector(1 downto 0);
-signal AHBmslave0_HSIZE_net_0     : std_logic_vector(2 downto 0);
-signal AHBmslave0_HWDATA_net_0    : std_logic_vector(31 downto 0);
-signal AHBmslave0_HBURST_net_0    : std_logic_vector(2 downto 0);
-signal AHBmslave0_HPROT_net_0     : std_logic_vector(3 downto 0);
+signal AHBmmaster0_HRDATA           : std_logic_vector(31 downto 0);
+signal AHBmmaster0_HREADY           : std_logic;
+signal AHBmmaster0_HRESP            : std_logic_vector(1 downto 0);
+signal AHBmslave0_0_HADDR           : std_logic_vector(31 downto 0);
+signal AHBmslave0_0_HBURST          : std_logic_vector(2 downto 0);
+signal AHBmslave0_0_HMASTLOCK       : std_logic;
+signal AHBmslave0_0_HPROT           : std_logic_vector(3 downto 0);
+signal AHBmslave0_0_HREADY          : std_logic;
+signal AHBmslave0_0_HSELx           : std_logic;
+signal AHBmslave0_0_HSIZE           : std_logic_vector(2 downto 0);
+signal AHBmslave0_0_HTRANS          : std_logic_vector(1 downto 0);
+signal AHBmslave0_0_HWDATA          : std_logic_vector(31 downto 0);
+signal AHBmslave0_0_HWRITE          : std_logic;
+signal AHBmslave1_HADDR             : std_logic_vector(31 downto 0);
+signal AHBmslave1_HBURST            : std_logic_vector(2 downto 0);
+signal AHBmslave1_HMASTLOCK         : std_logic;
+signal AHBmslave1_HPROT             : std_logic_vector(3 downto 0);
+signal AHBmslave1_HREADY            : std_logic;
+signal AHBmslave1_HSELx             : std_logic;
+signal AHBmslave1_HSIZE             : std_logic_vector(2 downto 0);
+signal AHBmslave1_HTRANS            : std_logic_vector(1 downto 0);
+signal AHBmslave1_HWDATA            : std_logic_vector(31 downto 0);
+signal AHBmslave1_HWRITE            : std_logic;
+signal AHBmmaster0_HREADY_net_0     : std_logic;
+signal AHBmslave0_0_HWRITE_net_0    : std_logic;
+signal AHBmslave0_0_HSELx_net_0     : std_logic;
+signal AHBmslave0_0_HREADY_net_0    : std_logic;
+signal AHBmslave0_0_HMASTLOCK_net_0 : std_logic;
+signal AHBmslave1_HWRITE_net_0      : std_logic;
+signal AHBmslave1_HSELx_net_0       : std_logic;
+signal AHBmslave1_HREADY_net_0      : std_logic;
+signal AHBmslave1_HMASTLOCK_net_0   : std_logic;
+signal AHBmmaster0_HRDATA_net_0     : std_logic_vector(31 downto 0);
+signal AHBmmaster0_HRESP_net_0      : std_logic_vector(1 downto 0);
+signal AHBmslave0_0_HADDR_net_0     : std_logic_vector(31 downto 0);
+signal AHBmslave0_0_HTRANS_net_0    : std_logic_vector(1 downto 0);
+signal AHBmslave0_0_HSIZE_net_0     : std_logic_vector(2 downto 0);
+signal AHBmslave0_0_HWDATA_net_0    : std_logic_vector(31 downto 0);
+signal AHBmslave0_0_HBURST_net_0    : std_logic_vector(2 downto 0);
+signal AHBmslave0_0_HPROT_net_0     : std_logic_vector(3 downto 0);
+signal AHBmslave1_HADDR_net_0       : std_logic_vector(31 downto 0);
+signal AHBmslave1_HTRANS_net_0      : std_logic_vector(1 downto 0);
+signal AHBmslave1_HSIZE_net_0       : std_logic_vector(2 downto 0);
+signal AHBmslave1_HWDATA_net_0      : std_logic_vector(31 downto 0);
+signal AHBmslave1_HBURST_net_0      : std_logic_vector(2 downto 0);
+signal AHBmslave1_HPROT_net_0       : std_logic_vector(3 downto 0);
 ----------------------------------------------------------------------
 -- TiedOff Signals
 ----------------------------------------------------------------------
-signal HADDR_M1_const_net_0       : std_logic_vector(31 downto 0);
-signal HTRANS_M1_const_net_0      : std_logic_vector(1 downto 0);
-signal GND_net                    : std_logic;
-signal HSIZE_M1_const_net_0       : std_logic_vector(2 downto 0);
-signal HBURST_M1_const_net_0      : std_logic_vector(2 downto 0);
-signal HPROT_M1_const_net_0       : std_logic_vector(3 downto 0);
-signal HWDATA_M1_const_net_0      : std_logic_vector(31 downto 0);
-signal HADDR_M2_const_net_0       : std_logic_vector(31 downto 0);
-signal HTRANS_M2_const_net_0      : std_logic_vector(1 downto 0);
-signal HSIZE_M2_const_net_0       : std_logic_vector(2 downto 0);
-signal HBURST_M2_const_net_0      : std_logic_vector(2 downto 0);
-signal HPROT_M2_const_net_0       : std_logic_vector(3 downto 0);
-signal HWDATA_M2_const_net_0      : std_logic_vector(31 downto 0);
-signal HADDR_M3_const_net_0       : std_logic_vector(31 downto 0);
-signal HTRANS_M3_const_net_0      : std_logic_vector(1 downto 0);
-signal HSIZE_M3_const_net_0       : std_logic_vector(2 downto 0);
-signal HBURST_M3_const_net_0      : std_logic_vector(2 downto 0);
-signal HPROT_M3_const_net_0       : std_logic_vector(3 downto 0);
-signal HWDATA_M3_const_net_0      : std_logic_vector(31 downto 0);
-signal HRDATA_S1_const_net_0      : std_logic_vector(31 downto 0);
-signal HRESP_S1_const_net_0       : std_logic_vector(1 downto 0);
-signal VCC_net                    : std_logic;
-signal HRDATA_S2_const_net_0      : std_logic_vector(31 downto 0);
-signal HRESP_S2_const_net_0       : std_logic_vector(1 downto 0);
-signal HRDATA_S3_const_net_0      : std_logic_vector(31 downto 0);
-signal HRESP_S3_const_net_0       : std_logic_vector(1 downto 0);
-signal HRDATA_S4_const_net_0      : std_logic_vector(31 downto 0);
-signal HRESP_S4_const_net_0       : std_logic_vector(1 downto 0);
-signal HRDATA_S5_const_net_0      : std_logic_vector(31 downto 0);
-signal HRESP_S5_const_net_0       : std_logic_vector(1 downto 0);
-signal HRDATA_S6_const_net_0      : std_logic_vector(31 downto 0);
-signal HRESP_S6_const_net_0       : std_logic_vector(1 downto 0);
-signal HRDATA_S7_const_net_0      : std_logic_vector(31 downto 0);
-signal HRESP_S7_const_net_0       : std_logic_vector(1 downto 0);
-signal HRDATA_S8_const_net_0      : std_logic_vector(31 downto 0);
-signal HRESP_S8_const_net_0       : std_logic_vector(1 downto 0);
-signal HRDATA_S9_const_net_0      : std_logic_vector(31 downto 0);
-signal HRESP_S9_const_net_0       : std_logic_vector(1 downto 0);
-signal HRDATA_S10_const_net_0     : std_logic_vector(31 downto 0);
-signal HRESP_S10_const_net_0      : std_logic_vector(1 downto 0);
-signal HRDATA_S11_const_net_0     : std_logic_vector(31 downto 0);
-signal HRESP_S11_const_net_0      : std_logic_vector(1 downto 0);
-signal HRDATA_S12_const_net_0     : std_logic_vector(31 downto 0);
-signal HRESP_S12_const_net_0      : std_logic_vector(1 downto 0);
-signal HRDATA_S13_const_net_0     : std_logic_vector(31 downto 0);
-signal HRESP_S13_const_net_0      : std_logic_vector(1 downto 0);
-signal HRDATA_S14_const_net_0     : std_logic_vector(31 downto 0);
-signal HRESP_S14_const_net_0      : std_logic_vector(1 downto 0);
-signal HRDATA_S15_const_net_0     : std_logic_vector(31 downto 0);
-signal HRESP_S15_const_net_0      : std_logic_vector(1 downto 0);
-signal HRDATA_S16_const_net_0     : std_logic_vector(31 downto 0);
-signal HRESP_S16_const_net_0      : std_logic_vector(1 downto 0);
+signal HADDR_M1_const_net_0         : std_logic_vector(31 downto 0);
+signal HTRANS_M1_const_net_0        : std_logic_vector(1 downto 0);
+signal GND_net                      : std_logic;
+signal HSIZE_M1_const_net_0         : std_logic_vector(2 downto 0);
+signal HBURST_M1_const_net_0        : std_logic_vector(2 downto 0);
+signal HPROT_M1_const_net_0         : std_logic_vector(3 downto 0);
+signal HWDATA_M1_const_net_0        : std_logic_vector(31 downto 0);
+signal HADDR_M2_const_net_0         : std_logic_vector(31 downto 0);
+signal HTRANS_M2_const_net_0        : std_logic_vector(1 downto 0);
+signal HSIZE_M2_const_net_0         : std_logic_vector(2 downto 0);
+signal HBURST_M2_const_net_0        : std_logic_vector(2 downto 0);
+signal HPROT_M2_const_net_0         : std_logic_vector(3 downto 0);
+signal HWDATA_M2_const_net_0        : std_logic_vector(31 downto 0);
+signal HADDR_M3_const_net_0         : std_logic_vector(31 downto 0);
+signal HTRANS_M3_const_net_0        : std_logic_vector(1 downto 0);
+signal HSIZE_M3_const_net_0         : std_logic_vector(2 downto 0);
+signal HBURST_M3_const_net_0        : std_logic_vector(2 downto 0);
+signal HPROT_M3_const_net_0         : std_logic_vector(3 downto 0);
+signal HWDATA_M3_const_net_0        : std_logic_vector(31 downto 0);
+signal HRDATA_S2_const_net_0        : std_logic_vector(31 downto 0);
+signal HRESP_S2_const_net_0         : std_logic_vector(1 downto 0);
+signal VCC_net                      : std_logic;
+signal HRDATA_S3_const_net_0        : std_logic_vector(31 downto 0);
+signal HRESP_S3_const_net_0         : std_logic_vector(1 downto 0);
+signal HRDATA_S4_const_net_0        : std_logic_vector(31 downto 0);
+signal HRESP_S4_const_net_0         : std_logic_vector(1 downto 0);
+signal HRDATA_S5_const_net_0        : std_logic_vector(31 downto 0);
+signal HRESP_S5_const_net_0         : std_logic_vector(1 downto 0);
+signal HRDATA_S6_const_net_0        : std_logic_vector(31 downto 0);
+signal HRESP_S6_const_net_0         : std_logic_vector(1 downto 0);
+signal HRDATA_S7_const_net_0        : std_logic_vector(31 downto 0);
+signal HRESP_S7_const_net_0         : std_logic_vector(1 downto 0);
+signal HRDATA_S8_const_net_0        : std_logic_vector(31 downto 0);
+signal HRESP_S8_const_net_0         : std_logic_vector(1 downto 0);
+signal HRDATA_S9_const_net_0        : std_logic_vector(31 downto 0);
+signal HRESP_S9_const_net_0         : std_logic_vector(1 downto 0);
+signal HRDATA_S10_const_net_0       : std_logic_vector(31 downto 0);
+signal HRESP_S10_const_net_0        : std_logic_vector(1 downto 0);
+signal HRDATA_S11_const_net_0       : std_logic_vector(31 downto 0);
+signal HRESP_S11_const_net_0        : std_logic_vector(1 downto 0);
+signal HRDATA_S12_const_net_0       : std_logic_vector(31 downto 0);
+signal HRESP_S12_const_net_0        : std_logic_vector(1 downto 0);
+signal HRDATA_S13_const_net_0       : std_logic_vector(31 downto 0);
+signal HRESP_S13_const_net_0        : std_logic_vector(1 downto 0);
+signal HRDATA_S14_const_net_0       : std_logic_vector(31 downto 0);
+signal HRESP_S14_const_net_0        : std_logic_vector(1 downto 0);
+signal HRDATA_S15_const_net_0       : std_logic_vector(31 downto 0);
+signal HRESP_S15_const_net_0        : std_logic_vector(1 downto 0);
+signal HRDATA_S16_const_net_0       : std_logic_vector(31 downto 0);
+signal HRESP_S16_const_net_0        : std_logic_vector(1 downto 0);
 
 begin
 ----------------------------------------------------------------------
@@ -552,11 +583,9 @@ begin
  HBURST_M3_const_net_0  <= B"000";
  HPROT_M3_const_net_0   <= B"0000";
  HWDATA_M3_const_net_0  <= B"00000000000000000000000000000000";
- HRDATA_S1_const_net_0  <= B"00000000000000000000000000000000";
- HRESP_S1_const_net_0   <= B"00";
- VCC_net                <= '1';
  HRDATA_S2_const_net_0  <= B"00000000000000000000000000000000";
  HRESP_S2_const_net_0   <= B"00";
+ VCC_net                <= '1';
  HRDATA_S3_const_net_0  <= B"00000000000000000000000000000000";
  HRESP_S3_const_net_0   <= B"00";
  HRDATA_S4_const_net_0  <= B"00000000000000000000000000000000";
@@ -588,32 +617,52 @@ begin
 ----------------------------------------------------------------------
 -- Top level output port assignments
 ----------------------------------------------------------------------
- AHBmmaster0_HREADY_net_0   <= AHBmmaster0_HREADY;
- HREADY_M0                  <= AHBmmaster0_HREADY_net_0;
- AHBmslave0_HWRITE_net_0    <= AHBmslave0_HWRITE;
- HWRITE_S0                  <= AHBmslave0_HWRITE_net_0;
- AHBmslave0_HSELx_net_0     <= AHBmslave0_HSELx;
- HSEL_S0                    <= AHBmslave0_HSELx_net_0;
- AHBmslave0_HREADY_net_0    <= AHBmslave0_HREADY;
- HREADY_S0                  <= AHBmslave0_HREADY_net_0;
- AHBmslave0_HMASTLOCK_net_0 <= AHBmslave0_HMASTLOCK;
- HMASTLOCK_S0               <= AHBmslave0_HMASTLOCK_net_0;
- AHBmmaster0_HRDATA_net_0   <= AHBmmaster0_HRDATA;
- HRDATA_M0(31 downto 0)     <= AHBmmaster0_HRDATA_net_0;
- AHBmmaster0_HRESP_net_0    <= AHBmmaster0_HRESP;
- HRESP_M0(1 downto 0)       <= AHBmmaster0_HRESP_net_0;
- AHBmslave0_HADDR_net_0     <= AHBmslave0_HADDR;
- HADDR_S0(31 downto 0)      <= AHBmslave0_HADDR_net_0;
- AHBmslave0_HTRANS_net_0    <= AHBmslave0_HTRANS;
- HTRANS_S0(1 downto 0)      <= AHBmslave0_HTRANS_net_0;
- AHBmslave0_HSIZE_net_0     <= AHBmslave0_HSIZE;
- HSIZE_S0(2 downto 0)       <= AHBmslave0_HSIZE_net_0;
- AHBmslave0_HWDATA_net_0    <= AHBmslave0_HWDATA;
- HWDATA_S0(31 downto 0)     <= AHBmslave0_HWDATA_net_0;
- AHBmslave0_HBURST_net_0    <= AHBmslave0_HBURST;
- HBURST_S0(2 downto 0)      <= AHBmslave0_HBURST_net_0;
- AHBmslave0_HPROT_net_0     <= AHBmslave0_HPROT;
- HPROT_S0(3 downto 0)       <= AHBmslave0_HPROT_net_0;
+ AHBmmaster0_HREADY_net_0     <= AHBmmaster0_HREADY;
+ HREADY_M0                    <= AHBmmaster0_HREADY_net_0;
+ AHBmslave0_0_HWRITE_net_0    <= AHBmslave0_0_HWRITE;
+ HWRITE_S0                    <= AHBmslave0_0_HWRITE_net_0;
+ AHBmslave0_0_HSELx_net_0     <= AHBmslave0_0_HSELx;
+ HSEL_S0                      <= AHBmslave0_0_HSELx_net_0;
+ AHBmslave0_0_HREADY_net_0    <= AHBmslave0_0_HREADY;
+ HREADY_S0                    <= AHBmslave0_0_HREADY_net_0;
+ AHBmslave0_0_HMASTLOCK_net_0 <= AHBmslave0_0_HMASTLOCK;
+ HMASTLOCK_S0                 <= AHBmslave0_0_HMASTLOCK_net_0;
+ AHBmslave1_HWRITE_net_0      <= AHBmslave1_HWRITE;
+ HWRITE_S1                    <= AHBmslave1_HWRITE_net_0;
+ AHBmslave1_HSELx_net_0       <= AHBmslave1_HSELx;
+ HSEL_S1                      <= AHBmslave1_HSELx_net_0;
+ AHBmslave1_HREADY_net_0      <= AHBmslave1_HREADY;
+ HREADY_S1                    <= AHBmslave1_HREADY_net_0;
+ AHBmslave1_HMASTLOCK_net_0   <= AHBmslave1_HMASTLOCK;
+ HMASTLOCK_S1                 <= AHBmslave1_HMASTLOCK_net_0;
+ AHBmmaster0_HRDATA_net_0     <= AHBmmaster0_HRDATA;
+ HRDATA_M0(31 downto 0)       <= AHBmmaster0_HRDATA_net_0;
+ AHBmmaster0_HRESP_net_0      <= AHBmmaster0_HRESP;
+ HRESP_M0(1 downto 0)         <= AHBmmaster0_HRESP_net_0;
+ AHBmslave0_0_HADDR_net_0     <= AHBmslave0_0_HADDR;
+ HADDR_S0(31 downto 0)        <= AHBmslave0_0_HADDR_net_0;
+ AHBmslave0_0_HTRANS_net_0    <= AHBmslave0_0_HTRANS;
+ HTRANS_S0(1 downto 0)        <= AHBmslave0_0_HTRANS_net_0;
+ AHBmslave0_0_HSIZE_net_0     <= AHBmslave0_0_HSIZE;
+ HSIZE_S0(2 downto 0)         <= AHBmslave0_0_HSIZE_net_0;
+ AHBmslave0_0_HWDATA_net_0    <= AHBmslave0_0_HWDATA;
+ HWDATA_S0(31 downto 0)       <= AHBmslave0_0_HWDATA_net_0;
+ AHBmslave0_0_HBURST_net_0    <= AHBmslave0_0_HBURST;
+ HBURST_S0(2 downto 0)        <= AHBmslave0_0_HBURST_net_0;
+ AHBmslave0_0_HPROT_net_0     <= AHBmslave0_0_HPROT;
+ HPROT_S0(3 downto 0)         <= AHBmslave0_0_HPROT_net_0;
+ AHBmslave1_HADDR_net_0       <= AHBmslave1_HADDR;
+ HADDR_S1(31 downto 0)        <= AHBmslave1_HADDR_net_0;
+ AHBmslave1_HTRANS_net_0      <= AHBmslave1_HTRANS;
+ HTRANS_S1(1 downto 0)        <= AHBmslave1_HTRANS_net_0;
+ AHBmslave1_HSIZE_net_0       <= AHBmslave1_HSIZE;
+ HSIZE_S1(2 downto 0)         <= AHBmslave1_HSIZE_net_0;
+ AHBmslave1_HWDATA_net_0      <= AHBmslave1_HWDATA;
+ HWDATA_S1(31 downto 0)       <= AHBmslave1_HWDATA_net_0;
+ AHBmslave1_HBURST_net_0      <= AHBmslave1_HBURST;
+ HBURST_S1(2 downto 0)        <= AHBmslave1_HBURST_net_0;
+ AHBmslave1_HPROT_net_0       <= AHBmslave1_HPROT;
+ HPROT_S1(3 downto 0)         <= AHBmslave1_HPROT_net_0;
 ----------------------------------------------------------------------
 -- Component instances
 ----------------------------------------------------------------------
@@ -623,7 +672,7 @@ CoreAHBLite_C0_0 : CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite
         FAMILY             => ( 19 ),
         HADDR_SHG_CFG      => ( 1 ),
         M0_AHBSLOT0ENABLE  => ( 1 ),
-        M0_AHBSLOT1ENABLE  => ( 0 ),
+        M0_AHBSLOT1ENABLE  => ( 1 ),
         M0_AHBSLOT2ENABLE  => ( 0 ),
         M0_AHBSLOT3ENABLE  => ( 0 ),
         M0_AHBSLOT4ENABLE  => ( 0 ),
@@ -694,7 +743,7 @@ CoreAHBLite_C0_0 : CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite
         MASTER1_INTERFACE  => ( 1 ),
         MASTER2_INTERFACE  => ( 1 ),
         MASTER3_INTERFACE  => ( 1 ),
-        MEMSPACE           => ( 6 ),
+        MEMSPACE           => ( 5 ),
         SC_0               => ( 0 ),
         SC_1               => ( 0 ),
         SC_2               => ( 0 ),
@@ -743,7 +792,7 @@ CoreAHBLite_C0_0 : CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite
         HMASTLOCK_M3  => GND_net, -- tied to '0' from definition
         HWRITE_M3     => GND_net, -- tied to '0' from definition
         HREADYOUT_S0  => HREADYOUT_S0,
-        HREADYOUT_S1  => VCC_net, -- tied to '1' from definition
+        HREADYOUT_S1  => HREADYOUT_S1,
         HREADYOUT_S2  => VCC_net, -- tied to '1' from definition
         HREADYOUT_S3  => VCC_net, -- tied to '1' from definition
         HREADYOUT_S4  => VCC_net, -- tied to '1' from definition
@@ -785,8 +834,8 @@ CoreAHBLite_C0_0 : CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite
         HPROT_M3      => HPROT_M3_const_net_0, -- tied to X"0" from definition
         HRDATA_S0     => HRDATA_S0,
         HRESP_S0      => HRESP_S0,
-        HRDATA_S1     => HRDATA_S1_const_net_0, -- tied to X"0" from definition
-        HRESP_S1      => HRESP_S1_const_net_0, -- tied to X"0" from definition
+        HRDATA_S1     => HRDATA_S1,
+        HRESP_S1      => HRESP_S1,
         HRDATA_S2     => HRDATA_S2_const_net_0, -- tied to X"0" from definition
         HRESP_S2      => HRESP_S2_const_net_0, -- tied to X"0" from definition
         HRDATA_S3     => HRDATA_S3_const_net_0, -- tied to X"0" from definition
@@ -822,14 +871,14 @@ CoreAHBLite_C0_0 : CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite
         HREADY_M1     => OPEN,
         HREADY_M2     => OPEN,
         HREADY_M3     => OPEN,
-        HSEL_S0       => AHBmslave0_HSELx,
-        HWRITE_S0     => AHBmslave0_HWRITE,
-        HREADY_S0     => AHBmslave0_HREADY,
-        HMASTLOCK_S0  => AHBmslave0_HMASTLOCK,
-        HSEL_S1       => OPEN,
-        HWRITE_S1     => OPEN,
-        HREADY_S1     => OPEN,
-        HMASTLOCK_S1  => OPEN,
+        HSEL_S0       => AHBmslave0_0_HSELx,
+        HWRITE_S0     => AHBmslave0_0_HWRITE,
+        HREADY_S0     => AHBmslave0_0_HREADY,
+        HMASTLOCK_S0  => AHBmslave0_0_HMASTLOCK,
+        HSEL_S1       => AHBmslave1_HSELx,
+        HWRITE_S1     => AHBmslave1_HWRITE,
+        HREADY_S1     => AHBmslave1_HREADY,
+        HMASTLOCK_S1  => AHBmslave1_HMASTLOCK,
         HSEL_S2       => OPEN,
         HWRITE_S2     => OPEN,
         HREADY_S2     => OPEN,
@@ -898,18 +947,18 @@ CoreAHBLite_C0_0 : CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite
         HRDATA_M2     => OPEN,
         HRESP_M3      => OPEN,
         HRDATA_M3     => OPEN,
-        HADDR_S0      => AHBmslave0_HADDR,
-        HSIZE_S0      => AHBmslave0_HSIZE,
-        HTRANS_S0     => AHBmslave0_HTRANS,
-        HWDATA_S0     => AHBmslave0_HWDATA,
-        HBURST_S0     => AHBmslave0_HBURST,
-        HPROT_S0      => AHBmslave0_HPROT,
-        HADDR_S1      => OPEN,
-        HSIZE_S1      => OPEN,
-        HTRANS_S1     => OPEN,
-        HWDATA_S1     => OPEN,
-        HBURST_S1     => OPEN,
-        HPROT_S1      => OPEN,
+        HADDR_S0      => AHBmslave0_0_HADDR,
+        HSIZE_S0      => AHBmslave0_0_HSIZE,
+        HTRANS_S0     => AHBmslave0_0_HTRANS,
+        HWDATA_S0     => AHBmslave0_0_HWDATA,
+        HBURST_S0     => AHBmslave0_0_HBURST,
+        HPROT_S0      => AHBmslave0_0_HPROT,
+        HADDR_S1      => AHBmslave1_HADDR,
+        HSIZE_S1      => AHBmslave1_HSIZE,
+        HTRANS_S1     => AHBmslave1_HTRANS,
+        HWDATA_S1     => AHBmslave1_HWDATA,
+        HBURST_S1     => AHBmslave1_HBURST,
+        HPROT_S1      => AHBmslave1_HPROT,
         HADDR_S2      => OPEN,
         HSIZE_S2      => OPEN,
         HTRANS_S2     => OPEN,

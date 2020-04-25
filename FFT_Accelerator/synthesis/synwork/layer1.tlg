@@ -1,0 +1,151 @@
+@N: CG364 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\sib_sync_2flp.v":17:7:17:33|Synthesizing module CoreMACFilter_sib_sync_2flp in library work.
+
+	DWIDTH=32'b00000000000000000000000000000001
+	USE_RST=32'b00000000000000000000000000000000
+   Generated name = CoreMACFilter_sib_sync_2flp_1s_0s
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\sib_sync_2flp.v":33:8:33:8|Object i is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on CoreMACFilter_sib_sync_2flp_1s_0s .......
+@N: CG364 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\sib_sync_pulse.v":15:7:15:34|Synthesizing module CoreMACFilter_sib_sync_pulse in library work.
+Running optimization stage 1 on CoreMACFilter_sib_sync_pulse .......
+@N: CG364 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\pecrc.v":33:7:33:25|Synthesizing module CoreMACFilter_pecrc in library work.
+Running optimization stage 1 on CoreMACFilter_pecrc .......
+@N: CG364 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":38:7:38:34|Synthesizing module CoreMACFilter_perfn_top_fltr in library work.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":96:14:96:16|Object rpd is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":97:14:97:17|Object rpdv is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":97:25:97:28|Object rpsf is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":97:36:97:39|Object rpef is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":98:14:98:17|Object rpst is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":98:25:98:28|Object rptd is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":100:14:100:16|Object rsv is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":220:14:220:17|Object rcrs is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":220:25:220:29|Object rcrsd is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":221:14:221:17|Removing wire scrs, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":314:14:314:18|Removing wire zlect, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":314:25:314:29|Removing wire ilect, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":315:14:315:18|Removing wire glect, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":316:14:316:17|Object lect is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":323:14:323:20|Removing wire glngvnt, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":324:14:324:19|Object lngvnt is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":332:8:332:13|Removing wire grloor, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":333:8:333:12|Object rloor is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":340:14:340:19|Removing wire dgiant, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":341:8:341:12|Object giant is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":346:14:346:19|Removing wire gtrunc, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":346:22:346:26|Removing wire gtrrf, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":346:29:346:33|Removing wire dtrrf, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":347:14:347:18|Object trunc is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":347:21:347:24|Object trrf is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":360:14:360:18|Removing wire gprpd, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":361:14:361:17|Object prpd is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":366:14:366:19|Removing wire gprpdv, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":366:25:366:30|Removing wire gprpsf, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":366:36:366:41|Removing wire gprpef, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":372:14:372:18|Object prpdv is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":372:25:372:29|Object prpsf is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":372:36:372:40|Object prpef is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":378:14:378:19|Object prpdvd is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":385:14:385:17|Removing wire grpd, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":386:14:386:18|Removing wire grpdv, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":386:25:386:29|Removing wire grpsf, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":386:36:386:40|Removing wire grpef, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":393:14:393:18|Removing wire grpst, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":393:25:393:29|Removing wire grptd, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":440:14:440:19|Removing wire lulnty, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":440:25:440:30|Removing wire lllnty, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":441:14:441:18|Removing wire glnty, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":442:14:442:17|Object lnty is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":449:14:449:20|Removing wire ltgtmax, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":449:25:449:31|Removing wire ltgemin, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":454:14:454:18|Removing wire gvltg, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":455:14:455:17|Object vltg is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":460:14:460:17|Removing wire dfbc, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":461:14:461:18|Removing wire girle, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":462:14:462:17|Object irle is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":468:14:468:19|Removing wire gcderr, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":469:14:469:18|Object cderr is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":475:14:475:20|Removing wire gflscar, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":476:14:476:19|Object flscar is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":482:14:482:20|Removing wire grxdvnt, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":483:14:483:19|Object rxdvnt is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":489:14:489:20|Removing wire gdrpvnt, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":490:14:490:19|Object drpvnt is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":496:14:496:20|Removing wire gdrbnib, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":497:14:497:19|Object drbnib is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":513:14:513:17|Removing wire grsv, as there is no assignment to it.
+Running optimization stage 1 on CoreMACFilter_perfn_top_fltr .......
+@W: CL169 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":603:0:603:5|Pruning unused register irx_er. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":565:0:565:5|Pruning unused register rrx_er. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":545:0:545:5|Pruning unused register srx_dv. Make sure that there are no unused intermediate registers.
+@N: CG364 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\tsm_sysreg_fltr.v":15:7:15:35|Synthesizing module CoreMACFilter_tsm_sysreg_fltr in library work.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\tsm_sysreg_fltr.v":56:40:56:47|Removing wire pready_c, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\tsm_sysreg_fltr.v":57:4:57:16|Object hst_rdaten_d1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\tsm_sysreg_fltr.v":57:19:57:31|Object hst_rdaten_d2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\tsm_sysreg_fltr.v":57:34:57:46|Object hst_rdaten_d3 is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on CoreMACFilter_tsm_sysreg_fltr .......
+@W: CL169 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\tsm_sysreg_fltr.v":126:0:126:5|Pruning unused register apb_wr_en_d2. Make sure that there are no unused intermediate registers.
+@N: CG364 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\si_sal_fltr.v":15:7:15:31|Synthesizing module CoreMACFilter_si_sal_fltr in library work.
+@N: CG179 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\si_sal_fltr.v":80:36:80:48|Removing redundant assignment.
+Running optimization stage 1 on CoreMACFilter_si_sal_fltr .......
+@N: CG364 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":1:7:1:57|Synthesizing module COREMACFILTER_C0_COREMACFILTER_C0_0_frame_fltr_top1 in library work.
+
+	GMII_SGMII=32'b00000000000000000000000000000000
+   Generated name = COREMACFILTER_C0_COREMACFILTER_C0_0_frame_fltr_top1_0s
+@N: CG179 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":99:21:99:30|Removing redundant assignment.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":36:13:36:19|Removing wire rxdlcl0, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":37:13:37:21|Removing wire rx_dvlcl0, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":38:13:38:21|Removing wire rx_erlcl0, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":39:13:39:19|Removing wire rxdlcl1, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":40:13:40:21|Removing wire rx_dvlcl1, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":41:13:41:21|Removing wire rx_erlcl1, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":42:13:42:19|Removing wire txrdptr, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":43:13:43:19|Removing wire rxrdptr, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":44:13:44:19|Removing wire rxhdptr, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":45:13:45:22|Removing wire rxhdptrpls, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":46:13:46:18|Removing wire srrex0, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":47:14:47:18|Removing wire rrrex, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":48:14:48:18|Object rrex1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":48:21:48:25|Object rrex2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":49:14:49:20|Removing wire srrex_i, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":50:14:50:19|Object rrex11 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":50:22:50:27|Object rrex12 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":51:14:51:21|Removing wire srrex1_i, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":52:14:52:19|Removing wire srrex1, as there is no assignment to it.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":53:14:53:19|Object rrex01 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":53:22:53:27|Object rrex02 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":54:14:54:21|Removing wire srrex0_i, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":55:14:55:17|Removing wire rdcg, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":56:14:56:19|Removing wire rdcerr, as there is no assignment to it.
+@W: CG360 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":81:17:81:26|Removing wire drp_cnt_en, as there is no assignment to it.
+Running optimization stage 1 on COREMACFILTER_C0_COREMACFILTER_C0_0_frame_fltr_top1_0s .......
+@W: CL169 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":94:0:94:5|Pruning unused register rxcen_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\CoreMACFilter.v":1:7:1:55|Synthesizing module COREMACFILTER_C0_COREMACFILTER_C0_0_COREMACFILTER in library work.
+
+	GMII_SGMII=32'b00000000000000000000000000000000
+	FAMILY=32'b00000000000000000000000000010011
+   Generated name = COREMACFILTER_C0_COREMACFILTER_C0_0_COREMACFILTER_0s_19s
+@W: CG781 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\CoreMACFilter.v":70:12:70:12|Input pma_rx_clk1 on instance frame_fltr_top_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Running optimization stage 1 on COREMACFILTER_C0_COREMACFILTER_C0_0_COREMACFILTER_0s_19s .......
+Running optimization stage 2 on COREMACFILTER_C0_COREMACFILTER_C0_0_COREMACFILTER_0s_19s .......
+Running optimization stage 2 on COREMACFILTER_C0_COREMACFILTER_C0_0_frame_fltr_top1_0s .......
+@W: CL246 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":24:14:24:20|Input port bits 31 to 7 of paddr_i[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":24:14:24:20|Input port bits 1 to 0 of paddr_i[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":11:13:11:23|Input pma_rx_clk0 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\COREMACFILTER_C0\COREMACFILTER_C0_0\rtl\vlog\core\frame_fltr_top1_GMII.v":12:13:12:23|Input pma_rx_clk1 is unused.
+Running optimization stage 2 on CoreMACFilter_si_sal_fltr .......
+Running optimization stage 2 on CoreMACFilter_tsm_sysreg_fltr .......
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\tsm_sysreg_fltr.v":23:19:23:30|Input tsm_status_i is unused.
+Running optimization stage 2 on CoreMACFilter_perfn_top_fltr .......
+@W: CL247 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":70:14:70:18|Input port bit 0 of speed[1:0] is unused
+
+@W: CL246 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":73:14:73:17|Input port bits 1 to 0 of mifg[7:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\perfn_top_fltr.v":67:14:67:18|Input rx_er is unused.
+Running optimization stage 2 on CoreMACFilter_pecrc .......
+Running optimization stage 2 on CoreMACFilter_sib_sync_pulse .......
+Running optimization stage 2 on CoreMACFilter_sib_sync_2flp_1s_0s .......
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\sib_sync_2flp.v":22:23:22:29|Input srst_ni is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\COREMACFILTER\2.0.207\rtl\vlog\core\sib_sync_2flp.v":23:23:23:29|Input drst_ni is unused.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synwork\layer1.rt.csv
+

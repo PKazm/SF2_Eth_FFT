@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Tue Apr 21 02:43:04 2020
+-- Created by SmartDesign Tue Apr 21 16:56:03 2020
 -- Version: v12.1 12.600.0.14
 ----------------------------------------------------------------------
 
@@ -62,9 +62,12 @@ component CoreAHBLite_C0
         HMASTLOCK_M0 : in  std_logic;
         HPROT_M0     : in  std_logic_vector(3 downto 0);
         HRDATA_S0    : in  std_logic_vector(31 downto 0);
+        HRDATA_S1    : in  std_logic_vector(31 downto 0);
         HREADYOUT_S0 : in  std_logic;
+        HREADYOUT_S1 : in  std_logic;
         HRESETN      : in  std_logic;
         HRESP_S0     : in  std_logic_vector(1 downto 0);
+        HRESP_S1     : in  std_logic_vector(1 downto 0);
         HSIZE_M0     : in  std_logic_vector(2 downto 0);
         HTRANS_M0    : in  std_logic_vector(1 downto 0);
         HWDATA_M0    : in  std_logic_vector(31 downto 0);
@@ -72,18 +75,28 @@ component CoreAHBLite_C0
         REMAP_M0     : in  std_logic;
         -- Outputs
         HADDR_S0     : out std_logic_vector(31 downto 0);
+        HADDR_S1     : out std_logic_vector(31 downto 0);
         HBURST_S0    : out std_logic_vector(2 downto 0);
+        HBURST_S1    : out std_logic_vector(2 downto 0);
         HMASTLOCK_S0 : out std_logic;
+        HMASTLOCK_S1 : out std_logic;
         HPROT_S0     : out std_logic_vector(3 downto 0);
+        HPROT_S1     : out std_logic_vector(3 downto 0);
         HRDATA_M0    : out std_logic_vector(31 downto 0);
         HREADY_M0    : out std_logic;
         HREADY_S0    : out std_logic;
+        HREADY_S1    : out std_logic;
         HRESP_M0     : out std_logic_vector(1 downto 0);
         HSEL_S0      : out std_logic;
+        HSEL_S1      : out std_logic;
         HSIZE_S0     : out std_logic_vector(2 downto 0);
+        HSIZE_S1     : out std_logic_vector(2 downto 0);
         HTRANS_S0    : out std_logic_vector(1 downto 0);
+        HTRANS_S1    : out std_logic_vector(1 downto 0);
         HWDATA_S0    : out std_logic_vector(31 downto 0);
-        HWRITE_S0    : out std_logic
+        HWDATA_S1    : out std_logic_vector(31 downto 0);
+        HWRITE_S0    : out std_logic;
+        HWRITE_S1    : out std_logic
         );
 end component;
 -- FFT_Accel_system_sb
@@ -267,7 +280,7 @@ signal MSS_to_IO_interpreter_0_MAC_GMII_GTX_CLK         : std_logic;
 signal MSS_to_IO_interpreter_0_MAC_GMII_MDI             : std_logic;
 signal MSS_to_IO_interpreter_0_MAC_GMII_RX_CLK          : std_logic;
 signal MSS_to_IO_interpreter_0_MAC_GMII_RX_DV           : std_logic;
-signal MSS_to_IO_interpreter_0_MAC_GMII_RX_ER           : std_logic;
+signal MSS_to_IO_interpreter_0_MAC_GMII_RX_ER_0         : std_logic;
 signal MSS_to_IO_interpreter_0_MAC_GMII_RXD             : std_logic_vector(7 downto 0);
 signal MSS_to_IO_interpreter_0_MAC_GMII_TX_CLK          : std_logic;
 signal MSS_to_IO_interpreter_0_MDINT_MSS_INT_F2M        : std_logic;
@@ -293,6 +306,8 @@ signal VCC_net                                          : std_logic;
 signal MSS_INT_F2M_const_net_0                          : std_logic_vector(15 downto 2);
 signal HBURST_M0_const_net_0                            : std_logic_vector(2 downto 0);
 signal HPROT_M0_const_net_0                             : std_logic_vector(3 downto 0);
+signal HRDATA_S1_const_net_0                            : std_logic_vector(31 downto 0);
+signal HRESP_S1_const_net_0                             : std_logic_vector(1 downto 0);
 ----------------------------------------------------------------------
 -- Bus Interface Nets Declarations - Unequal Pin Widths
 ----------------------------------------------------------------------
@@ -309,9 +324,9 @@ signal CoreAHBLite_C0_0_AHBmslave0_HWDATA_0_15to0       : std_logic_vector(15 do
 signal CoreAHBLite_C0_0_AHBmslave0_HWDATA_0             : std_logic_vector(15 downto 0);
 signal CoreAHBLite_C0_0_AHBmslave0_HWDATA               : std_logic_vector(31 downto 0);
 
+signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP  : std_logic_vector(1 downto 0);
 signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP_0_0to0: std_logic_vector(0 to 0);
 signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP_0: std_logic;
-signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP  : std_logic_vector(1 downto 0);
 
 signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE  : std_logic_vector(1 downto 0);
 signal FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE_0_2to2: std_logic_vector(2 to 2);
@@ -328,6 +343,8 @@ begin
  MSS_INT_F2M_const_net_0 <= B"00000000000000";
  HBURST_M0_const_net_0   <= B"000";
  HPROT_M0_const_net_0    <= B"0000";
+ HRDATA_S1_const_net_0   <= B"00000000000000000000000000000000";
+ HRESP_S1_const_net_0    <= B"00";
 ----------------------------------------------------------------------
 -- Top level output port assignments
 ----------------------------------------------------------------------
@@ -389,31 +406,44 @@ CoreAHBLite_C0_0 : CoreAHBLite_C0
         HCLK         => FFT_Accel_system_sb_0_FIC_0_CLK,
         HRESETN      => FFT_Accel_system_sb_0_MSS_READY,
         REMAP_M0     => GND_net,
-        HWRITE_M0    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HWRITE,
-        HMASTLOCK_M0 => GND_net, -- tied to '0' from definition
-        HREADYOUT_S0 => CoreAHBLite_C0_0_AHBmslave0_HREADYOUT,
         HADDR_M0     => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HADDR,
         HTRANS_M0    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HTRANS,
+        HWRITE_M0    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HWRITE,
         HSIZE_M0     => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HSIZE_0,
         HBURST_M0    => HBURST_M0_const_net_0, -- tied to X"0" from definition
         HPROT_M0     => HPROT_M0_const_net_0, -- tied to X"0" from definition
         HWDATA_M0    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HWDATA,
+        HMASTLOCK_M0 => GND_net, -- tied to '0' from definition
         HRDATA_S0    => CoreAHBLite_C0_0_AHBmslave0_HRDATA_0,
+        HREADYOUT_S0 => CoreAHBLite_C0_0_AHBmslave0_HREADYOUT,
         HRESP_S0     => CoreAHBLite_C0_0_AHBmslave0_HRESP,
+        HRDATA_S1    => HRDATA_S1_const_net_0, -- tied to X"0" from definition
+        HREADYOUT_S1 => VCC_net, -- tied to '1' from definition
+        HRESP_S1     => HRESP_S1_const_net_0, -- tied to X"0" from definition
         -- Outputs
-        HREADY_M0    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HREADY,
-        HWRITE_S0    => CoreAHBLite_C0_0_AHBmslave0_HWRITE,
-        HSEL_S0      => CoreAHBLite_C0_0_AHBmslave0_HSELx,
-        HREADY_S0    => CoreAHBLite_C0_0_AHBmslave0_HREADY,
-        HMASTLOCK_S0 => CoreAHBLite_C0_0_AHBmslave0_HMASTLOCK,
         HRDATA_M0    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRDATA,
+        HREADY_M0    => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HREADY,
         HRESP_M0     => FFT_Accel_system_sb_0_FIC_0_AMBA_MASTER_0_HRESP,
         HADDR_S0     => CoreAHBLite_C0_0_AHBmslave0_HADDR,
         HTRANS_S0    => CoreAHBLite_C0_0_AHBmslave0_HTRANS,
+        HWRITE_S0    => CoreAHBLite_C0_0_AHBmslave0_HWRITE,
         HSIZE_S0     => CoreAHBLite_C0_0_AHBmslave0_HSIZE,
         HWDATA_S0    => CoreAHBLite_C0_0_AHBmslave0_HWDATA,
+        HSEL_S0      => CoreAHBLite_C0_0_AHBmslave0_HSELx,
+        HREADY_S0    => CoreAHBLite_C0_0_AHBmslave0_HREADY,
+        HMASTLOCK_S0 => CoreAHBLite_C0_0_AHBmslave0_HMASTLOCK,
         HBURST_S0    => CoreAHBLite_C0_0_AHBmslave0_HBURST,
-        HPROT_S0     => CoreAHBLite_C0_0_AHBmslave0_HPROT 
+        HPROT_S0     => CoreAHBLite_C0_0_AHBmslave0_HPROT,
+        HADDR_S1     => OPEN,
+        HTRANS_S1    => OPEN,
+        HWRITE_S1    => OPEN,
+        HSIZE_S1     => OPEN,
+        HWDATA_S1    => OPEN,
+        HSEL_S1      => OPEN,
+        HREADY_S1    => OPEN,
+        HMASTLOCK_S1 => OPEN,
+        HBURST_S1    => OPEN,
+        HPROT_S1     => OPEN 
         );
 -- FFT_Accel_system_sb_0
 FFT_Accel_system_sb_0 : FFT_Accel_system_sb
@@ -432,7 +462,7 @@ FFT_Accel_system_sb_0 : FFT_Accel_system_sb
         GPIO_13_F2M        => GND_net,
         GPIO_14_F2M        => GND_net,
         GPIO_15_F2M        => GND_net,
-        MAC_GMII_RX_ER     => MSS_to_IO_interpreter_0_MAC_GMII_RX_ER,
+        MAC_GMII_RX_ER     => MSS_to_IO_interpreter_0_MAC_GMII_RX_ER_0,
         MAC_GMII_RX_DV     => MSS_to_IO_interpreter_0_MAC_GMII_RX_DV,
         MAC_GMII_CRS       => MSS_to_IO_interpreter_0_MAC_GMII_CRS,
         MAC_GMII_COL       => MSS_to_IO_interpreter_0_MAC_GMII_COL,
@@ -545,7 +575,7 @@ MSS_to_IO_interpreter_0 : MSS_to_IO_interpreter
         MAC_GMII_MDI      => MSS_to_IO_interpreter_0_MAC_GMII_MDI,
         MAC_GMII_RX_CLK   => MSS_to_IO_interpreter_0_MAC_GMII_RX_CLK,
         MAC_GMII_RX_DV    => MSS_to_IO_interpreter_0_MAC_GMII_RX_DV,
-        MAC_GMII_RX_ER    => MSS_to_IO_interpreter_0_MAC_GMII_RX_ER,
+        MAC_GMII_RX_ER    => MSS_to_IO_interpreter_0_MAC_GMII_RX_ER_0,
         MAC_GMII_TX_CLK   => MSS_to_IO_interpreter_0_MAC_GMII_TX_CLK,
         FLASH_MEM_CLK     => OPEN,
         FLASH_MEM_SDO     => OPEN,

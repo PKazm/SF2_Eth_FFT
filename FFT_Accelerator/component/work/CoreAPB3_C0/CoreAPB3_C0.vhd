@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Tue Apr  7 20:18:39 2020
+-- Created by SmartDesign Tue Apr 21 15:45:29 2020
 -- Version: v12.1 12.600.0.14
 ----------------------------------------------------------------------
 
@@ -24,12 +24,9 @@ entity CoreAPB3_C0 is
         PADDR     : in  std_logic_vector(31 downto 0);
         PENABLE   : in  std_logic;
         PRDATAS0  : in  std_logic_vector(31 downto 0);
-        PRDATAS1  : in  std_logic_vector(31 downto 0);
         PREADYS0  : in  std_logic;
-        PREADYS1  : in  std_logic;
         PSEL      : in  std_logic;
         PSLVERRS0 : in  std_logic;
-        PSLVERRS1 : in  std_logic;
         PWDATA    : in  std_logic_vector(31 downto 0);
         PWRITE    : in  std_logic;
         -- Outputs
@@ -38,7 +35,6 @@ entity CoreAPB3_C0 is
         PRDATA    : out std_logic_vector(31 downto 0);
         PREADY    : out std_logic;
         PSELS0    : out std_logic;
-        PSELS1    : out std_logic;
         PSLVERR   : out std_logic;
         PWDATAS   : out std_logic_vector(31 downto 0);
         PWRITES   : out std_logic
@@ -59,27 +55,26 @@ architecture RTL of CoreAPB3_C0 is
 signal APB3mmaster_PRDATA         : std_logic_vector(31 downto 0);
 signal APB3mmaster_PREADY         : std_logic;
 signal APB3mmaster_PSLVERR        : std_logic;
-signal APBmslave0_0_PADDR         : std_logic_vector(31 downto 0);
-signal APBmslave0_0_PENABLE       : std_logic;
-signal APBmslave0_0_PSELx         : std_logic;
-signal APBmslave0_0_PWDATA        : std_logic_vector(31 downto 0);
-signal APBmslave0_0_PWRITE        : std_logic;
-signal APBmslave1_0_PSELx         : std_logic;
-signal APB3mmaster_PRDATA_net_0   : std_logic_vector(31 downto 0);
+signal APBmslave0_1_PADDR         : std_logic_vector(31 downto 0);
+signal APBmslave0_1_PENABLE       : std_logic;
+signal APBmslave0_1_PSELx         : std_logic;
+signal APBmslave0_1_PWDATA        : std_logic_vector(31 downto 0);
+signal APBmslave0_1_PWRITE        : std_logic;
 signal APB3mmaster_PREADY_net_0   : std_logic;
 signal APB3mmaster_PSLVERR_net_0  : std_logic;
-signal APBmslave0_0_PADDR_net_0   : std_logic_vector(31 downto 0);
-signal APBmslave0_0_PSELx_net_0   : std_logic;
-signal APBmslave0_0_PENABLE_net_0 : std_logic;
-signal APBmslave0_0_PWRITE_net_0  : std_logic;
-signal APBmslave0_0_PWDATA_net_0  : std_logic_vector(31 downto 0);
-signal APBmslave1_0_PSELx_net_0   : std_logic;
+signal APBmslave0_1_PSELx_net_0   : std_logic;
+signal APBmslave0_1_PENABLE_net_0 : std_logic;
+signal APBmslave0_1_PWRITE_net_0  : std_logic;
+signal APB3mmaster_PRDATA_net_0   : std_logic_vector(31 downto 0);
+signal APBmslave0_1_PADDR_net_0   : std_logic_vector(31 downto 0);
+signal APBmslave0_1_PWDATA_net_0  : std_logic_vector(31 downto 0);
 ----------------------------------------------------------------------
 -- TiedOff Signals
 ----------------------------------------------------------------------
 signal GND_net                    : std_logic;
 signal VCC_net                    : std_logic;
 signal IADDR_const_net_0          : std_logic_vector(31 downto 0);
+signal PRDATAS1_const_net_0       : std_logic_vector(31 downto 0);
 signal PRDATAS2_const_net_0       : std_logic_vector(31 downto 0);
 signal PRDATAS3_const_net_0       : std_logic_vector(31 downto 0);
 signal PRDATAS4_const_net_0       : std_logic_vector(31 downto 0);
@@ -103,6 +98,7 @@ begin
  GND_net               <= '0';
  VCC_net               <= '1';
  IADDR_const_net_0     <= B"00000000000000000000000000000000";
+ PRDATAS1_const_net_0  <= B"00000000000000000000000000000000";
  PRDATAS2_const_net_0  <= B"00000000000000000000000000000000";
  PRDATAS3_const_net_0  <= B"00000000000000000000000000000000";
  PRDATAS4_const_net_0  <= B"00000000000000000000000000000000";
@@ -121,24 +117,22 @@ begin
 ----------------------------------------------------------------------
 -- Top level output port assignments
 ----------------------------------------------------------------------
- APB3mmaster_PRDATA_net_0   <= APB3mmaster_PRDATA;
- PRDATA(31 downto 0)        <= APB3mmaster_PRDATA_net_0;
  APB3mmaster_PREADY_net_0   <= APB3mmaster_PREADY;
  PREADY                     <= APB3mmaster_PREADY_net_0;
  APB3mmaster_PSLVERR_net_0  <= APB3mmaster_PSLVERR;
  PSLVERR                    <= APB3mmaster_PSLVERR_net_0;
- APBmslave0_0_PADDR_net_0   <= APBmslave0_0_PADDR;
- PADDRS(31 downto 0)        <= APBmslave0_0_PADDR_net_0;
- APBmslave0_0_PSELx_net_0   <= APBmslave0_0_PSELx;
- PSELS0                     <= APBmslave0_0_PSELx_net_0;
- APBmslave0_0_PENABLE_net_0 <= APBmslave0_0_PENABLE;
- PENABLES                   <= APBmslave0_0_PENABLE_net_0;
- APBmslave0_0_PWRITE_net_0  <= APBmslave0_0_PWRITE;
- PWRITES                    <= APBmslave0_0_PWRITE_net_0;
- APBmslave0_0_PWDATA_net_0  <= APBmslave0_0_PWDATA;
- PWDATAS(31 downto 0)       <= APBmslave0_0_PWDATA_net_0;
- APBmslave1_0_PSELx_net_0   <= APBmslave1_0_PSELx;
- PSELS1                     <= APBmslave1_0_PSELx_net_0;
+ APBmslave0_1_PSELx_net_0   <= APBmslave0_1_PSELx;
+ PSELS0                     <= APBmslave0_1_PSELx_net_0;
+ APBmslave0_1_PENABLE_net_0 <= APBmslave0_1_PENABLE;
+ PENABLES                   <= APBmslave0_1_PENABLE_net_0;
+ APBmslave0_1_PWRITE_net_0  <= APBmslave0_1_PWRITE;
+ PWRITES                    <= APBmslave0_1_PWRITE_net_0;
+ APB3mmaster_PRDATA_net_0   <= APB3mmaster_PRDATA;
+ PRDATA(31 downto 0)        <= APB3mmaster_PRDATA_net_0;
+ APBmslave0_1_PADDR_net_0   <= APBmslave0_1_PADDR;
+ PADDRS(31 downto 0)        <= APBmslave0_1_PADDR_net_0;
+ APBmslave0_1_PWDATA_net_0  <= APBmslave0_1_PWDATA;
+ PWDATAS(31 downto 0)       <= APBmslave0_1_PWDATA_net_0;
 ----------------------------------------------------------------------
 -- Component instances
 ----------------------------------------------------------------------
@@ -147,7 +141,7 @@ CoreAPB3_C0_0 : entity COREAPB3_LIB.CoreAPB3
     generic map( 
         APB_DWIDTH      => ( 32 ),
         APBSLOT0ENABLE  => ( 1 ),
-        APBSLOT1ENABLE  => ( 1 ),
+        APBSLOT1ENABLE  => ( 0 ),
         APBSLOT2ENABLE  => ( 0 ),
         APBSLOT3ENABLE  => ( 0 ),
         APBSLOT4ENABLE  => ( 0 ),
@@ -187,73 +181,70 @@ CoreAPB3_C0_0 : entity COREAPB3_LIB.CoreAPB3
         -- Inputs
         PRESETN    => GND_net, -- tied to '0' from definition
         PCLK       => GND_net, -- tied to '0' from definition
-        PADDR      => PADDR,
         PWRITE     => PWRITE,
         PENABLE    => PENABLE,
-        PWDATA     => PWDATA,
         PSEL       => PSEL,
-        PRDATAS0   => PRDATAS0,
         PREADYS0   => PREADYS0,
         PSLVERRS0  => PSLVERRS0,
-        PRDATAS1   => PRDATAS1,
-        PREADYS1   => PREADYS1,
-        PSLVERRS1  => PSLVERRS1,
-        PRDATAS2   => PRDATAS2_const_net_0, -- tied to X"0" from definition
+        PREADYS1   => VCC_net, -- tied to '1' from definition
+        PSLVERRS1  => GND_net, -- tied to '0' from definition
         PREADYS2   => VCC_net, -- tied to '1' from definition
         PSLVERRS2  => GND_net, -- tied to '0' from definition
-        PRDATAS3   => PRDATAS3_const_net_0, -- tied to X"0" from definition
         PREADYS3   => VCC_net, -- tied to '1' from definition
         PSLVERRS3  => GND_net, -- tied to '0' from definition
-        PRDATAS4   => PRDATAS4_const_net_0, -- tied to X"0" from definition
         PREADYS4   => VCC_net, -- tied to '1' from definition
         PSLVERRS4  => GND_net, -- tied to '0' from definition
-        PRDATAS5   => PRDATAS5_const_net_0, -- tied to X"0" from definition
         PREADYS5   => VCC_net, -- tied to '1' from definition
         PSLVERRS5  => GND_net, -- tied to '0' from definition
-        PRDATAS6   => PRDATAS6_const_net_0, -- tied to X"0" from definition
         PREADYS6   => VCC_net, -- tied to '1' from definition
         PSLVERRS6  => GND_net, -- tied to '0' from definition
-        PRDATAS7   => PRDATAS7_const_net_0, -- tied to X"0" from definition
         PREADYS7   => VCC_net, -- tied to '1' from definition
         PSLVERRS7  => GND_net, -- tied to '0' from definition
-        PRDATAS8   => PRDATAS8_const_net_0, -- tied to X"0" from definition
         PREADYS8   => VCC_net, -- tied to '1' from definition
         PSLVERRS8  => GND_net, -- tied to '0' from definition
-        PRDATAS9   => PRDATAS9_const_net_0, -- tied to X"0" from definition
         PREADYS9   => VCC_net, -- tied to '1' from definition
         PSLVERRS9  => GND_net, -- tied to '0' from definition
-        PRDATAS10  => PRDATAS10_const_net_0, -- tied to X"0" from definition
         PREADYS10  => VCC_net, -- tied to '1' from definition
         PSLVERRS10 => GND_net, -- tied to '0' from definition
-        PRDATAS11  => PRDATAS11_const_net_0, -- tied to X"0" from definition
         PREADYS11  => VCC_net, -- tied to '1' from definition
         PSLVERRS11 => GND_net, -- tied to '0' from definition
-        PRDATAS12  => PRDATAS12_const_net_0, -- tied to X"0" from definition
         PREADYS12  => VCC_net, -- tied to '1' from definition
         PSLVERRS12 => GND_net, -- tied to '0' from definition
-        PRDATAS13  => PRDATAS13_const_net_0, -- tied to X"0" from definition
         PREADYS13  => VCC_net, -- tied to '1' from definition
         PSLVERRS13 => GND_net, -- tied to '0' from definition
-        PRDATAS14  => PRDATAS14_const_net_0, -- tied to X"0" from definition
         PREADYS14  => VCC_net, -- tied to '1' from definition
         PSLVERRS14 => GND_net, -- tied to '0' from definition
-        PRDATAS15  => PRDATAS15_const_net_0, -- tied to X"0" from definition
         PREADYS15  => VCC_net, -- tied to '1' from definition
         PSLVERRS15 => GND_net, -- tied to '0' from definition
-        PRDATAS16  => PRDATAS16_const_net_0, -- tied to X"0" from definition
         PREADYS16  => VCC_net, -- tied to '1' from definition
         PSLVERRS16 => GND_net, -- tied to '0' from definition
+        PADDR      => PADDR,
+        PWDATA     => PWDATA,
+        PRDATAS0   => PRDATAS0,
+        PRDATAS1   => PRDATAS1_const_net_0, -- tied to X"0" from definition
+        PRDATAS2   => PRDATAS2_const_net_0, -- tied to X"0" from definition
+        PRDATAS3   => PRDATAS3_const_net_0, -- tied to X"0" from definition
+        PRDATAS4   => PRDATAS4_const_net_0, -- tied to X"0" from definition
+        PRDATAS5   => PRDATAS5_const_net_0, -- tied to X"0" from definition
+        PRDATAS6   => PRDATAS6_const_net_0, -- tied to X"0" from definition
+        PRDATAS7   => PRDATAS7_const_net_0, -- tied to X"0" from definition
+        PRDATAS8   => PRDATAS8_const_net_0, -- tied to X"0" from definition
+        PRDATAS9   => PRDATAS9_const_net_0, -- tied to X"0" from definition
+        PRDATAS10  => PRDATAS10_const_net_0, -- tied to X"0" from definition
+        PRDATAS11  => PRDATAS11_const_net_0, -- tied to X"0" from definition
+        PRDATAS12  => PRDATAS12_const_net_0, -- tied to X"0" from definition
+        PRDATAS13  => PRDATAS13_const_net_0, -- tied to X"0" from definition
+        PRDATAS14  => PRDATAS14_const_net_0, -- tied to X"0" from definition
+        PRDATAS15  => PRDATAS15_const_net_0, -- tied to X"0" from definition
+        PRDATAS16  => PRDATAS16_const_net_0, -- tied to X"0" from definition
         IADDR      => IADDR_const_net_0, -- tied to X"0" from definition
         -- Outputs
-        PRDATA     => APB3mmaster_PRDATA,
         PREADY     => APB3mmaster_PREADY,
         PSLVERR    => APB3mmaster_PSLVERR,
-        PADDRS     => APBmslave0_0_PADDR,
-        PWRITES    => APBmslave0_0_PWRITE,
-        PENABLES   => APBmslave0_0_PENABLE,
-        PWDATAS    => APBmslave0_0_PWDATA,
-        PSELS0     => APBmslave0_0_PSELx,
-        PSELS1     => APBmslave1_0_PSELx,
+        PWRITES    => APBmslave0_1_PWRITE,
+        PENABLES   => APBmslave0_1_PENABLE,
+        PSELS0     => APBmslave0_1_PSELx,
+        PSELS1     => OPEN,
         PSELS2     => OPEN,
         PSELS3     => OPEN,
         PSELS4     => OPEN,
@@ -268,7 +259,10 @@ CoreAPB3_C0_0 : entity COREAPB3_LIB.CoreAPB3
         PSELS13    => OPEN,
         PSELS14    => OPEN,
         PSELS15    => OPEN,
-        PSELS16    => OPEN 
+        PSELS16    => OPEN,
+        PRDATA     => APB3mmaster_PRDATA,
+        PADDRS     => APBmslave0_1_PADDR,
+        PWDATAS    => APBmslave0_1_PWDATA 
         );
 
 end RTL;

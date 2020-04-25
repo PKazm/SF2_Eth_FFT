@@ -1,12 +1,17 @@
-Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+INFO: Reading User SDC file E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\constraint\FFT_Accel_system_derived_constraints.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
 INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
 ***** Place and Route Configurations *****
-Timing-driven            : OFF
+Timing-driven            : ON
 Power-driven             : OFF
-I/O Register Combining   : OFF
+I/O Register Combining   : ON
 High-effort              : OFF
-Repair min-delay         : OFF
+Repair min-delay         : ON
 Incremental              : OFF
+Inter-clock optimization : ON
+TDPR scenario            : place_and_route
 
 INFO: Reading User PDC file E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_buttons.pdc. 0 error(s) and 0 warning(s)
 INFO: Reading User PDC file E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\SF2_MKR_KIT_ethernet.pdc. 0 error(s) and 0 warning(s)
@@ -19,10 +24,10 @@ Info:  I/O Bank and Globals Assigner identified 44 fixed I/O macros, 0 unfixed I
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
-Placer V5.0 - 12.600.0 
-Design: FFT_Accel_system                Started: Tue Apr 21 06:29:31 2020
+Placer V5.0 - 12.900.0 
+Design: FFT_Accel_system                Started: Thu Apr 23 03:42:45 2020
 
-Initializing Normal-Effort Standard Placement ...
+Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
 Placing ...
 Improving placement ...
@@ -30,50 +35,40 @@ End of placement.
 
 Placer Runtime Summary   :
 Clustering (1 pass)      : 0 seconds
-Placement                : 0 seconds
-Improvement              : 1 seconds
+Placement                : 1 seconds
+Improvement              : 2 seconds
 
 Placer completed successfully.
 
 Design: FFT_Accel_system                
-Finished: Tue Apr 21 06:29:37 2020
-Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 120.0 Mbytes
+Finished: Thu Apr 23 03:43:06 2020
+Total CPU Time:     00:00:20            Total Elapsed Time: 00:00:21
+Total Memory Usage: 299.8 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_systemStarted: Tue Apr 21 06:29:40 2020
+Design: E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_systemStarted: Thu Apr 23 03:43:09 2020
 
 
 Router completed successfully.
 
 Design: E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system
-Finished: Tue Apr 21 06:29:46 2020
-Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 429.2 Mbytes
+Finished: Thu Apr 23 03:43:16 2020
+Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:07
+Total Memory Usage: 445.4 Mbytes
                         o - o - o - o - o - o
 
-
-Router 
-Design: E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_systemStarted: Tue Apr 21 06:29:48 2020
-
-
-Router completed successfully.
-
-Design: E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\FFT_Accel_system
-Finished: Tue Apr 21 06:29:54 2020
-Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 429.3 Mbytes
-                        o - o - o - o - o - o
-
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 1661 | 12084 | 13.75      |
-| DFF           | 974  | 12084 | 8.06       |
+| 4LUT          | 1662 | 12084 | 13.75      |
+| DFF           | 948  | 12084 | 7.85       |
 | I/O Register  | 0    | 252   | 0.00       |
-| Logic Element | 1841 | 12084 | 15.24      |
+| Logic Element | 1803 | 12084 | 14.92      |
 +---------------+------+-------+------------+
 

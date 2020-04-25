@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by Microsemi SmartDesign Tue Apr  7 20:18:39 2020
+-- Created by Microsemi SmartDesign Tue Apr 21 15:45:29 2020
 -- Parameters for CoreAPB3
 ----------------------------------------------------------------------
 
@@ -12,7 +12,7 @@ LIBRARY ieee;
 package coreparameters is
     constant APB_DWIDTH : integer := 32;
     constant APBSLOT0ENABLE : integer := 1;
-    constant APBSLOT1ENABLE : integer := 1;
+    constant APBSLOT1ENABLE : integer := 0;
     constant APBSLOT2ENABLE : integer := 0;
     constant APBSLOT3ENABLE : integer := 0;
     constant APBSLOT4ENABLE : integer := 0;

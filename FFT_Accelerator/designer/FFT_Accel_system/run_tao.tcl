@@ -36,5 +36,6 @@ read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_
 read_vhdl -mode vhdl_2008 {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system\FFT_Accel_system.vhd}
 set_top_level {FFT_Accel_system}
 map_netlist
+read_sdc {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\constraint\FFT_Accel_system_derived_constraints.sdc}
 check_constraints {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\constraint\synthesis_sdc_errors.log}
 write_fdc {E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\designer\FFT_Accel_system\synthesis.fdc}

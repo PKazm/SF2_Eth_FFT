@@ -6,21 +6,14 @@
     <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
     <StatusMessage>Error</StatusMessage>
     <message>Undriven Pin</message>
-    <detail>Unconnected input pin COREAHBLSRAM_C0_0:HCLK</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/FFT_Accel_system/pins/COREAHBLSRAM_C0_0:HCLK</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin COREAHBLSRAM_C0_0:HRESETN</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/FFT_Accel_system/pins/COREAHBLSRAM_C0_0:HRESETN</crossprobe>
+    <detail>Unconnected input pin FFT_Accel_system_sb_0:MAC_GMII_RX_ER</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FFT_Accel_system/pins/FFT_Accel_system_sb_0:MAC_GMII_RX_ER</crossprobe>
   </drc>
   <drc>
     <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
-    <message>Unconnected Bus Interface</message>
-    <detail>Unconnected bus interface pin COREAHBLSRAM_C0_0:AHBSlaveInterface</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/FFT_Accel_system/pins/COREAHBLSRAM_C0_0:AHBSlaveInterface</crossprobe>
+    <message>Floating Driver</message>
+    <detail>Floating output pin MSS_to_IO_interpreter_0:MAC_GMII_RX_ER</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FFT_Accel_system/pins/MSS_to_IO_interpreter_0:MAC_GMII_RX_ER</crossprobe>
   </drc>
 </drcreport>

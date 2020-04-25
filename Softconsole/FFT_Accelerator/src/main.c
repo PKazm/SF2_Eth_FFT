@@ -17,6 +17,7 @@
 
 #include "FFT_apb.h"
 
+#include "ARP_protocol.h"
 
 #include "../firmware/CMSIS/system_m2sxxx.h"
 
@@ -45,7 +46,7 @@ void load_fft_samples(void);
 void read_fft_samples(void);
 void report_fft_status(void);
 
-void eth_gen_checksum(uint8_t * buffer, uint32_t length);
+uint16_t eth_gen_checksum(uint8_t * buffer, uint32_t length);
 void eth_arp_announce(void);
 void eth_send_big_data(void);
 
@@ -60,10 +61,11 @@ uint32_t test_GPIO_high(uint32_t GPIO_MASK);
 #define ETH_PACKET_SIZE                  1514u
 #define ETH_PACKET_DATA_START			42
 
-#define ETH_P_NOP		0u
-#define ETH_P_C0DE		1u
-#define ETH_P_DA7A		2u
-#define ETH_P_ARP_PROBE 3u
+#define ETH_P_NOP			0u
+#define ETH_P_C0DE			1u
+#define ETH_P_DA7A			2u
+#define ETH_P_ARP_PROBE 	3u
+#define ETH_P_ARP_RESPONSE	4u
 
 #define ETH_TX_DAT_LEN		513
 #define ETH_TX_IPV4_LEN_MSB	(uint8_t)((28u + ETH_TX_DAT_LEN) >> 8) & 0xff
@@ -80,12 +82,9 @@ char port_check = 0;
 int eth_cmd_code = 0;
 char do_big_data = 0;
 char data_rx_cnt = 0;
-int8_t input_smpls_0[1024];
-int8_t input_smpls_1[1024];
-int16_t smpl_0_id = 0;
-int16_t smpl_1_id = 0;
-int8_t * smpls_first;
-int8_t * smpls_sec;
+uint8_t * smpl_pkt_0;
+uint8_t * smpl_pkt_1;
+char fft_auto_done = 0;
 
 fft_instance_t fft_fab;
 
@@ -95,25 +94,35 @@ fft_instance_t fft_fab;
 mss_mac_cfg_t mac_config;
 const static uint8_t mac_address[6] = {0x22, 0x22, 0x22, 0x22, 0x22, 0x22};
 //const static uint8_t mac_address[6] = {0x00, 0xA0, 0x87, 0x22, 0x22, 0x22};
-const static uint8_t tx_ip[4] = {100, 100, 100, 100};
+const static uint8_t tx_mac[6] = {0xff,0xff,0xff,0xff,0xff,0xff};	//broadcast
+//const static uint8_t tx_mac[6] = {0x00,0xe0,0x4c,0x68,0x01,0x2f};	//desktop
+//const static uint8_t tx_mac[6] = {0x08,0x00,0x27,0xbd,0x10,0x77};	//VM GNURadio
+const static uint8_t tx_ip[4] = {100, 100, 100, 255};	//broadcast
+//const static uint8_t tx_ip[4] = {100, 100, 100, 100};	//desktop
+//const static uint8_t tx_ip[4] = {100, 100, 100, 101};	//VM GNURadio
 const static uint8_t my_ip[4] = {100, 100, 100, 200};
+const static uint8_t chksm_ip[2] = {0xa6, 0x40};// broadcast
+//const static uint8_t chksm_ip[2] = {0xa6, 0x40};// desktop (checksum tbd)
+//const static uint8_t chksm_ip[2] = {0xa6, 0xda};// VM GNURadio
 volatile uint32_t g_pckt_rcvd_len = 0;
 
 uint16_t eth_tx_id = 0x0000u;
 static uint8_t g_mac_tx_buffer[ETH_PACKET_SIZE] = \
-      {0x00,0xe0,0x4c,0x68,0x01,0x2f, mac_address[0],mac_address[1],mac_address[2],mac_address[3],mac_address[4],mac_address[5], 0x08,0x00,
-	  0x45, 0x00, ETH_TX_IPV4_LEN_MSB,ETH_TX_IPV4_LEN_LSB, 0xFF,0xFF, 0x00,0x00, 0x80, 0x11, 0xa6,0xdb, my_ip[0],my_ip[1],my_ip[2],my_ip[3], tx_ip[0],tx_ip[1],tx_ip[2],tx_ip[3],
+      {tx_mac[0],tx_mac[1],tx_mac[2],tx_mac[3],tx_mac[4],tx_mac[5], mac_address[0],mac_address[1],mac_address[2],mac_address[3],mac_address[4],mac_address[5], 0x08,0x00,
+	  0x45, 0x00, ETH_TX_IPV4_LEN_MSB,ETH_TX_IPV4_LEN_LSB, 0xFF,0xFF, 0x00,0x00, 0x80, 0x11, chksm_ip[0],chksm_ip[1], my_ip[0],my_ip[1],my_ip[2],my_ip[3], tx_ip[0],tx_ip[1],tx_ip[2],tx_ip[3],
 	  0xDA,0x7A, 0xDA,0x7A, ETHTX_UDP_LEN_MSB,ETHTX_UDP_LEN_LSB, 0x00,0x00};
 static uint8_t g_mac_rx_buffer_0[ETH_PACKET_SIZE];
 static uint8_t g_mac_rx_buffer_1[ETH_PACKET_SIZE];
+static uint8_t g_mac_rx_buffer_2[ETH_PACKET_SIZE];
+static uint8_t g_mac_rx_buffer_3[ETH_PACKET_SIZE];
+static uint8_t g_mac_rx_buffer_4[ETH_PACKET_SIZE];
+static uint8_t g_mac_rx_buffer_5[ETH_PACKET_SIZE];
+static uint8_t g_mac_rx_buffer_6[ETH_PACKET_SIZE];
+static uint8_t g_mac_rx_buffer_7[ETH_PACKET_SIZE];
 
 static volatile uint32_t g_mac_tx_buffer_used = 1u;
 
-static uint8_t arp_anounce_buffer[42] = \
-		{0xff,0xff,0xff,0xff,0xff,0xff, mac_address[0],mac_address[1],mac_address[2],mac_address[3],mac_address[4],mac_address[5], 0x08,0x06,
-		0x00,0x01, 0x08,0x00, 0x06, 0x04, 0x00,0x01,
-		mac_address[0],mac_address[1],mac_address[2],mac_address[3],mac_address[4],mac_address[5], my_ip[0],my_ip[1],my_ip[2],my_ip[3],
-		0x00,0x00,0x00,0x00,0x00,0x00, my_ip[0],my_ip[1],my_ip[2],my_ip[3]};
+
 static uint8_t test_buffer[] = \
 		{0x00,0xe0,0x4c,0x68,0x01,0x2f, mac_address[0],mac_address[1],mac_address[2],mac_address[3],mac_address[4],mac_address[5], 0x08,0x00,
 		0x45, 0x00, 0x00,0x20, 0x00,0x00, 0x00,0x00, 0x80, 0x11, 0xa8,0xd8, my_ip[0],my_ip[1],my_ip[2],my_ip[3], tx_ip[0],tx_ip[1],tx_ip[2],tx_ip[3],
@@ -130,29 +139,31 @@ int main(){
 	init_periph();
 
 	for(;;){
+		/*
 		if(do_big_data != 0){
 			eth_send_big_data();
 			//do_big_data = 0;
 		}
+		*/
 		switch (port_check)
 		{
-		case ETH_P_C0DE:
-			do_eth_cmd_code();
-			port_check = 0;
-			break;
-		case ETH_P_DA7A:
-			if(data_rx_cnt == 2){
-				data_rx_cnt = 0;
-				load_fft_samples();
-			}
-			port_check = 0;
-			break;
-		case ETH_P_ARP_PROBE:
-			eth_arp_announce();
-			port_check = 0;
-			break;
-		default:
-			break;
+			case ETH_P_C0DE:
+				do_eth_cmd_code();
+				port_check = 0;
+				break;
+			case ETH_P_DA7A:
+				if(data_rx_cnt >= 2){
+					data_rx_cnt = 0;
+					load_fft_samples();
+				}
+				port_check = 0;
+				break;
+			case ETH_P_ARP_PROBE:
+				eth_arp_announce();
+				port_check = 0;
+				break;
+			default:
+				break;
 		}
 	}
 }
@@ -193,7 +204,7 @@ void init_periph(void){
 	* Fabric FFT
 	*/
 
-	fft_init(&fft_fab, FFT_APB_WRAPPER_0);
+	fft_init(&fft_fab, FFT_AHB_WRAPPER_0);
 
 	NVIC_EnableIRQ(FabricIrq1_IRQn);
 
@@ -202,6 +213,7 @@ void init_periph(void){
 	/*-------------------------------------------------------------------------*//**
 	* MSS_MAC, VSC8541 PHY, Ethernet stuff
 	*/
+
 	NVIC_DisableIRQ(FabricIrq0_IRQn);
 
 	MSS_MAC_cfg_struct_def_init(&mac_config);
@@ -211,15 +223,23 @@ void init_periph(void){
 	mac_config.mac_addr[3] = mac_address[3];
 	mac_config.mac_addr[4] = mac_address[4];
 	mac_config.mac_addr[5] = mac_address[5];
-	mac_config.speed_duplex_select = MSS_MAC_ANEG_100M_FD;
-	//mac_config.speed_duplex_select = MSS_MAC_ANEG_ALL_SPEEDS;
+	//mac_config.speed_duplex_select = MSS_MAC_ANEG_100M_FD;
+	mac_config.speed_duplex_select = MSS_MAC_ANEG_ALL_SPEEDS;
 	mac_config.phy_addr = 0x00;
 	mac_config.pad_n_CRC = MSS_MAC_PAD_N_CRC_DISABLE;
+
+	ARP_init(mac_config.mac_addr, my_ip);
 
 
 	MSS_MAC_init(&mac_config);
 	MSS_MAC_receive_pkt(g_mac_rx_buffer_0, (void *)g_mac_rx_buffer_0);
 	MSS_MAC_receive_pkt(g_mac_rx_buffer_1, (void *)g_mac_rx_buffer_1);
+	MSS_MAC_receive_pkt(g_mac_rx_buffer_2, (void *)g_mac_rx_buffer_2);
+	MSS_MAC_receive_pkt(g_mac_rx_buffer_3, (void *)g_mac_rx_buffer_3);
+	MSS_MAC_receive_pkt(g_mac_rx_buffer_4, (void *)g_mac_rx_buffer_4);
+	MSS_MAC_receive_pkt(g_mac_rx_buffer_5, (void *)g_mac_rx_buffer_5);
+	smpl_pkt_0 = g_mac_rx_buffer_6;
+	smpl_pkt_1 = g_mac_rx_buffer_7;
 	MSS_MAC_set_tx_callback(eth_tx_callback);
 	MSS_MAC_set_rx_callback(eth_rx_callback);
 
@@ -322,56 +342,41 @@ void eth_rx_callback(
 {
 	port_check = eth_check_address(p_rx_packet);
 	char buffer[128];
-	static uint8_t * dest_array = input_smpls_1;
+	uint8_t * dest_array;
+	uint8_t * pkt_buf_array;
+
+
+	pkt_buf_array = p_user_data;
 
 	if(ETH_P_DA7A == port_check){
-
-		/*
-		snprintf(buffer, sizeof(buffer), "\n\rRX pkt size = %d\r\n", (int)pckt_length);
-		MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"========================\n\r");
-		MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"Ethernet packet received\n\r");
-		MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)buffer);
-		*/
-
-
-		//MSS_MAC_send_pkt(g_mac_tx_buffer, 64u, (void *)&g_mac_tx_buffer_used);
-		/*
-		for(int i = 0; i < pckt_length; i++){
-			snprintf(buffer, sizeof(buffer), "%i", p_rx_packet[i]);
-			MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)buffer);
+		if(data_rx_cnt == 0){
+			pkt_buf_array = smpl_pkt_0;
+			smpl_pkt_0 = p_user_data;
 		}
-		*/
-
-		/*
-		MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"\n\rDATA DONE\n\r");
-		MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"========================\n\r");
-		*/
-
+		else if(data_rx_cnt == 1){
+			pkt_buf_array = smpl_pkt_1;
+			smpl_pkt_1 = p_user_data;
+		}
 		data_rx_cnt++;
-
-		if(dest_array == (uint8_t *)&input_smpls_0){
-			dest_array = input_smpls_1;
-			smpl_1_id = (p_rx_packet[18] << 8) | (p_rx_packet[19] & 0xff);
-		}
-		else{
-			dest_array = input_smpls_0;
-			smpl_0_id = (p_rx_packet[18] << 8) | (p_rx_packet[19] & 0xff);
-		}
-
-		for(int i = 0; i < 1024; i++){
-			dest_array[i] = p_rx_packet[i + 42];
-			//snprintf(buffer, sizeof(buffer), "datum %d = %d\r\n", (int)i, (int)p_rx_packet[i + 42]);
-			//MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)buffer);
-		}
 	}
 	else if(ETH_P_C0DE == port_check){
 		eth_cmd_code = eth_get_code(p_rx_packet);
+	}
+	else if(ETH_P_ARP_RESPONSE == port_check){
+		uint8_t * tx_buffer;
+		int buf_len = 0;
+
+		buf_len = ARP_get_response(tx_buffer, p_rx_packet);
+		MSS_MAC_send_pkt(arp_buffer, buf_len, (void *)&g_mac_tx_buffer_used);
+
+		
+		port_check = 0;
 	}
 	
 	//eth_arp_announce();
 
 
-	MSS_MAC_receive_pkt((uint8_t *)p_user_data, p_user_data);
+	MSS_MAC_receive_pkt((uint8_t *)pkt_buf_array, pkt_buf_array);
 	
 
 }
@@ -400,8 +405,13 @@ char eth_check_address(uint8_t * packet_data){
 	else if(packet_data[0] == 0xff && packet_data[1] == 0xff && packet_data[2] == 0xff && packet_data[3] == 0xff && packet_data[4] == 0xff && packet_data[5] == 0xff){
 		/* MAC address broadast */
 		/* Check if ARP probe */
-		if(packet_data[12] == 0x08 && packet_data[13] == 0x06){
-			return ETH_P_ARP_PROBE;
+		if(packet_data[12] == ARP_TYPE_MSB && packet_data[13] == ARP_TYPE_LSB){
+			if(packet_data[38] == my_ip[0] && packet_data[39] == my_ip[1] && packet_data[40] == my_ip[2] && packet_data[41] == my_ip[3]){
+				return ETH_P_ARP_RESPONSE;
+			}
+			else{
+				return ETH_P_ARP_PROBE;
+			}
 		}
 	}
 	return ETH_P_NOP;
@@ -474,24 +484,32 @@ void report_mac_phy_reg(void){
 void load_fft_samples(void){
 	//MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"load started\n\r");
 
-	char buffer[128];
+	//char buffer[128];
 	int16_t sample;
+	uint16_t smpl_0_id, smpl_1_id;
+	uint8_t * smpls_first;
+	uint8_t * smpls_sec;
+	//uint16_t data_cnt = 0;
+
+	smpl_0_id = (smpl_pkt_0[18] << 8) | (smpl_pkt_0[19] & 0xff);
+	smpl_1_id = (smpl_pkt_1[18] << 8) | (smpl_pkt_1[19] & 0xff);
+
 
 	if(smpl_0_id < smpl_1_id){
-		smpls_first = input_smpls_0;
-		smpls_sec = input_smpls_1;
+		smpls_first = smpl_pkt_0;
+		smpls_sec = smpl_pkt_1;
 	}
 	else{
-		smpls_first = input_smpls_1;
-		smpls_sec = input_smpls_0;
+		smpls_first = smpl_pkt_1;
+		smpls_sec = smpl_pkt_0;
 	}
 
-	for(int i = 0; i < 1024; i+=2){
+	for(int i = ETH_PACKET_DATA_START; i < ETH_PACKET_DATA_START + 1024; i+=2){
 		sample = smpls_first[i];
 		sample = (sample << 8) | (smpls_first[i+1] & 0xff);
 		fft_load_smpl(&fft_fab, sample, 0u);
 	}
-	for(int i = 0; i < 1024; i+=2){
+	for(int i = ETH_PACKET_DATA_START; i < ETH_PACKET_DATA_START + 1024; i+=2){
 		sample = smpls_sec[i];
 		sample = (sample << 8) | (smpls_sec[i+1] & 0xff);
 		fft_load_smpl(&fft_fab, sample, 0u);
@@ -505,9 +523,9 @@ void load_fft_samples(void){
 
 
 void read_fft_samples(void){
-	char buffer[128];
-	int16_t fft_result_real[513];
-	int16_t fft_result_imag[513];
+	//char buffer[128];
+	//int16_t fft_result_real[513];
+	//int16_t fft_result_imag[513];
 	uint16_t fft_result_abs;
 	int byte_cnt = ETH_PACKET_DATA_START;
 
@@ -534,6 +552,10 @@ void read_fft_samples(void){
 
 	MSS_MAC_send_pkt(g_mac_tx_buffer, byte_cnt, (void *)&g_mac_tx_buffer_used);
 	//MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"return finished\r\n");
+
+	if(fft_auto_done != 0){
+		fft_read_done(&fft_fab);
+	}
 }
 
 void report_fft_status(void){
@@ -583,17 +605,40 @@ void report_fft_status(void){
 	if(status_test != 0){
 		MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"READ DONE\r\n");
 	}
+	if(fft_auto_done != 0){
+		MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"AUTO READ DONE\r\n");
+	}
 
 	MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"status finished\r\n==========\r\n");
 }
 
-void eth_gen_checksum(uint8_t * buffer, uint32_t length){
+uint16_t eth_gen_checksum(uint8_t * buffer, uint32_t length){
+	uint32_t running_checksum = 0;
+	uint16_t checksum;
 
+	for(int i = 0; i < length; i++){
+		running_checksum += buffer[i];
+	}
+
+	while((running_checksum & 0xffff0000) != 0){
+		checksum = (running_checksum >> 16) & 0xffff;
+		running_checksum &= 0xffff;
+		running_checksum += checksum;
+	}
+
+	checksum = running_checksum & 0xffff;
+	return checksum;
 }
 
 void eth_arp_announce(void){
 
-	MSS_MAC_send_pkt(arp_anounce_buffer, sizeof(arp_anounce_buffer), (void *)&g_mac_tx_buffer_used);
+	static uint8_t * tx_buffer;
+	int buf_len = 0;
+
+	//buf_len = ARP_get_gratuitous(tx_buffer);
+	buf_len = ARP_get_announce(tx_buffer);
+	//arp_buffer
+	MSS_MAC_send_pkt(arp_buffer, buf_len, (void *)&g_mac_tx_buffer_used);
 	//MSS_MAC_send_pkt(test_buffer, sizeof(test_buffer), (void *)&g_mac_tx_buffer_used);
 }
 
@@ -616,7 +661,8 @@ uint32_t test_GPIO_high(uint32_t GPIO_MASK){
 void GPIO8_IRQHandler(void){
 
 	if(0 != test_GPIO_high(MSS_GPIO_8_MASK)){
-		do_big_data ^= 1;
+		//do_big_data ^= 1;
+		fft_auto_done ^= 1u;
 	}
 
 	/*

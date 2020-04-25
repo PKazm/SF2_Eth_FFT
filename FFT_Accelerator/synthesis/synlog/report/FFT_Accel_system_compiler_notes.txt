@@ -1,7 +1,7 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
 @N:"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system\FFT_Accel_system.vhd":17:7:17:22|Top entity is set to FFT_Accel_system.
-@N: CD231 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system\FFT_Accel_system.vhd":17:7:17:22|Synthesizing work.fft_accel_system.rtl.
 @N: CD630 :"E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd":5:7:5:27|Synthesizing work.mss_to_io_interpreter.architecture_mss_to_io_interpreter.
 @N: CD604 :"E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd":129:12:129:25|OTHERS clause is not synthesized.
@@ -15,16 +15,16 @@
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd":26:7:26:29|Synthesizing work.alpha_max_plus_beta_min.architecture_alpha_max_plus_beta_min.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd":17:7:17:25|Synthesizing work.hard_mult_addsub_c1.rtl.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd":8:7:8:64|Synthesizing work.hard_mult_addsub_c1_hard_mult_addsub_c1_0_hard_mult_addsub.def_arch.
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":706:10:706:13|Synthesizing smartfusion2.macc.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":706:10:706:13|Synthesizing smartfusion2.macc.syn_black_box.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT.vhd":26:7:26:9|Synthesizing work.fft.architecture_fft.
 @N: CD233 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT.vhd":290:27:290:28|Using sequential encoding for type hot_potato_states.
 @N: CD233 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT.vhd":292:25:292:26|Using sequential encoding for type ram_dist_states.
 @N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT.vhd":423:16:423:29|OTHERS clause is not synthesized.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0.vhd":17:7:17:15|Synthesizing work.dpsram_c0.rtl.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd":8:7:8:34|Synthesizing work.dpsram_c0_dpsram_c0_0_dpsram.def_arch.
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Transformer.vhd":26:7:26:21|Synthesizing work.fft_transformer.architecture_fft_transformer.
 @N: CD233 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Transformer.vhd":63:22:63:23|Using sequential encoding for type stage_states.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd":29:7:29:30|Synthesizing work.fft_butterfly_hw_mathdsp.architecture_fft_butterfly_hw_mathdsp.
@@ -36,16 +36,16 @@
 @N: CD233 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":77:21:77:22|Using sequential encoding for type load_states.
 @N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":254:16:254:29|OTHERS clause is not synthesized.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.vhd":17:7:17:25|Synthesizing work.fft_accel_system_sb.rtl.
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":790:10:790:17|Synthesizing smartfusion2.sysreset.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":790:10:790:17|Synthesizing smartfusion2.sysreset.syn_black_box.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.vhd":17:7:17:29|Synthesizing work.fft_accel_system_sb_mss.rtl.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd":8:7:8:38|Synthesizing work.fft_accel_system_sb_fabosc_0_osc.def_arch.
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.vhd":8:7:8:36|Synthesizing work.fft_accel_system_sb_ccc_0_fccc.def_arch.
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":798:10:798:12|Synthesizing smartfusion2.ccc.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":798:10:798:12|Synthesizing smartfusion2.ccc.syn_black_box.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAHBLite_C0\CoreAHBLite_C0.vhd":20:7:20:20|Synthesizing work.coreahblite_c0.rtl.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\core\coreahblite.vhd":27:7:27:49|Synthesizing coreahblite_lib.coreahblite_c0_coreahblite_c0_0_coreahblite.coreahblite_arch.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":25:7:25:28|Synthesizing coreahblite_lib.coreahblite_matrix4x16.coreahblite_matrix4x16_arch.
@@ -60,8 +60,6 @@
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":24:7:24:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch.
 @N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":650:12:650:25|OTHERS clause is not synthesized.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_addrdec.vhd":50:7:50:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":59:8:59:16|Input HRDATA_S1 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":60:8:60:19|Input HREADYOUT_S1 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":61:8:61:16|Input HRDATA_S2 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":62:8:62:19|Input HREADYOUT_S2 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":63:8:63:16|Input HRDATA_S3 is unused.
@@ -133,9 +131,6 @@
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":56:8:56:16|Input HWDATA_M1 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":66:8:66:16|Input HWDATA_M2 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":76:8:76:16|Input HWDATA_M3 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":92:8:92:16|Input HRDATA_S1 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":93:8:93:19|Input HREADYOUT_S1 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":94:8:94:15|Input HRESP_S1 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":104:8:104:16|Input HRDATA_S2 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":105:8:105:19|Input HREADYOUT_S2 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":106:8:106:15|Input HRESP_S2 is unused.
@@ -161,6 +156,11 @@
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":189:8:189:19|Input HREADYOUT_S9 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":190:8:190:15|Input HRESP_S9 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":200:8:200:17|Input HRDATA_S10 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":201:8:201:20|Input HREADYOUT_S10 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":202:8:202:16|Input HRESP_S10 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":212:8:212:17|Input HRDATA_S11 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":213:8:213:20|Input HREADYOUT_S11 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":214:8:214:16|Input HRESP_S11 is unused.
 @N: CL201 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state.
 @N: CL201 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state.
 @N: CL201 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state.

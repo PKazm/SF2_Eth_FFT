@@ -1,35 +1,36 @@
 
-Copyright (C) 1994-2018 Synopsys, Inc.
+Copyright (C) 1994-2019 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
 and may only be used pursuant to the terms and conditions of a written license agreement
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: N-2018.03M-SP1-1
-Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
 OS: Windows 6.2
 
 Hostname: PHOENIX136DESKY
 
 Implementation : synthesis
-Synopsys HDL Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+Synopsys HDL Compiler, Version comp2019q2p1, Build 265R, Built Dec  6 2019 09:07:42
 
 @N|Running in 64-bit mode
+###########################################################[
 
-Copyright (C) 1994-2018 Synopsys, Inc.
+Copyright (C) 1994-2019 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
 and may only be used pursuant to the terms and conditions of a written license agreement
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: N-2018.03M-SP1-1
-Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
 OS: Windows 6.2
 
 Hostname: PHOENIX136DESKY
 
 Implementation : synthesis
-Synopsys VHDL Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+Synopsys VHDL Compiler, Version comp2019q2p1, Build 273R, Built Dec 16 2019 13:19:32
 
 @N|Running in 64-bit mode
 @N:"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system\FFT_Accel_system.vhd":17:7:17:22|Top entity is set to FFT_Accel_system.
@@ -38,11 +39,11 @@ File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\Core
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_pkg.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\core\components.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Package.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0_0\HARD_MULT_ADDSUB_C0_HARD_MULT_ADDSUB_C0_0_HARD_MULT_ADDSUB.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\Twiddle_table.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd\math_real.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vhd\math_real.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\AHB_Package.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.vhd changed - recompiling
@@ -58,10 +59,10 @@ File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAHBLite_C0\C
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAHBLite_C0\CoreAHBLite_C0.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd changed - recompiling
+File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Transformer.vhd changed - recompiling
-File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd changed - recompiling
@@ -72,15 +73,10 @@ File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\Core
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.vhd changed - recompiling
 File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system\FFT_Accel_system.vhd changed - recompiling
 VHDL syntax check successful!
-File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Package.vhd changed - recompiling
-File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C0\HARD_MULT_ADDSUB_C0.vhd changed - recompiling
-File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Butterfly_HW_MATHDSP.vhd changed - recompiling
-File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Transformer.vhd changed - recompiling
-File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Outputer.vhd changed - recompiling
-File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd changed - recompiling
-File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_AHB_Wrapper.vhd changed - recompiling
-File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system\FFT_Accel_system.vhd changed - recompiling
-@N: CD231 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system\FFT_Accel_system.vhd":17:7:17:22|Synthesizing work.fft_accel_system.rtl.
 @N: CD630 :"E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd":5:7:5:27|Synthesizing work.mss_to_io_interpreter.architecture_mss_to_io_interpreter.
 @N: CD604 :"E:\Github_Repos\SF2_MKR_KIT_IO_Constraints\MSS_to_IO_Interpreter.vhd":129:12:129:25|OTHERS clause is not synthesized.
@@ -105,15 +101,12 @@ Running optimization stage 1 on LED_inverter_dimmer .......
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\Alpha_Max_plus_Beta_Min.vhd":26:7:26:29|Synthesizing work.alpha_max_plus_beta_min.architecture_alpha_max_plus_beta_min.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1.vhd":17:7:17:25|Synthesizing work.hard_mult_addsub_c1.rtl.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\HARD_MULT_ADDSUB_C1\HARD_MULT_ADDSUB_C1_0\HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB.vhd":8:7:8:64|Synthesizing work.hard_mult_addsub_c1_hard_mult_addsub_c1_0_hard_mult_addsub.def_arch.
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
 Post processing for smartfusion2.vcc.syn_black_box
-Running optimization stage 1 on VCC .......
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
 Post processing for smartfusion2.gnd.syn_black_box
-Running optimization stage 1 on GND .......
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":706:10:706:13|Synthesizing smartfusion2.macc.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":706:10:706:13|Synthesizing smartfusion2.macc.syn_black_box.
 Post processing for smartfusion2.macc.syn_black_box
-Running optimization stage 1 on MACC .......
 Post processing for work.hard_mult_addsub_c1_hard_mult_addsub_c1_0_hard_mult_addsub.def_arch
 Running optimization stage 1 on HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB .......
 Post processing for work.hard_mult_addsub_c1.rtl
@@ -126,9 +119,8 @@ Running optimization stage 1 on Alpha_Max_plus_Beta_Min .......
 @N: CD604 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT.vhd":423:16:423:29|OTHERS clause is not synthesized.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0.vhd":17:7:17:15|Synthesizing work.dpsram_c0.rtl.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\DPSRAM_C0\DPSRAM_C0_0\DPSRAM_C0_DPSRAM_C0_0_DPSRAM.vhd":8:7:8:34|Synthesizing work.dpsram_c0_dpsram_c0_0_dpsram.def_arch.
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
 Post processing for smartfusion2.ram1k18.syn_black_box
-Running optimization stage 1 on RAM1K18 .......
 Post processing for work.dpsram_c0_dpsram_c0_0_dpsram.def_arch
 Running optimization stage 1 on DPSRAM_C0_DPSRAM_C0_0_DPSRAM .......
 Post processing for work.dpsram_c0.rtl
@@ -251,25 +243,20 @@ Running optimization stage 1 on FFT_AHB_Wrapper .......
 @W: CL279 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_AHB_Wrapper.vhd":496:8:496:9|Pruning register bits 15 to 9 of core_regs_4(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL279 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_AHB_Wrapper.vhd":496:8:496:9|Pruning register bits 15 to 9 of core_regs_5(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\FFT_Accel_system_sb.vhd":17:7:17:25|Synthesizing work.fft_accel_system_sb.rtl.
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":790:10:790:17|Synthesizing smartfusion2.sysreset.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":790:10:790:17|Synthesizing smartfusion2.sysreset.syn_black_box.
 Post processing for smartfusion2.sysreset.syn_black_box
-Running optimization stage 1 on SYSRESET .......
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS.vhd":17:7:17:29|Synthesizing work.fft_accel_system_sb_mss.rtl.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb_MSS\FFT_Accel_system_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
 Post processing for work.mss_010.def_arch
-Running optimization stage 1 on MSS_010 .......
 Post processing for work.fft_accel_system_sb_mss.rtl
 Running optimization stage 1 on FFT_Accel_system_sb_MSS .......
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd":8:7:8:38|Synthesizing work.fft_accel_system_sb_fabosc_0_osc.def_arch.
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
 Post processing for smartfusion2.clkint.syn_black_box
-Running optimization stage 1 on CLKINT .......
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
 Post processing for work.rcosc_25_50mhz.def_arch
-Running optimization stage 1 on RCOSC_25_50MHZ .......
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
 Post processing for work.rcosc_25_50mhz_fab.def_arch
-Running optimization stage 1 on RCOSC_25_50MHZ_FAB .......
 Post processing for work.fft_accel_system_sb_fabosc_0_osc.def_arch
 Running optimization stage 1 on FFT_Accel_system_sb_FABOSC_0_OSC .......
 @W: CL240 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\FABOSC_0\FFT_Accel_system_sb_FABOSC_0_OSC.vhd":16:10:16:19|Signal XTLOSC_O2F is floating; a simulation mismatch is possible.
@@ -326,9 +313,8 @@ Running optimization stage 1 on CoreResetP .......
 @W: CL169 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
 @W: CL169 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\FFT_Accel_system_sb\CCC_0\FFT_Accel_system_sb_CCC_0_FCCC.vhd":8:7:8:36|Synthesizing work.fft_accel_system_sb_ccc_0_fccc.def_arch.
-@N: CD630 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.vhd":798:10:798:12|Synthesizing smartfusion2.ccc.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":798:10:798:12|Synthesizing smartfusion2.ccc.syn_black_box.
 Post processing for smartfusion2.ccc.syn_black_box
-Running optimization stage 1 on CCC .......
 Post processing for work.fft_accel_system_sb_ccc_0_fccc.def_arch
 Running optimization stage 1 on FFT_Accel_system_sb_CCC_0_FCCC .......
 Post processing for work.fft_accel_system_sb.rtl
@@ -392,8 +378,6 @@ Post processing for coreahblite_lib.coreahblite_masterstage.coreahblite_masterst
 Running optimization stage 1 on COREAHBLITE_MASTERSTAGE .......
 @W: CL177 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":657:8:657:9|Sharing sequential element addrRegSMCurrentState. Add a syn_preserve attribute to the element to prevent sharing.
 @N: CD630 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":24:7:24:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch.
-@W: CD434 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":352:8:352:16|Signal hrdata_s1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD434 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":352:20:352:31|Signal hreadyout_s1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
 @W: CD434 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":353:8:353:16|Signal hrdata_s2 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
 @W: CD434 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":353:20:353:31|Signal hreadyout_s2 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
 @W: CD434 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":354:8:354:16|Signal hrdata_s3 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
@@ -439,12 +423,10 @@ Post processing for work.coreahblite_c0.rtl
 Running optimization stage 1 on CoreAHBLite_C0 .......
 Post processing for work.fft_accel_system.rtl
 Running optimization stage 1 on FFT_Accel_system .......
-Running optimization stage 2 on COREAHBLITE_ADDRDEC_6_1_1_0 .......
-Running optimization stage 2 on COREAHBLITE_MASTERSTAGE_6_1_0_1_0 .......
-@W: CL246 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":46:8:46:17|Input port bits 16 to 1 of sdataready(16 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":47:8:47:13|Input port bits 16 to 1 of shresp(16 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":59:8:59:16|Input HRDATA_S1 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":60:8:60:19|Input HREADYOUT_S1 is unused.
+Running optimization stage 2 on COREAHBLITE_ADDRDEC_5_1_3_0 .......
+Running optimization stage 2 on COREAHBLITE_MASTERSTAGE_5_1_0_3_0 .......
+@W: CL246 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":46:8:46:17|Input port bits 16 to 2 of sdataready(16 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":47:8:47:13|Input port bits 16 to 2 of shresp(16 downto 0) are unused. Assign logic for all port bits or change the input port size.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":61:8:61:16|Input HRDATA_S2 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":62:8:62:19|Input HREADYOUT_S2 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":63:8:63:16|Input HRDATA_S3 is unused.
@@ -475,9 +457,9 @@ Running optimization stage 2 on COREAHBLITE_MASTERSTAGE_6_1_0_1_0 .......
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":88:8:88:20|Input HREADYOUT_S15 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":89:8:89:17|Input HRDATA_S16 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":90:8:90:20|Input HREADYOUT_S16 is unused.
-Running optimization stage 2 on COREAHBLITE_ADDRDEC_6_1_0_0 .......
+Running optimization stage 2 on COREAHBLITE_ADDRDEC_5_1_0_0 .......
 Running optimization stage 2 on COREAHBLITE_DEFAULTSLAVESM .......
-Running optimization stage 2 on COREAHBLITE_MASTERSTAGE_6_1_0_0_0 .......
+Running optimization stage 2 on COREAHBLITE_MASTERSTAGE_5_1_0_0_0 .......
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":46:8:46:17|Input SDATAREADY is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":47:8:47:13|Input SHRESP is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd":57:8:57:16|Input HRDATA_S0 is unused.
@@ -540,9 +522,6 @@ Running optimization stage 2 on COREAHBLITE_MATRIX4X16 .......
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":56:8:56:16|Input HWDATA_M1 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":66:8:66:16|Input HWDATA_M2 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":76:8:76:16|Input HWDATA_M3 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":92:8:92:16|Input HRDATA_S1 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":93:8:93:19|Input HREADYOUT_S1 is unused.
-@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":94:8:94:15|Input HRESP_S1 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":104:8:104:16|Input HRDATA_S2 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":105:8:105:19|Input HREADYOUT_S2 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":106:8:106:15|Input HRESP_S2 is unused.
@@ -568,6 +547,11 @@ Running optimization stage 2 on COREAHBLITE_MATRIX4X16 .......
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":189:8:189:19|Input HREADYOUT_S9 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":190:8:190:15|Input HRESP_S9 is unused.
 @N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":200:8:200:17|Input HRDATA_S10 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":201:8:201:20|Input HREADYOUT_S10 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":202:8:202:16|Input HRESP_S10 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":212:8:212:17|Input HRDATA_S11 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":213:8:213:20|Input HREADYOUT_S11 is unused.
+@N: CL159 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd":214:8:214:16|Input HRESP_S11 is unused.
 
 Only the first 100 messages of id 'CL159' are reported. To see all messages use 'report_messages -log E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synlog\FFT_Accel_system_compiler.srr -id CL159' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL159} -count unlimited' in the Tcl shell.
 Running optimization stage 2 on CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite .......
@@ -589,7 +573,6 @@ Running optimization stage 2 on CoreAHBLite_C0_CoreAHBLite_C0_0_CoreAHBLite ....
 @W: CL247 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\core\coreahblite.vhd":383:0:383:8|Input port bit 1 of hresp_s15(1 downto 0) is unused 
 @W: CL247 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\core\coreahblite.vhd":396:0:396:8|Input port bit 1 of hresp_s16(1 downto 0) is unused 
 Running optimization stage 2 on CoreAHBLite_C0 .......
-Running optimization stage 2 on CCC .......
 Running optimization stage 2 on FFT_Accel_system_sb_CCC_0_FCCC .......
 Running optimization stage 2 on CoreResetP .......
 @W: CL177 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
@@ -634,13 +617,8 @@ State machine has 7 reachable states with original encodings of:
    100
    101
    110
-Running optimization stage 2 on RCOSC_25_50MHZ_FAB .......
-Running optimization stage 2 on RCOSC_25_50MHZ .......
-Running optimization stage 2 on CLKINT .......
 Running optimization stage 2 on FFT_Accel_system_sb_FABOSC_0_OSC .......
-Running optimization stage 2 on MSS_010 .......
 Running optimization stage 2 on FFT_Accel_system_sb_MSS .......
-Running optimization stage 2 on SYSRESET .......
 Running optimization stage 2 on FFT_Accel_system_sb .......
 Running optimization stage 2 on FFT_Sample_Loader .......
 @W: CL169 :"E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\hdl\FFT_Sample_Loader.vhd":195:8:195:9|Pruning unused register load_state_last(1 downto 0). Make sure that there are no unused intermediate registers.
@@ -670,13 +648,9 @@ State machine has 3 reachable states with original encodings of:
    01
    10
    11
-Running optimization stage 2 on RAM1K18 .......
 Running optimization stage 2 on DPSRAM_C0_DPSRAM_C0_0_DPSRAM .......
 Running optimization stage 2 on DPSRAM_C0 .......
 Running optimization stage 2 on FFT .......
-Running optimization stage 2 on MACC .......
-Running optimization stage 2 on GND .......
-Running optimization stage 2 on VCC .......
 Running optimization stage 2 on HARD_MULT_ADDSUB_C1_HARD_MULT_ADDSUB_C1_0_HARD_MULT_ADDSUB .......
 Running optimization stage 2 on HARD_MULT_ADDSUB_C1 .......
 Running optimization stage 2 on Alpha_Max_plus_Beta_Min .......
@@ -699,48 +673,56 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synwork\layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 207MB peak: 214MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 172MB peak: 172MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Apr 21 06:29:05 2020
+# Thu Apr 23 03:41:48 2020
 
 ###########################################################]
+###########################################################[
 
-Copyright (C) 1994-2018 Synopsys, Inc.
+Copyright (C) 1994-2019 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
 and may only be used pursuant to the terms and conditions of a written license agreement
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: N-2018.03M-SP1-1
-Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
 OS: Windows 6.2
 
 Hostname: PHOENIX136DESKY
 
 Implementation : synthesis
-Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+Synopsys Synopsys Netlist Linker, Version comp2019q2p1, Build 265R, Built Dec  6 2019 09:07:42
 
 @N|Running in 64-bit mode
-File E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 78MB)
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 93MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Apr 21 06:29:06 2020
+# Thu Apr 23 03:41:49 2020
 
 ###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\synwork\FFT_Accel_system_comp.rt.csv
+
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 19MB peak: 19MB)
 
-Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Apr 21 06:29:06 2020
+# Thu Apr 23 03:41:49 2020
 
 ###########################################################]

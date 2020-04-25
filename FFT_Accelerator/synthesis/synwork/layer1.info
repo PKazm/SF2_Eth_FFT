@@ -1,0 +1,6 @@
+smartfusion2.MACC
+smartfusion2.GND
+smartfusion2.VCC
+smartfusion2.SYSRESET
+smartfusion2.CLKINT
+|work.COREMACFILTER_C0_COREMACFILTER_C0_0_COREMACFILTER|parameter FAMILY 19;,parameter GMII_SGMII 0;|

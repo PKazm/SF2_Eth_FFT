@@ -11,8 +11,8 @@
     <hdl-type>VHDL</hdl-type>
     <project-description>
     </project-description>
-    <location>E:/Github_Repos/SF2_FFT_Accelerator/FFT_Accelerator/component/work/FFT_Accel_system</location>
-    <state>GENERATED ( Thu Apr  9 00:06:16 2020 )</state>
+    <location>E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/FFT_Accel_system</location>
+    <state>GENERATED ( Tue Apr 21 15:48:56 2020 )</state>
     <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
   </project-settings>
   <site-map>
@@ -86,12 +86,21 @@
           <range>0x00040000</range>
         </slave>
         <slave>
-          <name>FFT_APB_Wrapper_0</name>
-          <fullPinName>FFT_APB_Wrapper_0:APB_Slave</fullPinName>
+          <name>FFT_AHB_Wrapper_0</name>
+          <fullPinName>FFT_AHB_Wrapper_0:AHB_Slave</fullPinName>
           <remapAddress>0x50000000</remapAddress>
-          <combinedAddressSpace>0x50000000 - 0x500000FF</combinedAddressSpace>
+          <combinedAddressSpace>0x50000000 - 0x50000FFF</combinedAddressSpace>
           <remapAddress>0x30000000</remapAddress>
-          <combinedAddressSpace>0x30000000 - 0x300000FF</combinedAddressSpace>
+          <combinedAddressSpace>0x30000000 - 0x30000FFF</combinedAddressSpace>
+          <range>0x00001000</range>
+        </slave>
+        <slave>
+          <name>COREMACFILTER_C0_0</name>
+          <fullPinName>COREMACFILTER_C0_0:APBS</fullPinName>
+          <remapAddress name="NoRemap">0x50001000</remapAddress>
+          <combinedAddressSpace name="NoRemap">0x50001000 - 0x500010FF</combinedAddressSpace>
+          <remapAddress name="NoRemap">0x30001000</remapAddress>
+          <combinedAddressSpace name="NoRemap">0x30001000 - 0x300010FF</combinedAddressSpace>
           <range>0x00000100</range>
         </slave>
         <slave>
@@ -3773,6 +3782,14 @@
           </fullPinName>
           <remapAddress>0x40004000</remapAddress>
           <fullAddressSpace>0x40004000 - 0x40004FFF</fullAddressSpace>
+          <range>0x1000</range>
+        </slave>
+        <slave>
+          <name>PDMA</name>
+          <fullPinName>
+          </fullPinName>
+          <remapAddress>0x40003000</remapAddress>
+          <fullAddressSpace>0x40003000 - 0x40003FFF</fullAddressSpace>
           <range>0x1000</range>
         </slave>
         <slave>
