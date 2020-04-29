@@ -6,7 +6,7 @@ Radix-2 FPGA FFT controlled by the ARM Core. Data is sent and received over Ethe
 
 ## Python tests
 
-Initial tests involved creating a byte array from 1024 sin wave samples. For fun, multiple sin waves were added together to create a signal with a high amplitude and multiple lower amplitude signals.
+Initial tests involved creating a byte array from 1024 sine wave samples. For fun, multiple sine waves were added together to create a signal with a high amplitude and multiple lower amplitude signals.
 
 ![Generated Samples](Python/Input_Signal.png)
 
@@ -46,7 +46,7 @@ These samples were sent to the Smartfusion2 Maker Kit over Ethernet using UDP pr
 
 Some noise can be seen which is likely the result of rounding errors within the FFT exhagerated by the imprecise Alpha Max plus Beta Min algorithm.
 
-I'm perfectly happy with these results.
+I'm perfectly happy with these results though there are many parts that can be improved.
 
 ## GNU Radio Tests
 
@@ -70,7 +70,7 @@ A sanity check is possible by also running my Python UDP receiver (server?) whil
 
 ## Thoughts
 
-Is this hardware implemented FFT faster than performing the FFT on my desktop in GNU Radio,Gnu Octave, or even Python? Maybe? But almost certainly not. First run results of running a 1024 size FFT in GNU Octave take about twice as long as sending the data over ethernet to the SF2 device and receiving the results. Subsequent runs of the GNU Octave FFT are signficantly faster, most likely due to the necessary program code already being in CPU cache or RAM.
+Is this hardware implemented FFT faster than performing the FFT on my desktop in GNU Radio, Gnu Octave (matlab), or even Python? Maybe? But almost certainly not. First run results of running a 1024 size FFT in GNU Octave take about twice as long as sending the data over ethernet to the SF2 device and receiving the results. Subsequent runs of the GNU Octave FFT are signficantly faster, most likely due to the necessary program code already being in CPU cache or RAM.
 
 The major bottleneck is moving the data into and out of the device. For example almost 2/5 of the roundtrip time is spent reading the samples from the ethernet MAC into the FFT SRAM. The roundtrip time is also affected by the link speed of the ethernet connection, something like 30% less time when operating at 1gbps instead of 100mbps.
 
