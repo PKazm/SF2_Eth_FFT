@@ -74,6 +74,8 @@ Is this hardware implemented FFT faster than performing the FFT on my desktop in
 
 The major bottleneck is moving the data into and out of the device. For example almost 2/5 of the roundtrip time is spent reading the samples from the ethernet MAC into the FFT SRAM. The roundtrip time is also affected by the link speed of the ethernet connection, something like 30% less time when operating at 1gbps instead of 100mbps.
 
-I have no hard numbers for any of these performance comparisons, only annecdotes from quick test in the middle of getting this whole chain of connections working.
+I have no hard numbers for any of these performance comparisons, only annecdotes from quick tests in the middle of getting this whole chain of connections working.
+
+A way around these bottlenecks is to implement a GMII "sniffer" to intercept packets identified as data and feed them directly into the FFT. This would bypass the ARM core entirely and would be about as fast as things could get I think. Including a GMII transmitter would speed up the other end of the chain but would certainly be more complicated as now the ARM core must be informed of when it does or does not have control of the GMII transmit signals.
 
 At the end of everything though, its pretty neat.
