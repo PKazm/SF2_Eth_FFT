@@ -16,6 +16,7 @@
 #include "../firmware/drivers/mss_ethernet_mac/phy.h"
 
 #include "FFT_apb.h"
+#include "GMII_Filter_Trap.h"
 
 #include "ARP_protocol.h"
 
@@ -86,7 +87,9 @@ uint8_t * smpl_pkt_0;
 uint8_t * smpl_pkt_1;
 char fft_auto_done = 0;
 
+
 fft_instance_t fft_fab;
+gmii_trap_instance_t gmii_trap_fab;
 
 /*------------------------------------------------------------------------------
  * MSS MAC, Ethernet
@@ -170,12 +173,29 @@ int main(){
 
 
 void init_periph(void){
+
+	uint32_t reg_val = 0;
+
+	gmii_trap_init(&gmii_trap_fab, GMII_MAC_FILTER_SNIFFER_0);
+	gmii_trap_enable(&gmii_trap_fab, 1);
+	reg_val = gmii_trap_get_mac0(&gmii_trap_fab);
+	reg_val = gmii_trap_get_ctrl(&gmii_trap_fab);
+	reg_val = gmii_trap_get_stat(&gmii_trap_fab);
+
+	if(0 == reg_val)
+	{
+		NULL;
+	}
+	else{
+		NULL;
+	}
+
 	/*-------------------------------------------------------------------------*//**
 	* MSS_UART
 	*/
 	MSS_UART_init(
 			&g_mss_uart0,
-			MSS_UART_921600_BAUD,//MSS_UART_115200_BAUD
+			/*MSS_UART_921600_BAUD,*/MSS_UART_115200_BAUD,
 			MSS_UART_DATA_8_BITS | MSS_UART_NO_PARITY | MSS_UART_ONE_STOP_BIT
 		);
 	MSS_UART_enable_irq(
@@ -205,6 +225,7 @@ void init_periph(void){
 	*/
 
 	fft_init(&fft_fab, FFT_AHB_WRAPPER_0);
+	fft_set_DMA(&fft_fab, 1);
 
 	NVIC_EnableIRQ(FabricIrq1_IRQn);
 
@@ -213,6 +234,7 @@ void init_periph(void){
 	/*-------------------------------------------------------------------------*//**
 	* MSS_MAC, VSC8541 PHY, Ethernet stuff
 	*/
+
 
 	NVIC_DisableIRQ(FabricIrq0_IRQn);
 
@@ -249,6 +271,10 @@ void init_periph(void){
 	eth_arp_announce();
 
 	MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"ARP Sent!\n\r");
+
+	/*-------------------------------------------------------------------------*//**
+	* Fabric MAC filter trap
+	*/
 
 
 	MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"== everything is set up! ==\n\r");
@@ -604,6 +630,10 @@ void report_fft_status(void){
 	status_test = fft_status & CTRL_READ_DONE;
 	if(status_test != 0){
 		MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"READ DONE\r\n");
+	}
+	status_test = fft_status & CTRL_DMA;
+	if(status_test != 0){
+		MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"DMA ENABLED\r\n");
 	}
 	if(fft_auto_done != 0){
 		MSS_UART_polled_tx_string(&g_mss_uart0, (const uint8_t *)"AUTO READ DONE\r\n");

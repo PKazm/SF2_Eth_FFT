@@ -51,7 +51,7 @@
 </row>
 <row>
  <cell>USE_PDMA</cell>
- <cell>1</cell>
+ <cell>0</cell>
 </row>
 <row>
  <cell>USE_RTC</cell>
@@ -2071,7 +2071,7 @@
 </row>
 <row>
  <cell>FIC0CLK_RATIO</cell>
- <cell>1</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell>FIC0_AHBL_BYPASS</cell>
@@ -2095,7 +2095,7 @@
 </row>
 <row>
  <cell>GL0_OUT_0_FREQ</cell>
- <cell>100</cell>
+ <cell>62.5</cell>
 </row>
 <row>
  <cell>GL1_IS_USED</cell>
@@ -2123,7 +2123,7 @@
 </row>
 <row>
  <cell>M3CLK_FREQUENCY</cell>
- <cell>100</cell>
+ <cell>125</cell>
 </row>
 <row>
  <cell>MDDRCLK_RATIO</cell>
@@ -2147,7 +2147,7 @@
 </row>
 <row>
  <cell>RCOSC_25_50MHZ_DRIVES_CCC</cell>
- <cell>0</cell>
+ <cell>1</cell>
 </row>
 <row>
  <cell>RCOSC_25_50MHZ_DRIVES_FAB</cell>
@@ -2287,7 +2287,7 @@
 </row>
 <row>
  <cell>F_DMAREADY_USED</cell>
- <cell>false</cell>
+ <cell>true</cell>
 </row>
 <row>
  <cell>PARAM_IS_FALSE</cell>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<SynplifyOutput>
-	<result>Success</result>
-	<design>FFT_Accel_system</design>
-	<target_verilog>E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator\synthesis\FFT_Accel_system.vm</target_verilog>
-</SynplifyOutput>

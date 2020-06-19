@@ -29,6 +29,7 @@
 #define CTRL_LOAD_DONE          BIT1
 #define CTRL_READ_DONE          BIT2
 #define CTRL_INT_CLR            BIT3
+#define CTRL_DMA                BIT4
 
 #define STAT_W_READY            BIT0
 #define STAT_W_FULL             BIT1
@@ -61,6 +62,12 @@ void fft_load_smpl
     fft_instance_t * fft_inst,
     uint16_t real,
     uint16_t imag
+);
+
+void fft_set_DMA
+(
+    fft_instance_t * fft_inst,
+    uint8_t val
 );
 
 uint8_t fft_get_ctrl

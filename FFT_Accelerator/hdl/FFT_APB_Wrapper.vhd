@@ -59,7 +59,7 @@ architecture architecture_FFT_APB_Wrapper of FFT_APB_Wrapper is
     constant FFT_DOUT_ADR_ADDR  : natural := 7;--std_logic_vector(7 downto 0) := X"07";
 
 
-    signal PADDR_sig    : natural range 0 to 7;
+    signal PADDR_sig    : natural range 0 to 7; -- int because register addresses are array indexes
     signal PSEL_sig     : std_logic;
     signal PENABLE_sig  : std_logic;
     signal PWRITE_sig   : std_logic;

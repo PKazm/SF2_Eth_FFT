@@ -1,5 +1,5 @@
 #===========================================================
-# Created by Microsemi SmartDesign Tue Apr 21 16:56:04 2020
+# Created by Microsemi SmartDesign Sun Jun 14 03:00:37 2020
 #
 # Syntax: 
 # ------- 
@@ -18,6 +18,7 @@
 #-----------------------------------------------------------
 
 memmap FFT_AHB_Wrapper_0 0x50000000;
+memmap GMII_MAC_Filter_Sniffer_0 0x50001000;
 #-----------------------------------------------------------
 # Include resource scriptlets
 #-----------------------------------------------------------

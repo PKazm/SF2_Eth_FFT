@@ -29,6 +29,9 @@ port (
     CLK : in std_logic;
     RSTn : in std_logic;
 
+    Data_i       : std_logic_vector(15 downto 0);
+    Data_i_Valid : std_logic;
+
     -- AHB connections
     HADDR       : in std_logic_vector(7 downto 0);
     HWDATA      : in std_logic_vector(15 downto 0);
@@ -392,6 +395,12 @@ begin
         elsif(rising_edge(CLK)) then
             if(HSEL_sig = '1' and HWRITE_sig = '1' and HADDR_S_sig = FFT_CTRL_ADDR) then
                 -- 0bXXX..X & FFT_int_clr & FFT_r_done & FFT_w_done & FFT_w_en
+                -- bit : description
+                -- 0 : FFT_w_en
+                -- 1 : FFT_w_done
+                -- 2 : FFT_r_done
+                -- 3 : FFT_int_clr
+                -- 4 : FFT_w_direct; 0 : uses AHB, 1: uses Data_i
                 core_regs(FFT_CTRL_ADDR) <= HWDATA_sig;
             else
                 -- write enable only needs to be high for 1 cycle
@@ -415,8 +424,10 @@ begin
         end if;
     end process;
 
-    FFT_in_w_en <= core_regs(FFT_CTRL_ADDR)(0);
-    FFT_in_w_done <= core_regs(FFT_CTRL_ADDR)(1);
+    FFT_in_w_en <= core_regs(FFT_CTRL_ADDR)(0) when core_regs(FFT_CTRL_ADDR)(4) = '0'
+                    else Data_i_Valid;
+    FFT_in_w_done <= core_regs(FFT_CTRL_ADDR)(1) when core_regs(FFT_CTRL_ADDR)(4) = '0'
+                    else FFT_in_full;
     FFT_out_read_done <= core_regs(FFT_CTRL_ADDR)(2);
 
     --=========================================================================
@@ -470,7 +481,8 @@ begin
         end if;
     end process;
 
-    FFT_in_w_data_real <= core_regs(FFT_DIN_R_ADDR)(FFT_in_w_data_real'high downto 0);
+    FFT_in_w_data_real <= core_regs(FFT_DIN_R_ADDR)(FFT_in_w_data_real'high downto 0) when core_regs(FFT_CTRL_ADDR)(4) = '0'
+                            else Data_i(FFT_in_w_data_real'high downto 0);
 
     --=========================================================================
 

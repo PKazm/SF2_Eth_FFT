@@ -1,4 +1,4 @@
--- Version: v12.1 12.600.0.14
+-- Version: v12.4 12.900.0.16
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -109,7 +109,7 @@ begin
     
     CCC_INST : CCC
 
-              generic map(INIT => "00" & x"000007FB8000044174000F18C6309C231839DEC0404101401301",
+              generic map(INIT => "00" & x"000007FB8000044974000F18C6309C231839DEC0404040800401",
          VCOFREQUENCY => 500.000)
 
       port map(Y0 => OPEN, Y1 => OPEN, Y2 => OPEN, Y3 => OPEN, 

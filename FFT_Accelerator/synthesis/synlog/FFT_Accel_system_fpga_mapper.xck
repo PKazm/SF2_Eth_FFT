@@ -1,3 +1,0 @@
-CKID0001:@|S:FFT_Accel_system_sb_0.CCC_0.CCC_INST@|E:FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
-CKID0002:@|S:FFT_Accel_system_sb_0.CCC_0.CCC_INST@|E:FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 
-CKID0003:@|S:GMII_RX_CLK@|E:FFT_Accel_system_sb_0.FFT_Accel_system_sb_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path2==CKID0003@|M:ClockId0003 

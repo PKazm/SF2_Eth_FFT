@@ -1,5 +1,5 @@
 # Microsemi Corp.
-# Date: 2020-Apr-23 03:40:17
+# Date: 2020-Jun-13 23:52:55
 # This file was generated based on the following SDC source files:
 #   E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/FFT_Accel_system_sb/CCC_0/FFT_Accel_system_sb_CCC_0_FCCC.sdc
 #   C:/Microsemi/Libero_SoC_v12.4/Designer/data/aPA4M/cores/constraints/coreresetp.sdc
@@ -9,8 +9,8 @@
 #
 
 create_clock -ignore_errors -name {FFT_Accel_system_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT} -period 20 [ get_pins { FFT_Accel_system_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT } ]
-create_generated_clock -name {FFT_Accel_system_sb_0/CCC_0/GL0} -multiply_by 20 -divide_by 10 -source [ get_pins { FFT_Accel_system_sb_0/CCC_0/CCC_INST/RCOSC_25_50MHZ } ] -phase 0 [ get_pins { FFT_Accel_system_sb_0/CCC_0/CCC_INST/GL0 } ]
-create_generated_clock -name {FFT_Accel_system_sb_0/CCC_0/GL1} -multiply_by 20 -divide_by 8 -source [ get_pins { FFT_Accel_system_sb_0/CCC_0/CCC_INST/RCOSC_25_50MHZ } ] -phase 0 [ get_pins { FFT_Accel_system_sb_0/CCC_0/CCC_INST/GL1 } ]
+create_generated_clock -name {FFT_Accel_system_sb_0/CCC_0/GL0} -multiply_by 5 -divide_by 4 -source [ get_pins { FFT_Accel_system_sb_0/CCC_0/CCC_INST/RCOSC_25_50MHZ } ] -phase 0 [ get_pins { FFT_Accel_system_sb_0/CCC_0/CCC_INST/GL0 } ]
+create_generated_clock -name {FFT_Accel_system_sb_0/CCC_0/GL1} -multiply_by 5 -divide_by 2 -source [ get_pins { FFT_Accel_system_sb_0/CCC_0/CCC_INST/RCOSC_25_50MHZ } ] -phase 0 [ get_pins { FFT_Accel_system_sb_0/CCC_0/CCC_INST/GL1 } ]
 set_false_path -ignore_errors -through [ get_nets { FFT_Accel_system_sb_0/CORERESETP_0/ddr_settled FFT_Accel_system_sb_0/CORERESETP_0/count_ddr_enable FFT_Accel_system_sb_0/CORERESETP_0/release_sdif*_core FFT_Accel_system_sb_0/CORERESETP_0/count_sdif*_enable } ]
 set_false_path -ignore_errors -from [ get_cells { FFT_Accel_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int } ] -to [ get_cells { FFT_Accel_system_sb_0/CORERESETP_0/sm0_areset_n_rcosc FFT_Accel_system_sb_0/CORERESETP_0/sm0_areset_n_rcosc_q1 } ]
 set_false_path -ignore_errors -from [ get_cells { FFT_Accel_system_sb_0/CORERESETP_0/MSS_HPMS_READY_int FFT_Accel_system_sb_0/CORERESETP_0/SDIF*_PERST_N_re } ] -to [ get_cells { FFT_Accel_system_sb_0/CORERESETP_0/sdif*_areset_n_rcosc* } ]

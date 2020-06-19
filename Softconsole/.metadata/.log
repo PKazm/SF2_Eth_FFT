@@ -2636,3 +2636,1307 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization p
 
 !ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-04-24 20:35:51.012
 !MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+!SESSION 2020-04-30 03:18:26.175 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=12.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization plugin_customization.ini
+
+!ENTRY org.eclipse.egit.core 1 0 2020-04-30 03:18:39.663
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-04-30 03:18:48.466
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-04-30 03:18:48.493
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-04-30 03:19:11.170
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-04-30 03:19:12.932
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-04-30 03:20:21.252
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-04-30 03:20:22.072
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-04-30 03:29:00.680
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-04-30 03:29:01.503
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-04-30 03:29:32.415
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-04-30 03:29:33.232
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+!SESSION 2020-04-30 16:27:36.249 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=12.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization plugin_customization.ini
+
+!ENTRY org.eclipse.egit.core 1 0 2020-04-30 16:27:45.949
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-04-30 16:27:53.853
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-04-30 16:27:53.862
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-04-30 16:29:13.834
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-04-30 16:29:15.568
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-04-30 16:29:45.235
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-04-30 16:29:46.049
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+!SESSION 2020-05-14 17:54:36.222 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=12.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization plugin_customization.ini
+
+!ENTRY org.eclipse.egit.core 1 0 2020-05-14 17:54:46.728
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-05-14 17:54:54.147
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-05-14 17:54:54.164
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-05-14 17:55:47.167
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-05-14 17:55:49.617
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+!SESSION 2020-05-18 01:57:12.570 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=12.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization plugin_customization.ini
+
+!ENTRY org.eclipse.egit.core 1 0 2020-05-18 01:57:21.033
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-05-18 01:57:27.729
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-05-18 01:57:27.738
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+!SESSION 2020-06-10 23:32:24.033 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=12.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization plugin_customization.ini
+
+!ENTRY org.eclipse.egit.core 1 0 2020-06-10 23:32:33.807
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-06-10 23:32:41.838
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-06-10 23:32:41.854
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+!SESSION 2020-06-10 23:55:39.703 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=12.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization plugin_customization.ini
+
+!ENTRY org.eclipse.egit.core 1 0 2020-06-10 23:55:48.027
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-06-10 23:55:55.681
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-06-10 23:55:55.689
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-10 23:56:59.508
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-10 23:57:01.273
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-11 00:12:20.954
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-11 00:12:23.204
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-11 00:14:32.542
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-11 00:14:33.374
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-11 00:16:18.731
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-11 00:16:19.539
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-11 00:17:30.190
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-11 00:17:30.993
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.managedbuild.cross.riscv 4 1 2020-06-11 00:38:33.263
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.managedbuild.cross.riscv 4 1 2020-06-11 00:38:34.655
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.managedbuild.cross.riscv 4 1 2020-06-11 00:40:29.790
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.managedbuild.cross.riscv 4 1 2020-06-11 00:40:30.593
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.managedbuild.cross.riscv 4 1 2020-06-11 00:44:52.853
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.managedbuild.cross.riscv 4 1 2020-06-11 00:44:53.756
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.managedbuild.cross.riscv 4 1 2020-06-11 00:45:24.440
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.managedbuild.cross.riscv 4 1 2020-06-11 00:45:25.338
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+!SESSION 2020-06-13 18:45:03.152 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=12.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization plugin_customization.ini
+
+!ENTRY org.eclipse.egit.core 1 0 2020-06-13 18:45:13.652
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-06-13 18:45:21.515
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-06-13 18:45:21.525
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 18:48:47.963
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 18:48:49.781
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag 4 0 2020-06-13 19:41:00.065
+!MESSAGE Debug session 'FFT_Accelerator Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 19:41:09.861
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 19:41:10.655
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag 4 0 2020-06-13 19:43:11.135
+!MESSAGE Debug session 'FFT_Accelerator Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 19:43:15.934
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 19:43:16.747
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 19:53:44.382
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 19:53:46.019
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 19:55:22.937
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 19:55:23.733
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 19:55:50.826
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 19:55:51.614
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 19:56:36.255
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-13 19:56:37.060
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:00:41.884
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:00:43.701
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:02:10.945
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:02:12.276
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:11:50.880
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:11:51.722
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:12:50.782
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:12:51.593
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:24:00.534
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:24:01.361
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:30:08.685
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:30:09.532
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:34:46.982
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@31d3b794): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:34:46.989
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5c817891): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:34:49.873
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@275c5251): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:34:49.880
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@145b509b): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:34:52.678
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1c43a76a): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:34:52.684
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6063a9ef): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:34:56.106
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:34:56.912
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:44:00.068
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:44:00.902
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:50:17.114
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:50:17.933
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:51:14.418
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5b66b059): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:51:14.425
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5c3325f7): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:51:14.430
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@f065970): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:51:16.571
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7403610c): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:51:16.577
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2fe7af6d): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:51:16.583
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@71131dc): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:51:22.096
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:51:22.899
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:54:37.642
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:54:38.444
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:55:14.224
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@558d9a47): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:55:14.233
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6fc7002f): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:55:14.238
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@71150ed1): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:55:14.244
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5ef0c9a): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:55:14.249
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@52ea4a17): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag 4 0 2020-06-14 00:55:18.280
+!MESSAGE Debug session 'FFT_Accelerator Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:55:21.141
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:55:21.946
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:55:59.456
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:56:00.274
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:56:28.667
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:56:29.461
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:57:10.475
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5606ace8): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:57:10.482
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2cc98ad9): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:57:10.487
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1ea2f99a): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:57:10.493
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@13f5f531): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:57:10.498
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1bac2ce7): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:57:10.504
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4ec6476): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 00:57:10.509
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7c2bc92a): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:57:12.171
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:57:12.965
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:57:56.639
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:57:57.423
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:58:23.138
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 00:58:23.937
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:03:50.691
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:03:51.517
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:04:18.524
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:04:19.332
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:05:34.470
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:05:35.265
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:10:28.938
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:10:29.743
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:11:47.706
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:11:48.493
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:23:16.339
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:23:17.170
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:23:35.548
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:23:36.335
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:24:23.181
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:24:23.978
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:28:08.245
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:28:09.040
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:29:04.436
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:29:05.235
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 01:30:24.863
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@61c6ef8b): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 01:30:24.870
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3f64cf1f): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 01:30:24.875
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1d31d633): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 01:30:24.880
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@69a98399): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 01:30:24.885
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1483f96b): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 01:30:24.890
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@50f537b3): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 01:30:24.895
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@262bf1c6): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 01:30:24.901
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5d1f9ed9): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 01:30:24.907
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5097b242): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 01:30:24.912
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6c2d1ab): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 01:30:24.918
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7f90493e): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 01:30:24.924
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@70b7c1cf): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 01:30:24.929
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5ec0372f): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:30:28.029
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:30:28.825
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:53:54.941
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:53:55.743
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:54:21.588
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:54:22.370
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:55:41.182
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:55:41.983
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:56:09.583
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 01:56:10.380
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.424
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7d8eb436): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.429
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1da9c7a6): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.435
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1691a553): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.440
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2b28c752): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.445
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3a56175f): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.450
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@737f09db): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.456
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@62796ba0): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.461
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7ae22b9d): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.466
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4788efaa): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.471
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1a2f2ad9): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.478
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6f3ebf58): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.483
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5079c580): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.488
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@a22b2ae): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.493
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3b239c50): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:02:06.499
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@57aaba60): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:02:10.949
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:02:11.740
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:03:44.304
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:03:45.097
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.803
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3c6fc4cf): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.810
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@37157f0b): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.817
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2be7e620): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.823
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@211ed4a3): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.828
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2769b35f): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.833
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@59f60f13): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.838
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4ffd9cf): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.842
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@37396bac): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.847
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6bd04a83): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.854
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2933ffae): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.859
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5b8d571f): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.863
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@114004cf): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.869
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@24ed22ac): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.874
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@40f7dca0): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.879
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@40c7208d): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.883
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7b06ceba): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:23:25.888
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7ec68b26): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:23:30.020
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:23:30.819
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:23:55.514
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:23:56.372
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.485
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1229e5fd): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.493
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@52b68f37): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.500
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@b6f56bf): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.508
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@d9ba87a): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.514
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@565d8822): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.521
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4e5aa86): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.527
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@68a44c72): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.533
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@17bbd9e3): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.540
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1c58014f): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.546
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5f467234): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.553
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2d52ea47): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.562
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@c439ac2): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.567
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@19fa484b): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.576
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7c111b32): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.582
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6ec22968): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.588
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@633595dd): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.595
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@311845c2): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:05.601
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6fb1cad0): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.122
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@162b6c9): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.129
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@659c8841): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.135
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@706fac42): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.140
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2b2be2b8): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.145
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2f1b15fb): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.151
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@60a30914): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.156
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7aa34b5d): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.162
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4ae955d2): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.168
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2cd118f0): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.173
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7ebc1b30): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.179
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@295f6fd0): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.184
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@428abf5): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.191
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@55c16733): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.196
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3eed3520): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.201
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@55be605b): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.207
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@53f07fe1): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.212
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@57ea1f02): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:26:06.217
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@22e29599): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:26:16.336
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:26:17.135
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag 4 0 2020-06-14 02:26:43.412
+!MESSAGE Debug session 'FFT_Accelerator Debug' already started. Terminate the first one before restarting.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:26:50.914
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:26:51.706
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.204
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@565481e2): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.211
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4e1cb562): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.217
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@22b3cf58): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.222
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@79f09b11): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.228
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@253c2e2): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.234
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@58f6ba44): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.240
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@253cacc2): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.247
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5bde0ea5): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.252
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4fd4e997): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.257
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2980afb7): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.262
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@11f6a7dc): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.268
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@319eb6dd): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.273
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5d0e1a9d): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.279
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2d5fb859): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.287
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@61738e3a): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.291
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@11632f33): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.297
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@63adee67): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:54.302
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@500a8205): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.173
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3964bb5a): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.179
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5ddba46a): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.185
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7a3c19e9): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.190
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@44a1772f): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.197
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5e4ca922): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.202
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@35465d46): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.208
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@326efb1f): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.213
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6975a9f): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.218
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4bd90c4e): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.222
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@9915009): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.227
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@54160cba): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.232
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@75727f87): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.237
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1efefa8a): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.242
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@74a17be9): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.247
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3ca2efb5): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.253
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6370768b): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.257
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@13224723): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:55.262
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@35e1375e): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.307
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@509308fe): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.313
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@66bed0cf): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.318
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6c7a9bb): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.322
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@283b493c): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.327
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5398f3a8): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.333
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@75b239ad): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.338
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5ebc7ca9): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.343
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7318a844): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.348
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6e790be6): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.352
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@13e7c8d8): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.357
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3b7f162f): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.362
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7cac32b4): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.367
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@53545529): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.373
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4925ae0d): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.379
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6fe59c67): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.383
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4b4c3a62): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.388
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@25a143c1): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:27:56.393
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@663f8757): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:28:01.944
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:28:02.749
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:28:29.036
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:28:29.864
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.186
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5c75f999): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.192
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3eeda3a3): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.198
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@60e9c094): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.203
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@46583c50): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.207
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@8f3cfea): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.212
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@52bc39a0): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.217
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1752cf01): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.222
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3b5d721c): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.226
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@72a14209): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.232
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@45c0cd94): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.237
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7fa18cd): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.242
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6e863b59): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.248
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@73d983df): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.253
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1f0f632a): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.258
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@61253fe1): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.263
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1682933b): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.268
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2c7c3720): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.274
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@25a3f05a): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.746
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@477ef94e): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.751
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2728a0f9): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.756
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5d9b5ada): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.761
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1053f341): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.766
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2373ab5c): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.771
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@162c5017): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.776
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7e3a5ad7): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.780
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7e3442a8): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.785
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2c4eb357): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.790
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5d39360e): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.794
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@402b03c6): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.800
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1b8be3dc): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.806
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@468671c4): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.811
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4ba86b84): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.817
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@169805b3): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.821
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@658721ae): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.826
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@50c6aed1): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:30.831
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@25646363): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.808
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@762d4535): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.814
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3e603dc8): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.819
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3ca065e5): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.824
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@76e8aa4): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.829
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2abc40ae): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.835
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@169575e): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.839
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@465c6c60): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.845
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1a78d81f): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.851
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4624a3bd): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.855
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@23900328): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.860
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4edbcd20): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.865
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@84c9cd6): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.871
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2237d30b): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.876
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7d162b9d): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.880
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@74965a62): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.885
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@50359f39): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.890
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1c1ab6b2): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:29:31.895
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@25bc4c2b): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:29:34.022
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:29:34.819
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:35:42.976
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:35:43.813
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:37:05.651
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:37:06.447
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:41:42.264
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:41:43.095
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.169
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@69fdac2d): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.176
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@13b489b3): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.180
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@171cca5d): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.185
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@55a23434): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.190
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4bd42f46): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.195
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@7b3e5db1): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.200
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2689d873): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.204
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1bf1fd6a): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.210
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@e7a5c3c): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.215
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2d268b3b): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.220
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5883702): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.225
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@54001d23): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.230
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@33a57c08): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.235
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@281d67f1): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.240
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@156b5393): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.245
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@248fec4c): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.251
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@431efe6e): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-06-14 02:42:07.256
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1861989a): Status OK: unknown code=0 OK null' resulted in a rejected execution exception.
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:42:19.465
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:42:20.282
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:55:50.627
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 02:55:51.473
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 03:04:49.883
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 03:04:50.712
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 03:05:44.870
+!MESSAGE C:\Microsemi\SoftConsole_v6.2\eclipse\/../openocd/bin/openocd.exe -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 --command set DEVICE M2S010 --file board/microsemi-cortex-m3.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY ilg.gnumcueclipse.debug.gdbjtag.openocd 4 1 2020-06-14 03:05:45.673
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.412
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.418
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.424
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.428
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.433
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.437
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.442
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.446
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.451
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.455
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.460
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.464
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.469
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.473
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-14 03:10:51.478
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$ErrorReadJob
+!SESSION 2020-06-14 18:56:01.041 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=12.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization plugin_customization.ini
+
+!ENTRY org.eclipse.egit.core 1 0 2020-06-14 18:56:12.098
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-06-14 18:56:24.671
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-06-14 18:56:24.687
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType

@@ -12,7 +12,7 @@
     <project-description>
     </project-description>
     <location>E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/FFT_Accel_system</location>
-    <state>GENERATED ( Tue Apr 21 15:48:56 2020 )</state>
+    <state>GENERATED ( Sat Jun 13 23:59:45 2020 )</state>
     <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
   </project-settings>
   <site-map>
@@ -24,6 +24,7 @@
       <subsystem>
         <name>CM3</name>
         <master>CM3</master>
+        <master>FABRICTOMSSFIC0_AHB_BRIDGE</master>
         <addressNames>
           <count>1</count>
           <name>
@@ -95,8 +96,8 @@
           <range>0x00001000</range>
         </slave>
         <slave>
-          <name>COREMACFILTER_C0_0</name>
-          <fullPinName>COREMACFILTER_C0_0:APBS</fullPinName>
+          <name>GMII_MAC_Filter_Sniffer_0</name>
+          <fullPinName>GMII_MAC_Filter_Sniffer_0:APB_Slave</fullPinName>
           <remapAddress name="NoRemap">0x50001000</remapAddress>
           <combinedAddressSpace name="NoRemap">0x50001000 - 0x500010FF</combinedAddressSpace>
           <remapAddress name="NoRemap">0x30001000</remapAddress>

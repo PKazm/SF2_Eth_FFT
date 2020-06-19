@@ -6,6 +6,8 @@
 C_SRCS += \
 ../src/ARP_protocol.c \
 ../src/FFT_apb.c \
+../src/GMII_Filter_Trap.c \
+../src/ICMP_protocol.c \
 ../src/MAC_Filter.c \
 ../src/VSC8541_01_phy.c \
 ../src/main.c 
@@ -13,6 +15,8 @@ C_SRCS += \
 OBJS += \
 ./src/ARP_protocol.o \
 ./src/FFT_apb.o \
+./src/GMII_Filter_Trap.o \
+./src/ICMP_protocol.o \
 ./src/MAC_Filter.o \
 ./src/VSC8541_01_phy.o \
 ./src/main.o 
@@ -20,6 +24,8 @@ OBJS += \
 C_DEPS += \
 ./src/ARP_protocol.d \
 ./src/FFT_apb.d \
+./src/GMII_Filter_Trap.d \
+./src/ICMP_protocol.d \
 ./src/MAC_Filter.d \
 ./src/VSC8541_01_phy.d \
 ./src/main.d 

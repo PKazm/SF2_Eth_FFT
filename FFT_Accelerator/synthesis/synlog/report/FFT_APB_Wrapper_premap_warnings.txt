@@ -1,1 +1,0 @@
-@W: MT530 :"e:\github_repos\sf2_fft_accelerator\fft_accelerator\hdl\fft_sample_loader.vhd":195:8:195:9|Found inferred clock FFT_APB_Wrapper|PCLK which controls 666 sequential elements including FFT_Core.FFT_Sample_Loader_0.ram_adr_start_sig[9:0]. This clock has no specified timing constraint which may adversely impact design performance. 

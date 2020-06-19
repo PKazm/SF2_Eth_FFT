@@ -36,6 +36,28 @@ void fft_load_smpl
     HW_set_8bit_reg(fft_inst->address + FFT_CTRL_ADDR, ctrl_val);
 }
 
+void fft_set_DMA
+(
+    fft_instance_t * fft_inst,
+    uint8_t val
+)
+{
+    uint8_t ctrl_val;
+    ctrl_val = HW_get_8bit_reg(fft_inst->address + FFT_CTRL_ADDR);
+
+    if(val == 0){
+        // use bus interface
+        ctrl_val &= ~CTRL_DMA;
+    }
+    else
+    {
+        // use direct wire connections
+        ctrl_val |= CTRL_DMA;
+    }
+    
+    HW_set_8bit_reg(fft_inst->address + FFT_CTRL_ADDR, ctrl_val);
+}
+
 
 uint8_t fft_get_ctrl
 (

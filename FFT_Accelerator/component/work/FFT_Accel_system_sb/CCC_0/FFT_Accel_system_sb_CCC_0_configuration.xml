@@ -8,7 +8,7 @@
 </header>
 <row>
  <cell>Date:</cell>
- <cell>Sat Apr 18 02:09:14 2020</cell>
+ <cell>Sun Jun 14 00:39:55 2020</cell>
 </row>
 <separator/>
 <row>
@@ -49,20 +49,20 @@
  <cell>GL0</cell>
  <cell>primary clock</cell>
  <cell>PLL (0)</cell>
- <cell>500 MHz</cell>
- <cell>100 MHz</cell>
- <cell>100 MHz</cell>
- <cell>5 (GPD0)</cell>
+ <cell>125 MHz</cell>
+ <cell>62.5 MHz</cell>
+ <cell>62.5 MHz</cell>
+ <cell>2 (GPD0)</cell>
 </row>
 <separator/>
 <row>
  <cell>GL1</cell>
  <cell>primary clock</cell>
  <cell>PLL (0)</cell>
- <cell>500 MHz</cell>
  <cell>125 MHz</cell>
  <cell>125 MHz</cell>
- <cell>4 (GPD1)</cell>
+ <cell>125 MHz</cell>
+ <cell>1 (GPD1)</cell>
 </row>
 <separator/>
 </table>
@@ -82,7 +82,7 @@
 </row>
 <row>
  <cell>Output frequency</cell>
- <cell>500 MHz</cell>
+ <cell>125 MHz</cell>
 </row>
 <row>
  <cell>VCO frequency</cell>
@@ -108,7 +108,7 @@
 </row>
 <row>
  <cell>CCC feedback divider</cell>
- <cell>20</cell>
+ <cell>5</cell>
 </row>
 <row>
  <cell>External feedback divider</cell>
@@ -117,7 +117,7 @@
 <separator/>
 <row>
  <cell>PLL VCO divider</cell>
- <cell>1</cell>
+ <cell>4</cell>
 </row>
 <separator/>
 <row>
@@ -183,7 +183,7 @@
 <row>
  <cell>FCCC_FBDIV_CR0</cell>
  <cell>0x04</cell>
- <cell>0x13</cell>
+ <cell>0x04</cell>
  <cell>FBDIV configuration register 0</cell>
 </row>
 <row>
@@ -267,13 +267,13 @@
 <row>
  <cell>FCCC_GPD0_CR</cell>
  <cell>0x12</cell>
- <cell>0x05</cell>
+ <cell>0x02</cell>
  <cell>GPD0 configuration register</cell>
 </row>
 <row>
  <cell>FCCC_GPD1_CR</cell>
  <cell>0x13</cell>
- <cell>0x04</cell>
+ <cell>0x01</cell>
  <cell>GPD1 configuration register</cell>
 </row>
 <row>
@@ -339,7 +339,7 @@
 <row>
  <cell>FCCC_PLL_CR7</cell>
  <cell>0x1e</cell>
- <cell>0x00</cell>
+ <cell>0x02</cell>
  <cell>PLL&apos;s internal output divider configuration register</cell>
 </row>
 <row>

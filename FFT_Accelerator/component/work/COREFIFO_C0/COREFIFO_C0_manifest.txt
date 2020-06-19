@@ -1,0 +1,32 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.4 (Version 12.900.0.16)
+
+Date      :  Wed Jun 10 01:38:18 2020
+Project   :  E:\Github_Repos\SF2_Eth_FFT\FFT_Accelerator
+Component :  COREFIFO_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/Actel/DirectCore/COREFIFO/2.7.105/rtl/vhdl/core/fifo_pkg.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/core/COREFIFO.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/core/COREFIFO_C0_COREFIFO_C0_0_USRAM_top.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/core/COREFIFO_C0_COREFIFO_C0_0_ram_wrapper.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/core/corefifo_NstagesSync.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/core/corefifo_async.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/core/corefifo_fwft.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/core/corefifo_resetSync.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/core/corefifo_sync.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/core/corefifo_sync_scntr.vhd
+
+Stimulus files for all Simulation tools:
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/mti/scripts/runall_vhdl.do
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/mti/scripts/wave_vhdl.do
+
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/coreparameters.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/test/user/TB.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/test/user/XHDL_misc.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/test/user/XHDL_std_logic.vhd
+    E:/Github_Repos/SF2_Eth_FFT/FFT_Accelerator/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vhdl/test/user/g4_dp_ext_mem.vhd
+

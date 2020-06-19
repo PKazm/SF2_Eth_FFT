@@ -1,0 +1,10 @@
+SF2_Eth_FFT/*
+!/SF2_Eth_FFT/component
+!/SF2_Eth_FFT/constraint
+!/SF2_Eth_FFT/firmware
+!/SF2_Eth_FFT/hdl
+!/SF2_Eth_FFT/stimulus
+
+Softconsole/*
+!/Softconsole/FFT_Accelerator/firmware
+!/Softconsole/FFT_Accelerator/src

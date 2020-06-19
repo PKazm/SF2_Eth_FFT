@@ -1,4 +1,0 @@
-"FFT_Accel_system_sb_0/CCC_0/GL0",10,"FFT_Accel_system_sb_0/CCC_0/CCC_INST/INST_CCC_IP:GL0","FFT_Accel_system_sb_0/CCC_0/CCC_INST/INST_CCC_IP:GL0"
-"FFT_Accel_system_sb_0/CCC_0/GL1",8,"FFT_Accel_system_sb_0/CCC_0/CCC_INST/INST_CCC_IP:GL1","FFT_Accel_system_sb_0/CCC_0/CCC_INST/INST_CCC_IP:GL1"
-"FFT_Accel_system_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT",20,"FFT_Accel_system_sb_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT","FFT_Accel_system_sb_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT"
-"GMII_RX_CLK",,"GMII_RX_CLK","GMII_RX_CLK"

@@ -2,7 +2,7 @@
 <device>
   <name>FFT_Accel_system</name>
   <version>1.0</version>
-  <description>CMSIS description for FFT_Accel_system.  Created by Microsemi SmartDesign on Tue Apr 21 15:48:55 2020</description>
+  <description>CMSIS description for FFT_Accel_system.  Created by Microsemi SmartDesign on Sat Jun 13 23:59:41 2020</description>
   <addressUnitBits>8</addressUnitBits>
   <width>32</width>
   <peripherals>
@@ -39,7 +39,7 @@
       <baseAddress>0x50000000%0x30000000</baseAddress>
     </peripheral>
     <peripheral>
-      <name>COREMACFILTER_C0_0</name>
+      <name>GMII_MAC_Filter_Sniffer_0</name>
       <baseAddress>0x50001000%0x30001000</baseAddress>
     </peripheral>
     <peripheral>
