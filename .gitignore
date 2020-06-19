@@ -1,9 +1,9 @@
-SF2_Eth_FFT/*
-!/SF2_Eth_FFT/component
-!/SF2_Eth_FFT/constraint
-!/SF2_Eth_FFT/firmware
-!/SF2_Eth_FFT/hdl
-!/SF2_Eth_FFT/stimulus
+FFT_Accelerator/*
+!/FFT_Accelerator/component
+!/FFT_Accelerator/constraint
+!/FFT_Accelerator/firmware
+!/FFT_Accelerator/hdl
+!/FFT_Accelerator/stimulus
 
 Softconsole/*
 !/Softconsole/FFT_Accelerator/firmware
